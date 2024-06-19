@@ -43,6 +43,7 @@ nav {
   z-index: 50; /* Убедитесь, что z-index меню ниже, чем у бургер-меню */
   transition: left 0.5s ease;
 }
+
 .navBar {
   display: flex;
   flex-direction: column;
@@ -78,4 +79,12 @@ nav {
 .burgerBar.unclicked {
   transform: rotate(0) translate(0);
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+@media (max-width: 767px) {
+  .menu {
+    width: 60%;
+  }
+  .hidden {
+    left: -60%;
+  }
 }
