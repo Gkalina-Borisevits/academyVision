@@ -1,6 +1,6 @@
-import React from 'react'
+import { FC } from "react"
 
-function Contacts() {
+const Contacts: FC = () => {
   return (
     <div>Contacts</div>
   )

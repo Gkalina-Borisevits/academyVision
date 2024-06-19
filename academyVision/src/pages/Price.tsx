@@ -1,6 +1,6 @@
-import React from 'react'
+import { FC } from 'react'
 
-function Price() {
+const Price: FC = () => {
   return (
     <div>Price</div>
   )

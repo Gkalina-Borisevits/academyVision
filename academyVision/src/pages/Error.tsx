@@ -1,6 +1,5 @@
-import React from 'react'
-
-function Error() {
+import { FC } from 'react'
+const Error: FC = () => {
   return (
     <div>Error</div>
   )

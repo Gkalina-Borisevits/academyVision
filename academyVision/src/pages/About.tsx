@@ -1,6 +1,6 @@
-import React from 'react'
+import  { FC } from 'react'
 
-function About() {
+const About: FC = () => {
   return (
     <div>About</div>
   )
