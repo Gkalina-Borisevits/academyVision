@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
-import { FC } from "react"
 import BurgerMenu from "../burger-menu/BurgerMenu"
 
 const Header: React.FC = () => {
   return (
     <div className={styles.navbarContainer}>
+          <div><BurgerMenu/></div>
       <NavLink to="/" className={styles.logoContainer}></NavLink>
       <div className={styles.navbar}>
         <NavLink to="/">home</NavLink>
@@ -15,8 +15,8 @@ const Header: React.FC = () => {
         <NavLink to="/price">price</NavLink>
         <NavLink to="/services">services</NavLink>
       </div>
-    <div>
-      <div><BurgerMenu/></div>
+   
+    
      
     </div>
   );
