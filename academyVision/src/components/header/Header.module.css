@@ -1,0 +1,93 @@
+.navbarContainer {
+  display: flex;
+  background-color: rgb(251, 238, 193);
+  width: 100%;
+  height: 120px;
+}
+.navbar {
+  position: sticky;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  top: 0px;
+  background-color: rgb(251, 238, 193);
+  width: 100%;
+  height: 120px;
+}
+
+.navbar > a {
+  font-size: larger;
+  margin: 40px;
+  text-decoration: none;
+  color: rgb(154, 129, 98);
+  display: flex;
+}
+
+.navbar > a:hover {
+  text-decoration: underline;
+}
+
+.navbar > a:global.active {
+  font-size: xx-large;
+  color: rgb(76, 59, 47);
+}
+.logoContainer {
+  margin-left: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url("logo.png");
+  background-size: cover;
+  position: absolute;
+  top: 60px;
+  left: 150px;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  animation: spin 8s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@media screen and (max-width: 1150px) {
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 14px;
+      margin-right: 8px;
+    }
+    .navbar > a {
+      margin-top: 5px;
+      margin: 0;
+      font-size: 22px;
+    }
+    .navbar > a:global.active {
+      font-size: 26px;
+    }
+  }
+@media screen and (max-width: 960px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 14px;
+    margin-right: 8px;
+  }
+  .navbar > a {
+    margin-top: 5px;
+    margin: 0;
+    font-size: 18px;
+  }
+  .navbar > a:global.active {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .navbar {
+    display: none;
+  }
+}
