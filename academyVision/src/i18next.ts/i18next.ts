@@ -1,12 +1,11 @@
 import i18next, { Resource } from "i18next"
+import { initReactI18next } from "react-i18next"
 import translationDe from "../locales/de/translation.json"
 import translationEn from "../locales/en/translation.json"
 import translationRu from "../locales/ru/translation.json"
 import translationUa from"../locales/ua/translation.json"
-
-import I18NextHttpBackend from "i18next-http-backend"
-import i18nextBrowserLanguagedetector from "i18next-browser-languagedetector"
-import { initReactI18next } from "react-i18next"
+import LanguageDetector from 'i18next-browser-languagedetector'
+import HttpBackend from "i18next-http-backend"
 
 
 
@@ -19,8 +18,8 @@ const resources: Resource = {
 
 i18next
   .use(initReactI18next)
-  .use(i18nextBrowserLanguagedetector)
-  .use(I18NextHttpBackend)
+  .use(LanguageDetector)
+  .use(HttpBackend)
   .init({
     resources,
     lng: "en",

@@ -17,8 +17,9 @@ nav {
 .burgerBar {
   width: 2em;
   height: 0.3em;
-  background-color:rgb(102, 158, 188);
+  background-color: rgb(40, 110, 148);
   border-radius: 0.5em;
+  
 }
 
 .burgerMenu {
@@ -27,7 +28,8 @@ nav {
   align-items: flex-start;
   justify-content: space-between;
   cursor: pointer;
-  z-index: 100; /* Убедитесь, что z-index бургер-меню выше, чем у меню */
+  
+  z-index: 100; /* z-index бургер-меню выше, чем у меню */
 }
 .burgerSize {
   display: inline-block;
@@ -36,7 +38,7 @@ nav {
   width: 30%;
   height: 100vh;
   padding-top: 100px;
-  background-color: rgb(154, 181, 240);
+  background-color: rgb(102, 158, 188);
   position: fixed;
   top: 0;
   left: -30%;
@@ -47,6 +49,21 @@ nav {
 .navBar {
   display: flex;
   flex-direction: column;
+  padding: 10px;
+}
+.navBar a{
+font-size: 28px;
+color:white;
+margin-bottom: 10px;
+text-decoration: none;
+}
+.navBar a:hover {
+color: rgb(243, 216, 184);
+text-shadow: 
+    -1px -1px 0 #252424,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000; 
 }
 /* ------------- sliding menu ------------------ */
 

@@ -1,0 +1,13 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 173, 134);
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    
+}
+.footerContainer a{
+    text-decoration: none;
+    color: rgb(76, 59, 47);
+}
