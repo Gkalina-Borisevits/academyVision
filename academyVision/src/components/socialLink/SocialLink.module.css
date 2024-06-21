@@ -1,0 +1,71 @@
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: relative;
+}
+
+.contactLinks a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #fff;
+  position: relative;
+  overflow: visible;
+  margin: 10px;
+  text-decoration: none;
+  background-clip: padding-box;
+  z-index: 1;
+}
+.whatsapp {
+  background-color: #4caf50;
+}
+
+.telegram {
+  background-color: #2196f3;
+}
+
+.whatsapp::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(105, 249, 15, 0.6);
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: rippleEffect 3s infinite ease-out;
+  pointer-events: none;
+}
+.telegram::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #7abdf4;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: rippleEffect 3s infinite ease-out;
+}
+
+@keyframes rippleEffect {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
+}

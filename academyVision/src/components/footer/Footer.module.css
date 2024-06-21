@@ -4,7 +4,7 @@
   align-content: center;
   padding: 30px;
   background-color: var(--color-dark);
-  width: 100%;
+  max-width: 100%;
   height: auto;
   box-sizing: border-box;
 }
@@ -28,16 +28,16 @@
   background-size: cover;
   position: absolute;
   margin-top: 60px;
-  left: 150px;
+  left: 80px;
   z-index: 10;
   transform: translate(-50%, -50%);
   animation: spin 8s infinite linear;
 }
 .dateContainer {
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-dark);
-    color: bisque; 
-    font-size: 17px; 
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-dark);
+  color: bisque;
+  font-size: 17px;
+  padding: 10px;
 }
