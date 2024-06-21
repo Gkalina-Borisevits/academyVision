@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
       
     </div>
     <div className={styles.dateContainer}>
-    <span> © {new Date().getFullYear()}</span>
+    <span> © {new Date().getFullYear()}  Academy Mincept Vision </span>
     </div>
     </>
   )
