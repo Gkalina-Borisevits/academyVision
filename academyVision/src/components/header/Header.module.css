@@ -1,6 +1,6 @@
 .navbarContainer {
   display: flex;
-  background-color: rgb(251, 238, 193);
+  background-color: var(--color-primary);
   width: 100%;
   height: 120px;
 }
@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: end;
   right: 60px;
-  background-color: rgb(251, 238, 193);
+  background-color: var(--color-primary);
   width: 100%;
   height: 120px;
 }
@@ -36,7 +36,7 @@
   margin-left: 0;
   width: 100px;
   height: 100px;
-  background-image: url("logo.png");
+  background-image: url("../../assets/logo.png");
   background-size: cover;
   position: absolute;
   top: 60px;

@@ -5,6 +5,7 @@ import "./index.css";
 import {  HashRouter } from "react-router-dom";
 import { I18nextProvider } from "react-i18next";
 import i18next from "./i18next.ts/i18next.ts";
+import "./variables.css"
 
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
