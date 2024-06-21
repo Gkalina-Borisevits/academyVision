@@ -6,5 +6,40 @@
     "about": "О нас",
     "portfolio": "Портфолио",
     "price": "Прайс"
-  }
+  },
+  "homeCards":[
+    {
+    "id": 0,
+    "icon": "path-file",
+    "name": "WEB",
+    "discription": "наш проект",
+    "details":[
+    "name1","name2","name3","name4"
+    ]
+    },{
+    "id": 1,
+    "icon": "path-file",
+    "name": "WEB",
+    "discription": "Oue project",
+    "details":[
+    "name1","name2","name3"
+    ]
+    },{
+    "id": 2,
+    "icon": "path-file",
+    "name": "WEB",
+    "discription": "Oue project",
+    "details":[
+    "name1","name2","name3","name4"
+    ]
+    },{
+    "id": 3                             ,
+    "icon": "path-file",
+    "name": "WEB",
+    "discription": "Oue project",
+    "details":[
+    "name1","name2","name3","name4"
+    ]
+    }
+   ]
 }

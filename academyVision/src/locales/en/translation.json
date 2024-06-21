@@ -6,5 +6,40 @@
     "about": "About",
     "portfolio": "Portfolio",
     "price": "Price"
-  }
+  },
+  "homeCards":[
+	{
+	"id": 0,
+	"icon":"../../../src/assets/homeIcons/web.png",
+	"name": "WEB",
+	"discription": "Oue project",
+	"details":[
+	"name1","name2","name3","name4"
+	]
+	},{
+	"id": 1,
+	"icon": "../../../src/assets/homeIcons/seo.png",
+	"name": "SEO",
+	"discription": "Oue project",
+	"details":[
+	"name1","name2","name3"
+	]
+	},{
+	"id": 2,
+	"icon": "../../../src/assets/homeIcons/smm.png",
+	"name": "SMM",
+	"discription": "Oue project",
+	"details":[
+	"name1","name2","name3","name4"
+	]
+	},{
+	"id": 3                             ,
+	"icon": "../../../src/assets/homeIcons/coach.png",
+	"name": "COACH",
+	"discription": "Oue project",
+	"details":[
+	"name1","name2","name3","name4"
+	]
+	}
+ ]
 }
