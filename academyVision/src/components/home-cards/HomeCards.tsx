@@ -17,11 +17,12 @@ const HomeCards: React.FC = () => {
                     className={`${styles.cardContainer} mb-2`} // Использование класса cardContainer
                 >
                     <Card.Header className={styles.cardHeader}>
-                        <img className={styles.logo} src={card?.icon} alt={card.name} />
+                        {/* <img className={styles.logo} src={card?.icon} alt={card.name} /> */}
+                        <Card.Img variant="left" className={styles.logo} src={card?.icon} />
                         <h1> {card.name}</h1>
                     </Card.Header>
                     <Card.Body>
-                        <Card.Title>{card.discription} Card Title</Card.Title>
+                        <Card.Title className="text-dark fs-6">{card.discription}</Card.Title>
                         <Card.Text>
                             <ul>
                                 {card.details.map((detail, index) => (
