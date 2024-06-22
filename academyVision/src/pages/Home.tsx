@@ -1,26 +1,30 @@
-import { FC } from 'react'
-import BurgerMenu from '../components/burger-menu/BurgerMenu'
-import HomeCards from '../components/home-cards/HomeCards'
-import { NavLink } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
-import HomeCardsAccordion from '../components/home-cards/HomeCardsAccordion'
+
+import { FC } from "react";
+import styles from "./styles/Home.module.css";
+import img from "../assets/home.png";
+import HomeCards from "../components/home-cards/HomeCards";
+import { NavLink } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 const Home: FC = () => {
   return (
-    <div>
-      Home
-      <Container>
-        <NavLink className="text-decoration-none" to="/services">
-          <HomeCards />
-        </NavLink>
-        <HomeCardsAccordion/>
+    <>
+      <div>
+        <div className={styles.imageContainer}>
+          <img src={img} alt="Image" className={styles.backgroundImage} />
+          <div className={styles.overlay}></div>
+        </div>
 
+        <div className={styles.homeCardContainer}>
+          <Container>
+            <NavLink className="text-decoration-none" to="/services">
+              <HomeCards />
+            </NavLink>
+          </Container>
+        </div>
+      </div>
+    </>
+  );
+};
 
-      </Container>
-
-
-    </div>
-  )
-}
-
-export default Home
+export default Home;

@@ -10,6 +10,7 @@ const Header: React.FC = () => {
   const { i18n, t } = useTranslation("translation");
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const languageMenuRef = useRef<HTMLDivElement>(null);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const languages = [
     { code: "en", name: "EN", flag: "🇬🇧" },
@@ -27,6 +28,22 @@ const Header: React.FC = () => {
   const changeLanguage = (language: string) => {
     i18n.changeLanguage(language);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+  
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const handleClickOutside = (event: MouseEvent) => {
     if (
@@ -47,7 +64,7 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <div className={styles.navbarContainer}>
+    <div className={`${styles.navbarContainer} ${isScrolled ? styles.scrolled : ""}`}>
       <div className={styles.burgerInHeader}>
         <BurgerMenu />
       </div>
