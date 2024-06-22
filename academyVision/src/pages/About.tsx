@@ -1,6 +1,6 @@
 import  { FC } from 'react'
 import styles from "./styles/About.module.css"
-import img from "../assets/about.png"
+import img from "../assets/pagesImage/about.png"
 
 
 const About: FC = () => {

@@ -8,15 +8,14 @@ import SocialLink from "../components/socialLink/SocialLink";
 const Layout: FC = () => {
   return (
     <div>
-      <Header/>
+      <Header />
       <div className={styles.socialLinkContainer}>
-          <SocialLink />
-        </div>
+        <SocialLink />
+      </div>
       <main className={styles.outletContainer}>
         <Outlet />
       </main>
-     
-      <Footer/>
+      <Footer />
     </div>
   );
 };

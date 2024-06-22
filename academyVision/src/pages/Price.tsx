@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import styles from "./styles/Price.module.css"
-import img from "../assets/price.webp"
+import img from "../assets/pagesImage/price.webp"
 
 const Price: FC = () => {
   return (

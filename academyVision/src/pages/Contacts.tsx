@@ -1,6 +1,6 @@
 import { FC } from "react"
 import styles from "./styles/Contacts.module.css"
-import img from "../assets/contacts.png"
+import img from "../assets/pagesImage/contacts.png"
 
 const Contacts: FC = () => {
   return (
