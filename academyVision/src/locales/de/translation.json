@@ -6,5 +6,41 @@
     "about": "About Us",
     "portfolio": "Portfolio",
     "price": "Price"
+  },
+  "homeCards":[
+  {
+  "id": 0,
+  "icon": "../../../src/assets/homeIcons/web.png",
+  "name": "WEB",
+  "description": "Expertenentwicklung und Erstellung verkaufsfähiger Websites „schlüsselfertig“:",
+  "details":[
+  "Landingpages","Unternehmenswebseiten","E-Commerce-Websites","Individuelle Lösungen"
+  ]
+  },{
+  "id": 1,
+  "icon":"../../../src/assets/homeIcons/seo.png",
+  "name": "SEO",
+  "description": "Optimierung und Förderung der Website in die TOP-Ergebnisse der Suchmaschinen:",
+  "details":[
+  "Google","Bing","Lokales SEO"
+  ]
+  },{
+  "id": 2,
+  "icon": "../../../src/assets/homeIcons/smm.png",
+  "name": "SMM",
+  "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
+  "details":[
+  "Facebook","Instagram","LinkedIn","YouTube"
+  ]
+  },{
+  "id": 3,
+  "icon": "../../../src/assets/homeIcons/coach.png",
+  "name": "COACH",
+  "description": "Wir bieten individuelle und Gruppencoachings für berufliches und persönliches Wachstum an:",
+  "details":[
+  "SMART-Zielmethode","Coaching durch Fragen","GROW-Modell"
+  ]
   }
+ ]
+
 }
