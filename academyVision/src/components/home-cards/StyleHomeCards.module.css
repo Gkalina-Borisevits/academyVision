@@ -29,7 +29,6 @@ li {
   gap: 20px; /* Отступ между карточками */
   align-items: stretch; /* Это гарантирует, что все карточки будут одной высоты */
   margin-top: 50px;
-  
 }
 .cardContainer {
   width: 18rem; /* Ширина карточки */
@@ -55,7 +54,4 @@ li::before {
   left: -30px; /* Позиционирует точку в начале элемента */
   color: rgb(0, 162, 255); /* Цвет точки */
   font-size: 20px; /* Размер точки */
-}
-.customText {
-  color: brown;
 }

@@ -1,0 +1,60 @@
+ul,
+li {
+  margin: 0; /* Удаление внешних отступов */
+  padding: 0; /* Удаление внутренних отступов */
+  list-style: none; /* Удаление маркеров списка */
+}
+
+.accordionBody ul li {
+  position: relative;
+  font-size: 16px;
+}
+.accordionBody p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.accordionHeader h1 {
+  margin-left: 230px;
+  /* padding-right: -230px; */
+}
+.accordionHeader {
+  /* background-image: none; */
+  /* background-color: #7e751a !important; */
+  border: 2px saddlebrown solid;
+  /* border-radius: 10px;  */
+}
+
+/* button .accordion-button .collapsed {
+  border-radius: 10px !important;
+} */
+
+@media (max-width: 499px) {
+  .accordionHeader h1 {
+    margin-left: 170px;
+    /* padding-right: -230px; */
+  }
+}
+@media (max-width: 450px) {
+  .accordionHeader h1 {
+    margin-left: 150px;
+    /* padding-right: -230px; */
+  }
+}
+@media (max-width: 445px) {
+  .accordionHeader h1 {
+    margin-left: 130px;
+    /* padding-right: -230px; */
+  }
+}
+@media (max-width: 391px) {
+  .accordionHeader h1 {
+    margin-left: 100px;
+    /* padding-right: -230px; */
+  }
+}
