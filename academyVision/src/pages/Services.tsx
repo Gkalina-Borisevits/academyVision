@@ -1,8 +1,16 @@
-import React from 'react'
+import { FC } from "react"
+import styles from "./styles/Services.module.css"
+import img from "../assets/portfolio.png"
 
-function Services() {
+
+const Services: FC = () => {
   return (
-    <div>Services</div>
+    <div>
+    <div className={styles.imageContainer}>
+      <img src={img} alt="Image" className={styles.backgroundImage} />
+      <div className={styles.overlay}></div>
+    </div>
+  </div>
   )
 }
 
