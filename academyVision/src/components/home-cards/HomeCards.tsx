@@ -14,7 +14,7 @@ const HomeCards: React.FC = () => {
             {homeCards.map((card) => (
                 <Card
                     key={card.id}
-                    className={`${styles.cardContainer} mb-2`} // Использование класса cardContainer
+                    className={`${styles.cardContainer} mb-2 border-2`} // Использование класса cardContainer
                 >
                     <Card.Header className={styles.cardHeader}>
                         {/* <img className={styles.logo} src={card?.icon} alt={card.name} /> */}
@@ -22,7 +22,7 @@ const HomeCards: React.FC = () => {
                         <h1> {card.name}</h1>
                     </Card.Header>
                     <Card.Body>
-                        <Card.Title className="text-dark fs-6">{card.discription}</Card.Title>
+                        <Card.Title className="text-dark fs-6">{card.description}</Card.Title>
                         <Card.Text>
                             <ul>
                                 {card.details.map((detail, index) => (

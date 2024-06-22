@@ -10,35 +10,35 @@
   "homeCards":[
     {
     "id": 0,
-    "icon": "path-file",
+    "icon": "../../../src/assets/homeIcons/web.png",
     "name": "WEB",
-    "discription": "Экспертная разработка и создание продающих сайтов «под ключ»:",
+    "description": "Экспертная разработка и создание продающих сайтов «под ключ»:",
     "details":[
-    "name1","name2","name3","name4"
+    "Лендинг пейдж","Корпоративные сайты","Интернет-магазины","Индивидуальные решения"
     ]
     },{
     "id": 1,
-    "icon": "path-file",
-    "name": "WEB",
-    "discription": "Oue project",
+    "icon":"../../../src/assets/homeIcons/seo.png",
+    "name": "SEO",
+    "description": "Оптимизация и продвижение сайта в TOП выдачи поисковых систем:",
     "details":[
-    "name1","name2","name3"
+    "Google","Bing","Local SEO"
     ]
     },{
     "id": 2,
-    "icon": "path-file",
-    "name": "WEB",
-    "discription": "Oue project",
+    "icon": "../../../src/assets/homeIcons/smm.png",
+    "name": "SMM",
+    "description": "Комплексный маркетинг и продвижение в социальных сетях:",
     "details":[
-    "name1","name2","name3","name4"
+    "Facebook","Instagram","LinkedIn","YouTube"
     ]
     },{
     "id": 3                             ,
-    "icon": "path-file",
-    "name": "WEB",
-    "discription": "Oue project",
+    "icon": "../../../src/assets/homeIcons/coach.png",
+    "name": "COAUCH",
+    "description": " Предлагаем индивидуальные и групповые сессии коучинга для профессионального и личностного роста:",
     "details":[
-    "name1","name2","name3","name4"
+    "Метод SMART-целей","Коучинг посредством вопросов","Модель GROW"
     ]
     }
    ]

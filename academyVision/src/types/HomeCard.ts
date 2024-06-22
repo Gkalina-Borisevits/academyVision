@@ -2,7 +2,7 @@ export interface HomeCard {
     id: number
     icon: string
     name: string
-    discription: string
+    description: string
     details: string[]
 }
 

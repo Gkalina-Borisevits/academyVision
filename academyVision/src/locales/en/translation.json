@@ -8,38 +8,39 @@
     "price": "Price"
   },
   "homeCards":[
-	{
-	"id": 0,
-	"icon":"../../../src/assets/homeIcons/web.png",
-	"name": "WEB",
-	"discription": "Oue project",
-	"details":[
-	"name1","name2","name3","name4"
-	]
-	},{
-	"id": 1,
-	"icon": "../../../src/assets/homeIcons/seo.png",
-	"name": "SEO",
-	"discription": "Oue project",
-	"details":[
-	"name1","name2","name3"
-	]
-	},{
-	"id": 2,
-	"icon": "../../../src/assets/homeIcons/smm.png",
-	"name": "SMM",
-	"discription": "Oue project",
-	"details":[
-	"name1","name2","name3","name4"
-	]
-	},{
-	"id": 3                             ,
-	"icon": "../../../src/assets/homeIcons/coach.png",
-	"name": "COACH",
-	"discription": "Oue project",
-	"details":[
-	"name1","name2","name3","name4"
-	]
-	}
+  {
+  "id": 0,
+  "icon": "../../../src/assets/homeIcons/web.png",
+  "name": "WEB",
+  "description": "Expert development and creation of turnkey sales websites:",
+  "details":[
+  "Landing pages","Corporate websites","E-commerce sites","Custom solutions"
+  ]
+  },{
+  "id": 1,
+  "icon":"../../../src/assets/homeIcons/seo.png",
+  "name": "SEO",
+  "description": "Optimization and promotion of websites to the TOP of search engine results:",
+  "details":[
+  "Google","Bing","Local SEO"
+  ]
+  },{
+  "id": 2,
+  "icon": "../../../src/assets/homeIcons/smm.png",
+  "name": "SMM",
+  "description": "Comprehensive marketing and promotion on social networks:",
+  "details":[
+  "Facebook","Instagram","LinkedIn","YouTube"
+  ]
+  },{
+  "id": 3,
+  "icon": "../../../src/assets/homeIcons/coach.png",
+  "name": "COACH",
+  "description": "We offer individual and group coaching sessions for professional and personal growth:",
+  "details":[
+  "SMART goals method","Coaching through questions","GROW model"
+  ]
+  }
  ]
+
 }
