@@ -1,0 +1,61 @@
+ul,
+li {
+  margin: 0; /* Удаление внешних отступов */
+  padding: 0; /* Удаление внутренних отступов */
+  list-style: none; /* Удаление маркеров списка */
+}
+
+li {
+  position: relative;
+  font-size: 14px;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.cardHeader h1 {
+  font-size: 40px;
+  color: rgb(29, 134, 169);
+}
+
+.homeCardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* Отступ между карточками */
+  align-items: stretch; /* Это гарантирует, что все карточки будут одной высоты */
+  margin-top: 50px;
+  
+}
+.cardContainer {
+  width: 18rem; /* Ширина карточки */
+  margin-bottom: 2rem; /* Отступ снизу */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
+  cursor: pointer;
+  position: relative; /* Для корректной работы трансформации */
+  box-shadow: none; /* Начальное состояние тени */
+}
+
+.cardContainer:hover {
+  transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени снизу */
+}
+.cardContainer:hover h1 {
+  text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
+}
+
+li::before {
+  content: "•"; /* Символ точки */
+  position: absolute;
+  top: -4px;
+  left: -30px; /* Позиционирует точку в начале элемента */
+  color: rgb(0, 162, 255); /* Цвет точки */
+  font-size: 20px; /* Размер точки */
+}
+.customText {
+  color: brown;
+}

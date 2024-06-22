@@ -6,5 +6,40 @@
     "about": "О нас",
     "portfolio": "Портфолио",
     "price": "Прайс"
-  }
+  },
+  "homeCards":[
+    {
+    "id": 0,
+    "icon": "../../../src/assets/homeIcons/web.png",
+    "name": "WEB",
+    "description": "Экспертная разработка и создание продающих сайтов «под ключ»:",
+    "details":[
+    "Лендинг пейдж","Корпоративные сайты","Интернет-магазины","Индивидуальные решения"
+    ]
+    },{
+    "id": 1,
+    "icon":"../../../src/assets/homeIcons/seo.png",
+    "name": "SEO",
+    "description": "Оптимизация и продвижение сайта в TOП выдачи поисковых систем:",
+    "details":[
+    "Google","Bing","Local SEO"
+    ]
+    },{
+    "id": 2,
+    "icon": "../../../src/assets/homeIcons/smm.png",
+    "name": "SMM",
+    "description": "Комплексный маркетинг и продвижение в социальных сетях:",
+    "details":[
+    "Facebook","Instagram","LinkedIn","YouTube"
+    ]
+    },{
+    "id": 3                             ,
+    "icon": "../../../src/assets/homeIcons/coach.png",
+    "name": "COAUCH",
+    "description": " Предлагаем индивидуальные и групповые сессии коучинга для профессионального и личностного роста:",
+    "details":[
+    "Метод SMART-целей","Коучинг посредством вопросов","Модель GROW"
+    ]
+    }
+   ]
 }
