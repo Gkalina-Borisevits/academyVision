@@ -1,8 +1,15 @@
 import { FC } from "react"
+import styles from "./styles/Contacts.module.css"
+import img from "../assets/contacts.png"
 
 const Contacts: FC = () => {
   return (
-    <div>Contacts</div>
+    <div>
+    <div className={styles.imageContainer}>
+      <img src={img} alt="Image" className={styles.backgroundImage} />
+      <div className={styles.overlay}></div>
+    </div>
+  </div>
   )
 }
 
