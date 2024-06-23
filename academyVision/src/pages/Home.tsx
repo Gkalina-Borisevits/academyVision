@@ -10,7 +10,6 @@ import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
 import MyButton from "../components/myButton/MyButton";
 import MyContainer from "../components/myContainer/MyContainer";
 
-
 const Home: FC = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
 
@@ -19,30 +18,30 @@ const Home: FC = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  console.log();
 
   return (
     <>
-    <ImageContainer imgSrc={img} imgAlt="Image" />
-  
-    <div className={styles.homeContainer}>
-   
-    <MyContainer>
-      <div className={styles.homeCardContainer}>
-      <Container>
-          <NavLink className="text-decoration-none" to="/services">
-            {isMobile ? <HomeCardsAccordion /> : <HomeCards />}
-          </NavLink>
-        </Container>
+      <ImageContainer imgSrc={img} imgAlt="Image" />
+
+      <div className={styles.homeContainer}>
+        <MyContainer>
+          <div className={styles.homeCardContainer}>
+            <Container>
+              <NavLink className="text-decoration-none" to="/services">
+                {isMobile ? <HomeCardsAccordion /> : <HomeCards />}
+              </NavLink>
+            </Container>
+          </div>
+
+          <AboutHomePage />
+          <MyButton text="click " />
+        </MyContainer>
       </div>
-    
-      <AboutHomePage/>
-      <MyButton text="click "/>
-      </MyContainer>
-    </div>
-  
     </>
   );
 };
