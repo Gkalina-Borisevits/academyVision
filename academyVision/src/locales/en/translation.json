@@ -7,40 +7,65 @@
     "portfolio": "Portfolio",
     "price": "Price"
   },
-  "homeCards":[
-  {
-  "id": 0,
-  "icon": "../../../src/assets/homeIcons/web.png",
-  "name": "WEB",
-  "description": "Expert development and creation of turnkey sales websites:",
-  "details":[
-  "Landing pages","Corporate websites","E-commerce sites","Custom solutions"
+  "homeCards": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/homeIcons/web.png",
+      "name": "WEB",
+      "description": "Expert development and creation of turnkey sales websites:",
+      "details": [
+        "Landing pages",
+        "Corporate websites",
+        "E-commerce sites",
+        "Custom solutions"
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/homeIcons/seo.png",
+      "name": "SEO",
+      "description": "Optimization and promotion of websites to the TOP of search engine results:",
+      "details": ["Google", "Bing", "Local SEO"]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/homeIcons/smm.png",
+      "name": "SMM",
+      "description": "Comprehensive marketing and promotion on social networks:",
+      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/homeIcons/coach.png",
+      "name": "COACH",
+      "description": "We offer individual and group coaching sessions for professional and personal growth:",
+      "details": [
+        "SMART goals method",
+        "Coaching through questions",
+        "GROW model"
+      ]
+    }
+  ],
+  "aboutHomePage": [
+    {
+      "id": "0",
+      "title": "Personalized IT Strategies",
+      "description": "Instead of standard templates, we offer personalized strategies tailored specifically to your business and goals."
+    },
+    {
+      "id": "1",
+      "title": "Comprehensive Approaches",
+      "description": "We provide a full range of services from development to implementation and result analysis, ensuring continuous improvement of your marketing efforts."
+    },
+    {
+      "id": "2",
+      "title": "Expert Analytics",
+      "description": "Our analytical tools and methods allow you to get a clear picture of campaign effectiveness and direct efforts towards maximizing results."
+    },
+    {
+      "id": "3",
+      "title": "Efficient Communication",
+      "description": "We value your time and offer simple and convenient ways of communication for promptly addressing any questions and issues."
+    }
   ]
-  },{
-  "id": 1,
-  "icon":"../../../src/assets/homeIcons/seo.png",
-  "name": "SEO",
-  "description": "Optimization and promotion of websites to the TOP of search engine results:",
-  "details":[
-  "Google","Bing","Local SEO"
-  ]
-  },{
-  "id": 2,
-  "icon": "../../../src/assets/homeIcons/smm.png",
-  "name": "SMM",
-  "description": "Comprehensive marketing and promotion on social networks:",
-  "details":[
-  "Facebook","Instagram","LinkedIn","YouTube"
-  ]
-  },{
-  "id": 3,
-  "icon": "../../../src/assets/homeIcons/coach.png",
-  "name": "COACH",
-  "description": "We offer individual and group coaching sessions for professional and personal growth:",
-  "details":[
-  "SMART goals method","Coaching through questions","GROW model"
-  ]
-  }
- ]
-
 }

@@ -4,6 +4,7 @@ import styles from "./StyleHomeCardsAccordion.module.css";
 import "./StyleHomeCards.css";
 import { useTranslation } from 'react-i18next';
 import { HomeCard } from '../../types/HomeCard';
+import MyContainer from '../myContainer/MyContainer';
 
 
 const HomeCardsAccordion: React.FC = () => {
@@ -11,6 +12,7 @@ const HomeCardsAccordion: React.FC = () => {
   const homeCards: HomeCard[] = t("homeCards", { returnObjects: true });
 
   return (
+    <MyContainer>
     <div className={styles.homeCardContainerModile}>
       <Accordion defaultActiveKey={['0']} alwaysOpen>
         {homeCards.map((card) => (
@@ -31,6 +33,7 @@ const HomeCardsAccordion: React.FC = () => {
         ))}
       </Accordion>
     </div>
+    </MyContainer>
   );
 
 }

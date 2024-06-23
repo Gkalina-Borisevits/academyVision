@@ -7,40 +7,61 @@
     "portfolio": "Portfolio",
     "price": "Price"
   },
-  "homeCards":[
-  {
-  "id": 0,
-  "icon": "../../../src/assets/homeIcons/web.png",
-  "name": "WEB",
-  "description": "Expertenentwicklung und Erstellung verkaufsfähiger Websites „schlüsselfertig“:",
-  "details":[
-  "Landingpages","Unternehmenswebseiten","E-Commerce-Websites","Individuelle Lösungen"
+  "homeCards": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/homeIcons/web.png",
+      "name": "WEB",
+      "description": "Expertenentwicklung und Erstellung verkaufsfähiger Websites „schlüsselfertig“:",
+      "details": [
+        "Landingpages",
+        "Unternehmenswebseiten",
+        "E-Commerce-Websites",
+        "Individuelle Lösungen"
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/homeIcons/seo.png",
+      "name": "SEO",
+      "description": "Optimierung und Förderung der Website in die TOP-Ergebnisse der Suchmaschinen:",
+      "details": ["Google", "Bing", "Lokales SEO"]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/homeIcons/smm.png",
+      "name": "SMM",
+      "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
+      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/homeIcons/coach.png",
+      "name": "COACH",
+      "description": "Wir bieten individuelle und Gruppencoachings für berufliches und persönliches Wachstum an:",
+      "details": ["SMART-Zielmethode", "Coaching durch Fragen", "GROW-Modell"]
+    }
+  ],
+  "aboutHomePage": [
+    {
+      "id": "0",
+      "title": "Personalisierte IT-Strategien",
+      "description": "Statt Standardvorlagen bieten wir maßgeschneiderte Strategien, die speziell auf Ihr Geschäft und Ihre Ziele abgestimmt sind."
+    },
+    {
+      "id": "1",
+      "title": "Umfassende Ansätze",
+      "description": "Wir bieten ein vollständiges Dienstleistungsspektrum von der Entwicklung bis zur Implementierung und Ergebnisanalyse, um eine kontinuierliche Verbesserung Ihrer Marketingmaßnahmen zu gewährleisten."
+    },
+    {
+      "id": "2",
+      "title": "Expertenanalyse",
+      "description": "Unsere Analysetools und -methoden ermöglichen Ihnen ein klares Bild der Kampagnenwirksamkeit und richten Ihre Bemühungen auf die Maximierung der Ergebnisse."
+    },
+    {
+      "id": "3",
+      "title": "Effiziente Kommunikation",
+      "description": "Wir schätzen Ihre Zeit und bieten einfache und bequeme Kommunikationswege, um Fragen und Probleme umgehend zu lösen."
+    }
   ]
-  },{
-  "id": 1,
-  "icon":"../../../src/assets/homeIcons/seo.png",
-  "name": "SEO",
-  "description": "Optimierung und Förderung der Website in die TOP-Ergebnisse der Suchmaschinen:",
-  "details":[
-  "Google","Bing","Lokales SEO"
-  ]
-  },{
-  "id": 2,
-  "icon": "../../../src/assets/homeIcons/smm.png",
-  "name": "SMM",
-  "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
-  "details":[
-  "Facebook","Instagram","LinkedIn","YouTube"
-  ]
-  },{
-  "id": 3,
-  "icon": "../../../src/assets/homeIcons/coach.png",
-  "name": "COACH",
-  "description": "Wir bieten individuelle und Gruppencoachings für berufliches und persönliches Wachstum an:",
-  "details":[
-  "SMART-Zielmethode","Coaching durch Fragen","GROW-Modell"
-  ]
-  }
- ]
-
 }
