@@ -1,1 +1,41 @@
-
+.myContainer {
+    width: 100%;
+    margin: 0 auto; 
+  }
+  
+  @media (min-width: 1680px) {
+    .myContainer {
+      max-width: 1600px; 
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .myContainer {
+      max-width: 1360px; 
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .myContainer {
+      max-width: 1170px; 
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .myContainer {
+      max-width: 960px; 
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .myContainer {
+      max-width: 720px; 
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .myContainer {
+      max-width: 540px;
+    }
+  }
+  

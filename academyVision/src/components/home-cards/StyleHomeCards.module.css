@@ -32,7 +32,7 @@ li {
 }
 .cardContainer {
   width: 18rem; /* Ширина карточки */
-  margin-bottom: 2rem; /* Отступ снизу */
+  margin-bottom: 3rem; /* Отступ снизу */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
   cursor: pointer;
   position: relative; /* Для корректной работы трансформации */

@@ -1,16 +1,23 @@
-import { FC } from 'react'
-import styles from "./styles/Price.module.css"
-import img from "../assets/pagesImage/price.webp"
+import { FC } from "react";
+import styles from "./styles/Price.module.css";
+import img from "../assets/pagesImage/price.webp";
+import ImageContainer from "../components/imageContainer/ImageContainer";
+import { NavLink } from "react-router-dom";
+import MyContainer from "../components/myContainer/MyContainer";
 
 const Price: FC = () => {
   return (
-    <div>
-    <div className={styles.imageContainer}>
-      <img src={img} alt="Image" className={styles.backgroundImage} />
-      <div className={styles.overlay}></div>
+    <div className={styles.priceContainer}>
+      <ImageContainer imgSrc={img} imgAlt="Image" >
+        <MyContainer>
+      <div style={{ color: "black", fontSize: "24px" }}>Hello World
+      </div>
+      <div> <NavLink to="/" className={styles.logoContainer}></NavLink></div>
+      </MyContainer>
+      </ImageContainer>
+    
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default Price
+export default Price;

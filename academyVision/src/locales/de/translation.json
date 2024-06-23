@@ -117,5 +117,27 @@
       "profile": "Backend",
       "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
     }
+  ],
+  "aboutHomePage": [
+    {
+      "id": "0",
+      "title": "Personalisierte IT-Strategien",
+      "description": "Statt Standardvorlagen bieten wir maßgeschneiderte Strategien, die speziell auf Ihr Geschäft und Ihre Ziele abgestimmt sind."
+    },
+    {
+      "id": "1",
+      "title": "Umfassende Ansätze",
+      "description": "Wir bieten ein vollständiges Dienstleistungsspektrum von der Entwicklung bis zur Implementierung und Ergebnisanalyse, um eine kontinuierliche Verbesserung Ihrer Marketingmaßnahmen zu gewährleisten."
+    },
+    {
+      "id": "2",
+      "title": "Expertenanalyse",
+      "description": "Unsere Analysetools und -methoden ermöglichen Ihnen ein klares Bild der Kampagnenwirksamkeit und richten Ihre Bemühungen auf die Maximierung der Ergebnisse."
+    },
+    {
+      "id": "3",
+      "title": "Effiziente Kommunikation",
+      "description": "Wir schätzen Ihre Zeit und bieten einfache und bequeme Kommunikationswege, um Fragen und Probleme umgehend zu lösen."
+    }
   ]
 }
