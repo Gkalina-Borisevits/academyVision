@@ -7,40 +7,115 @@
     "portfolio": "Portfolio",
     "price": "Price"
   },
-  "homeCards":[
-  {
-  "id": 0,
-  "icon": "../../../src/assets/homeIcons/web.png",
-  "name": "WEB",
-  "description": "Expert development and creation of turnkey sales websites:",
-  "details":[
-  "Landing pages","Corporate websites","E-commerce sites","Custom solutions"
+  "homeCards": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/homeIcons/web.png",
+      "name": "WEB",
+      "description": "Expert development and creation of turnkey sales websites:",
+      "details": [
+        "Landing pages",
+        "Corporate websites",
+        "E-commerce sites",
+        "Custom solutions"
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/homeIcons/seo.png",
+      "name": "SEO",
+      "description": "Optimization and promotion of websites to the TOP of search engine results:",
+      "details": [
+        "Google",
+        "Bing",
+        "Local SEO"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/homeIcons/smm.png",
+      "name": "SMM",
+      "description": "Comprehensive marketing and promotion on social networks:",
+      "details": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn",
+        "YouTube"
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/homeIcons/coach.png",
+      "name": "COACH",
+      "description": "We offer individual and group coaching sessions for professional and personal growth:",
+      "details": [
+        "SMART goals method",
+        "Coaching through questions",
+        "GROW model"
+      ]
+    }
+  ],
+  "aboutCards": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/aboutIcons/innovation.png",
+      "name": "Innovative",
+      "description": "We offer advanced solutions that set new standards in the industry and promote technological progress."
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/aboutIcons/creative.png",
+      "name": "Creative",
+      "description": "Our approaches combine creativity and innovation to turn unique ideas into reality."
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/aboutIcons/reliable.png",
+      "name": "Reliable",
+      "description": "We have established ourselves as a reliable partner, ensuring stability and quality at all stages of cooperation."
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/aboutIcons/united.png",
+      "name": "United",
+      "description": "Our team builds strong relationships, working together to achieve common goals efficiently."
+    }
+  ],
+  "fotoCards": [
+    {
+      "id": 0,
+      "foto": "../../../src/assets/pageFoto/BigBoss.jpg",
+      "name": "BigBoss",
+      "profile": "Coach",
+      "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
+    },
+    {
+      "id": 1,
+      "foto": "../../../src/assets/pageFoto/Maia.jpg",
+      "name": "Maia",
+      "profile": "Coach",
+      "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
+    },
+    {
+      "id": 2,
+      "foto": "../../../src/assets/pageFoto/Karina.jpg",
+      "name": "Karina",
+      "profile": "SMM",
+      "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
+    },
+    {
+      "id": 3,
+      "foto": "../../../src/assets/pageFoto/Galina.jpg",
+      "name": "Galina",
+      "profile": "Frontend",
+      "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
+    },
+    {
+      "id": 4,
+      "foto": "../../../src/assets//pageFoto/Yurii.webp",
+      "name": "Yurii",
+      "profile": "Backend",
+      "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
+    }
   ]
-  },{
-  "id": 1,
-  "icon":"../../../src/assets/homeIcons/seo.png",
-  "name": "SEO",
-  "description": "Optimization and promotion of websites to the TOP of search engine results:",
-  "details":[
-  "Google","Bing","Local SEO"
-  ]
-  },{
-  "id": 2,
-  "icon": "../../../src/assets/homeIcons/smm.png",
-  "name": "SMM",
-  "description": "Comprehensive marketing and promotion on social networks:",
-  "details":[
-  "Facebook","Instagram","LinkedIn","YouTube"
-  ]
-  },{
-  "id": 3,
-  "icon": "../../../src/assets/homeIcons/coach.png",
-  "name": "COACH",
-  "description": "We offer individual and group coaching sessions for professional and personal growth:",
-  "details":[
-  "SMART goals method","Coaching through questions","GROW model"
-  ]
-  }
- ]
-
 }

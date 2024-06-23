@@ -7,40 +7,115 @@
     "portfolio": "Портфоліо",
     "price": "Ціна"
   },
-  "homeCards":[
-  {
-  "id": 0,
-  "icon": "../../../src/assets/homeIcons/web.png",
-  "name": "WEB",
-  "description": "Експертна розробка та створення продаваних сайтів «під ключ»:",
-  "details":[
-  "Лендінг пейдж","Корпоративні сайти","Інтернет-магазини","Індивідуальні рішення"
+  "homeCards": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/homeIcons/web.png",
+      "name": "WEB",
+      "description": "Експертна розробка та створення продаваних сайтів «під ключ»:",
+      "details": [
+        "Лендінг пейдж",
+        "Корпоративні сайти",
+        "Інтернет-магазини",
+        "Індивідуальні рішення"
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/homeIcons/seo.png",
+      "name": "SEO",
+      "description": "Оптимізація та просування сайту в ТОП видачі пошукових систем:",
+      "details": [
+        "Google",
+        "Bing",
+        "Local SEO"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/homeIcons/smm.png",
+      "name": "SMM",
+      "description": "Комплексний маркетинг та просування в соціальних мережах:",
+      "details": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn",
+        "YouTube"
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/homeIcons/coach.png",
+      "name": "COACH",
+      "description": "Пропонуємо індивідуальні та групові сесії коучингу для професійного та особистісного зростання:",
+      "details": [
+        "Метод SMART-цілей",
+        "Коучинг через запитання",
+        "Модель GROW"
+      ]
+    }
+  ],
+  "aboutCards": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/aboutIcons/innovation.png",
+      "name": "Інноваційні",
+      "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/aboutIcons/creative.png",
+      "name": "Креативні",
+      "description": "Наші підходи об'єднують творчість та інновації, щоб перетворити унікальні ідеї в реальність."
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/aboutIcons/reliable.png",
+      "name": "Надійні",
+      "description": "Зарекомендували себе як надійного партнера, забезпечуючи стабільність та якість на всіх етапах співпраці."
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/aboutIcons/united.png",
+      "name": "Згуртовані",
+      "description": "Наша команда будує міцні стосунки, працюючи разом для досягнення спільних цілей ефективно."
+    }
+  ],
+  "fotoCards": [
+    {
+      "id": 0,
+      "foto": "../../../src/assets/pageFoto/BigBoss.jpg",
+      "name": "BigBoss",
+      "profile": "Coach",
+      "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
+    },
+    {
+      "id": 1,
+      "foto": "../../../src/assets/pageFoto/Maia.jpg",
+      "name": "Maia",
+      "profile": "Coach",
+      "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
+    },
+    {
+      "id": 2,
+      "foto": "../../../src/assets/pageFoto/Karina.jpg",
+      "name": "Karina",
+      "profile": "SMM",
+      "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
+    },
+    {
+      "id": 3,
+      "foto": "../../../src/assets/pageFoto/Galina.jpg",
+      "name": "Galina",
+      "profile": "Frontend",
+      "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
+    },
+    {
+      "id": 4,
+      "foto": "../../../src/assets//pageFoto/Yurii.webp",
+      "name": "Yurii",
+      "profile": "Backend",
+      "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
+    }
   ]
-  },{
-  "id": 1,
-  "icon":"../../../src/assets/homeIcons/seo.png",
-  "name": "SEO",
-  "description": "Оптимізація та просування сайту в ТОП видачі пошукових систем:",
-  "details":[
-  "Google","Bing","Local SEO"
-  ]
-  },{
-  "id": 2,
-  "icon": "../../../src/assets/homeIcons/smm.png",
-  "name": "SMM",
-  "description": "Комплексний маркетинг та просування в соціальних мережах:",
-  "details":[
-  "Facebook","Instagram","LinkedIn","YouTube"
-  ]
-  },{
-  "id": 3,
-  "icon": "../../../src/assets/homeIcons/coach.png",
-  "name": "COACH",
-  "description": "Пропонуємо індивідуальні та групові сесії коучингу для професійного та особистісного зростання:",
-  "details":[
-  "Метод SMART-цілей","Коучинг через запитання","Модель GROW"
-  ]
-  }
- ]
-
 }
