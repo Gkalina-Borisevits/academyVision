@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { FaGlobe } from "react-icons/fa";
 
+
 const Header: React.FC = () => {
   const { i18n, t } = useTranslation("translation");
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
@@ -64,12 +65,16 @@ const Header: React.FC = () => {
   }, []);
 
   return (
+   
+
     <div className={`${styles.navbarContainer} ${isScrolled ? styles.scrolled : ""}`}>
+     
       <div className={styles.burgerInHeader}>
         <BurgerMenu />
       </div>
       <NavLink to="/" className={styles.logoContainer}></NavLink>
       <div className={styles.navbar}>
+   
         <NavLink to="/">{t("header.home")}</NavLink>
         <NavLink to="/about">{t("header.about")}</NavLink>
         <NavLink to="/services">{t("header.services")}</NavLink>
@@ -83,6 +88,7 @@ const Header: React.FC = () => {
       >
         <FaGlobe />
       </div>
+ 
       {isLanguageDropdownOpen && (
         <div ref={languageMenuRef} className={styles.languageDropdown}>
           {languages.map((language) => (
@@ -99,7 +105,10 @@ const Header: React.FC = () => {
           ))}
         </div>
       )}
+       
     </div>
+   
+
   );
 };
 

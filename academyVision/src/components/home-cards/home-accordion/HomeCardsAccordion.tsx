@@ -12,6 +12,7 @@ const HomeCardsAccordion: React.FC = () => {
   const homeCards: HomeCard[] = t("homeCards", { returnObjects: true });
 
   return (
+
     <div className={styles.homeCardContainerModile}>
       <Accordion defaultActiveKey={['0']} alwaysOpen>
         {homeCards.map((card) => (
