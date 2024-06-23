@@ -7,40 +7,115 @@
     "portfolio": "Portfolio",
     "price": "Price"
   },
-  "homeCards":[
-  {
-  "id": 0,
-  "icon": "../../../src/assets/homeIcons/web.png",
-  "name": "WEB",
-  "description": "Expertenentwicklung und Erstellung verkaufsfähiger Websites „schlüsselfertig“:",
-  "details":[
-  "Landingpages","Unternehmenswebseiten","E-Commerce-Websites","Individuelle Lösungen"
+  "homeCards": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/homeIcons/web.png",
+      "name": "WEB",
+      "description": "Expertenentwicklung und Erstellung verkaufsfähiger Websites „schlüsselfertig“:",
+      "details": [
+        "Landingpages",
+        "Unternehmenswebseiten",
+        "E-Commerce-Websites",
+        "Individuelle Lösungen"
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/homeIcons/seo.png",
+      "name": "SEO",
+      "description": "Optimierung und Förderung der Website in die TOP-Ergebnisse der Suchmaschinen:",
+      "details": [
+        "Google",
+        "Bing",
+        "Lokales SEO"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/homeIcons/smm.png",
+      "name": "SMM",
+      "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
+      "details": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn",
+        "YouTube"
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/homeIcons/coach.png",
+      "name": "COACH",
+      "description": "Wir bieten individuelle und Gruppencoachings für berufliches und persönliches Wachstum an:",
+      "details": [
+        "SMART-Zielmethode",
+        "Coaching durch Fragen",
+        "GROW-Modell"
+      ]
+    }
+  ],
+  "aboutCards": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/aboutIcons/innovation.png",
+      "name": "Innovativ",
+      "description": "Wir bieten fortschrittliche Lösungen, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/aboutIcons/creative.png",
+      "name": "Kreativ",
+      "description": "Unsere Ansätze vereinen Kreativität und Innovation, um einzigartige Ideen in die Realität umzusetzen."
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/aboutIcons/reliable.png",
+      "name": "Zuverlässig",
+      "description": "Wir haben uns als zuverlässiger Partner bewährt, der Stabilität und Qualität in allen Phasen der Zusammenarbeit gewährleistet."
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/aboutIcons/united.png",
+      "name": "Geschlossen",
+      "description": "Unser Team baut starke Beziehungen auf und arbeitet gemeinsam daran, gemeinsame Ziele effizient zu erreichen."
+    }
+  ],
+  "fotoCards": [
+    {
+      "id": 0,
+      "foto": "../../../src/assets/pageFoto/BigBoss",
+      "name": "BigBoss",
+      "profile": "Coach",
+      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+    },
+    {
+      "id": 1,
+      "foto": "../../../src/assets/pageFoto/Maia.jpg",
+      "name": "Maia",
+      "profile": "Coach",
+      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+    },
+    {
+      "id": 2,
+      "foto": "../../../src/assets/pageFoto/Karina.jpg",
+      "name": "Karina",
+      "profile": "SMM",
+      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+    },
+    {
+      "id": 3,
+      "foto": "../../../src/assets/pageFoto/Galina.jpg",
+      "name": "Galina",
+      "profile": "Frontend",
+      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+    },
+    {
+      "id": 4,
+      "foto": "../../../src/assets//pageFoto/Yurii.webp",
+      "name": "Yurii",
+      "profile": "Backend",
+      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+    }
   ]
-  },{
-  "id": 1,
-  "icon":"../../../src/assets/homeIcons/seo.png",
-  "name": "SEO",
-  "description": "Optimierung und Förderung der Website in die TOP-Ergebnisse der Suchmaschinen:",
-  "details":[
-  "Google","Bing","Lokales SEO"
-  ]
-  },{
-  "id": 2,
-  "icon": "../../../src/assets/homeIcons/smm.png",
-  "name": "SMM",
-  "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
-  "details":[
-  "Facebook","Instagram","LinkedIn","YouTube"
-  ]
-  },{
-  "id": 3,
-  "icon": "../../../src/assets/homeIcons/coach.png",
-  "name": "COACH",
-  "description": "Wir bieten individuelle und Gruppencoachings für berufliches und persönliches Wachstum an:",
-  "details":[
-  "SMART-Zielmethode","Coaching durch Fragen","GROW-Modell"
-  ]
-  }
- ]
-
 }

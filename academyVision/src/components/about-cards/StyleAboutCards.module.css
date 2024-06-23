@@ -1,0 +1,39 @@
+
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+ .cardHeader{
+  text-align: center;
+ }
+  .cardHeader h1 {
+    font-size: 30px;
+    color: rgb(29, 134, 169);
+  }
+  .aboutText{
+    font-size: 16px;
+  }
+  .homeCardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступ между карточками */
+    align-items: stretch; /* Это гарантирует, что все карточки будут одной высоты */
+    margin-top: 50px;
+  }
+  .cardContainer {
+    width: 18rem; /* Ширина карточки */
+    margin-bottom: 2rem; /* Отступ снизу */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
+    cursor: pointer;
+    position: relative; /* Для корректной работы трансформации */
+    box-shadow: none; /* Начальное состояние тени */
+  }
+  
+  .cardContainer:hover {
+    transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени снизу */
+  }
+  .cardContainer:hover h1 {
+    text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
+  }

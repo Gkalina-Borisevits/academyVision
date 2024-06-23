@@ -23,27 +23,31 @@ li {
   margin-left: 230px;
 }
 .accordionHeader {
+
   border: 2px saddlebrown solid;
 }
-
 
 @media (max-width: 499px) {
   .accordionHeader h1 {
     margin-left: 170px;
+    /* padding-right: -230px; */
   }
 }
 @media (max-width: 450px) {
   .accordionHeader h1 {
     margin-left: 150px;
+    /* padding-right: -230px; */
   }
 }
 @media (max-width: 445px) {
   .accordionHeader h1 {
     margin-left: 130px;
+    /* padding-right: -230px; */
   }
 }
 @media (max-width: 391px) {
   .accordionHeader h1 {
     margin-left: 100px;
+    /* padding-right: -230px; */
   }
 }

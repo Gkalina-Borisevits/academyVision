@@ -3,7 +3,8 @@ import { Accordion } from 'react-bootstrap'; // Добавлен импорт к
 import styles from "./StyleHomeCardsAccordion.module.css";
 import "./StyleHomeCards.css";
 import { useTranslation } from 'react-i18next';
-import { HomeCard } from '../../types/HomeCard';
+import { HomeCard } from '../../../types/HomeCard';
+import { NavLink } from 'react-router-dom';
 
 
 const HomeCardsAccordion: React.FC = () => {
@@ -27,8 +28,16 @@ const HomeCardsAccordion: React.FC = () => {
                 ))}
               </ul>
             </Accordion.Body>
+            <NavLink className="text-decoration-none" to="/services">
+              <Accordion.Body className="d-flex justify-content-end fs-2" style={{ marginRight: "40px" }}>
+                More
+              </Accordion.Body>
+            </NavLink>
+
           </Accordion.Item>
+
         ))}
+
       </Accordion>
     </div>
   );
