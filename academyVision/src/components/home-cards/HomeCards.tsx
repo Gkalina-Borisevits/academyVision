@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap"; // Добавлен импорт ком�
 import styles from "./StyleHomeCards.module.css";
 import { useTranslation } from "react-i18next";
 import { HomeCard } from "../../types/HomeCard";
-import "./StyleHomeCards.css";
+
 
 const HomeCards: React.FC = () => {
   const { t } = useTranslation("translation");
