@@ -117,5 +117,56 @@
       "profile": "Backend",
       "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
     }
+  ],
+  "advantageCards" :[
+    {
+      "id": 0,
+      "icon": "",
+      "title": "Global Vision, Local Solutions",
+      "description": "We combine global trends with local knowledge to create marketing strategies that work for your market and are aimed at achieving maximum results for your business."
+    },
+    {
+      "id": 1,
+      "icon": "",
+      "title": "Flexibility and Adaptability",
+      "description": "In the world of IT, changes happen instantaneously. We adapt to these changes by offering flexible solutions that can evolve with your business needs."
+    },
+    {
+      "id": 2,
+      "icon": "",
+      "title": "Transparency and Accountability",
+      "description": "We value transparency in our work. Our detailed reports and regular updates allow you to track every step of the advancement and optimization of your IT campaigns."
+    },
+    {
+      "id": 3,
+      "icon": "",
+      "title": "Specialized Team of Experts",
+      "description": "We thoroughly study the needs and features of your business. We develop unique solutions that meet your specific requirements, ensuring high-level execution and support at every stage of the project."
+    },
+    {
+      "id": 4,
+      "icon": "",
+      "title": "Responsiveness",
+      "description": "In the IT sector, time is money. We guarantee a quick launch and setup of campaigns so you can swiftly respond to market opportunities and threats."
+    },
+    {
+      "id": 5,
+      "icon": "",
+      "title": "Data Protection",
+      "description": "Your data is our priority. We employ the latest technologies to ensure its security and confidentiality. Your information will remain strictly confidential and will not be shared without your prior consent."
+    },
+    {
+      "id": 6,
+      "icon": "",
+      "title": "Innovation in Action",
+      "description": "We not only keep up with new technologies and trends, but also actively implement them in our strategies to provide you with a competitive edge."
+    },
+    {
+      "id": 7,
+      "icon": "",
+      "title": "Client-Centric",
+      "description": "We build long-term partnerships with our clients, based on trust and mutual understanding. Your success is our success."
+    }
   ]
+  
 }
