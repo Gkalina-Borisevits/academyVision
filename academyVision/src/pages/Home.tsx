@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./styles/Home.module.css";
 import img from "../assets/pagesImage/home.png";
 import HomeCards from "../components/home-cards/HomeCards";
@@ -10,7 +10,8 @@ import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
 import MyButton from "../components/myButton/MyButton";
 import MyContainer from "../components/myContainer/MyContainer";
 
-const Home: FC = () => {
+
+const Home: React.FC = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
 
   const handleResize = () => {
@@ -43,3 +44,5 @@ const Home: FC = () => {
 };
 
 export default Home;
+
+

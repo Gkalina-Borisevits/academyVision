@@ -118,6 +118,56 @@
       "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
     }
   ],
+  "advantageCards" :[
+    {
+      "id": 0,
+      "icon": "../../../src/assets/advantageIcons/global.png",
+      "title": "Globale Vision, lokale Lösungen",
+      "description": "Wir kombinieren globale Trends mit lokalem Wissen, um Marketingstrategien zu entwickeln, die für Ihren Markt funktionieren und darauf abzielen, maximale Ergebnisse für Ihr Geschäft zu erzielen."
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/advantageIcons/adaptiv.png",
+      "title": "Flexibilität und Anpassungsfähigkeit",
+      "description": "In der IT-Welt erfolgen Veränderungen blitzschnell. Wir passen uns diesen Veränderungen an, indem wir flexible Lösungen anbieten, die mit Ihren Geschäftsanforderungen mitwachsen können."
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/advantageIcons/opacity.png",
+      "title": "Transparenz und Verantwortung",
+      "description": "Wir schätzen Transparenz in unserer Arbeit. Unsere detaillierten Berichte und regelmäßigen Updates ermöglichen es Ihnen, jeden Schritt der Förderung und Optimierung Ihrer IT-Kampagnen zu verfolgen."
+    },
+    {
+      "id": 3,
+      "icon": "../../../src/assets/advantageIcons/tim.png",
+      "title": "Spezialisiertes Team von Experten",
+      "description": "Wir untersuchen gründlich die Bedürfnisse und Besonderheiten Ihres Geschäfts. Wir entwickeln einzigartige Lösungen, die Ihren spezifischen Anforderungen entsprechen, und stellen eine hohe Ausführungsqualität und Unterstützung in jeder Projektphase sicher."
+    },
+    {
+      "id": 4,
+      "icon": "../../../src/assets/advantageIcons/response.png",
+      "title": "Reaktionsgeschwindigkeit",
+      "description": "In der IT-Branche ist Zeit Geld. Wir garantieren einen schnellen Start und die Einrichtung von Kampagnen, damit Sie schnell auf Marktchancen und -bedrohungen reagieren können."
+    },
+    {
+      "id": 5,
+      "icon": "../../../src/assets/advantageIcons/protection.png",
+      "title": "Datenschutz",
+      "description": "Ihre Daten sind unsere Priorität. Wir verwenden modernste Technologien, um ihre Sicherheit und Vertraulichkeit zu gewährleisten. Ihre Informationen bleiben streng vertraulich und werden ohne Ihre vorherige Zustimmung nicht weitergegeben."
+    },
+    {
+      "id": 6,
+      "icon": "../../../src/assets/advantageIcons/innovativ.png",
+      "title": "Innovation in Aktion",
+      "description": "Wir verfolgen nicht nur neue Technologien und Trends, sondern implementieren sie auch aktiv in unsere Strategien, um Ihnen einen Wettbewerbsvorteil zu verschaffen."
+    },
+    {
+      "id": 7,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "title": "Kundenorientierung",
+      "description": "Wir bauen langfristige Partnerschaften mit unseren Kunden auf, die auf Vertrauen und gegenseitigem Verständnis basieren. Ihr Erfolg ist unser Erfolg."
+    }
+  ],
   "aboutHomePage": [
     {
       "id": "0",
