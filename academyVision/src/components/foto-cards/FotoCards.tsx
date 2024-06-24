@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardTitle } from 'react-bootstrap'; // Добавлен импорт компонента Card
+import { Card } from 'react-bootstrap'; // Добавлен импорт компонента Card
 import styles from "./StyleFotoCards.module.css";
 import "./StyleFotoCards.css"
 import { useTranslation } from 'react-i18next';

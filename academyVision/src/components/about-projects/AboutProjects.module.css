@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 5rem 0;
+}
+
+.cardContainer {
+  gap: 20px;
+}
+
+.cardColumn {
+  display: grid;
+  row-gap: 3.5rem;
+}
+
+.cardArticle {
+  position: relative;
+  overflow: hidden;
+}
+
+.cardImg {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.cardData {
+  background-color: var(--container-color);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, 0.15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.card:hover .cardData {
+  opacity: 1;
+  transform: translateY(-7rem);
+}
+
+.cardDescription {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 0.25rem;
+}
+
+.cardTitle {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 0.75rem;
+}
+
+.cardButton {
+  text-decoration: none;
+}
+
+/* Media queries similarly as above */
