@@ -1,5 +1,6 @@
 import React from "react";
-import { Card } from "react-bootstrap"; // Добавлен импорт компонента Card
+import { Card } from "react-bootstrap"; 
+import  "./StyleHome.css";
 import styles from "./StyleHomeCards.module.css";
 import { useTranslation } from "react-i18next";
 import { HomeCard } from "../../types/HomeCard";
@@ -27,7 +28,7 @@ const HomeCards: React.FC = () => {
             <Card.Text>
               <ul>
                 {card.details.map((detail, index) => (
-                  <li key={index}>{detail}</li> // Добавьте ключи для элементов списка
+                  <li className={styles.styleLi} key={index}>{detail}</li> // Добавьте ключи для элементов списка
                 ))}
               </ul>
             </Card.Text>

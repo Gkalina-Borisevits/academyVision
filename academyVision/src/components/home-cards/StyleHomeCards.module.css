@@ -47,7 +47,7 @@ li {
   text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
 }
 
-li::before {
+.styleLi::before {
   content: "•"; /* Символ точки */
   position: absolute;
   top: -4px;

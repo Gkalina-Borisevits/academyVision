@@ -118,7 +118,7 @@
       "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
     }
   ],
-  "advantageCards" :[
+  "advantageCards": [
     {
       "id": 0,
       "icon": "../../../src/assets/advantageIcons/global.png",
@@ -188,6 +188,94 @@
       "id": "3",
       "title": "Effiziente Kommunikation",
       "description": "Wir schätzen Ihre Zeit und bieten einfache und bequeme Kommunikationswege, um Fragen und Probleme umgehend zu lösen."
+    }
+  ],
+  "aboutProject": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    }
+  ],
+  "stagesWork": [
+    {
+      "id": 0,
+      "num": 1,
+      "title": "Entwicklungsforschung",
+      "foto": "../../assets/stages-of-work/find.webp",
+      "description": "Wir führen eine Voruntersuchung durch, um die Bedürfnisse des Kunden und die Besonderheiten des Geschäfts zu ermitteln."
+    },
+    {
+      "id": 1,
+      "num": 2,
+      "title": "Design",
+      "foto": "../../assets/stages-of-work/Procting.webp",
+      "description": "Unsere Designer erstellen einen Prototyp des Projekts und besprechen ihn dann mit dem Kunden. Nach der Genehmigung beginnt der Entwicklungsprozess."
+    },
+    {
+      "id": 2,
+      "num": 3,
+      "title": "Webentwicklung",
+      "foto": "../../assets/stages-of-work/web.webp",
+      "description": "Entwickler bauen das gesamte Blog-System auf und schreiben Code unter Verwendung der ausgewählten Programmiersprache, Methode und Methodik."
+    },
+    {
+      "id": 3,
+      "num": 4,
+      "title": "Marketingplanung",
+      "foto": "../../assets/stages-of-work/marketing.webp",
+      "description": "Wir führen Marketingforschungen durch, planen die Projektphasen und bestimmen die Strategie und die Marketingkanäle."
+    },
+    {
+      "id": 4,
+      "num": 5,
+      "title": "Launch",
+      "foto": "../../assets/stages-of-work/started.webp",
+      "description": "Unser Team erstellt Inhalte für Werbekampagnen und schreibt Anzeigen für die ausgewählten Marketingkanäle. Danach starten wir die Werbekampagnen."
+    },
+    {
+      "id": 5,
+      "num": 6,
+      "title": "Überwachung",
+      "foto": "../../assets/stages-of-work/monitiring.webp",
+      "description": "Wir überwachen die Werbeanzeigen, verbessern sie, nehmen zusätzliche Anpassungen vor, um mehr Zielgruppen zu erreichen und den maximalen Umsatz für die Kunden zu gewährleisten."
     }
   ]
 }
