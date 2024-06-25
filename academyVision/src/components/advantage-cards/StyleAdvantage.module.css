@@ -1,28 +1,16 @@
-ul,
-li {
-  margin: 0; /* Удаление внешних отступов */
-  padding: 0; /* Удаление внутренних отступов */
-  list-style: none; /* Удаление маркеров списка */
+.logo {
+  width: 80px;
+  height: 80px;
 }
 
-li {
-  position: relative;
-  font-size: 14px;
-}
-.logo {
-  width: 100px;
-  height: 100px;
-}
-.cardHeader {
-  display: flex;
-  justify-content: space-between;
-}
-.cardHeader h1 {
-  font-size: 40px;
+.advantageTextHeader{
+  font-size: 18px;
   color: rgb(29, 134, 169);
 }
-
-.homeCardContainer {
+.advantageText {
+  font-size: 16px;
+}
+.advantageCardContainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -32,7 +20,7 @@ li {
 }
 .cardContainer {
   width: 18rem; /* Ширина карточки */
-  margin-bottom: 3rem; /* Отступ снизу */
+  margin-bottom: 2rem; /* Отступ снизу */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
   cursor: pointer;
   position: relative; /* Для корректной работы трансформации */
@@ -45,13 +33,4 @@ li {
 }
 .cardContainer:hover h1 {
   text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
-}
-
-.styleLi::before {
-  content: "•"; /* Символ точки */
-  position: absolute;
-  top: -4px;
-  left: -30px; /* Позиционирует точку в начале элемента */
-  color: rgb(0, 162, 255); /* Цвет точки */
-  font-size: 20px; /* Размер точки */
 }

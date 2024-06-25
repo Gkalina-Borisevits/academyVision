@@ -2,6 +2,8 @@
   width: 100%;
   margin: 0 auto;
   padding: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @media (max-width: 576px) {
@@ -33,8 +35,7 @@
     max-width: 1360px;
   }
 }
-
-@media (max-width: 1680px) {
+@media (min-width: 1680px) {
   .myContainer {
     max-width: 1600px;
   }
