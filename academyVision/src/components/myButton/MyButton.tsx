@@ -1,14 +1,22 @@
-import styles from "./MyButton.module.css";
+import { FC } from 'react';
+import cn from 'classnames';
+import styles from './MyButton.module.css';
 
-const MyButton: React.FC<{ text: string }> = ({ text }) => {
+interface btnProps {
+  text: string
+  active?: boolean
+  onClick?: () => void
+}
 
-  return (
-    <div>
-      <button className={styles.animatedButton}>
-        <span className={styles.buttonText}>{text}</span>
-      </button>
-    </div>
-  );
-};
+const MyButton: FC<btnProps> = ({ text, active = true, onClick }) => (
+  <button
+    className={cn(styles.button, {
+      [styles.active]: active,
+      [styles.disabled]: !active
+    })}
+    onClick={onClick}
+  >{text}
+  </button>
+);
 
 export default MyButton;

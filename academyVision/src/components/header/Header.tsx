@@ -6,7 +6,6 @@ import { useEffect, useRef, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { FaGlobe } from "react-icons/fa";
 
-
 const Header: React.FC = () => {
   const { i18n, t } = useTranslation("translation");
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);

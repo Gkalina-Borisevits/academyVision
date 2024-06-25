@@ -34,8 +34,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background-color: rgba(105, 249, 15, 0.6);
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);
@@ -47,8 +47,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   background-color: #7abdf4;
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);

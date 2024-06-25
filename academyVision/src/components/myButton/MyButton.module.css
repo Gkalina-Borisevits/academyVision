@@ -1,26 +1,76 @@
-.animatedButton {
+/* .animatedButton {
+  display: inline-block;
   position: relative;
-  overflow: hidden;
-  background-color: rgba(144, 238, 144, 0.5);
-  color: var(--color-font-dark);
-  border: 1px solid var(--color-olive);
-  padding: 10px 20px;
-  border-radius: 6px;
-  transition: background-position 0.3s ease;
-}
+  padding: 1.5rem 1.25rem;
 
-.buttonText {
-  position: relative;
-  z-index: 1;
+  overflow: hidden;
+  border: 2px solid #a1f168;
+  color: #3c4239;
+  background-color: rgba(106, 119, 58, 0.5);
+  transition: color 0.4s;
 }
 
 .animatedButton::before {
-
-
-  background-color: black;
-  transition: left 0.3s ease;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(106, 119, 58);
+  
+  transition: left 0.4s;
+  z-index: 0;
 }
 
 .animatedButton:hover::before {
   left: 0;
+}
+
+.animatedButton:hover {
+  color: white;
+}
+
+.buttonText {
+  position: relative;
+  color:rgb(111, 68, 68);
+  z-index: 1;
+} */
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.3s ease;
+  color: #483636;
+}
+
+.active {
+  background: linear-gradient(to bottom, #a2da9b, #e9e8e8);
+  border: 1px solid #d1c4c4;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  color: rgb(76, 59, 47);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.3s ease;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.active:hover {
+  background: linear-gradient(to bottom, rgb(79, 139, 74), #EFEFEF);
+  color:hwb(25 30% 47%);
+  -webkit-text-stroke: 1px rgb(77, 78, 77);
+  transform: translateY(-2px);
+}
+
+.disabled {
+  background: #efefef;
+  border: 1px solid #CDCDCD;
+  border-radius: 5px;
+  color: #A9A9A9;
+  padding: 10px 20px;
+  user-select: none;
+  filter: grayscale(100%);
+  transition: 0.3s ease;
 }

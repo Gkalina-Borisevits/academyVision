@@ -15,10 +15,10 @@ nav {
 }
 
 .burgerBar {
-  width: 2em;
-  height: 0.3em;
+  width: 1.7em;
+  height: 0.25em;
   background-color: rgb(40, 110, 148);
-  border-radius: 0.5em;
+  border-radius: 0.4em;
   
 }
 
@@ -28,7 +28,6 @@ nav {
   align-items: flex-start;
   justify-content: space-between;
   cursor: pointer;
-  
   z-index: 100; /* z-index бургер-меню выше, чем у меню */
 }
 .burgerSize {

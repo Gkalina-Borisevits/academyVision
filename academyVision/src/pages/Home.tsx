@@ -2,13 +2,12 @@ import { FC, useEffect, useState } from "react";
 import styles from "./styles/Home.module.css";
 import img from "../assets/pagesImage/home.png";
 import HomeCards from "../components/home-cards/HomeCards";
-import { NavLink } from "react-router-dom";
-import { Container } from "react-bootstrap";
 import HomeCardsAccordion from "../components/home-cards/home-accordion/HomeCardsAccordion";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
 import MyButton from "../components/myButton/MyButton";
 import MyContainer from "../components/myContainer/MyContainer";
+import ContactForm from "../components/contactForm/ContactForm";
 
 const Home: FC = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
@@ -28,14 +27,11 @@ const Home: FC = () => {
       <div className={styles.homeContainer}>
         <MyContainer>
           <div className={styles.homeCardContainer}>
-            <Container>
-              <NavLink className="text-decoration-none" to="/services">
-                {isMobile ? <HomeCardsAccordion /> : <HomeCards />}
-              </NavLink>
-            </Container>
+            {isMobile ? <HomeCardsAccordion /> : <HomeCards />}
           </div>
           <AboutHomePage />
           <MyButton text="click" />
+          <ContactForm />
         </MyContainer>
       </div>
     </>

@@ -1,42 +1,41 @@
 .myContainer {
-    width: 100%; 
-    margin: 50px;  
-    padding-left: 150px;
-    padding-right: 150px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 14px;
 }
 
 @media (max-width: 576px) {
-    .myContainer {
-        max-width: 540px;
-    }
+  .myContainer {
+    max-width: 540px;
+  }
 }
 
 @media (max-width: 768px) {
-    .myContainer {
-        max-width: 720px;
-    }
+  .myContainer {
+    max-width: 720px;
+  }
 }
 
 @media (max-width: 992px) {
-    .myContainer {
-        max-width: 960px;
-    }
+  .myContainer {
+    max-width: 960px;
+  }
 }
 
 @media (max-width: 1200px) {
-    .myContainer {
-        max-width: 1170px;
-    }
+  .myContainer {
+    max-width: 1170px;
+  }
 }
 
 @media (max-width: 1440px) {
-    .myContainer {
-        max-width: 1360px;
-    }
+  .myContainer {
+    max-width: 1360px;
+  }
 }
 
 @media (max-width: 1680px) {
-    .myContainer {
-        max-width: 1600px;
-    }
+  .myContainer {
+    max-width: 1600px;
+  }
 }

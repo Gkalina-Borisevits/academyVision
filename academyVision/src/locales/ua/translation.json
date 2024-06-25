@@ -7,6 +7,21 @@
     "portfolio": "Портфоліо",
     "price": "Ціна"
   },
+  "contactsForm": {
+    "name": "Ім'я",
+    "enterName": "Введіть Ваше ім'я",
+    "phone": "Номер телефону",
+    "enterPhone": "Введіть Ваш номер телефону",
+    "email": "Електронна пошта",
+    "enterEmail": "Введіть Вашу електронну пошту",
+    "message": "Повідомлення",
+    "enterMessage": "Введіть Ваше повідомлення",
+    "send": "Відправити"
+  },
+  "homePage": {
+    "aboutTitle": "Academy Mindcept Vision - Ми — агентство цифрового маркетингу, що спеціалізується на наданні комплексних послуг: ASO, SEO, SMM-просування, PPC контекстна реклама, коучинг, веб-розробка сайтів та UX/UI-дизайн.",
+    "homeTitle" : "Розробка, коучинг та просування сайтів і брендів: індивідуальний підхід, персоналізовані рішення, безперервна підтримка — ключ до вашого цифрового успіху!"
+  },
   "homeCards": [
     {
       "id": 0,
@@ -25,11 +40,7 @@
       "icon": "../../../src/assets/homeIcons/seo.png",
       "name": "SEO",
       "description": "Оптимізація та просування сайту в ТОП видачі пошукових систем:",
-      "details": [
-        "Google",
-        "Bing",
-        "Local SEO"
-      ]
+      "details": ["Google", "Bing", "Local SEO"]
     },
     {
       "id": 2,
@@ -37,23 +48,14 @@
       "name": "SMM",
       "description": "Комплексний маркетинг та просування в соціальних мережах:",
 
-      "details": [
-        "Facebook",
-        "Instagram",
-        "LinkedIn",
-        "YouTube"
-      ]
+      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
     },
     {
       "id": 3,
       "icon": "../../../src/assets/homeIcons/coach.png",
       "name": "COACH",
       "description": "Пропонуємо індивідуальні та групові сесії коучингу для професійного та особистісного зростання:",
-      "details": [
-        "Метод SMART-цілей",
-        "Коучинг через запитання",
-        "Модель GROW"
-      ]
+      "details": ["Метод SMART-цілей", "Коучинг через запитання", "Модель GROW"]
     }
   ],
   "aboutCards": [
