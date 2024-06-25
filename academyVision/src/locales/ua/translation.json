@@ -36,7 +36,6 @@
       "icon": "../../../src/assets/homeIcons/smm.png",
       "name": "SMM",
       "description": "Комплексний маркетинг та просування в соціальних мережах:",
-
       "details": [
         "Facebook",
         "Instagram",
@@ -119,7 +118,7 @@
       "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
     }
   ],
-  "advantageCards" :[
+  "advantageCards": [
     {
       "id": 0,
       "icon": "../../../src/assets/advantageIcons/global.png",
@@ -169,7 +168,6 @@
       "description": "Ми будуємо довгострокові партнерські відносини з нашими клієнтами на основі довіри та взаєморозуміння. Ваш успіх — наш успіх."
     }
   ],
-  
   "aboutHomePage": [
     {
       "id": "0",
@@ -190,6 +188,94 @@
       "id": "3",
       "title": "Ефективна комунікація",
       "description": "Ми цінуємо ваш час і пропонуємо прості та зручні способи комунікації для оперативного вирішення будь-яких питань і завдань."
+    }
+  ],
+  "aboutProject": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    }
+  ],
+  "stagesWork": [
+    {
+      "id": 0,
+      "num": 1,
+      "title": "Дослідження розробки",
+      "foto": "../../assets/stages-of-work/find.webp",
+      "description": "Ми проводимо попереднє дослідження, щоб визначити потреби клієнта і особливості бізнесу."
+    },
+    {
+      "id": 1,
+      "num": 2,
+      "title": "Проектування",
+      "foto": "../../assets/stages-of-work/Procting.webp",
+      "description": "Наші дизайнери створюють прототип проекту, а потім обговорюють його з клієнтом. Після затвердження починається процес розробки."
+    },
+    {
+      "id": 2,
+      "num": 3,
+      "title": "Веб-розробка",
+      "foto": "../../assets/stages-of-work/web.webp",
+      "description": "Розробники будують всю систему блогу, пишуть код з використанням вибраної мови програмування, методу і методології."
+    },
+    {
+      "id": 3,
+      "num": 4,
+      "title": "Маркетингове планування",
+      "foto": "../../assets/stages-of-work/marketing.webp",
+      "description": "Ми проводимо маркетингові дослідження, плануємо етапи реалізації проекту, визначаємо стратегію і маркетингові канали."
+    },
+    {
+      "id": 4,
+      "num": 5,
+      "title": "Запуск",
+      "foto": "../../assets/stages-of-work/started.webp",
+      "description": "Наша команда створює контент для рекламних кампаній, пише оголошення для вибраних маркетингових каналів. Після цього ми запускаємо рекламні кампанії."
+    },
+    {
+      "id": 5,
+      "num": 6,
+      "title": "Моніторинг",
+      "foto": "../../assets/stages-of-work/monitiring.webp",
+      "description": "Ми відстежуємо показ реклами, покращуємо її, вносимо додаткові коригування, щоб охопити більше цільових аудиторій і забезпечити максимальний дохід для клієнтів."
     }
   ]
 }

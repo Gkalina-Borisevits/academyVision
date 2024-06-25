@@ -118,7 +118,7 @@
       "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
     }
   ],
-    "advantageCards" :[
+  "advantageCards": [
     {
       "id": 0,
       "icon": "../../../src/assets/advantageIcons/global.png",
@@ -188,6 +188,94 @@
       "id": "3",
       "title": "Efficient Communication",
       "description": "We value your time and offer simple and convenient ways of communication for promptly addressing any questions and issues."
+    }
+  ],
+  "aboutProject": [
+    {
+      "id": 0,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
+    },
+    {
+      "id": 1,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "../../../src/assets/advantageIcons/client.png",
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    }
+  ],
+  "stagesWork": [
+    {
+      "id": 0,
+      "num": 1,
+      "title": "Development Research",
+      "foto": "../../assets/stages-of-work/find.webp",
+      "description": "We conduct preliminary research to determine the client's needs and the specifics of the business."
+    },
+    {
+      "id": 1,
+      "num": 2,
+      "title": "Design",
+      "foto": "../../assets/stages-of-work/Procting.webp",
+      "description": "Our designers create a project prototype and then discuss it with the client. After approval, the development process begins."
+    },
+    {
+      "id": 2,
+      "num": 3,
+      "title": "Web Development",
+      "foto": "../../assets/stages-of-work/web.webp",
+      "description": "Developers build the entire blog system, writing code using the chosen programming language, method, and methodology."
+    },
+    {
+      "id": 3,
+      "num": 4,
+      "title": "Marketing Planning",
+      "foto": "../../assets/stages-of-work/marketing.webp",
+      "description": "We conduct marketing research, plan the project stages, define the strategy, and determine the marketing channels."
+    },
+    {
+      "id": 4,
+      "num": 5,
+      "title": "Launch",
+      "foto": "../../assets/stages-of-work/started.webp",
+      "description": "Our team creates content for advertising campaigns, writes ads for the selected marketing channels. After that, we launch the advertising campaigns."
+    },
+    {
+      "id": 5,
+      "num": 6,
+      "title": "Monitoring",
+      "foto": "../../assets/stages-of-work/monitiring.webp",
+      "description": "We monitor the advertising performance, improve it, make additional adjustments to reach more target audiences and ensure maximum revenue for the clients."
     }
   ]
 }

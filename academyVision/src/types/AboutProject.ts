@@ -1,7 +1,6 @@
-export interface HomeCard {
+export interface AboutProject {
     id: number
     icon: string
     name: string
-    description: string
     details: string[]
 }
