@@ -1,0 +1,9 @@
+.aboutHomeContainer p {
+font-size: 14px;
+}
+.aboutHomeContainer {
+    color: var(--color-font-dark);
+}
+.aboutHomeContainer h3{
+    border-bottom: 1px solid var(--color-font-dark);
+}

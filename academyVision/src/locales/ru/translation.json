@@ -21,6 +21,16 @@
   "homePage": {
     "aboutTitle": "Academy Mindcept Vision - Мы — агентство цифрового маркетинга, специализирующееся на предоставлении комплексных услуг: ASO, SEO, SMM-продвижение, PPC контекстная реклама, коучинг, веб-разработка сайтов и UX/UI-дизайн.",
     "homeTitle": "Разработка, коучинг и продвижение сайтов и брендов: индивидуальный подход, персонализированные решения, непрерывная поддержка — ключ к вашему цифровому успеху!"
+    "name": "Academy Mindcept Vision",
+    "aboutTitle": "Мы — агентство цифрового маркетинга, специализирующееся на предоставлении комплексных услуг: ASO, SEO, SMM-продвижение, PPC контекстная реклама, коучинг, веб-разработка сайтов и UX/UI-дизайн.",
+    "homeTitle": "Разработка, коучинг и продвижение сайтов и брендов: индивидуальный подход, персонализированные решения, непрерывная поддержка — ключ к вашему цифровому успеху!",
+    "projects": "Наши проекты",
+    "viewDetails": "Посмотреть детали",
+    "discussProject": "Обсудить проект",
+    "textForm": "Мы разработаем персонализированные стратегии для вашего бизнеса, учитывая тщательный анализ проекта и уникальные особенности вашей компании.",
+    "aboutUs": "О нас",
+    "ourValues": "Наши ценности",
+    "aboutText": "Разработка, коучинг и продвижение сайтов и брендов: индивидуальный подход, персонализированные решения, непрерывная поддержка — ключ к вашему цифровому успеху!"
   },
   "homeCards": [
     {
@@ -40,23 +50,14 @@
       "icon": "../../../src/assets/homeIcons/seo.png",
       "name": "SEO",
       "description": "Оптимизация и продвижение сайта в TOП выдачи поисковых систем:",
-      "details": [
-        "Google",
-        "Bing",
-        "Local SEO"
-      ]
+      "details": ["Google", "Bing", "Local SEO"]
     },
     {
       "id": 2,
       "icon": "../../../src/assets/homeIcons/smm.png",
       "name": "SMM",
       "description": "Комплексный маркетинг и продвижение в социальных сетях:",
-      "details": [
-        "Facebook",
-        "Instagram",
-        "LinkedIn",
-        "YouTube"
-      ]
+      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
     },
     {
       "id": 3,
@@ -210,43 +211,25 @@
       "id": 0,
       "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 1,
       "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 2,
       "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 2,
       "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["name1", "name2", "name3", "name4"]
     }
   ],
   "stagesWork": [

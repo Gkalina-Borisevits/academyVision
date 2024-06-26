@@ -4,12 +4,13 @@
   position: fixed;
   background-color: transparent;
   transition: background-color 0.3s ease;
-  z-index: 10;
+  z-index: 100;
+  height: 100px;
   top: 0;
 
 }
 .navbar {
-  position: fixed;
+  position: absolute;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -102,7 +103,7 @@
   margin-top: 16px;
   font-size: large;
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1850px) {
   .navbar {
     display: flex;
     justify-content: flex-end;
@@ -117,11 +118,9 @@
   .navbar > a:global.active {
     font-size: 26px;
   }
-  .burgerInHeader {
-    display: none;
-  }
 }
 @media screen and (max-width: 960px) {
+  
   .navbar {
     display: flex;
     justify-content: flex-end;
@@ -136,9 +135,7 @@
   .navbar > a:global.active {
     font-size: 22px;
   }
-  .burgerInHeader {
-    display: none;
-  }
+
   .logoContainer {
     left: 90px;
     width: 65px;
@@ -146,12 +143,6 @@
   }
 }
 @media screen and (max-width: 726px) {
-  .navbar {
-    display: none;
-  }
-  .burgerInHeader {
-    display: block; 
-  }
   .logoContainer {
     left: 90px;
     width: 65px;

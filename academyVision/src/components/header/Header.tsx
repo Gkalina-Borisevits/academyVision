@@ -11,6 +11,7 @@ const Header: React.FC = () => {
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const languageMenuRef = useRef<HTMLDivElement>(null);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 680);
 
   const languages = [
     { code: "en", name: "EN", flag: "🇬🇧" },
@@ -63,23 +64,39 @@ const Header: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 680);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
    
 
     <div className={`${styles.navbarContainer} ${isScrolled ? styles.scrolled : ""}`}>
      
       <div className={styles.burgerInHeader}>
-        <BurgerMenu />
+      {isMobile ? <BurgerMenu /> : null}
       </div>
       <NavLink to="/" className={styles.logoContainer}></NavLink>
       <div className={styles.navbar}>
    
-        <NavLink to="/">{t("header.home")}</NavLink>
-        <NavLink to="/about">{t("header.about")}</NavLink>
-        <NavLink to="/services">{t("header.services")}</NavLink>
-        <NavLink to="/price">{t("header.price")}</NavLink>
-        <NavLink to="/portfolio">{t("header.portfolio")}</NavLink>
-        <NavLink to="/contacts">{t("header.contacts")}</NavLink>
+      {!isMobile && (
+          <>
+            <NavLink to="/">{t('header.home')}</NavLink>
+            <NavLink to="/about">{t('header.about')}</NavLink>
+            <NavLink to="/services">{t('header.services')}</NavLink>
+            <NavLink to="/price">{t('header.price')}</NavLink>
+            <NavLink to="/portfolio">{t('header.portfolio')}</NavLink>
+            <NavLink to="/contacts">{t('header.contacts')}</NavLink>
+          </>
+        )}
       </div>
       <div
         className={`flex items-center ${styles.languageIcon}`}
