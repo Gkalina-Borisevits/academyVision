@@ -33,6 +33,16 @@
   "projects": {
     "details": "Details"
   },
+  "about": {
+    "aboutUs": "Über uns",
+    "aboutTitle": "Wir sind ein professionelles Marketingteam, das sich auf die Entwicklung maßgeschneiderter Lösungen spezialisiert hat, um Ihren Geschäftsgewinn zu steigern und die Bekanntheit Ihrer Marke zu stärken.",
+    "aboutText": "Mit umfangreicher Erfahrung im Internetmarketing und Webentwicklung wissen wir, wie wir selbst die anspruchsvollsten Kunden zufriedenstellen können, indem wir individuelle Lösungen anbieten.",
+    "ourTeam": "Unser Team"
+  },
+  "portfolio": {
+    "portfolio": "Portfolio",
+    "imageTitle": "Entdecken Sie unsere erfolgreichen Projekte in Webentwicklung und Marketing in unserem Portfolio!"
+  },
   "homeCards": [
     {
       "id": 0,

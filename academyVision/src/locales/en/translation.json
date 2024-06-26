@@ -33,6 +33,16 @@
   "projects": {
     "details": "Details"
   },
+  "about" : {
+    "aboutUs": "About us",
+    "aboutTitle": "We are a professional marketing team specializing in creating customized solutions to increase your business profitability and strengthen your brand recognition.",
+    "aboutText" : "With extensive experience in internet marketing and web development, we know how to satisfy even the most demanding clients by offering personalized solutions.",
+    "ourTeam" : "Our team"
+  },
+  "portfolio": {
+    "portfolio": "Portfolio",
+    "imageTitle": "Explore our successful projects in web development and marketing in our portfolio!"
+  },
   "homeCards": [
     {
       "id": 0,
