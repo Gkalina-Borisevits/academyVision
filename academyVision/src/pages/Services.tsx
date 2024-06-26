@@ -1,6 +1,6 @@
 import { FC } from "react"
 import styles from "./styles/Services.module.css"
-import img from "../assets/pagesImage/portfolio.png"
+import img from "../assets/pagesImage/services.png"
 import ImageContainer from "../components/imageContainer/ImageContainer"
 
 

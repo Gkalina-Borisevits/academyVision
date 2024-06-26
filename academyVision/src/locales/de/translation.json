@@ -19,8 +19,16 @@
     "send" : "Senden"
   },
   "homePage": {
-    "aboutTitle": "Academy Mindcept Vision - Wir sind eine Digital Marketing Agentur, die sich auf die Bereitstellung umfassender Dienstleistungen spezialisiert hat: ASO, SEO, SMM-Promotion, PPC-Kampagnen, Coaching, Webentwicklung und UX/UI-Design.",
-    "homeTitle" : "Entwicklung, Coaching und Förderung von Websites und Marken: individuelle Ansätze, personalisierte Lösungen, kontinuierliche Unterstützung – der Schlüssel zu Ihrem digitalen Erfolg!"
+    "name" : "Academy Mindcept Vision",
+    "aboutTitle": "Wir sind eine Digital Marketing Agentur, die sich auf die Bereitstellung umfassender Dienstleistungen spezialisiert hat: ASO, SEO, SMM-Promotion, PPC-Kampagnen, Coaching, Webentwicklung und UX/UI-Design.",
+    "homeTitle" : "Entwicklung, Coaching und Förderung von Websites und Marken: individuelle Ansätze, personalisierte Lösungen, kontinuierliche Unterstützung – der Schlüssel zu Ihrem digitalen Erfolg!",
+    "projects": "Unsere Projekte",
+    "viewDetails" : "Details anzeigen",
+    "discussProject": "Projekt besprechen",
+    "textForm": "Wir bieten individuelle Lösungen für Ihr Unternehmen auf der Grundlage einer detaillierten Analyse des Projekts und der Besonderheiten des Unternehmens an.",
+    "aboutUs": "Über uns",
+    "ourValues": "Unsere Werte",
+    "aboutText": "Entwicklung, Coaching und Förderung von Websites und Marken: individuelle Herangehensweise, personalisierte Lösungen, kontinuierliche Unterstützung – der Schlüssel zu Ihrem digitalen Erfolg!"
   },
   "homeCards": [
     {

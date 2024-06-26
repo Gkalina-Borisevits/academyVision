@@ -7,11 +7,79 @@
   align-content: center;
 }
 .homeCardContainer {
-
-position: absolute;
+  margin-top: -240px;
+  z-index: 90;
+  position: relative;
+  margin-bottom: 80px;
 
 }
-
+.textInImage {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+.textInImage h1 {
+  margin-bottom: 1rem;
+  color: var(--color-font-dark);
+  font-weight: bold;
+}
+.textInImage p {
+  color: var(--color-font-dark);
+}
+.aboutProjects {
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+.aboutProjects h2{
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: var(--color-font-dark);
+}
+.formContainerHome {  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--color-blue);
+  padding-top: 40px;
+  margin-top: 70px;
+}
+.formContainerHome h2{
+  color: rgb(250, 250, 237);
+}
+.formContainerHome p{
+  color: rgb(250, 250, 237);
+  font-size: 20px;
+  padding: 60px;
+}
+.aboutHomePageContainer{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+} 
+.aboutHomePageContainer p{
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--color-font-dark);
+}
+.aboutTextContainer h2{
+  font-weight: bold;
+  color: var(--color-font-dark);
+}
+.aboutTextContainer h3{ 
+  margin-top: 20px;
+  color: var(--color-font-dark);
+}
+.aboutTextContainer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+  gap:20px;
+}
 /* .homeCardContainer .container {
   display: flex;
   justify-content: center;
@@ -19,7 +87,7 @@ position: absolute;
   flex-wrap: wrap;
 } */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .homeCardContainer {
     top: 90%;
   }
@@ -29,4 +97,4 @@ position: absolute;
   .homeCardContainer {
     top: 90%;
   }
-}
+} */
