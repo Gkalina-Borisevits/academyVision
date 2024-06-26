@@ -6,7 +6,6 @@ import MyContainer from "../components/myContainer/MyContainer";
 import AboutProjects from "../components/about-projects/AboutProjects";
 import HomeCards from "../components/home-cards/HomeCards.tsx";
 import StageOfWorkAccordion from "../components/stages-of-work/stages-of-work-accordion/StageOfWorkAccordion.tsx";
-import AdvantageCards from "../components/advantage-cards/AdvantageCards.tsx";
 
 const Price: FC = () => {
     return (
