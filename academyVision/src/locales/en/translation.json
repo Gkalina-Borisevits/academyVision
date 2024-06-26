@@ -14,11 +14,13 @@
     "enterPhone": "Enter your phone number",
     "email": "Email",
     "enterEmail": "Enter your email",
-    "message" : "Message",
+    "message": "Message",
     "enterMessage": "Enter your message",
-    "send" : "Send"
+    "send": "Send"
   },
   "homePage": {
+    "aboutTitle": "Academy Mindcept Vision - We are a digital marketing agency specializing in providing comprehensive services: ASO, SEO, SMM promotion, PPC advertising, coaching, website development, and UX/UI design.",
+    "homeTitle": "Development, coaching, and promotion of websites and brands: individual approach, personalized solutions, continuous support – the key to your digital success!"
     "name" : "Academy Mindcept Vision",
     "aboutTitle": "We are a digital marketing agency specializing in providing comprehensive services: ASO, SEO, SMM promotion, PPC advertising, coaching, website development, and UX/UI design.",
     "homeTitle" : "Development, coaching, and promotion of websites and brands: individual approach, personalized solutions, continuous support – the key to your digital success!",
@@ -48,14 +50,23 @@
       "icon": "../../../src/assets/homeIcons/seo.png",
       "name": "SEO",
       "description": "Optimization and promotion of websites to the TOP of search engine results:",
-      "details": ["Google", "Bing", "Local SEO"]
+      "details": [
+        "Google",
+        "Bing",
+        "Local SEO"
+      ]
     },
     {
       "id": 2,
       "icon": "../../../src/assets/homeIcons/smm.png",
       "name": "SMM",
       "description": "Comprehensive marketing and promotion on social networks:",
-      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
+      "details": [
+        "Facebook",
+        "Instagram",
+        "LinkedIn",
+        "YouTube"
+      ]
     },
     {
       "id": 3,
@@ -290,6 +301,56 @@
       "title": "Monitoring",
       "foto": "../../assets/stages-of-work/monitiring.webp",
       "description": "We monitor the advertising performance, improve it, make additional adjustments to reach more target audiences and ensure maximum revenue for the clients."
+    }
+  ],
+  "moreAboutProject": [
+    {
+      "id": 0,
+      "page": "../../../src/assets/about-projects/test/1517154655_vodopad-v-lesu-video-oboi_jpg.jpg",
+      "title": "Разработка сайта для финансовой компании",
+      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    },
+    {
+      "id": 1,
+      "page": "../../../src/assets/about-projects/test/4862.jpg",
+      "title": "Разработка сайта для финансовой компании",
+      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    },
+    {
+      "id": 2,
+      "page": "../../../src/assets/about-projects/test/mult-pic905-895x505-90221.jpg",
+      "title": "Разработка сайта для финансовой компании",
+      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    },
+    {
+      "id": 3,
+      "page": "../../../src/assets/about-projects/test/photo_2024-03-12_19-21-10.jpg",
+      "title": "Разработка сайта для финансовой компании",
+      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     }
   ]
 }

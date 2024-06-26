@@ -58,3 +58,15 @@
     z-index: 3;
     color: aliceblue;
 }
+.box-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.box-header h2{
+    font-size: 40px;
+}
+.box-header p{
+    font-size: 14px;
+}

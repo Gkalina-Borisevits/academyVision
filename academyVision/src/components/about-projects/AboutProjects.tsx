@@ -8,6 +8,7 @@ import img3 from "../../assets/about-projects/test/mult-pic905-895x505-90221.jpg
 import img4 from "../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg"
 import MyContainer from '../myContainer/MyContainer';
 import { AboutProject } from '../../types/AboutProject';
+import MyButton from '../myButton/MyButton';
 
 
 const AboutProjects: React.FC = () => {
@@ -17,6 +18,9 @@ const AboutProjects: React.FC = () => {
     return (
         < >
             <MyContainer > {/* Для того чтобы Container занимал всю ширину */}
+                <div className={styles.headerProject}>
+                    <h2>Наши проекты</h2>
+                </div>
                 <div className={styles.containerWork}>
                     <div className={`${styles.block} ${styles.block40} card__article`} style={{ backgroundImage: `url(${img1})` }}>
                         <div className={styles.bgImg}>
@@ -84,6 +88,9 @@ const AboutProjects: React.FC = () => {
                             <a href="#" className="card__button ">More</a>
                         </div>
                     </div>
+                </div>
+                <div className={styles.btn}>
+                    <MyButton text="More"/>
                 </div>
             </MyContainer>
 

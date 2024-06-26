@@ -21,6 +21,10 @@ const StagesOfWork: React.FC = () => {
     return (
         <>
             <MyContainer>
+                <div className='box-header'>
+                    <h2 className='header'>Этапы работы</h2>
+                    <p>Наши решения в области разработки и маркетинга систематизированные и адаптированы персонально под каждого клиента.</p>
+                </div>
                 <Tab.Container id="ledt-tabs-example" defaultActiveKey="0" activeKey={activeTab} onSelect={handleSelect}>
                     <Row>
                         <Col sm={5}>
@@ -43,9 +47,8 @@ const StagesOfWork: React.FC = () => {
                             </Nav>
 
                         </Col>
-
                         <Col sm={7} className={`fon bg-${activeTab}`}>
-                        <div className="content"></div>
+                            <div className="content"></div>
                             <Tab.Content>
                                 {stagesWork.map((card) => (
                                     <Tab.Pane eventKey={card.id.toString()} key={card.id}>
@@ -57,7 +60,7 @@ const StagesOfWork: React.FC = () => {
                                     </Tab.Pane>
                                 ))}
                             </Tab.Content>
-                            <div/>
+                            <div />
                         </Col>
                     </Row>
                 </Tab.Container>
