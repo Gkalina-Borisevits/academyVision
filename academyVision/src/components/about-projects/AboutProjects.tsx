@@ -8,7 +8,7 @@ import img3 from "../../assets/about-projects/test/mult-pic905-895x505-90221.jpg
 import img4 from "../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg"
 import MyContainer from '../myContainer/MyContainer';
 import { AboutProject } from '../../types/AboutProject';
-import MyButton from '../myButton/MyButton';
+import { Link } from 'react-router-dom';
 
 
 const AboutProjects: React.FC = () => {
@@ -19,7 +19,6 @@ const AboutProjects: React.FC = () => {
         < >
             <MyContainer > {/* Для того чтобы Container занимал всю ширину */}
                 <div className={styles.headerProject}>
-                    <h2>Наши проекты</h2>
                 </div>
                 <div className={styles.containerWork}>
                     <div className={`${styles.block} ${styles.block40} card__article`} style={{ backgroundImage: `url(${img1})` }}>
@@ -35,7 +34,7 @@ const AboutProjects: React.FC = () => {
                             </ul>
                         </div>
                         <div className="card__data card-block40">
-                            <a href="#" className="card__button">More</a>
+                        <Link to="/portfolio#card-0" className="card__button">{t("projects.details")}</Link>
                         </div>
                     </div>
                     <div className={`${styles.block} ${styles.block60} card__article`} style={{ backgroundImage: `url(${img2})` }}>
@@ -51,7 +50,7 @@ const AboutProjects: React.FC = () => {
                             </ul>
                         </div>
                         <div className="card__data card-block60">
-                            <a href="#" className="card__button ">More</a>
+                        <Link to="/portfolio#card-1" className="card__button">{t("projects.details")}</Link>
                         </div>
                     </div>
                 </div>
@@ -69,7 +68,7 @@ const AboutProjects: React.FC = () => {
                             </ul>
                         </div>
                         <div className="card__data card-block60">
-                            <a href="#" className="card__button ">More</a>
+                        <Link to="/portfolio#card-2" className="card__button">{t("projects.details")}</Link>
                         </div>
                     </div>
                     <div className={`${styles.block} ${styles.block40}  card__article`} style={{ backgroundImage: `url(${img4})` }}>
@@ -85,13 +84,11 @@ const AboutProjects: React.FC = () => {
                             </ul>
                         </div>
                         <div className="card__data card-block40">
-                            <a href="#" className="card__button ">More</a>
+                        <Link to="/portfolio#card-3" className="card__button">{t("projects.details")}</Link>
                         </div>
                     </div>
                 </div>
-                <div className={styles.btn}>
-                    <MyButton text="More"/>
-                </div>
+               
             </MyContainer>
 
 

@@ -4,7 +4,6 @@ import "./StyleMoreAboutProject.css";
 import styles from "./StyleMoreAboutProject.module.css";
 import { useTranslation } from "react-i18next";
 import { MoreAboutProject } from "../../types/MoreAboutProject";
-import { Badge } from "react-bootstrap";
 
 
 
@@ -15,7 +14,7 @@ const MoreAboutProjects: React.FC = () => {
     return (
         <div className={styles.homeCardContainer}>
             {moreAboutProjects.map((card) => (
-                <div key={card.id} className={styles.cardContainer}>
+                <div key={card.id} className={styles.cardContainer} id={`card-${card.id}`}>
                     {card.id % 2 === 0 ? (
                         <>
                             <div className={styles.imageContainer}>

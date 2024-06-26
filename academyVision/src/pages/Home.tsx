@@ -28,10 +28,13 @@ const Home: React.FC = () => {
   return (
     <>
       <ImageContainer imgSrc={img} imgAlt="Image">
+        <MyContainer>
         <div className={styles.textInImage}>
           <h1>{t("homePage.name")}</h1>
           <h3>{t("homePage.aboutText")}</h3>
         </div>
+        </MyContainer>
+        
       </ImageContainer>
       <div className={styles.homeContainer}>
         <MyContainer>
@@ -45,7 +48,7 @@ const Home: React.FC = () => {
               <MyButton text={t("homePage.viewDetails")} />
             </div>
           </div>
-          <div>
+          <div className={styles.homeContactsFormContainer}>
             <div className={styles.formContainerHome}>
               <h2>{t("homePage.discussProject")}</h2>
               <p>{t("homePage.textForm")}</p>

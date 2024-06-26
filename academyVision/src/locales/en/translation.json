@@ -30,6 +30,9 @@
     "ourValues": "Our Values",
     "aboutText": "Development, coaching, and promotion of websites and brands: individual approach, personalized solutions, continuous support — the key to your digital success!"
   },
+  "projects": {
+    "details": "Details"
+  },
   "homeCards": [
     {
       "id": 0,

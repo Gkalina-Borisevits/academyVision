@@ -58,20 +58,22 @@ text-align: center;
   margin-top: 20px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: space-between;
+  gap: 26px;
+  margin-bottom: 80px;
 } 
 .aboutHomePageContainer p{
   font-weight: bold;
   font-size: 20px;
-  color: var(--color-font-dark);
+  color: rgb(127, 110, 87);
 }
 .aboutTextContainer h2{
   font-weight: bold;
-  color: var(--color-font-dark);
+  color: rgb(127, 110, 87);
 }
 .aboutTextContainer h3{ 
   margin-top: 20px;
-  color: var(--color-font-dark);
+  color: rgb(127, 110, 87);
 }
 .aboutTextContainer{
   display: flex;
@@ -79,6 +81,30 @@ text-align: center;
   text-align: center;
   margin-top: 100px;
   gap:20px;
+  color: rgb(127, 110, 87);
+}
+@media (max-width: 1020px) {
+  .aboutHomePageContainer {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .aboutHomePageContainer div {
+      width: 100%;
+      max-width: 100%;
+  }
+
+  .aboutHomePageContainer img {
+      width: 100%;
+      height: auto;
+  }
+  .textInImage h3 {
+    font-size: 15px;
+  }
+  .textInImage{
+    margin-bottom: 20px;
+  }
 }
 /* .homeCardContainer .container {
   display: flex;
