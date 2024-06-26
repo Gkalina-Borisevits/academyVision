@@ -24,6 +24,6 @@ const SocialLink: React.FC = () => {
       </a>
     </div>
   );
-};
+};     
 
 export default SocialLink;
