@@ -27,19 +27,17 @@ const Home: React.FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const handleButtonClick = () => 
-    navigate("/portfolio")
+  const handleButtonClick = () => navigate("/portfolio");
 
   return (
     <>
       <ImageContainer imgSrc={img} imgAlt="Image">
         <MyContainer>
-        <div className={styles.textInImage}>
-          <h1>{t("homePage.name")}</h1>
-          <h3>{t("homePage.aboutText")}</h3>
-        </div>
+          <div className={styles.textInImage}>
+            <h1>{t("homePage.name")}</h1>
+            <h3>{t("homePage.aboutText")}</h3>
+          </div>
         </MyContainer>
-        
       </ImageContainer>
       <div className={styles.homeContainer}>
         <MyContainer>
@@ -50,10 +48,14 @@ const Home: React.FC = () => {
             <h2>{t("homePage.projects")}</h2>
             <AboutProjects />
             <div>
-              <MyButton onClick={handleButtonClick} text={t("homePage.viewDetails")} />
+              <MyButton
+                onClick={handleButtonClick}
+                text={t("homePage.viewDetails")}
+              />
             </div>
           </div>
           <div className={styles.homeContactsFormContainer}>
+            <div className={styles.fullWidthDiv}></div>
             <div className={styles.formContainerHome}>
               <h2>{t("homePage.discussProject")}</h2>
               <p>{t("homePage.textForm")}</p>
@@ -61,10 +63,10 @@ const Home: React.FC = () => {
             <ContactForm />
           </div>
           <div className={styles.aboutTextContainer}>
-          <div className={styles.aboutText}>
-            <h2>{t("homePage.aboutUs")}</h2>
-            <h4>{t("homePage.aboutTitle")}</h4>
-           </div>
+            <div className={styles.aboutText}>
+              <h2>{t("homePage.aboutUs")}</h2>
+              <h4>{t("homePage.aboutTitle")}</h4>
+            </div>
           </div>
           <div className={styles.aboutHomePageContainer}>
             <div>

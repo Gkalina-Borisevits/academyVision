@@ -4,6 +4,7 @@
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  gap: 30px;
 }
 .textInImage h1 {
   margin-bottom: 1rem;

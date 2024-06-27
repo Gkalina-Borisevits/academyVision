@@ -46,7 +46,7 @@
   "homeCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/homeIcons/web.png",
+      "icon": "../../assets/homeIcons/web.png",
       "name": "WEB",
       "description": "Експертна розробка та створення продаваних сайтів «під ключ»:",
       "details": [
@@ -58,21 +58,21 @@
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/homeIcons/seo.png",
+      "icon": "../../assets/homeIcons/seo.png",
       "name": "SEO",
       "description": "Оптимізація та просування сайту в ТОП видачі пошукових систем:",
       "details": ["Google", "Bing", "Local SEO"]
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/homeIcons/smm.png",
+      "icon": "../../assets/homeIcons/smm.png",
       "name": "SMM",
       "description": "Комплексний маркетинг та просування в соціальних мережах:",
       "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/homeIcons/coach.png",
+      "icon": "../../assets/homeIcons/coach.png",
       "name": "COACH",
       "description": "Пропонуємо індивідуальні та групові сесії коучингу для професійного та особистісного зростання:",
       "details": ["Метод SMART-цілей", "Коучинг через запитання", "Модель GROW"]
@@ -81,25 +81,25 @@
   "aboutCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/aboutIcons/innovation.png",
+      "icon": "../../assets/aboutIcons/innovation.png",
       "name": "Інноваційні",
       "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/aboutIcons/creative.png",
+      "icon": "../../assets/aboutIcons/creative.png",
       "name": "Креативні",
       "description": "Наші підходи об'єднують творчість та інновації, щоб перетворити унікальні ідеї в реальність."
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/aboutIcons/reliable.png",
+      "icon": "../../assets/aboutIcons/reliable.png",
       "name": "Надійні",
       "description": "Зарекомендували себе як надійного партнера, забезпечуючи стабільність та якість на всіх етапах співпраці."
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/aboutIcons/united.png",
+      "icon": "../../assets/aboutIcons/united.png",
       "name": "Згуртовані",
       "description": "Наша команда будує міцні стосунки, працюючи разом для досягнення спільних цілей ефективно."
     }
@@ -107,35 +107,35 @@
   "fotoCards": [
     {
       "id": 0,
-      "foto": "../../../src/assets/pageFoto/BigBoss.jpg",
+      "foto": "../../assets/pageFoto/BigBoss.jpg",
       "name": "BigBoss",
       "profile": "Coach",
       "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
     },
     {
       "id": 1,
-      "foto": "../../../src/assets/pageFoto/Maia.jpg",
+      "foto": "../../assets/pageFoto/Maia.jpg",
       "name": "Maia",
       "profile": "Coach",
       "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
     },
     {
       "id": 2,
-      "foto": "../../../src/assets/pageFoto/Karina.jpg",
+      "foto": "../../assets/pageFoto/Karina.jpg",
       "name": "Karina",
       "profile": "SMM",
       "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
     },
     {
       "id": 3,
-      "foto": "../../../src/assets/pageFoto/Galina.jpg",
+      "foto": "../../assets/pageFoto/Galina.jpg",
       "name": "Galina",
       "profile": "Frontend",
       "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
     },
     {
       "id": 4,
-      "foto": "../../../src/assets//pageFoto/Yurii.webp",
+      "foto": "../../assets//pageFoto/Yurii.webp",
       "name": "Yurii",
       "profile": "Backend",
       "description": "Пропонуємо передові рішення, які задають нові стандарти в індустрії та сприяють технологічному прогресу."
@@ -144,49 +144,49 @@
   "advantageCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/advantageIcons/global.png",
+      "icon": "../../assets/advantageIcons/global.png",
       "title": "Глобальне бачення, локальні рішення",
       "description": "Ми поєднуємо глобальні тенденції з локальними знаннями, щоб створювати маркетингові стратегії, які працюють для вашого ринку і спрямовані на досягнення максимальних результатів для вашого бізнесу."
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/advantageIcons/adaptiv.png",
+      "icon": "../../assets/advantageIcons/adaptiv.png",
       "title": "Гнучкість та адаптивність",
       "description": "У світі ІТ зміни відбуваються миттєво. Ми адаптуємося до цих змін, пропонуючи гнучкі рішення, які можуть еволюціонувати разом з вашими бізнес-потребами."
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/advantageIcons/opacity.png",
+      "icon": "../../assets/advantageIcons/opacity.png",
       "title": "Прозорість та відповідальність",
       "description": "Ми цінуємо прозорість у нашій роботі. Наші деталізовані звіти та регулярні оновлення дозволяють вам відстежувати кожен етап просування та оптимізації ваших ІТ-кампаній."
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/advantageIcons/tim.png",
+      "icon": "../../assets/advantageIcons/tim.png",
       "title": "Спеціалізована команда експертів",
       "description": "Ми ретельно вивчаємо потреби та особливості вашого бізнесу. Розробляємо унікальні рішення, які відповідають вашим конкретним вимогам. Забезпечуємо високий рівень виконання та підтримку на кожному етапі проекту."
     },
     {
       "id": 4,
-      "icon": "../../../src/assets/advantageIcons/response.png",
+      "icon": "../../assets/advantageIcons/response.png",
       "title": "Швидкість реагування",
       "description": "У ІТ-сфері час — це гроші. Ми гарантуємо швидкий запуск та налаштування кампаній, щоб ви могли оперативно реагувати на ринкові можливості та загрози."
     },
     {
       "id": 5,
-      "icon": "../../../src/assets/advantageIcons/protection.png",
+      "icon": "../../assets/advantageIcons/protection.png",
       "title": "Захист даних",
       "description": "Ваші дані — наш пріоритет. Ми використовуємо найсучасніші технології для забезпечення їх безпеки та конфіденційності. Ваша інформація залишиться строго конфіденційною і не буде поширена без вашої попередньої згоди."
     },
     {
       "id": 6,
-      "icon": "../../../src/assets/advantageIcons/innovativ.png",
+      "icon": "../../assets/advantageIcons/innovativ.png",
       "title": "Інновації в дії",
       "description": "Ми не просто слідкуємо за новими технологіями та трендами, але й активно впроваджуємо їх у наші стратегії, щоб забезпечити вам конкурентну перевагу."
     },
     {
       "id": 7,
-      "icon": "../../../src/assets/advantageIcons/client.png",
+      "icon": "../../assets/advantageIcons/client.png",
       "title": "Клієнтоорієнтованість",
       "description": "Ми будуємо довгострокові партнерські відносини з нашими клієнтами на основі довіри та взаєморозуміння. Ваш успіх — наш успіх."
     }
@@ -228,13 +228,13 @@
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/advantageIcons/client.png",
+      "icon": "../../assets/advantageIcons/client.png",
       "name": "WEB",
       "details": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/advantageIcons/client.png",
+      "icon": "../../assets/advantageIcons/client.png",
       "name": "WEB",
       "details": ["name1", "name2", "name3", "name4"]
     }

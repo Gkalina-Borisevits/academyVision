@@ -46,7 +46,7 @@
   "homeCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/homeIcons/web.png",
+      "icon": "../../../assets/homeIcons/web.png",
       "name": "WEB",
       "description": "Экспертная разработка и создание продающих сайтов «под ключ»:",
       "details": [
