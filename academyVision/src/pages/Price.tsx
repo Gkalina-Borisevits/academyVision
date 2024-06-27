@@ -3,10 +3,16 @@ import styles from "./styles/Price.module.css";
 import img from "../assets/pagesImage/price.png";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import MyContainer from "../components/myContainer/MyContainer";
+// import AboutProjects from "../components/about-projects/AboutProjects";
+import HomeCards from "../components/home-cards/HomeCards.tsx";
+// import StageOfWorkAccordion from "../components/stages-of-work/stages-of-work-accordion/StageOfWorkAccordion.tsx";
+// import AdvantageCards from "../components/advantage-cards/AdvantageCards.tsx";
+import PriceComponents from "../components/price/PriceComponents.tsx";
 import AboutProjects from "../components/about-projects/AboutProjects";
 import StageOfWorkAccordion from "../components/stages-of-work/stages-of-work-accordion/StageOfWorkAccordion.tsx";
 import AdvantageCards from "../components/advantage-cards/AdvantageCards.tsx";
 import { useTranslation } from "react-i18next";
+
 import StagesOfWork from "../components/stages-of-work/StagesOfWork.tsx";
 
 const Price: FC = () => {
@@ -17,7 +23,15 @@ const Price: FC = () => {
     setIsMobile(window.innerWidth < 468);
   };
 
-  useEffect(() => {
+                <HomeCards/>
+                {/* <AboutProjects/> */}
+                <StagesOfWork/>
+                {/* <StageOfWorkAccordion/> */}
+                <PriceComponents/>
+            </MyContainer>
+        </div>
+    );
+ useEffect(() => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -44,6 +58,7 @@ const Price: FC = () => {
       </div>
     </>
   );
+
 };
 
 export default Price;

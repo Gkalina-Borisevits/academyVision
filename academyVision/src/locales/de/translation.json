@@ -46,7 +46,6 @@
   "homeCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/homeIcons/web.png",
       "name": "WEB",
       "description": "Expertenentwicklung und Erstellung verkaufsfähiger Websites „schlüsselfertig“:",
       "details": [
@@ -58,21 +57,18 @@
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/homeIcons/seo.png",
       "name": "SEO",
       "description": "Optimierung und Förderung der Website in die TOP-Ergebnisse der Suchmaschinen:",
       "details": ["Google", "Bing", "Lokales SEO"]
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/homeIcons/smm.png",
       "name": "SMM",
       "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
       "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/homeIcons/coach.png",
       "name": "COACH",
       "description": "Wir bieten individuelle und Gruppencoachings für berufliches und persönliches Wachstum an:",
       "details": ["SMART-Zielmethode", "Coaching durch Fragen", "GROW-Modell"]
@@ -81,25 +77,21 @@
   "aboutCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/aboutIcons/innovation.png",
       "name": "Innovativ",
       "description": "Wir bieten fortschrittliche Lösungen, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/aboutIcons/creative.png",
       "name": "Kreativ",
       "description": "Unsere Ansätze vereinen Kreativität und Innovation, um einzigartige Ideen in die Realität umzusetzen."
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/aboutIcons/reliable.png",
       "name": "Zuverlässig",
       "description": "Wir haben uns als zuverlässiger Partner bewährt, der Stabilität und Qualität in allen Phasen der Zusammenarbeit gewährleistet."
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/aboutIcons/united.png",
       "name": "Geschlossen",
       "description": "Unser Team baut starke Beziehungen auf und arbeitet gemeinsam daran, gemeinsame Ziele effizient zu erreichen."
     }
@@ -107,35 +99,30 @@
   "fotoCards": [
     {
       "id": 0,
-      "foto": "../../../src/assets/pageFoto/BigBoss",
       "name": "BigBoss",
       "profile": "Coach",
       "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
     },
     {
       "id": 1,
-      "foto": "../../../src/assets/pageFoto/Maia.jpg",
       "name": "Maia",
       "profile": "Coach",
       "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
     },
     {
       "id": 2,
-      "foto": "../../../src/assets/pageFoto/Karina.jpg",
       "name": "Karina",
       "profile": "SMM",
       "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
     },
     {
       "id": 3,
-      "foto": "../../../src/assets/pageFoto/Galina.jpg",
       "name": "Galina",
       "profile": "Frontend",
       "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
     },
     {
       "id": 4,
-      "foto": "../../../src/assets//pageFoto/Yurii.webp",
       "name": "Yurii",
       "profile": "Backend",
       "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
@@ -144,49 +131,41 @@
   "advantageCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/advantageIcons/global.png",
       "title": "Globale Vision, lokale Lösungen",
       "description": "Wir kombinieren globale Trends mit lokalem Wissen, um Marketingstrategien zu entwickeln, die für Ihren Markt funktionieren und darauf abzielen, maximale Ergebnisse für Ihr Geschäft zu erzielen."
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/advantageIcons/adaptiv.png",
       "title": "Flexibilität und Anpassungsfähigkeit",
       "description": "In der IT-Welt erfolgen Veränderungen blitzschnell. Wir passen uns diesen Veränderungen an, indem wir flexible Lösungen anbieten, die mit Ihren Geschäftsanforderungen mitwachsen können."
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/advantageIcons/opacity.png",
       "title": "Transparenz und Verantwortung",
       "description": "Wir schätzen Transparenz in unserer Arbeit. Unsere detaillierten Berichte und regelmäßigen Updates ermöglichen es Ihnen, jeden Schritt der Förderung und Optimierung Ihrer IT-Kampagnen zu verfolgen."
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/advantageIcons/tim.png",
       "title": "Spezialisiertes Team von Experten",
       "description": "Wir untersuchen gründlich die Bedürfnisse und Besonderheiten Ihres Geschäfts. Wir entwickeln einzigartige Lösungen, die Ihren spezifischen Anforderungen entsprechen, und stellen eine hohe Ausführungsqualität und Unterstützung in jeder Projektphase sicher."
     },
     {
       "id": 4,
-      "icon": "../../../src/assets/advantageIcons/response.png",
       "title": "Reaktionsgeschwindigkeit",
       "description": "In der IT-Branche ist Zeit Geld. Wir garantieren einen schnellen Start und die Einrichtung von Kampagnen, damit Sie schnell auf Marktchancen und -bedrohungen reagieren können."
     },
     {
       "id": 5,
-      "icon": "../../../src/assets/advantageIcons/protection.png",
       "title": "Datenschutz",
       "description": "Ihre Daten sind unsere Priorität. Wir verwenden modernste Technologien, um ihre Sicherheit und Vertraulichkeit zu gewährleisten. Ihre Informationen bleiben streng vertraulich und werden ohne Ihre vorherige Zustimmung nicht weitergegeben."
     },
     {
       "id": 6,
-      "icon": "../../../src/assets/advantageIcons/innovativ.png",
       "title": "Innovation in Aktion",
       "description": "Wir verfolgen nicht nur neue Technologien und Trends, sondern implementieren sie auch aktiv in unsere Strategien, um Ihnen einen Wettbewerbsvorteil zu verschaffen."
     },
     {
       "id": 7,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "title": "Kundenorientierung",
       "description": "Wir bauen langfristige Partnerschaften mit unseren Kunden auf, die auf Vertrauen und gegenseitigem Verständnis basieren. Ihr Erfolg ist unser Erfolg."
     }
@@ -216,25 +195,21 @@
   "aboutProject": [
     {
       "id": 0,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
       "details": ["name1", "name2", "name3"]
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
       "details": ["name1", "name2", "name3"]
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
       "details": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
       "details": ["name1", "name2", "name3", "name4"]
     }
@@ -244,73 +219,113 @@
       "id": 0,
       "num": 1,
       "title": "Entwicklungsforschung",
-      "foto": "../../assets/stages-of-work/find.webp",
       "description": "Wir führen eine Voruntersuchung durch, um die Bedürfnisse des Kunden und die Besonderheiten des Geschäfts zu ermitteln."
     },
     {
       "id": 1,
       "num": 2,
       "title": "Design",
-      "foto": "../../assets/stages-of-work/Procting.webp",
       "description": "Unsere Designer erstellen einen Prototyp des Projekts und besprechen ihn dann mit dem Kunden. Nach der Genehmigung beginnt der Entwicklungsprozess."
     },
     {
       "id": 2,
       "num": 3,
       "title": "Webentwicklung",
-      "foto": "../../assets/stages-of-work/web.webp",
       "description": "Entwickler bauen das gesamte Blog-System auf und schreiben Code unter Verwendung der ausgewählten Programmiersprache, Methode und Methodik."
     },
     {
       "id": 3,
       "num": 4,
       "title": "Marketingplanung",
-      "foto": "../../assets/stages-of-work/marketing.webp",
       "description": "Wir führen Marketingforschungen durch, planen die Projektphasen und bestimmen die Strategie und die Marketingkanäle."
     },
     {
       "id": 4,
       "num": 5,
       "title": "Launch",
-      "foto": "../../assets/stages-of-work/started.webp",
       "description": "Unser Team erstellt Inhalte für Werbekampagnen und schreibt Anzeigen für die ausgewählten Marketingkanäle. Danach starten wir die Werbekampagnen."
     },
     {
       "id": 5,
       "num": 6,
       "title": "Überwachung",
-      "foto": "../../assets/stages-of-work/monitiring.webp",
       "description": "Wir überwachen die Werbeanzeigen, verbessern sie, nehmen zusätzliche Anpassungen vor, um mehr Zielgruppen zu erreichen und den maximalen Umsatz für die Kunden zu gewährleisten."
     }
   ],
   "moreAboutProject": [
     {
       "id": 0,
-      "page": "../../assets/about-projects/test/1517154655_vodopad-v-lesu-video-oboi_jpg.jpg",
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
       "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 1,
-      "page": "../../assets/about-projects/test/4862.jpg",
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
       "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 2,
-      "page": "../../assets/about-projects/test/mult-pic905-895x505-90221.jpg",
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
       "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 3,
-      "page": "../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg",
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
       "technologis": ["name1", "name2", "name3", "name4"]
+    }
+  ],
+  "aboutPrice": [
+    {
+      "id": 0,
+      "title": "SILVER",
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
+      "priceTitle": "Price",
+      "price": "1000$"
+    },
+    {
+      "id": 1,
+      "title": "GOLD",
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
+      "priceTitle": "Price",
+      "price": "1000$"
+    },
+    {
+      "id": 2,
+      "title": "PREMIUM",
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
+      "priceTitle": "Price",
+      "price": "1000$"
+    },
+    {
+      "id": 3,
+      "title": "OTHER",
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
+      "priceTitle": "Price",
+      "price": "1000$"
     }
   ]
 }
