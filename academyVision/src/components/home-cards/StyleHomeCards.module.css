@@ -1,28 +1,4 @@
-ul,
-li {
-  margin: 0; /* Удаление внешних отступов */
-  padding: 0; /* Удаление внутренних отступов */
-  list-style: none; /* Удаление маркеров списка */
-}
-
-li {
-  position: relative;
-  font-size: 14px;
-}
-.logo {
-  width: 100px;
-  height: 100px;
-}
-.cardHeader {
-  display: flex;
-  justify-content: space-between;
-}
-.cardHeader h1 {
-  font-size: 40px;
-  color: rgb(29, 134, 169);
-}
-
-.homeCardContainer {
+.homeCardsHomeCardContainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -30,24 +6,49 @@ li {
   align-items: stretch; /* Это гарантирует, что все карточки будут одной высоты */
   margin-top: 50px;
 }
-.cardContainer {
+
+.homeCardsCardContainer {
   width: 18rem; /* Ширина карточки */
   margin-bottom: 3rem; /* Отступ снизу */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
   cursor: pointer;
   position: relative; /* Для корректной работы трансформации */
   box-shadow: none; /* Начальное состояние тени */
+  display: flex;
+  flex-direction: column; /* Колонки, чтобы Card.Body растягивался */
 }
 
-.cardContainer:hover {
+.homeCardsCardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeCardsCardBody {
+  flex: 1; /* Это позволяет растянуть Card.Body до оставшегося пространства */
+  display: flex;
+  flex-direction: column;
+}
+
+.homeCardsLi {
+  position: relative;
+  font-size: 14px;
+}
+
+.homeCardsLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.homeCardsCardContainer:hover {
   transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени снизу */
 }
-.cardContainer:hover h1 {
+
+.homeCardsCardContainer:hover h1 {
   text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
 }
 
-.styleLi::before {
+.homeCardsLi::before {
   content: "•"; /* Символ точки */
   position: absolute;
   top: -4px;

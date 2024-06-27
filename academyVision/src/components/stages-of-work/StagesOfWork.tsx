@@ -23,7 +23,7 @@ const StagesOfWork: React.FC = () => {
             <MyContainer>
                 <div className='box-header'>
                     <h2 className='header'>Этапы работы</h2>
-                    <p>Наши решения в области разработки и маркетинга систематизированные и адаптированы персонально под каждого клиента.</p>
+                    <p className=''>Наши решения в области разработки и маркетинга систематизированные и адаптированы персонально под каждого клиента.</p>
                 </div>
                 <Tab.Container id="ledt-tabs-example" defaultActiveKey="0" activeKey={activeTab} onSelect={handleSelect}>
                     <Row>
@@ -45,7 +45,6 @@ const StagesOfWork: React.FC = () => {
                                     </Nav.Item>
                                 ))}
                             </Nav>
-
                         </Col>
                         <Col sm={7} className={`fon bg-${activeTab}`}>
                             <div className="content"></div>

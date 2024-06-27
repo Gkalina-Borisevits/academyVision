@@ -1,0 +1,69 @@
+.priceHomeCardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступ между карточками */
+    align-items: stretch; /* Это гарантирует, что все карточки будут одной высоты */
+    margin-top: 50px;
+  }
+  
+  .priceCardContainer {
+    width: 18rem; /* Ширина карточки */
+    margin-bottom: 3rem; /* Отступ снизу */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
+    cursor: pointer;
+    position: relative; /* Для корректной работы трансформации */
+    box-shadow: none; /* Начальное состояние тени */
+    display: flex;
+    flex-direction: column; /* Колонки, чтобы Card.Body растягивался */
+  }
+  
+  .priceCardHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .priceCardBody {
+    flex: 1; /* Это позволяет растянуть Card.Body до оставшегося пространства */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .priceLi {
+    position: relative;
+    font-size: 14px;
+    padding-bottom: 15px;
+  }
+  
+  .priceLogo {
+    width: 100px;
+    height: 100px;
+  }
+  .priceCardHeader h1{
+    font-size: 30px;
+  }
+  
+  .priceCardContainer:hover {
+    transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени снизу */
+  }
+  
+  .priceCardContainer:hover h1 {
+    text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
+  }
+  
+  .priceLi::before {
+    content: "•"; /* Символ точки */
+    position: absolute;
+    top: -4px;
+    left: -30px; /* Позиционирует точку в начале элемента */
+    color: rgb(0, 162, 255); /* Цвет точки */
+    font-size: 20px; /* Размер точки */
+  }
+  .priceWraper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .priceWraper p{
+    font-size: 20px;
+  }

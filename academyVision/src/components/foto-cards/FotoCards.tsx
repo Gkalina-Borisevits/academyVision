@@ -4,6 +4,14 @@ import styles from "./StyleFotoCards.module.css";
 import "./StyleFotoCards.css"
 import { useTranslation } from 'react-i18next';
 import { FotoCard } from '../../types/FotoCard';
+import bigBoss from '../../assets/pageFoto/BigBoss.jpg'
+import maia from '../../assets/pageFoto/Maia.jpg'
+import karina from '../../assets/pageFoto/Karina.jpg'
+import galina from '../../assets/pageFoto/Galina.jpg'
+import yurii from '../../assets/pageFoto/Yurii.webp'
+const fotos: string[] = [bigBoss, maia, karina, galina, yurii]
+
+
 
 
 const FotoCards: React.FC = () => {
@@ -17,7 +25,7 @@ const FotoCards: React.FC = () => {
                         <div className={styles.flipContainer}>
                             <div className={styles.flipCardInner}>
                                 <div className={styles.flipCardFront}>
-                                    <Card.Img variant="top" className={styles.logo} src={card.foto} />
+                                    <Card.Img variant="top" className={styles.logo} src={fotos[card.id]} />
                                 </div>
                                 <div className={styles.flipCardBack}
                                     style={{
@@ -26,7 +34,7 @@ const FotoCards: React.FC = () => {
                                         backgroundPosition: 'center center',
                                         backgroundRepeat: 'no-repeat',
                                         width: '100%',
-                                        height: '100%',  
+                                        height: '100%',
                                         position: 'relative'
                                     }}>
                                     <div style={{
@@ -46,7 +54,7 @@ const FotoCards: React.FC = () => {
                             </div>
                         </div>
                     </Card.Header>
-                    <Card.Body  className="pt-2">
+                    <Card.Body className="pt-2">
                         <Card.Title className="text-dark fs-6 mt-1">{card.name}</Card.Title>
                         <Card.Text className="pb-2 ">{card.profile}</Card.Text>
                     </Card.Body>

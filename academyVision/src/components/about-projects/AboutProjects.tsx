@@ -9,6 +9,7 @@ import img4 from "../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg
 import MyContainer from '../myContainer/MyContainer';
 import { AboutProject } from '../../types/AboutProject';
 import MyButton from '../myButton/MyButton';
+import cartTest from "../../assets/aboutIcons/innovation.png"
 
 
 const AboutProjects: React.FC = () => {
@@ -18,14 +19,14 @@ const AboutProjects: React.FC = () => {
     return (
         < >
             <MyContainer > {/* Для того чтобы Container занимал всю ширину */}
-                <div className={styles.headerProject}>
+                {/* <div className={styles.headerProject}>
                     <h2>Наши проекты</h2>
-                </div>
+                </div> */}
                 <div className={styles.containerWork}>
                     <div className={`${styles.block} ${styles.block40} card__article`} style={{ backgroundImage: `url(${img1})` }}>
                         <div className={styles.bgImg}>
                             <div className={styles.header}>
-                                <img className={styles.imgStyle} src={aboutProjects[0].icon} alt="" />
+                                <img className={styles.imgStyle} src={cartTest} alt="" />
                                 <p>{aboutProjects[0].name}</p>
                             </div>
                             <ul>
@@ -41,7 +42,7 @@ const AboutProjects: React.FC = () => {
                     <div className={`${styles.block} ${styles.block60} card__article`} style={{ backgroundImage: `url(${img2})` }}>
                         <div className={styles.bgImg}>
                             <div className={styles.header}>
-                                <img className={styles.imgStyle} src={aboutProjects[0].icon} alt="" />
+                                <img className={styles.imgStyle} src={cartTest} alt="" />
                                 <p>{aboutProjects[0].name}</p>
                             </div>
                             <ul>
@@ -59,7 +60,7 @@ const AboutProjects: React.FC = () => {
                     <div className={`${styles.block} ${styles.block60}  card__article`} style={{ backgroundImage: `url(${img3})` }}>
                         <div className={styles.bgImg}>
                             <div className={styles.header}>
-                                <img className={styles.imgStyle} src={aboutProjects[0].icon} alt="" />
+                                <img className={styles.imgStyle} src={cartTest} alt="" />
                                 <p>{aboutProjects[0].name}</p>
                             </div>
                             <ul>
@@ -75,7 +76,7 @@ const AboutProjects: React.FC = () => {
                     <div className={`${styles.block} ${styles.block40}  card__article`} style={{ backgroundImage: `url(${img4})` }}>
                         <div className={styles.bgImg}>
                             <div className={styles.header}>
-                                <img className={styles.imgStyle} src={aboutProjects[0].icon} alt="" />
+                                <img className={styles.imgStyle} src={cartTest} alt="" />
                                 <p>{aboutProjects[0].name}</p>
                             </div>
                             <ul>
@@ -89,9 +90,9 @@ const AboutProjects: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.btn}>
+                {/* <div className={styles.btn}>
                     <MyButton text="More"/>
-                </div>
+                </div> */}
             </MyContainer>
 
 

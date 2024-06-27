@@ -5,10 +5,6 @@
 ._myContainer_1cxal_1 {
   font-family: var(--font-primary);
 }
-/* .fon {
-  background-size: cover !important;
-  border-radius: 10px;
-} */
 
 .bg-0 {
   background-image: url("../../assets/stages-of-work/find.webp") !important;
@@ -53,20 +49,20 @@
   border-radius: 10px;
 }
 
-.tab-text{
-    position: relative;
-    z-index: 3;
-    color: aliceblue;
+.tab-text p {
+  position: relative;
+  z-index: 6;
+  color: aliceblue;
 }
-.box-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 3rem;
+.box-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
 }
-.box-header h2{
-    font-size: 40px;
+.box-header h2 {
+  font-size: 40px;
 }
-.box-header p{
-    font-size: 14px;
+.box-header p {
+  font-size: 14px;
 }

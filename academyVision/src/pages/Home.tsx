@@ -55,7 +55,7 @@ const Home: React.FC = () => {
           <div className={styles.aboutTextContainer}>
             <h2>{t("homePage.aboutUs")}</h2>
             <h4>{t("homePage.aboutTitle")}</h4>
-           
+
           </div>
           <div className={styles.aboutHomePageContainer}>
             <div>

@@ -19,13 +19,11 @@
     "send": "Send"
   },
   "homePage": {
-    "aboutTitle": "Academy Mindcept Vision - We are a digital marketing agency specializing in providing comprehensive services: ASO, SEO, SMM promotion, PPC advertising, coaching, website development, and UX/UI design.",
-    "homeTitle": "Development, coaching, and promotion of websites and brands: individual approach, personalized solutions, continuous support – the key to your digital success!"
-    "name" : "Academy Mindcept Vision",
+    "name": "Academy Mindcept Vision",
     "aboutTitle": "We are a digital marketing agency specializing in providing comprehensive services: ASO, SEO, SMM promotion, PPC advertising, coaching, website development, and UX/UI design.",
-    "homeTitle" : "Development, coaching, and promotion of websites and brands: individual approach, personalized solutions, continuous support – the key to your digital success!",
+    "homeTitle": "Development, coaching, and promotion of websites and brands: individual approach, personalized solutions, continuous support – the key to your digital success!",
     "projects": "Our Projects",
-    "viewDetails" : "View details",
+    "viewDetails": "View details",
     "discussProject": "Discuss the project",
     "textForm": "We will offer customized solutions for your business based on a detailed analysis of the project and the specifics of the company.",
     "aboutUs": "About us",
@@ -35,7 +33,6 @@
   "homeCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/homeIcons/web.png",
       "name": "WEB",
       "description": "Expert development and creation of turnkey sales websites:",
       "details": [
@@ -47,7 +44,6 @@
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/homeIcons/seo.png",
       "name": "SEO",
       "description": "Optimization and promotion of websites to the TOP of search engine results:",
       "details": [
@@ -58,7 +54,6 @@
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/homeIcons/smm.png",
       "name": "SMM",
       "description": "Comprehensive marketing and promotion on social networks:",
       "details": [
@@ -70,7 +65,6 @@
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/homeIcons/coach.png",
       "name": "COACH",
       "description": "We offer individual and group coaching sessions for professional and personal growth:",
       "details": [
@@ -83,25 +77,21 @@
   "aboutCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/aboutIcons/innovation.png",
       "name": "Innovative",
       "description": "We offer advanced solutions that set new standards in the industry and promote technological progress."
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/aboutIcons/creative.png",
       "name": "Creative",
       "description": "Our approaches combine creativity and innovation to turn unique ideas into reality."
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/aboutIcons/reliable.png",
       "name": "Reliable",
       "description": "We have established ourselves as a reliable partner, ensuring stability and quality at all stages of cooperation."
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/aboutIcons/united.png",
       "name": "United",
       "description": "Our team builds strong relationships, working together to achieve common goals efficiently."
     }
@@ -109,35 +99,30 @@
   "fotoCards": [
     {
       "id": 0,
-      "foto": "../../../src/assets/pageFoto/BigBoss.jpg",
       "name": "BigBoss",
       "profile": "Coach",
       "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
     },
     {
       "id": 1,
-      "foto": "../../../src/assets/pageFoto/Maia.jpg",
       "name": "Maia",
       "profile": "Coach",
       "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
     },
     {
       "id": 2,
-      "foto": "../../../src/assets/pageFoto/Karina.jpg",
       "name": "Karina",
       "profile": "SMM",
       "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
     },
     {
       "id": 3,
-      "foto": "../../../src/assets/pageFoto/Galina.jpg",
       "name": "Galina",
       "profile": "Frontend",
       "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
     },
     {
       "id": 4,
-      "foto": "../../../src/assets//pageFoto/Yurii.webp",
       "name": "Yurii",
       "profile": "Backend",
       "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
@@ -146,49 +131,41 @@
   "advantageCards": [
     {
       "id": 0,
-      "icon": "../../../src/assets/advantageIcons/global.png",
       "title": "Global Vision, Local Solutions",
       "description": "We combine global trends with local knowledge to create marketing strategies that work for your market and are aimed at achieving maximum results for your business."
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/advantageIcons/adaptiv.png",
       "title": "Flexibility and Adaptability",
       "description": "In the world of IT, changes happen instantaneously. We adapt to these changes by offering flexible solutions that can evolve with your business needs."
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/advantageIcons/opacity.png",
       "title": "Transparency and Accountability",
       "description": "We value transparency in our work. Our detailed reports and regular updates allow you to track every step of the advancement and optimization of your IT campaigns."
     },
     {
       "id": 3,
-      "icon": "../../../src/assets/advantageIcons/tim.png",
       "title": "Specialized Team of Experts",
       "description": "We thoroughly study the needs and features of your business. We develop unique solutions that meet your specific requirements, ensuring high-level execution and support at every stage of the project."
     },
     {
       "id": 4,
-      "icon": "../../../src/assets/advantageIcons/response.png",
       "title": "Responsiveness",
       "description": "In the IT sector, time is money. We guarantee a quick launch and setup of campaigns so you can swiftly respond to market opportunities and threats."
     },
     {
       "id": 5,
-      "icon": "../../../src/assets/advantageIcons/protection.png",
       "title": "Data Protection",
       "description": "Your data is our priority. We employ the latest technologies to ensure its security and confidentiality. Your information will remain strictly confidential and will not be shared without your prior consent."
     },
     {
       "id": 6,
-      "icon": "../../../src/assets/advantageIcons/innovativ.png",
       "title": "Innovation in Action",
       "description": "We not only keep up with new technologies and trends, but also actively implement them in our strategies to provide you with a competitive edge."
     },
     {
       "id": 7,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "title": "Client-Centric",
       "description": "We build long-term partnerships with our clients, based on trust and mutual understanding. Your success is our success."
     }
@@ -218,7 +195,6 @@
   "aboutProject": [
     {
       "id": 0,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
       "details": [
         "name1",
@@ -228,7 +204,6 @@
     },
     {
       "id": 1,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
       "details": [
         "name1",
@@ -238,18 +213,6 @@
     },
     {
       "id": 2,
-      "icon": "../../../src/assets/advantageIcons/client.png",
-      "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
-    },
-    {
-      "id": 2,
-      "icon": "../../../src/assets/advantageIcons/client.png",
       "name": "WEB",
       "details": [
         "name1",
@@ -264,51 +227,45 @@
       "id": 0,
       "num": 1,
       "title": "Development Research",
-      "foto": "../../assets/stages-of-work/find.webp",
       "description": "We conduct preliminary research to determine the client's needs and the specifics of the business."
     },
     {
       "id": 1,
       "num": 2,
       "title": "Design",
-      "foto": "../../assets/stages-of-work/Procting.webp",
       "description": "Our designers create a project prototype and then discuss it with the client. After approval, the development process begins."
     },
     {
       "id": 2,
       "num": 3,
       "title": "Web Development",
-      "foto": "../../assets/stages-of-work/web.webp",
       "description": "Developers build the entire blog system, writing code using the chosen programming language, method, and methodology."
     },
     {
       "id": 3,
       "num": 4,
       "title": "Marketing Planning",
-      "foto": "../../assets/stages-of-work/marketing.webp",
       "description": "We conduct marketing research, plan the project stages, define the strategy, and determine the marketing channels."
     },
     {
       "id": 4,
       "num": 5,
       "title": "Launch",
-      "foto": "../../assets/stages-of-work/started.webp",
       "description": "Our team creates content for advertising campaigns, writes ads for the selected marketing channels. After that, we launch the advertising campaigns."
     },
     {
+
       "id": 5,
       "num": 6,
       "title": "Monitoring",
-      "foto": "../../assets/stages-of-work/monitiring.webp",
       "description": "We monitor the advertising performance, improve it, make additional adjustments to reach more target audiences and ensure maximum revenue for the clients."
     }
   ],
   "moreAboutProject": [
     {
       "id": 0,
-      "page": "../../../src/assets/about-projects/test/1517154655_vodopad-v-lesu-video-oboi_jpg.jpg",
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "title": "Website Development for a Financial Company",
+      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
       "technologis": [
         "name1",
         "name2",
@@ -318,9 +275,8 @@
     },
     {
       "id": 1,
-      "page": "../../../src/assets/about-projects/test/4862.jpg",
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "title": "Website Development for a Financial Company",
+      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
       "technologis": [
         "name1",
         "name2",
@@ -330,27 +286,64 @@
     },
     {
       "id": 2,
-      "page": "../../../src/assets/about-projects/test/mult-pic905-895x505-90221.jpg",
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "title": "Website Development for a Financial Company",
+      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
       "technologis": [
         "name1",
         "name2",
         "name3",
         "name4"
       ]
+    }
+  ],
+  "aboutPrice": [
+    {
+      "id": 0,
+      "title": "SILVER",
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
+      "priceTitle": "Price",
+      "price": "$1000"
+    },
+    {
+      "id": 1,
+      "title": "GOLD",
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
+      "priceTitle": "Price",
+      "price": "$1000"
+    },
+    {
+      "id": 2,
+      "title": "PREMIUM",
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
+      "priceTitle": "Price",
+      "price": "$1000"
     },
     {
       "id": 3,
-      "page": "../../../src/assets/about-projects/test/photo_2024-03-12_19-21-10.jpg",
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": [
+      "title": "OTHER",
+      "description": [
         "name1",
         "name2",
         "name3",
         "name4"
-      ]
+      ],
+      "priceTitle": "Price",
+      "price": "$1000"
     }
   ]
 }

@@ -5,6 +5,12 @@ import "./StyleHomeCards.css";
 import { useTranslation } from 'react-i18next';
 import { HomeCard } from '../../../types/HomeCard';
 import { NavLink } from 'react-router-dom';
+import web from "../../../assets/homeIcons/web.png"
+import smm from "../../../assets/homeIcons/smm.png"
+import seo from "../../../assets/homeIcons/seo.png"
+import coauch from "../../../assets/homeIcons/coach.png"
+const listPage: string[] = [web, smm, seo, coauch]
+
 
 
 const HomeCardsAccordion: React.FC = () => {
@@ -18,7 +24,7 @@ const HomeCardsAccordion: React.FC = () => {
         {homeCards.map((card) => (
           <Accordion.Item eventKey={card.id.toString()} className={styles.accordionItem} >
             <Accordion.Header className={styles.accordionHeader}>
-              <img className={styles.logo} src={card.icon} alt="" />
+              <img className={styles.logo} src={listPage[card.id]} alt="" />
               <h1>{card.name}</h1>
             </Accordion.Header>
             <Accordion.Body className={styles.accordionBody}>
