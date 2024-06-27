@@ -6,12 +6,27 @@
   justify-content: center;
   align-content: center;
 }
+.homeContactsFormContainer {
+  position: relative;
+}
+
+.fullWidthDiv {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  height: 100%;
+  background-color: var(--color-blue);
+  padding: 20px;
+  z-index: -90;
+}
 .homeCardContainer {
   margin-top: -240px;
   z-index: 90;
   position: relative;
-  margin-bottom: 80px;
-
+  margin-bottom: 40px;
 }
 .textInImage {
   display: flex;
@@ -19,26 +34,27 @@
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  gap: 20px;
 }
 .textInImage h1 {
   margin-bottom: 1rem;
   color: var(--color-font-dark);
   font-weight: bold;
 }
-.textInImage p {
+.textInImage h3 {
   color: var(--color-font-dark);
 }
 .aboutProjects {
-display: flex;
-flex-direction: column;
-text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-.aboutProjects h2{
+.aboutProjects h2 {
   margin-bottom: 40px;
   font-weight: bold;
   color: var(--color-font-dark);
 }
-.formContainerHome {  
+.formContainerHome {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -46,39 +62,92 @@ text-align: center;
   padding-top: 40px;
   margin-top: 70px;
 }
-.formContainerHome h2{
+.formContainerHome h2 {
   color: rgb(250, 250, 237);
 }
-.formContainerHome p{
+.formContainerHome p {
   color: rgb(250, 250, 237);
   font-size: 20px;
   padding: 60px;
 }
-.aboutHomePageContainer{
+.aboutHomePageContainer {
   margin-top: 20px;
   display: flex;
   align-items: center;
-  gap: 16px;
-} 
-.aboutHomePageContainer p{
+  justify-content: space-between;
+  gap: 26px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.about {
+  flex: 0 0 40%;
+  padding: 10px;
+}
+.about p{
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+.aboutHomePageContainer p {
   font-weight: bold;
   font-size: 20px;
-  color: var(--color-font-dark);
+  color: rgb(127, 110, 87);
 }
-.aboutTextContainer h2{
+.aboutTextContainer h2 {
   font-weight: bold;
-  color: var(--color-font-dark);
+  color: rgb(127, 110, 87);
 }
-.aboutTextContainer h3{ 
+.aboutTextContainer h3 {
   margin-top: 20px;
-  color: var(--color-font-dark);
+  color: rgb(127, 110, 87);
 }
-.aboutTextContainer{
+.aboutTextContainer {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 100px;
-  gap:20px;
+  gap: 20px;
+  color: rgb(127, 110, 87);
+  align-items: center;
+}
+.aboutText {
+  max-width: 1000px;
+}
+.imageContainer {
+  flex: 0 0 60%; 
+  padding: 10px; 
+}
+
+.imageContainer img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
+.aboutHomePageContainer img {
+  max-width: 140%;
+  height: auto;
+}
+@media (max-width: 1120px) {
+  .aboutHomePageContainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .aboutHomePageContainer div {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .aboutHomePageContainer img {
+    width: 100%;
+    height: auto;
+  }
+  .textInImage h3 {
+    font-size: 15px;
+  }
+  .textInImage {
+    margin-bottom: 20px;
+  }
 }
 /* .homeCardContainer .container {
   display: flex;

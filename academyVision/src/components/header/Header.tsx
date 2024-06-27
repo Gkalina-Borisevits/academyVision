@@ -5,9 +5,11 @@ import { useTranslation } from "react-i18next";
 import { useEffect, useRef, useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { FaGlobe } from "react-icons/fa";
+import NavbarPage from "../navbar/NavbarPage";
+import MyContainer from "../myContainer/MyContainer";
 
 const Header: React.FC = () => {
-  const { i18n, t } = useTranslation("translation");
+  const { i18n } = useTranslation("translation");
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const languageMenuRef = useRef<HTMLDivElement>(null);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -77,34 +79,24 @@ const Header: React.FC = () => {
   }, []);
 
   return (
+    <>
    
-
-    <div className={`${styles.navbarContainer} ${isScrolled ? styles.scrolled : ""}`}>
-     
+    <div className={`${styles.navbarContainer} ${isScrolled ? styles.scrolled : ''}`}>
+    <MyContainer>
+      <div className={styles.myContainer}>
       <div className={styles.burgerInHeader}>
-      {isMobile ? <BurgerMenu /> : null}
+        {isMobile && <BurgerMenu />}
       </div>
       <NavLink to="/" className={styles.logoContainer}></NavLink>
-      <div className={styles.navbar}>
+      {isMobile && <BurgerMenu />}
+      {!isMobile && <NavbarPage />}
    
-      {!isMobile && (
-          <>
-            <NavLink to="/">{t('header.home')}</NavLink>
-            <NavLink to="/about">{t('header.about')}</NavLink>
-            <NavLink to="/services">{t('header.services')}</NavLink>
-            <NavLink to="/price">{t('header.price')}</NavLink>
-            <NavLink to="/portfolio">{t('header.portfolio')}</NavLink>
-            <NavLink to="/contacts">{t('header.contacts')}</NavLink>
-          </>
-        )}
-      </div>
       <div
-        className={`flex items-center ${styles.languageIcon}`}
+        className={styles.languageIcon}
         onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
       >
         <FaGlobe />
       </div>
- 
       {isLanguageDropdownOpen && (
         <div ref={languageMenuRef} className={styles.languageDropdown}>
           {languages.map((language) => (
@@ -121,10 +113,11 @@ const Header: React.FC = () => {
           ))}
         </div>
       )}
-       
+      </div>
+      </MyContainer>
     </div>
    
-
+    </>
   );
 };
 

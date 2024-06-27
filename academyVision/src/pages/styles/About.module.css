@@ -1,0 +1,67 @@
+.textInImage {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  gap: 30px;
+}
+.textInImage h1 {
+  margin-bottom: 1rem;
+  color: var(--color-font-dark);
+  font-weight: bold;
+}
+.textInImage h3 {
+  color: var(--color-font-dark);
+}
+.aboutCardContainer {
+  margin-top: -200px;
+  z-index: 90;
+  position: relative;
+}
+.ourTeamContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.ourTeamContainer h2 {
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: var(--color-font-dark);
+}
+.ourTeamContainer h5 {
+  margin-top: 16px;
+  color: var(--color-font-dark);
+  margin-bottom: 60px;
+}
+.aboutText {
+  max-width: 700px;
+}
+.formContainerHome {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--color-blue);
+  padding-top: 40px;
+  margin-top: 70px;
+}
+.formContainerHome h2 {
+  color: rgb(250, 250, 237);
+}
+.formContainerHome p {
+  color: rgb(250, 250, 237);
+  font-size: 20px;
+  padding: 60px;
+}
+.advantageCardContainer {
+    margin-bottom: 80px;
+}
+@media (max-width: 1020px) {
+  .textInImage h3 {
+    font-size: 15px;
+  }
+  .textInImage {
+    margin-bottom: 20px;
+  }
+}

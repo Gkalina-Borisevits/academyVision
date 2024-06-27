@@ -1,9 +1,11 @@
-.aboutHomeContainer p {
-font-size: 14px;
+.aboutHomeContainer h5 {
+font-size: 16px;
 }
 .aboutHomeContainer {
-    color: var(--color-font-dark);
+    color: rgb(127, 110, 87);
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--color-font-dark);
 }
 .aboutHomeContainer h3{
-    border-bottom: 1px solid var(--color-font-dark);
+   font-size: 24px;
 }

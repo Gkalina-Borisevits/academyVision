@@ -11,10 +11,12 @@ import ContactForm from "../components/contactForm/ContactForm";
 import { useTranslation } from "react-i18next";
 import AboutProjects from "../components/about-projects/AboutProjects";
 import image from "../assets/home/aboutHome.png";
+import { useNavigate } from "react-router-dom";
 
 const Home: React.FC = () => {
   const { t } = useTranslation("translation");
   const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
+  const navigate = useNavigate();
 
   const handleResize = () => {
     setIsMobile(window.innerWidth < 468);
@@ -25,13 +27,17 @@ const Home: React.FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const handleButtonClick = () => navigate("/portfolio");
+
   return (
     <>
       <ImageContainer imgSrc={img} imgAlt="Image">
-        <div className={styles.textInImage}>
-          <h1>{t("homePage.name")}</h1>
-          <h3>{t("homePage.aboutText")}</h3>
-        </div>
+        <MyContainer>
+          <div className={styles.textInImage}>
+            <h1>{t("homePage.name")}</h1>
+            <h3>{t("homePage.aboutText")}</h3>
+          </div>
+        </MyContainer>
       </ImageContainer>
       <div className={styles.homeContainer}>
         <MyContainer>
@@ -42,10 +48,14 @@ const Home: React.FC = () => {
             <h2>{t("homePage.projects")}</h2>
             <AboutProjects />
             <div>
-              <MyButton text={t("homePage.viewDetails")} />
+              <MyButton
+                onClick={handleButtonClick}
+                text={t("homePage.viewDetails")}
+              />
             </div>
           </div>
-          <div>
+          <div className={styles.homeContactsFormContainer}>
+            <div className={styles.fullWidthDiv}></div>
             <div className={styles.formContainerHome}>
               <h2>{t("homePage.discussProject")}</h2>
               <p>{t("homePage.textForm")}</p>
@@ -53,16 +63,17 @@ const Home: React.FC = () => {
             <ContactForm />
           </div>
           <div className={styles.aboutTextContainer}>
-            <h2>{t("homePage.aboutUs")}</h2>
-            <h4>{t("homePage.aboutTitle")}</h4>
-
+            <div className={styles.aboutText}>
+              <h2>{t("homePage.aboutUs")}</h2>
+              <h4>{t("homePage.aboutTitle")}</h4>
+            </div>
           </div>
           <div className={styles.aboutHomePageContainer}>
-            <div>
+            <div className={styles.about}>
               <p>{t("homePage.ourValues")}</p>
               <AboutHomePage />
             </div>
-            <div>
+            <div className={styles.imageContainer}>
               <img src={image} alt="" />
             </div>
           </div>

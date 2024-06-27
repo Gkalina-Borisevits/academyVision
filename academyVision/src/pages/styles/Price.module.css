@@ -1,4 +1,27 @@
-.logoContainer {
+.advantageCardContainer {
+  margin-top: -240px;
+  z-index: 90;
+  position: relative;
+  margin-bottom: 80px;
+
+}
+.textInImage {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  gap: 20px;
+}
+.textInImage h1 {
+  margin-bottom: 1rem;
+  color: var(--color-font-dark);
+  font-weight: bold;
+}
+.textInImage h3 {
+  color: var(--color-font-dark);
+}
+/* .logoContainer {
    
     width: 90px;
     height: 90px;
@@ -11,4 +34,4 @@
     transform: translate(-50%, -50%);
     animation: spin 8s infinite linear;
     border:1px solid black;
-  }
+  } */

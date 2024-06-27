@@ -10,8 +10,6 @@ import project3 from '../../assets/about-projects/test/mult-pic905-895x505-90221
 import project4 from '../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg'
 const projects: string[] = [project1, project2, project3, project4]
 
-
-
 const MoreAboutProjects: React.FC = () => {
     const { t } = useTranslation("translation");
     const moreAboutProjects: MoreAboutProject[] = t("moreAboutProject", { returnObjects: true });
@@ -19,7 +17,7 @@ const MoreAboutProjects: React.FC = () => {
     return (
         <div className={styles.homeCardContainer}>
             {moreAboutProjects.map((card) => (
-                <div key={card.id} className={styles.cardContainer}>
+                <div key={card.id} className={styles.cardContainer} id={`card-${card.id}`}>
                     {card.id % 2 === 0 ? (
                         <>
                             <div className={styles.imageContainer}>

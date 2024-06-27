@@ -30,6 +30,19 @@
     "ourValues": "Unsere Werte",
     "aboutText": "Entwicklung, Coaching und Förderung von Websites und Marken: individuelle Herangehensweise, personalisierte Lösungen, kontinuierliche Unterstützung – der Schlüssel zu Ihrem digitalen Erfolg!"
   },
+  "projects": {
+    "details": "Details"
+  },
+  "about": {
+    "aboutUs": "Über uns",
+    "aboutTitle": "Wir sind ein professionelles Marketingteam, das sich auf die Entwicklung maßgeschneiderter Lösungen spezialisiert hat, um Ihren Geschäftsgewinn zu steigern und die Bekanntheit Ihrer Marke zu stärken.",
+    "aboutText": "Mit umfangreicher Erfahrung im Internetmarketing und Webentwicklung wissen wir, wie wir selbst die anspruchsvollsten Kunden zufriedenstellen können, indem wir individuelle Lösungen anbieten.",
+    "ourTeam": "Unser Team"
+  },
+  "portfolio": {
+    "portfolio": "Portfolio",
+    "imageTitle": "Entdecken Sie unsere erfolgreichen Projekte in Webentwicklung und Marketing in unserem Portfolio!"
+  },
   "homeCards": [
     {
       "id": 0,
@@ -46,32 +59,19 @@
       "id": 1,
       "name": "SEO",
       "description": "Optimierung und Förderung der Website in die TOP-Ergebnisse der Suchmaschinen:",
-      "details": [
-        "Google",
-        "Bing",
-        "Lokales SEO"
-      ]
+      "details": ["Google", "Bing", "Lokales SEO"]
     },
     {
       "id": 2,
       "name": "SMM",
       "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
-      "details": [
-        "Facebook",
-        "Instagram",
-        "LinkedIn",
-        "YouTube"
-      ]
+      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
     },
     {
       "id": 3,
       "name": "COACH",
       "description": "Wir bieten individuelle und Gruppencoachings für berufliches und persönliches Wachstum an:",
-      "details": [
-        "SMART-Zielmethode",
-        "Coaching durch Fragen",
-        "GROW-Modell"
-      ]
+      "details": ["SMART-Zielmethode", "Coaching durch Fragen", "GROW-Modell"]
     }
   ],
   "aboutCards": [
@@ -196,40 +196,22 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["name1", "name2", "name3", "name4"]
     }
   ],
   "stagesWork": [
@@ -275,45 +257,25 @@
       "id": 0,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 1,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 2,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 3,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     }
   ],
   "aboutPrice": [

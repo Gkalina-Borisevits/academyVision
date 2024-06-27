@@ -1,2 +1,16 @@
-
-  
+.textInImage {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  gap: 20px;
+}
+.textInImage h1 {
+  margin-bottom: 1rem;
+  color: var(--color-font-dark);
+  font-weight: bold;
+}
+.textInImage h3 {
+  color: var(--color-font-dark);
+}
