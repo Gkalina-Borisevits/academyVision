@@ -76,7 +76,16 @@
   align-items: center;
   justify-content: space-between;
   gap: 26px;
+  width: 100%;
   margin-bottom: 80px;
+}
+.about {
+  flex: 0 0 40%;
+  padding: 10px;
+}
+.about p{
+  margin-bottom: 40px;
+  padding-left: 30px;
 }
 .aboutHomePageContainer p {
   font-weight: bold;
@@ -103,11 +112,21 @@
 .aboutText {
   max-width: 1000px;
 }
+.imageContainer {
+  flex: 0 0 60%; 
+  padding: 10px; 
+}
+
+.imageContainer img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+}
 .aboutHomePageContainer img {
-  width: 120%;
+  max-width: 140%;
   height: auto;
 }
-@media (max-width: 1020px) {
+@media (max-width: 1120px) {
   .aboutHomePageContainer {
     flex-direction: column;
     align-items: center;

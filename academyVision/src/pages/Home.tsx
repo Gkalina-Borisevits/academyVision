@@ -69,11 +69,11 @@ const Home: React.FC = () => {
             </div>
           </div>
           <div className={styles.aboutHomePageContainer}>
-            <div>
+            <div className={styles.about}>
               <p>{t("homePage.ourValues")}</p>
               <AboutHomePage />
             </div>
-            <div>
+            <div className={styles.imageContainer}>
               <img src={image} alt="" />
             </div>
           </div>
