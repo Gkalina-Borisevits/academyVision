@@ -16,48 +16,41 @@ import { useTranslation } from "react-i18next";
 import StagesOfWork from "../components/stages-of-work/StagesOfWork.tsx";
 
 const Price: FC = () => {
-  const { t } = useTranslation("translation");
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
+    const { t } = useTranslation("translation");
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
 
-  const handleResize = () => {
-    setIsMobile(window.innerWidth < 468);
-  };
+    const handleResize = () => {
+        setIsMobile(window.innerWidth < 468);
+    };
 
-                <HomeCards/>
-                {/* <AboutProjects/> */}
-                <StagesOfWork/>
-                {/* <StageOfWorkAccordion/> */}
-                <PriceComponents/>
-            </MyContainer>
-        </div>
+
+    useEffect(() => {
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
+    return (
+        <>
+            <ImageContainer imgSrc={img} imgAlt="Image">
+                <MyContainer>
+                    <div className={styles.textInImage}>
+                        <h1>{t("about.aboutUs")}</h1>
+                        <h3>{t("about.aboutTitle")}</h3>
+                    </div>
+                </MyContainer>
+            </ImageContainer>
+            <div className={styles.priceContainer}>
+                <MyContainer>
+                    <div className={styles.advantageCardContainer}>
+                        <AdvantageCards />
+                    </div>
+                    {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork />}
+                    <AboutProjects />
+                    {/* <StagesWork/> */}
+                </MyContainer>
+            </div>
+        </>
     );
- useEffect(() => {
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  return (
-    <>
-      <ImageContainer imgSrc={img} imgAlt="Image">
-        <MyContainer>
-          <div className={styles.textInImage}>
-            <h1>{t("about.aboutUs")}</h1>
-            <h3>{t("about.aboutTitle")}</h3>
-          </div>
-        </MyContainer>
-      </ImageContainer>
-      <div className={styles.priceContainer}>
-        <MyContainer>
-          <div className={styles.advantageCardContainer}>
-            <AdvantageCards />
-          </div>
-          {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork />}
-          <AboutProjects />
-          {/* <StagesWork/> */}
-        </MyContainer>
-      </div>
-    </>
-  );
 
 };
 
