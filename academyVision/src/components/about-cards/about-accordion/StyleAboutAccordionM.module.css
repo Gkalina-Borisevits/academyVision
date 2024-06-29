@@ -11,54 +11,13 @@
 
 .accordionHeader h1 {
   font-size: 25px;
-  margin-left: 230px;
+  padding-left: 20px;
 }
 .accordionHeader {
   border: 2px saddlebrown solid;
-}
-
-@media (max-width: 499px) {
-  .accordionHeader h1{
-    margin-left: 180px;
-  }
-}
-@media (max-width: 476px) {
+ }
+@media (max-width: 390px) {
   .accordionHeader h1 {
-    margin-left: 160px;
+    font-size: 22px;
   }
-}
-@media (max-width: 450px) {
-  .accordionHeader h1 {
-    margin-left: 150px;
-  }
-}
-@media (max-width: 445px) {
-  .accordionHeader h1 {
-    margin-left: 150px;
-  }
-}
-@media (max-width: 441px) {
-  .accordionHeader h1 {
-    margin-left: 130px;
-  }
-}
-@media (max-width: 421px) {
-  .accordionHeader h1 {
-    margin-left: 120px;
-  }
-}
-@media (max-width: 410px) {
-  .accordionHeader h1 {
-    margin-left: 110px;
-  }
-}
-@media (max-width: 399px) {
-  .accordionHeader h1 {
-    margin-left: 100px;
-  }
-}
-@media (max-width: 391px) {
-  .accordionHeader h1 {
-    margin-left: 90px;
-  }
-}
+} 

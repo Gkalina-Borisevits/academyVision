@@ -9,14 +9,15 @@ import StagesOfWork from "../components/stages-of-work/StagesOfWork";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import AboutCardsAccordion from "../components/about-cards/about-accordion/AboutCardsAccordion";
+import MoreAboutProjectsMobile from "../components/more-about-project/more-about-project-mobile/MoreAboutProjectsMobile";
 
 const Portfolio: FC = () => {
   const { hash } = useLocation();
   const { t } = useTranslation("translation");
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   const handleResize = () => {
-    setIsMobile(window.innerWidth < 468);
+    setIsMobile(window.innerWidth < 768);
   };
 
   useEffect(() => {
@@ -48,8 +49,9 @@ const Portfolio: FC = () => {
       
       <MyContainer>
       {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
-        <MoreAboutProjects />
-        <StagesOfWork />
+      {isMobile ?  <MoreAboutProjectsMobile />:  <MoreAboutProjects />}
+        {/* <MoreAboutProjects />
+        <StagesOfWork /> */}
       </MyContainer>
     </div>
     </>

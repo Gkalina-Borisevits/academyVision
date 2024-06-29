@@ -307,6 +307,17 @@
         "name3",
         "name4"
       ]
+    },
+    {
+      "id": 3,
+      "title": "Website Development for a Financial Company",
+      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     }
   ],
   "aboutPrice": [

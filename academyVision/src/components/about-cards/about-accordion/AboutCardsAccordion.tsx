@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Card } from 'react-bootstrap';
 import styles from "./StyleAboutAccordionM.module.css";
 import "./StyleAboutAccordion.css";
 import { useTranslation } from 'react-i18next';

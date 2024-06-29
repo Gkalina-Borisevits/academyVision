@@ -14,6 +14,8 @@ import AdvantageCards from "../components/advantage-cards/AdvantageCards.tsx";
 import { useTranslation } from "react-i18next";
 
 import StagesOfWork from "../components/stages-of-work/StagesOfWork.tsx";
+import MoreAboutProjectsMobile from "../components/more-about-project/more-about-project-mobile/MoreAboutProjectsMobile.tsx";
+import MoreAboutProjects from "../components/more-about-project/MoreAboutProjects.tsx";
 
 const Price: FC = () => {
     const { t } = useTranslation("translation");
@@ -41,12 +43,14 @@ const Price: FC = () => {
             </ImageContainer>
             <div className={styles.priceContainer}>
                 <MyContainer>
-                    <div className={styles.advantageCardContainer}>
+                    {/* <div className={styles.advantageCardContainer}>
                         <AdvantageCards />
                     </div>
                     {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork />}
-                    <AboutProjects />
+                    <AboutProjects /> */}
                     {/* <StagesWork/> */}
+                    <MoreAboutProjects/>
+                    <MoreAboutProjectsMobile/>
                 </MyContainer>
             </div>
         </>

@@ -22,7 +22,8 @@ const AboutCards: React.FC = () => {
                 >
                     <Card.Header className={styles.cardHeader}>
                         <Card.Img variant="left" className={styles.logo} src={aboutIcons[card.id]} />
-                        <h1> {card.name}</h1>
+                        {/* <h1> {card.name}</h1> */}
+                        <Card.Text className={styles.headerText}> {card.name}</Card.Text> 
                     </Card.Header>
                     <Card.Body>
                         <Card.Text className={styles.aboutText}>{card.description}</Card.Text>
