@@ -36,9 +36,12 @@
 }
 .dateContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
   background-color: var(--color-dark);
   color: bisque;
-  font-size: 17px;
+  font-size: 0.9em;
   padding: 10px;
+  gap: 20px;
 }

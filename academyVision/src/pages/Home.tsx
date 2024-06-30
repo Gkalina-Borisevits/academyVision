@@ -5,18 +5,15 @@ import HomeCards from "../components/home-cards/HomeCards";
 import HomeCardsAccordion from "../components/home-cards/home-accordion/HomeCardsAccordion";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
-import MyButton from "../components/myButton/MyButton";
 import MyContainer from "../components/myContainer/MyContainer";
 import ContactForm from "../components/contactForm/ContactForm";
 import { useTranslation } from "react-i18next";
 import AboutProjects from "../components/about-projects/AboutProjects";
 import image from "../assets/home/aboutHome.png";
-import { useNavigate } from "react-router-dom";
 
 const Home: React.FC = () => {
   const { t } = useTranslation("translation");
   const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
-  const navigate = useNavigate();
 
   const handleResize = () => {
     setIsMobile(window.innerWidth < 468);
@@ -27,7 +24,6 @@ const Home: React.FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const handleButtonClick = () => navigate("/portfolio");
 
   return (
     <>
@@ -47,12 +43,6 @@ const Home: React.FC = () => {
           <div className={styles.aboutProjects}>
             <h2>{t("homePage.projects")}</h2>
             <AboutProjects />
-            <div>
-              <MyButton
-                onClick={handleButtonClick}
-                text={t("homePage.viewDetails")}
-              />
-            </div>
           </div>
           <div className={styles.homeContactsFormContainer}>
             <div className={styles.fullWidthDiv}></div>

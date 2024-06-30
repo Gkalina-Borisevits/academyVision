@@ -44,10 +44,8 @@ const Portfolio: FC = () => {
             <h3>{t("portfolio.imageTitle")}</h3>
           </div>
         </MyContainer>
-
       </ImageContainer>
       <div className={styles.portfolioContainer}>
-
         <MyContainer>
           {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
           {isMobile ? <MoreAboutProjectsMobile /> : <MoreAboutProjects />}

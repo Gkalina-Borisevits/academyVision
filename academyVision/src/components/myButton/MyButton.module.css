@@ -42,7 +42,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s ease, transform 0.3s ease;
-  color: #483636;
+  color: #594949;
 }
 
 .active {
@@ -50,7 +50,7 @@
   border: 1px solid #d1c4c4;
   border-radius: 5px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-  color: rgb(76, 59, 47);
+  color: rgb(83, 67, 54);
   padding: 10px 20px;
   cursor: pointer;
   transition: 0.3s ease, transform 0.3s ease;
@@ -59,8 +59,8 @@
 
 .active:hover {
   background: linear-gradient(to bottom, rgb(79, 139, 74), #EFEFEF);
-  color:hwb(25 6% 52%);
-  /* -webkit-text-stroke: 1px rgb(135, 137, 135); */
+  color:hwb(27 27% 53%);
+  /* -webkit-text-stroke: 1px rgb(59, 60, 59); */
   transform: translateY(-2px);
 }
 
