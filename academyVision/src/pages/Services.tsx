@@ -8,7 +8,6 @@ import { useTranslation } from "react-i18next"
 import ContactForm from "../components/contactForm/ContactForm"
 import ServicesPageCard from "../components/pricePageCard/ServicesPageCard"
 import AccordionServicesCard from "../components/pricePageCard/accordionServicesCard/AccordionServicesCard"
-import ContactUs from "../components/contactUs/ContactUs"
 
 
 
@@ -41,8 +40,12 @@ const Services: FC = () => {
             {isMobile ? <AccordionServicesCard /> : <ServicesPageCard />}
           </div>
           <ContactForm />
+<<<<<<< HEAD
           <AdvantageCards />
 
+=======
+          <AdvantageCards/>
+>>>>>>> 72e60e99855c83c8082fbd78495e122205b6216f
         </MyContainer>
         <ContactUs />
       </div>

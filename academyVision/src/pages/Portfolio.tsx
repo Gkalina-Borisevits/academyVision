@@ -11,6 +11,7 @@ import { useTranslation } from "react-i18next";
 import AboutCardsAccordion from "../components/about-cards/about-accordion/AboutCardsAccordion";
 import MoreAboutProjectsMobile from "../components/more-about-project/more-about-project-mobile/MoreAboutProjectsMobile";
 import StageOfWorkAccordion from "../components/stages-of-work/stages-of-work-accordion/StageOfWorkAccordion";
+import ContactUs from "../components/contactUs/ContactUs";
 
 const Portfolio: FC = () => {
   const { hash } = useLocation();
@@ -49,6 +50,7 @@ const Portfolio: FC = () => {
         <MyContainer>
           {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
           {isMobile ? <MoreAboutProjectsMobile /> : <MoreAboutProjects />}
+          <ContactUs/>
           {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork /> }
         </MyContainer>
       </div>
