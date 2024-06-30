@@ -21,7 +21,6 @@ const ContactUs: React.FC = () => {
   };
   return (
     <div className={styles.contactContainer}>
-    
       <div className={styles.textContactsUs}>
         <h1>{t("contactUs.contactUs")}</h1>
         <p>{t("contactUs.contactUsText")}</p>
