@@ -1,7 +1,7 @@
 .container {
   background-color: var(--color-blue);
   margin-bottom: 80px;
-  margin-top: 80px;
+  margin-top: 20px;
 }
 .contactContainer {
   display: flex;
@@ -20,6 +20,7 @@
 
 .contactContainer p {
   color: beige;
+  font-size: large;
 }
 .whatsapp,
 .telegram,
@@ -109,8 +110,10 @@
   .linkContainer a {
     margin-bottom: 10px;
   }
-  .linkContainer h3,
-  p {
+  .linkContainer h3 {
     font-size: 10px;
+  }
+  .linkContainer p {
+    font-size: 6px;
   }
 }

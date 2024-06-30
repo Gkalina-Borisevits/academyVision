@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion } from 'react-bootstrap';
-import styles from "./StyleAboutAccordionM.module.css";
+import styles from "./StyleAboutAccordion.module.css";
 import "./StyleAboutAccordion.css";
 import { useTranslation } from 'react-i18next';
 import { AboutCard } from '../../../types/AboutCard';
@@ -16,7 +16,7 @@ const AboutCardsAccordion: React.FC = () => {
   const aboutCards: AboutCard[] = t("aboutCards", { returnObjects: true });
 
   return (
-    <div className={styles.homeCardContainerModile}>
+    <div className={styles.homeCardContainerMobile}>
       <Accordion defaultActiveKey={['0']} alwaysOpen>
         {aboutCards.map((card) => (
           <Accordion.Item eventKey={card.id.toString()} className={styles.accordionItem} >

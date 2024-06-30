@@ -3,7 +3,6 @@
   margin: 0 auto;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
   gap: 20px;
   margin-top:60px;
 }
@@ -20,4 +19,24 @@
 .portfolioContainer {
   margin-bottom: 60px;
   gap: 60px;
+}
+.ourProjectContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.ourProjectContainer h2{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+  color: var(--color-font-dark);
+}
+.aboutCardsPortfolioPage {
+  margin-top: -200px;
+}
+@media (max-width: 520px) {
+  .portfolioContainer {
+    margin-top: -180px;
+  }
 }

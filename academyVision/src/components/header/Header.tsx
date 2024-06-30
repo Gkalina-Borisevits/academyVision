@@ -87,32 +87,38 @@ const Header: React.FC = () => {
         {isMobile && <BurgerMenu />}
         <MyContainer>
           <div className={styles.myContainer}>
-            <NavLink to="/" className={styles.logoContainer}></NavLink>
-            <div>
-              {!isMobile && <NavbarPage />}
+
+            <div className={styles.logoContainerStyle}>
+              <NavLink to="/" className={styles.logoContainer}></NavLink>
             </div>
-            <div
-              className={styles.languageIcon}
-              onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
-            >
-              <FaGlobe />
-            </div>
-            {isLanguageDropdownOpen && (
-              <div ref={languageMenuRef} className={styles.languageDropdown}>
-                {languages.map((language) => (
-                  <div
-                    key={language.code}
-                    className={styles.languageOption}
-                    onClick={() => {
-                      changeLanguage(language.code);
-                      setIsLanguageDropdownOpen(false);
-                    }}
-                  >
-                    {language.flag} {language.name}
-                  </div>
-                ))}
+            
+            <div className={styles.menuConteiner}>
+              <div>
+                {!isMobile && <NavbarPage />}
               </div>
-            )}
+              <div
+                className={styles.languageIcon}
+                onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
+              >
+                <FaGlobe />
+              </div>
+              {isLanguageDropdownOpen && (
+                <div ref={languageMenuRef} className={styles.languageDropdown}>
+                  {languages.map((language) => (
+                    <div
+                      key={language.code}
+                      className={styles.languageOption}
+                      onClick={() => {
+                        changeLanguage(language.code);
+                        setIsLanguageDropdownOpen(false);
+                      }}
+                    >
+                      {language.flag} {language.name}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </MyContainer>
       </div>

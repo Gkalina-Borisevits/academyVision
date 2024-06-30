@@ -12,6 +12,7 @@ import response from "../../../src/assets/advantageIcons/response.png";
 import protection from "../../../src/assets/advantageIcons/protection.png";
 import innovativ from "../../../src/assets/advantageIcons/innovativ.png";
 import client from "../../../src/assets/advantageIcons/client.png";
+import MyContainer from "../myContainer/MyContainer";
 const advantageIcons: string[] = [
   global,
   adaptiv,
@@ -30,7 +31,16 @@ const AdvantageCards: React.FC = () => {
   });
 
   return (
+    <div className={styles.bigContainer}>
+        <MyContainer>
+    <div className={styles.textAboutContainer}>
+        {" "}
+        <h1>{t("about.advantages")}</h1>
+        <h5>{t("about.specialize")}</h5>
+      </div>
     <div className={styles.advantageCardContainer}>
+      
+
       {advantageCards.map((card) => (
         <Card key={card.id} className={`${styles.cardContainer} mb-2 border-2`}>
           <Card.Header className={styles.advantageHeader}>
@@ -50,6 +60,9 @@ const AdvantageCards: React.FC = () => {
           </Card.Body>
         </Card>
       ))}
+      
+    </div>
+    </MyContainer>
     </div>
   );
 };
