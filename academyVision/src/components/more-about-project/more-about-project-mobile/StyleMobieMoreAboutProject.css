@@ -1,0 +1,19 @@
+.card-header {
+  max-height: 30rem;
+}
+
+@media screen and (max-width: 768px) {
+  .card-header {
+    max-height: 25rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card-header {
+    max-height: 20rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .card-header {
+    max-height: 15rem;
+  }
+}

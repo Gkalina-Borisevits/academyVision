@@ -6,9 +6,12 @@
   margin-bottom: 10px;
 }
 .accordion-collapse {
-  padding-left: 40px;
+  padding-left: 20px;
 }
-
+/* ._accordionHeader_1fm6z_23{
+  display: flex;
+  justify-content: center;
+} */
 /* @media (max-width: 445px) {
   ._accordionHeader_10ihj_23 h1 {
     margin-left: 120px;

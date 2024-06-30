@@ -32,7 +32,7 @@ const StagesOfWork: React.FC = () => {
                                 {stagesWork.map((card) => (
                                     <Nav.Item>
                                         <Nav.Link eventKey={card.id.toString()}>
-                                            <div className="d-flex justify-content-between">
+                                            <div className="d-flex justify-content-between header-stage">
                                                 <p>
                                                     {card.title}
                                                 </p>
@@ -40,7 +40,6 @@ const StagesOfWork: React.FC = () => {
                                                     {card.num} {""}<FaArrowRight />
                                                 </p>
                                             </div>
-
                                         </Nav.Link>
                                     </Nav.Item>
                                 ))}

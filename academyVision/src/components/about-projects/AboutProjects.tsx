@@ -1,6 +1,19 @@
 import React from "react";
 import styles from "./AboutProjects.module.css";
 import "./AboutProjects.css";
+
+import { useTranslation } from 'react-i18next';
+import img1 from "../../assets/about-projects/test/1517154655_vodopad-v-lesu-video-oboi_jpg.jpg"
+import img2 from "../../assets/about-projects/test/4862.jpg"
+import img3 from "../../assets/about-projects/test/mult-pic905-895x505-90221.jpg"
+import img4 from "../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg"
+import img5 from "../../assets/homeIcons/smm.png"
+
+import MyContainer from '../myContainer/MyContainer';
+import { AboutProject } from '../../types/AboutProject';
+import cartTest from "../../assets/aboutIcons/innovation.png"
+import { Link } from 'react-router-dom';
+
 import { useTranslation } from "react-i18next";
 import img1 from "../../assets/about-projects/test/1517154655_vodopad-v-lesu-video-oboi_jpg.jpg";
 import img2 from "../../assets/about-projects/test/4862.jpg";
@@ -11,6 +24,7 @@ import { AboutProject } from "../../types/AboutProject";
 import cartTest from "../../assets/aboutIcons/innovation.png";
 import { Link, useNavigate } from "react-router-dom";
 import MyButton from "../myButton/MyButton";
+
 
 const AboutProjects: React.FC = () => {
   const { t } = useTranslation("translation");
@@ -23,12 +37,10 @@ const AboutProjects: React.FC = () => {
     navigate("/portfolio");
     window.scrollTo(0, 0);
   };
-
   return (
     <>
       <MyContainer>
         {" "}
-        {/* Для того чтобы Container занимал всю ширину */}
         <div className={styles.headerProject}></div>
         <div className={styles.containerWork}>
           <div
