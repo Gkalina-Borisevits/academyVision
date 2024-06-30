@@ -50,21 +50,9 @@
   position: relative;
   color: rgb(83, 83, 81);
   cursor: pointer;
-  margin-left: 50px;
-  font-size: 22px;
-
 }
-.languageDropdown {
-   position: relative;
-  top: 0 px;
-  z-index: 1000;
-  color: rgb(24, 24, 23);
-  cursor: pointer;
-  background-color: rgb(199, 199, 178);
-  border: 1px solid rgb(171, 167, 167);
-  cursor: pointer;
-  font-size: 14px;
-  right: 30px;
+.languageIcon::after {
+  color: rgb(83, 83, 81);
 }
 .burgerInHeader {
   font-size: large;

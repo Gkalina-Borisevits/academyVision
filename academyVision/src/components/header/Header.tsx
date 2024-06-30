@@ -7,6 +7,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { FaGlobe } from "react-icons/fa";
 import NavbarPage from "../navbar/NavbarPage";
 import MyContainer from "../myContainer/MyContainer";
+import { Dropdown } from "react-bootstrap";
 
 const Header: React.FC = () => {
   const { i18n } = useTranslation("translation");
@@ -80,40 +81,30 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <div
-        className={`${styles.navbarContainer} ${
-          isScrolled ? styles.scrolled : ""
-        }`}
-      >
+      <div className={`${styles.navbarContainer} ${isScrolled ? styles.scrolled : ""}`}>
         {isMobile && <BurgerMenu />}
         <MyContainer>
           <div className={styles.myContainer}>
-            <NavLink to="/" className={styles.logoContainer}></NavLink>
-<div>
-            {!isMobile && <NavbarPage />}
-            </div>
-            <div
-              className={styles.languageIcon}
-              onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
-            >
-              <FaGlobe />
-            </div>
-            {isLanguageDropdownOpen && (
-              <div ref={languageMenuRef} className={styles.languageDropdown}>
+          <NavLink to="/" className={styles.logoContainer}></NavLink>
+            <div>{!isMobile && <NavbarPage />}</div>
+            <Dropdown show={isLanguageDropdownOpen} onToggle={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}>
+              <Dropdown.Toggle variant="link" className={styles.languageIcon}>
+                <FaGlobe className={styles.languageIcon}/>
+              </Dropdown.Toggle>
+              <Dropdown.Menu>
                 {languages.map((language) => (
-                  <div
+                  <Dropdown.Item
                     key={language.code}
-                    className={styles.languageOption}
                     onClick={() => {
                       changeLanguage(language.code);
                       setIsLanguageDropdownOpen(false);
                     }}
                   >
                     {language.flag} {language.name}
-                  </div>
+                  </Dropdown.Item>
                 ))}
-              </div>
-            )}
+              </Dropdown.Menu>
+            </Dropdown>
           </div>
         </MyContainer>
       </div>
