@@ -27,7 +27,6 @@ li {
 }
 .accordionHeader {
 border-radius: 8px;
-  border: 2px solid rgb(93, 75, 62);
 }
 
 @media (max-width: 499px) {

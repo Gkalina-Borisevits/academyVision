@@ -37,7 +37,9 @@
     "aboutUs": "Über uns",
     "aboutTitle": "Wir sind ein professionelles Marketingteam, das sich auf die Entwicklung maßgeschneiderter Lösungen spezialisiert hat, um Ihren Geschäftsgewinn zu steigern und die Bekanntheit Ihrer Marke zu stärken.",
     "aboutText": "Mit umfangreicher Erfahrung im Internetmarketing und Webentwicklung wissen wir, wie wir selbst die anspruchsvollsten Kunden zufriedenstellen können, indem wir individuelle Lösungen anbieten.",
-    "ourTeam": "Unser Team"
+    "ourTeam": "Unser Team",
+    "advantages": "Unsere Vorteile",
+    "specialize": "Wir spezialisieren uns auf umfassende Marketinglösungen und sind immer darauf ausgerichtet, maximale Ergebnisse zu erzielen"
   },
   "portfolio": {
     "portfolio": "Portfolio",
@@ -57,6 +59,10 @@
   "contacts": {
     "title": "Kontaktieren Sie uns",
     "textHeader": "Wir sind bereit, Ihr Projekt sofort zu besprechen. Kontaktieren Sie uns auf jede bequeme Weise, und unser Manager wird Sie kostenlos zu allen Fragen beraten."
+  },
+  "price": {
+    "title": "Kosten der Dienstleistungen",
+    "description": "Transparente Tarife helfen, die notwendigen Bedürfnisse zu bestimmen"
   },
   "homeCards": [
     {
@@ -465,6 +471,24 @@
       "id": "2",
       "title": "Professionelles Team",
       "description": "Entwicklung durch Profis im Bereich Website-Erstellung, die ergebnisorientiert arbeiten"
+    }
+  ],
+  "contactCard": [
+    {
+      "id": "0",
+      "title": "Deutschland",
+      "address": "Kurfürstendamm 15,",
+      "address2" : "10719 Berlin",
+      "phone": "+49 30 979 83 903",
+      "email": "info@mindcept.de"
+    },
+    {
+      "id": "1",
+      "title": "Deutschland",
+      "address": "Rothenburgstraße 25,",
+      "address2" : "12165 Berlin",
+      "phone": "+49 30 979 83 903",
+      "email": "info@mindcept.de"
     }
   ]
 }

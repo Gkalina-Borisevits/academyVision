@@ -1,0 +1,75 @@
+.icon {
+    color: rgb(29, 134, 169);
+   font-size: 18px;
+   margin-right: 6px;
+}
+.cardHeader {
+    display: flex;
+    align-self: center;
+  text-align: center;
+}
+.headerText {
+  font-size: 23px;
+  color: rgb(29, 134, 169);
+  font-weight: 600;
+}
+.aboutText {
+  font-size: 16px;
+}
+.homeCardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: stretch;
+  position: relative;
+  z-index: 1;
+}
+.cardContainer {
+  width: 18rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  box-shadow: none;
+  padding: 12px;
+}
+
+.cardContainer:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.cardContainer:hover h1 {
+  text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
+}
+.cardHeader h1 {
+  font-size: 30px;
+  color: rgb(29, 134, 169);
+}
+.aboutText {
+  font-size: 16px;
+}
+.homeCardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; 
+  align-items: stretch; 
+  margin-top: -100px;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 1;
+}
+.cardContainer {
+  width: 20rem; 
+  margin-bottom: 2rem; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer;
+  position: relative; 
+  box-shadow: none; 
+}
+
+.cardContainer:hover {
+  transform: translateY(-20px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
