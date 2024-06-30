@@ -47,31 +47,100 @@
     {
       "id": 0,
       "name": "WEB",
-      "description": "Expertenentwicklung und Erstellung verkaufsfähiger Websites „schlüsselfertig“:",
+      "description": "Expertenentwicklung und Erstellung von schlüsselfertigen Verkaufswebseiten:",
       "details": [
-        "Landingpages",
-        "Unternehmenswebseiten",
-        "E-Commerce-Websites",
-        "Individuelle Lösungen"
+        {
+          "id": 0,
+          "title": "Landing Page",
+          "description": "Wir entwickeln verkaufsfördernde Landing Pages, die die Qualität Ihrer Leads verbessern, den Umsatz steigern und den Gewinn maximieren."
+        },
+        {
+          "id": 1,
+          "title": "Unternehmenswebseiten",
+          "description": "Wir erstellen stilvolle Markenwebseiten mit benutzerfreundlicher Schnittstelle, die auf die Bedürfnisse und Ziele Ihres Unternehmens zugeschnitten sind."
+        },
+        {
+          "id": 2,
+          "title": "Online-Shops",
+          "description": "Unser Team bietet umfassende Dienstleistungen für die Entwicklung von Online-Shops. Wir erstellen einen einzigartigen Online-Shop für Ihr Unternehmen."
+        },
+        {
+          "id": 3,
+          "title": "Persönliche Lösungen",
+          "description": "Wir bieten auch maßgeschneiderte Lösungen an, angefangen beim Redesign einer bestehenden Webseite bis hin zur Entwicklung einer Webseite nach speziellen Anforderungen."
+        }
       ]
     },
     {
       "id": 1,
       "name": "SEO",
-      "description": "Optimierung und Förderung der Website in die TOP-Ergebnisse der Suchmaschinen:",
-      "details": ["Google", "Bing", "Lokales SEO"]
+      "description": "Optimierung und Förderung der Website in die TOP-Suchergebnisse der Suchmaschinen:",
+      "details": [
+        {
+          "id": 0,
+          "title": "Lokales SEO",
+          "description": "Steigerung der Qualität und Quantität des organischen Verkehrs auf Ihrer Webseite durch umfassende Förderung in den lokalen Suchergebnissen von Google."
+        },
+        {
+          "id": 1,
+          "title": "Google",
+          "description": "Ein Maßnahmenpaket für interne und externe Optimierung zur Verbesserung des Rankings und der Sichtbarkeit der Website in den Google-Suchergebnissen."
+        },
+        {
+          "id": 2,
+          "title": "Bing",
+          "description": "Deutliche Verbesserung der Positionen Ihrer Website in den Bing-Suchergebnissen und Garantie für einen Anstieg des Zielgruppenstroms für Ihr Geschäft."
+        }
+      ]
     },
     {
       "id": 2,
       "name": "SMM",
       "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
-      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
+      "details": [
+        {
+          "id": 0,
+          "title": "Facebook",
+          "description": "Unsere Spezialisten entwickeln eine effektive Strategie zur Förderung Ihrer Marke auf Facebook, richten Werbung ein, erstellen und implementieren eine Inhaltsstrategie."
+        },
+        {
+          "id": 1,
+          "title": "Instagram",
+          "description": "Wir erstellen und fördern einzigartige Text- und Videoinhalte auf Instagram, die das Ansehen Ihrer Marke und die Kundentreue erhöhen."
+        },
+        {
+          "id": 2,
+          "title": "LinkedIn",
+          "description": "Wir führen eine professionelle Präsentation Ihres Unternehmens auf LinkedIn durch, erstellen ein Geschäftskonto, füllen es mit Inhalten und richten Werbekampagnen ein."
+        },
+        {
+          "id": 3,
+          "title": "YouTube",
+          "description": "Wir helfen bei der Entwicklung Ihres Kanals, indem wir ein einzigartiges Image und Stil erstellen. Wir kümmern uns auch um die Förderung Ihrer Videos und das Anziehen von Traffic auf Ihre Website/Profil in sozialen Netzwerken."
+        }
+      ]
     },
     {
       "id": 3,
-      "name": "COACH",
-      "description": "Wir bieten individuelle und Gruppencoachings für berufliches und persönliches Wachstum an:",
-      "details": ["SMART-Zielmethode", "Coaching durch Fragen", "GROW-Modell"]
+      "name": "COACHING",
+      "description": "Wir bieten individuelle und Gruppen-Coaching-Sitzungen für berufliches und persönliches Wachstum an:",
+      "details": [
+        {
+          "id": 0,
+          "title": "SMART-Ziele Methode",
+          "description": "Wird verwendet, um klare und messbare Ziele zu definieren, die einen strukturierten Ansatz zur Erreichung von Aufgaben bieten."
+        },
+        {
+          "id": 1,
+          "title": "Coaching durch Fragen",
+          "description": "Eine Coaching-Technik, die gezielte Fragen verwendet, um den Klienten zu helfen, ihre Ziele zu verstehen und zu erreichen."
+        },
+        {
+          "id": 2,
+          "title": "GROW-Modell",
+          "description": "Eine beliebte Coaching-Methode, die den Klienten hilft, ihre Ziele zu definieren, die Realität zu erkunden, Optionen zu wählen und zu bestimmen, was als Nächstes kommt."
+        }
+      ]
     }
   ],
   "aboutCards": [
@@ -196,22 +265,40 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": ["name1", "name2", "name3"]
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": ["name1", "name2", "name3"]
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": ["name1", "name2", "name3", "name4"]
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": ["name1", "name2", "name3", "name4"]
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     }
   ],
   "stagesWork": [
@@ -257,25 +344,45 @@
       "id": 0,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     },
     {
       "id": 1,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     },
     {
       "id": 2,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     },
     {
       "id": 3,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     }
   ],
   "aboutPrice": [
