@@ -30,7 +30,7 @@ const HomeCardsAccordion: React.FC = () => {
               <p>{card.description}</p>
               <ul>
                 {card.details.map((detail, index) => (
-                  <li key={index}>{detail}</li> // Добавьте ключи для элементов списка
+                  <li key={index}>{detail.title}</li> // Добавьте ключи для элементов списка
                 ))}
               </ul>
             </Accordion.Body>
