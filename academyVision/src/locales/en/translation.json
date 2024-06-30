@@ -60,32 +60,98 @@
       "name": "WEB",
       "description": "Expert development and creation of turnkey sales websites:",
       "details": [
-        "Landing pages",
-        "Corporate websites",
-        "E-commerce sites",
-        "Custom solutions"
+        {
+          "id": 0,
+          "title": "Landing Page",
+          "description": "We develop sales landing pages that help improve the quality of your leads, increase turnover, and maximize profit."
+        },
+        {
+          "id": 1,
+          "title": "Corporate Websites",
+          "description": "We create stylish branded websites with a user-friendly interface tailored to the needs and goals of your company."
+        },
+        {
+          "id": 2,
+          "title": "Online Stores",
+          "description": "Our team offers comprehensive services for the development of online stores. We will create a unique online store for your company."
+        },
+        {
+          "id": 3,
+          "title": "Personal Solutions",
+          "description": "We also provide custom solutions, starting from redesigning an existing website to developing a web site based on special requirements."
+        }
       ]
     },
     {
       "id": 1,
       "name": "SEO",
-      "description": "Optimization and promotion of websites to the TOP of search engine results:",
-      "details": ["Google", "Bing", "Local SEO"]
+      "description": "Optimization and promotion of the site to the TOP of search engine results:",
+      "details": [
+        {
+          "id": 0,
+          "title": "Local SEO",
+          "description": "Increasing the quality and quantity of organic traffic to your website through comprehensive promotion in Google's local search results."
+        },
+        {
+          "id": 1,
+          "title": "Google",
+          "description": "A set of measures for internal and external optimization to increase the ranking and visibility of the site in Google search results."
+        },
+        {
+          "id": 2,
+          "title": "Bing",
+          "description": "Significant improvement in site positions in Bing search results and a guarantee of an increase in the flow of target audience for your business."
+        }
+      ]
     },
     {
       "id": 2,
       "name": "SMM",
       "description": "Comprehensive marketing and promotion on social networks:",
-      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
+
+      "details": [
+        {
+          "id": 0,
+          "title": "Facebook",
+          "description": "Our specialists will develop an effective strategy for promoting your brand on Facebook, set up advertising, create and implement a content strategy."
+        },
+        {
+          "id": 1,
+          "title": "Instagram",
+          "description": "We create and promote unique text and video content on Instagram, which will increase the recognition of your brand and customer loyalty."
+        },
+        {
+          "id": 2,
+          "title": "LinkedIn",
+          "description": "We will conduct a professional presentation of your company on LinkedIn, create a business account, fill it with content, and set up advertising campaigns."
+        },
+        {
+          "id": 3,
+          "title": "YouTube",
+          "description": "We will help develop your channel by creating a unique image and style. We will also take care of promoting your videos and attracting traffic to your site/profile on social networks."
+        }
+      ]
     },
     {
       "id": 3,
       "name": "COACH",
       "description": "We offer individual and group coaching sessions for professional and personal growth:",
       "details": [
-        "SMART goals method",
-        "Coaching through questions",
-        "GROW model"
+        {
+          "id": 0,
+          "title": "SMART Goals Method",
+          "description": "Used to define clear and measurable goals that provide a structured approach to achieving tasks."
+        },
+        {
+          "id": 1,
+          "title": "Coaching Through Questions",
+          "description": "A coaching technique that uses targeted questions to help clients understand and achieve their goals."
+        },
+        {
+          "id": 2,
+          "title": "GROW Model",
+          "description": "A popular coaching method that helps clients define their Goals, explore Reality, choose Options, and determine What's next."
+        }
       ]
     }
   ],

@@ -11,6 +11,7 @@ import AccordionServicesCard from "../components/pricePageCard/accordionServices
 import ContactUs from "../components/contactUs/ContactUs"
 
 
+
 const Services: FC = () => {
   const { t } = useTranslation("translation");
   const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
@@ -43,7 +44,6 @@ const Services: FC = () => {
           <AdvantageCards/>
           <ContactUs/>
         </MyContainer>
-  
   </div>
   </>
   )

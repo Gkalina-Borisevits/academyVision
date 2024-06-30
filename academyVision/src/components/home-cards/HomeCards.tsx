@@ -33,7 +33,7 @@ const HomeCards: React.FC = () => {
               <Card.Text>
                 <ul>
                   {card.details.map((detail, index) => (
-                    <li key={index} className={styles.homeCardsLi}>{detail}</li>
+                    <li key={index} className={styles.homeCardsLi}>{detail.title}</li>
                   ))}
                 </ul>
               </Card.Text>
