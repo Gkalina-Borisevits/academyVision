@@ -38,6 +38,7 @@ const Services: FC = () => {
             {isMobile ? <AccordionServicesCard /> : <ServicesPageCard />}
           </div>
           <ContactForm />
+
           <AdvantageCards />
         </MyContainer>
       </div>

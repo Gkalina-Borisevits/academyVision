@@ -21,9 +21,14 @@ const ContactUs: React.FC = () => {
     window.location.href = url;
   };
   return (
+
     <div className={styles.container}>
         <MyContainer>
-        <div className={styles.contactContainer}>
+    <div className={styles.contactContainer}>
+
+
+     <div className={styles.fullWidthDiv}></div>
+
       <div className={styles.textContactsUs}>
         <h1>{t("contactUs.contactUs")}</h1>
         <p>{t("contactUs.contactUsText")}</p>
