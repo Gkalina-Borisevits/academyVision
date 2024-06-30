@@ -37,11 +37,18 @@
     "aboutUs": "Про нас",
     "aboutTitle": "Ми - професійна маркетингова команда, що спеціалізується на створенні індивідуальних рішень для збільшення прибутку вашого бізнесу та зміцнення впізнаваності вашого бренду.",
     "aboutText": "Имея глубокий опыт в интернет-маркетинге и веб-разработке, мы осознаем, как доставить максимальное удовлетворение нашим самым взыскательным клиентам, предлагая индивидуальные решения, полностью отвечающие их потребностям.",
-    "ourTeam" : "Наша команда"
+    "ourTeam": "Наша команда"
   },
   "portfolio": {
     "portfolio": "Портфоліо",
     "imageTitle": "Ознайомтесь з нашими успішними проектами веб-розробки та маркетингу у нашому портфоліо!"
+  },
+  "contactUs": {
+    "contactUs": "Зв'яжіться з нами!",
+    "contactUsText": "Якщо у вас є запитання, ми завжди готові допомогти. Напишіть нам, і ми з радістю відповімо."
+  },
+  "footer": {
+    "text": "Розробка та просування сайтів в Інтернеті"
   },
   "homeCards": [
     {
@@ -213,48 +220,28 @@
     {
       "id": 0,
       "title": "SILVER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "1000$"
     },
     {
       "id": 1,
       "title": "GOLD",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "1000$"
     },
     {
       "id": 2,
       "title": "PREMIUM",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "1000$"
     },
     {
       "id": 2,
       "title": "OTHER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "1000$"
     }

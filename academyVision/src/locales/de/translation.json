@@ -43,6 +43,13 @@
     "portfolio": "Portfolio",
     "imageTitle": "Entdecken Sie unsere erfolgreichen Projekte in Webentwicklung und Marketing in unserem Portfolio!"
   },
+  "contactUs": {
+    "contactUs": "Kontaktieren Sie uns!",
+    "contactUsText": "Wenn Sie Fragen haben, sind wir immer bereit zu helfen. Schreiben Sie uns, und wir werden Ihnen gerne antworten."
+  },
+  "footer": {
+    "text": "Entwicklung und Förderung von Websites im Internet"
+  },
   "homeCards": [
     {
       "id": 0,

@@ -153,9 +153,9 @@ const ContactForm: React.FC = () => {
           />
           {errors.message && <Alert variant="danger" className="small">{errors.message}</Alert>}
         </Form.Group>
-          <Row className="justify-content-center" style={{ marginTop: '50px' }}>
+          <Row className="justify-content-center mt-5 mb-5">
             <Col md="auto">
-          <MyButton text={t("contactsForm.send")} onClick={() => handleSubmit} active={true} />
+          <MyButton text={t("contactsForm.send")} onClick={() => handleSubmit} active={true} className="mb-4" />
           </Col>
           </Row>
         </Form>

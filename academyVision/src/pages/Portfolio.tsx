@@ -9,6 +9,7 @@ import StagesOfWork from "../components/stages-of-work/StagesOfWork";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import AboutCardsAccordion from "../components/about-cards/about-accordion/AboutCardsAccordion";
+import StageOfWorkAccordion from "../components/stages-of-work/stages-of-work-accordion/StageOfWorkAccordion";
 
 const Portfolio: FC = () => {
   const { hash } = useLocation();
@@ -47,9 +48,10 @@ const Portfolio: FC = () => {
     <div className={styles.portfolioContainer}>
       
       <MyContainer>
+        <div></div>
       {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
         <MoreAboutProjects />
-        <StagesOfWork />
+        {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork />}
       </MyContainer>
     </div>
     </>

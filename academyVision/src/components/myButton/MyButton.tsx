@@ -6,6 +6,7 @@ interface btnProps {
   text: string
   active?: boolean
   onClick?: () => void
+  className?: string
 }
 
 const MyButton: FC<btnProps> = ({ text, active = true, onClick }) => (

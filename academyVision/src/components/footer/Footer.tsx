@@ -8,6 +8,7 @@ const Footer: React.FC = () => {
   return (
     <>
       <div className={styles.footerContainer}>
+       
         <div>
           <NavLink to="/" className={styles.logoContainer}></NavLink>
         </div>
@@ -31,6 +32,7 @@ const Footer: React.FC = () => {
         
       </div>
       <div className={styles.dateContainer}>
+      <div>{t("footer.text")}</div>
         <span> © {new Date().getFullYear()} Academy Mincept Vision </span>
       </div>
     </>
