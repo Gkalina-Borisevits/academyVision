@@ -4,6 +4,7 @@ import "./StylePrice.css";
 import styles from "./StylePrice.module.css";
 import { useTranslation } from "react-i18next";
 import { Price } from "../../types/Price";
+import MyContainer from "../myContainer/MyContainer";
 
 
 const PriceComponents: React.FC = () => {
@@ -14,6 +15,7 @@ const PriceComponents: React.FC = () => {
         <div className={styles.priceHomeCardContainer}>
             {aboutPrices.map((card) => (
                 <Card className={`${styles.priceCardContainer} mb-2 border-2`}>
+                    <MyContainer>
                     <Card.Header className={styles.priceCardHeader}>
                         <Card.Img variant="left" className={styles.priceLogo} src={card?.icon} />
                         <h1> {card.title}</h1>
@@ -36,6 +38,7 @@ const PriceComponents: React.FC = () => {
                             </div>
                         </Card.Title>
                     </Card.Body>
+                    </MyContainer>
                 </Card>
             ))}
         </div>

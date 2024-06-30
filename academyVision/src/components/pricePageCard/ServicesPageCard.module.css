@@ -46,5 +46,4 @@
 .homeCardsCardContainer:hover {
   transform: translateY(-20px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgb(200, 178, 152);
 }

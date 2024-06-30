@@ -54,6 +54,10 @@
     "stages": "Arbeitsphasen",
     "solutions": "Unsere Lösungen im Bereich Entwicklung und Marketing sind systematisiert und individuell an jeden Kunden angepasst."
   },
+  "contacts": {
+    "title": "Kontaktieren Sie uns",
+    "textHeader": "Wir sind bereit, Ihr Projekt sofort zu besprechen. Kontaktieren Sie uns auf jede bequeme Weise, und unser Manager wird Sie kostenlos zu allen Fragen beraten."
+  },
   "homeCards": [
     {
       "id": 0,

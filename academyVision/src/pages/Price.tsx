@@ -22,12 +22,12 @@ const Price: FC = () => {
         </MyContainer>
       </ImageContainer>
       <div className={styles.priceContainer}>
-        <MyContainer>
+        
         <div className={styles.homeCardContainer}>
          <PriceComponents/>
          </div>
        <ContactUs/>
-        </MyContainer>
+    
       </div>
     </>
   );

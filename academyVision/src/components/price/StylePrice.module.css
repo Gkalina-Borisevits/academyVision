@@ -45,7 +45,7 @@
   
   .priceCardContainer:hover {
     transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавление тени снизу */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени снизу */
   }
   
   .priceCardContainer:hover h1 {

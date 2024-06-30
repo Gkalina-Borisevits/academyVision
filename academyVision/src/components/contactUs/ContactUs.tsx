@@ -1,6 +1,7 @@
 import { FaWhatsapp, FaTelegram, FaEnvelope } from "react-icons/fa";
 import styles from "./ContactUs.module.css";
 import { useTranslation } from "react-i18next";
+import MyContainer from "../myContainer/MyContainer";
 
 const ContactUs: React.FC = () => {
   const { t } = useTranslation("translation");
@@ -20,8 +21,9 @@ const ContactUs: React.FC = () => {
     window.location.href = url;
   };
   return (
-    <div className={styles.contactContainer}>
-     <div className={styles.fullWidthDiv}></div>
+    <div className={styles.container}>
+        <MyContainer>
+        <div className={styles.contactContainer}>
       <div className={styles.textContactsUs}>
         <h1>{t("contactUs.contactUs")}</h1>
         <p>{t("contactUs.contactUsText")}</p>
@@ -51,9 +53,9 @@ const ContactUs: React.FC = () => {
           <h3>E-Mail</h3>
           <p>email@example.com</p>
         </div>
-
       </div>
-     
+      </div>
+      </MyContainer>
     </div>
   );
 };

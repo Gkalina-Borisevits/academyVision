@@ -2,14 +2,13 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import styles from "./ServicesPageCard.module.css"
 import { useTranslation } from "react-i18next";
-
 import { NavLink } from 'react-router-dom';
-import web from "../../assets/homeIcons/web.png"
-import smm from "../../assets/homeIcons/smm.png"
-import seo from "../../assets/homeIcons/seo.png"
+import design from "../../assets/servicesCard/design.png"
+import geld from "../../assets/servicesCard/geld.png"
+import team from "../../assets/servicesCard/team.png"
 import type { ServicesPageCard } from "../../types/ServicesPageCard";
 
-const listPage: string[] = [web, smm, seo]
+const listPage: string[] = [design, geld, team]
 
 
 

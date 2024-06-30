@@ -54,6 +54,10 @@
     "stages": "Work stages",
     "solutions": "Our solutions in development and marketing are systematized and adapted personally for each client"
   },
+  "contacts": {
+    "title": "Contact us",
+    "textHeader": "We are ready to discuss your project right now. Contact us in any convenient way, and our manager will provide you with a free consultation on all questions."
+  },
   "homeCards": [
     {
       "id": 0,
