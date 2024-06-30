@@ -26,7 +26,7 @@ const Services: FC = () => {
 
   return (
     <>
-     <ImageContainer imgSrc={img} imgAlt="Image">
+      <ImageContainer imgSrc={img} imgAlt="Image">
         <MyContainer>
           <div className={styles.textInImage}>
             <h1>{t("homePage.name")}</h1>
@@ -34,16 +34,22 @@ const Services: FC = () => {
           </div>
         </MyContainer>
       </ImageContainer>
-    <div className={styles.servicesContainer}>
-   <MyContainer>
-   <div className={styles.homeCardContainer}>
-   {isMobile ? <AccordionServicesCard /> : <ServicesPageCard/>}
-</div>
+      <div className={styles.servicesContainer}>
+        <MyContainer>
+          <div className={styles.homeCardContainer}>
+            {isMobile ? <AccordionServicesCard /> : <ServicesPageCard />}
+          </div>
           <ContactForm />
+<<<<<<< HEAD
+          <AdvantageCards />
+
+=======
           <AdvantageCards/>
+>>>>>>> 72e60e99855c83c8082fbd78495e122205b6216f
         </MyContainer>
-  </div>
-  </>
+        <ContactUs />
+      </div>
+    </>
   )
 }
 

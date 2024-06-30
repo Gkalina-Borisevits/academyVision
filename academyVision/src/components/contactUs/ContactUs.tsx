@@ -21,7 +21,10 @@ const ContactUs: React.FC = () => {
   };
   return (
     <div className={styles.contactContainer}>
+<<<<<<< HEAD
+=======
      <div className={styles.fullWidthDiv}></div>
+>>>>>>> 72e60e99855c83c8082fbd78495e122205b6216f
       <div className={styles.textContactsUs}>
         <h1>{t("contactUs.contactUs")}</h1>
         <p>{t("contactUs.contactUsText")}</p>
