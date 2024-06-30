@@ -6,9 +6,10 @@ import img1 from "../../assets/about-projects/test/1517154655_vodopad-v-lesu-vid
 import img2 from "../../assets/about-projects/test/4862.jpg"
 import img3 from "../../assets/about-projects/test/mult-pic905-895x505-90221.jpg"
 import img4 from "../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg"
+import img5 from "../../assets/homeIcons/smm.png"
+
 import MyContainer from '../myContainer/MyContainer';
 import { AboutProject } from '../../types/AboutProject';
-import MyButton from '../myButton/MyButton';
 import cartTest from "../../assets/aboutIcons/innovation.png"
 import { Link } from 'react-router-dom';
 
@@ -39,7 +40,7 @@ const AboutProjects: React.FC = () => {
                         <Link to="/portfolio#card-0" className="card__button">{t("projects.details")}</Link>
                         </div>
                     </div>
-                    <div className={`${styles.block} ${styles.block60} card__article`} style={{ backgroundImage: `url(${img2})` }}>
+                      <div className={`${styles.block} ${styles.block60} card__article`} style={{ backgroundImage: `url(${img2})` }}>
                         <div className={styles.bgImg}>
                             <div className={styles.header}>
                                 <img className={styles.imgStyle} src={cartTest} alt="" />
@@ -67,7 +68,7 @@ const AboutProjects: React.FC = () => {
                                 {aboutProjects[0].details.map((card) => (
                                     <li>{card}</li>
                                 ))}
-                            </ul>
+                          </ul>
                         </div>
                         <div className="card__data card-block60">
                         <Link to="/portfolio#card-2" className="card__button">{t("projects.details")}</Link>

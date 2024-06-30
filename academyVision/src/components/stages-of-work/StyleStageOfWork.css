@@ -1,6 +1,9 @@
 .nav-item .active {
   background-color: var(--color-dark) !important;
 }
+.nav-item .active p{
+  color: aliceblue;
+}
 
 ._myContainer_1cxal_1 {
   font-family: var(--font-primary);
@@ -66,3 +69,4 @@
 .box-header p {
   font-size: 14px;
 }
+
