@@ -1,11 +1,15 @@
 .accordion-button:not(.collapsed) {
-    background-color: rgba(186, 141, 44, 0.21) !important;
-    text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
-  }
-  .accordion-item {
-    margin-bottom: 10px;
-  }
-  .accordion-collapse {
-    padding-left: 40px;
-  }
-  
+  background-color: rgba(186, 141, 44, 0.21) !important;
+  text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
+}
+.accordion-item {
+  margin-bottom: 10px;
+}
+.accordion-collapse {
+  padding-left: 40px;
+}
+.box-header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}

@@ -5,6 +5,8 @@ import ImageContainer from "../components/imageContainer/ImageContainer";
 import ContactUs from "../components/contactUs/ContactUs";
 import MyContainer from "../components/myContainer/MyContainer";
 import { useTranslation } from "react-i18next";
+import ContactCard from "../components/contactCard/ContactCard";
+import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
 
 const Contacts: FC = () => {
   const { t } = useTranslation("translation");
@@ -19,8 +21,13 @@ const Contacts: FC = () => {
           </div>
         </MyContainer>
       </ImageContainer>
+      <ContactCard/>
+   
       <div className={styles.portfolioContainer}>
        <ContactUs/>
+       <MyContainer>
+       <AboutHomePage/>
+       </MyContainer>
       </div>
     </>
   );

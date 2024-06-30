@@ -37,7 +37,9 @@
     "aboutUs": "About us",
     "aboutTitle": "We are a professional marketing team specializing in creating customized solutions to increase your business profitability and strengthen your brand recognition.",
     "aboutText": "With extensive experience in internet marketing and web development, we know how to satisfy even the most demanding clients by offering personalized solutions.",
-    "ourTeam": "Our team"
+    "ourTeam": "Our team",
+    "advantages": "Our advantages",
+    "specialize": "We specialize in comprehensive marketing solutions and are always focused on achieving maximum results"
   },
   "portfolio": {
     "portfolio": "Portfolio",
@@ -57,6 +59,10 @@
   "contacts": {
     "title": "Contact us",
     "textHeader": "We are ready to discuss your project right now. Contact us in any convenient way, and our manager will provide you with a free consultation on all questions."
+  },
+  "price": {
+    "title": "Cost of services",
+    "description": "Transparent rates will help determine the necessary needs"
   },
   "homeCards": [
     {
@@ -349,23 +355,13 @@
       "id": 2,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 3,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     }
   ],
   "aboutPrice": [
@@ -413,6 +409,24 @@
       "id": "2",
       "title": "Professional team",
       "description": "Development by professionals in website building, focused on results"
+    }
+  ],
+  "contactCard": [
+    {
+      "id": "0",
+      "title": "Germany",
+      "address": "Kurfürstendamm 15,",
+      "address2": "10719 Berlin",
+      "phone": "+49 30 979 83 903",
+      "email": "info@mindcept.de"
+    },
+    {
+      "id": "1",
+      "title": "Germany",
+      "address": "Rothenburgstraße 25,",
+      "address2": "12165 Berlin",
+      "phone": "+49 30 979 83 903",
+      "email": "info@mindcept.de"
     }
   ]
 }

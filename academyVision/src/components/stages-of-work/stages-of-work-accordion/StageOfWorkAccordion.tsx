@@ -12,6 +12,10 @@ const StageOfWorkAccordion: React.FC = () => {
     return (
 
         <div className={styles.homeCardContainerModile}>
+            <div className='box-header'>
+                    <h1 className='header'>{t("work.stages")}</h1>
+                    <h5 className=''>{t("work.solutions")}</h5>
+                </div>
             <Accordion defaultActiveKey={['0']} alwaysOpen>
                 {stagesWork.map((card) => (
                     <Accordion.Item eventKey={card.id.toString()} className={styles.accordionItem} >

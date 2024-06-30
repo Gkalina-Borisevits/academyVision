@@ -16,6 +16,10 @@
 .accordionHeader {
   border: 2px saddlebrown solid;
  }
+ .homeCardContainerMobile{
+  position: relative;
+  z-index: 1100;
+ }
 @media (max-width: 390px) {
   .accordionHeader h1 {
     font-size: 22px;

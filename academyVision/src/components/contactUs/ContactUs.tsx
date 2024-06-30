@@ -7,17 +7,17 @@ const ContactUs: React.FC = () => {
   const { t } = useTranslation("translation");
 
   const handleWhatsAppClick = () => {
-    const url = `https://wa.me/${+491633}`;
+    const url = `https://wa.me/${+493097983903}`;
     window.open(url, "_blank");
   };
 
   const handleTelegramClick = () => {
-    const url = `https://t.me/${+497676}`;
+    const url = `https://t.me/${+493097983903}`;
     window.open(url, "_blank");
   };
 
   const handleEmailClick = () => {
-    const url = "mailto:email@example.com";
+    const url = "mailto:info@mindcept.de";
     window.location.href = url;
   };
   return (
@@ -40,7 +40,7 @@ const ContactUs: React.FC = () => {
             <span className={styles.ripples}></span>
           </a>
           <h3>WhatsApp</h3>
-          <p>+491633</p>
+          <p>+49 30 979 83 903</p>
         </div>
         <div>
           <a href="#" onClick={handleTelegramClick} className={styles.telegram}>
@@ -48,7 +48,7 @@ const ContactUs: React.FC = () => {
             <span className={styles.ripples}></span>
           </a>
           <h3>Telegram</h3>
-          <p>+491633</p>
+          <p>+49 30 979 83 903</p>
         </div>
         <div>
           <a href="#" onClick={handleEmailClick} className={styles.email}>
@@ -56,7 +56,7 @@ const ContactUs: React.FC = () => {
             <span className={styles.ripples}></span>
           </a>
           <h3>E-Mail</h3>
-          <p>email@example.com</p>
+          <p>info@mindcept.de</p>
         </div>
       </div>
       </div>

@@ -72,10 +72,16 @@
   align-items: center;
   padding-bottom: 3rem;
 }
-.box-header h2 {
+.box-header h1 {
   font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: var(--color-font-dark);
 }
-.box-header p {
-  font-size: 14px;
+.box-header h5 {
+  
+  margin-top: 16px;
+  color: var(--color-font-dark);
+  margin-bottom: 40px;
 }
 

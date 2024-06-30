@@ -3,7 +3,6 @@
   margin: 0 auto;
   flex-direction: column;
   text-align: center;
-  padding: 80px;
   gap: 20px;
   margin-top:60px;
 }
@@ -66,7 +65,7 @@
 }
 @media (max-width: 1020px) {
   .textInImage h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
   .textInImage {
     margin-bottom: 50px;

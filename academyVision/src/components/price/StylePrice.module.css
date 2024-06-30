@@ -28,7 +28,10 @@
     display: flex;
     flex-direction: column;
   }
-  
+  .homeCardsLogo {
+    width: 80px;
+    height: 80px;
+  }
   .priceLi {
     position: relative;
     font-size: 14px;
