@@ -48,10 +48,7 @@ const About: FC = () => {
           </div>
 
           <div className={styles.homeContactsFormContainer}>
-            <div className={styles.formContainerHome}>
-              <h2>{t("homePage.discussProject")}</h2>
-              <p>{t("homePage.textForm")}</p>
-            </div>
+            
             <ContactForm />
           </div>
           <div className={styles.advantageCardContainer} >

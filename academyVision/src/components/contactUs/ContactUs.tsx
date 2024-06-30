@@ -21,7 +21,7 @@ const ContactUs: React.FC = () => {
   };
   return (
     <div className={styles.contactContainer}>
-    
+     <div className={styles.fullWidthDiv}></div>
       <div className={styles.textContactsUs}>
         <h1>{t("contactUs.contactUs")}</h1>
         <p>{t("contactUs.contactUsText")}</p>
@@ -53,7 +53,7 @@ const ContactUs: React.FC = () => {
         </div>
 
       </div>
-      <div className={styles.fullWidthDiv}></div>
+     
     </div>
   );
 };

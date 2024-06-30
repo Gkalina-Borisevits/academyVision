@@ -4,8 +4,8 @@ import img from "../assets/pagesImage/price.png";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import MyContainer from "../components/myContainer/MyContainer";
 import { useTranslation } from "react-i18next";
-import ContactForm from "../components/contactForm/ContactForm.tsx";
 import PriceComponents from "../components/price/PriceComponents.tsx";
+import ContactUs from "../components/contactUs/ContactUs.tsx";
 
 
 const Price: FC = () => {
@@ -26,7 +26,7 @@ const Price: FC = () => {
         <div className={styles.homeCardContainer}>
          <PriceComponents/>
          </div>
-          <ContactForm />
+       <ContactUs/>
         </MyContainer>
       </div>
     </>
