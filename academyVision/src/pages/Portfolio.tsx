@@ -50,7 +50,9 @@ const Portfolio: FC = () => {
         <MyContainer>
           {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
           {isMobile ? <MoreAboutProjectsMobile /> : <MoreAboutProjects />}
+          </MyContainer>
           <ContactUs/>
+          <MyContainer>
           {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork /> }
         </MyContainer>
       </div>
