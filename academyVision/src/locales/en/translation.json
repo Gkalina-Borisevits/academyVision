@@ -327,5 +327,22 @@
       "priceTitle": "Price",
       "price": "$1000"
     }
+  ],
+  "servicesPageCard": [
+    {
+      "id": "0",
+      "title": "Custom design",
+      "description": "Creation of corporate identity, logo, and graphics for the website"
+    },
+    {
+      "id": "1",
+      "title": "Transparent pricing",
+      "description": "Transparent rates will help determine the necessary needs"
+    },
+    {
+      "id": "2",
+      "title": "Professional team",
+      "description": "Development by professionals in website building, focused on results"
+    }
   ]
 }

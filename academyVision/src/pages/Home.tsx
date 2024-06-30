@@ -44,11 +44,11 @@ const Home: React.FC = () => {
             <AboutProjects />
           </div>
           <div className={styles.homeContactsFormContainer}>
-            <div className={styles.fullWidthDiv}></div>
+            {/* <div className={styles.fullWidthDiv}></div>
             <div className={styles.formContainerHome}>
               <h2>{t("homePage.discussProject")}</h2>
               <p>{t("homePage.textForm")}</p>
-            </div>
+            </div> */}
             <ContactForm />
           </div>
           <div className={styles.aboutTextContainer}>

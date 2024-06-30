@@ -338,5 +338,22 @@
       "priceTitle": "Price",
       "price": "1000$"
     }
+  ],
+  "servicesPageCard": [
+    {
+      "id": "0",
+      "title": "Individuelles Design",
+      "description": "Erstellung eines Corporate Designs, Logos und Grafiken für die Website"
+    },
+    {
+      "id": "1",
+      "title": "Transparente Preise",
+      "description": "Transparente Tarife helfen, die notwendigen Bedürfnisse zu bestimmen"
+    },
+    {
+      "id": "2",
+      "title": "Professionelles Team",
+      "description": "Entwicklung durch Profis im Bereich Website-Erstellung, die ergebnisorientiert arbeiten"
+    }
   ]
 }

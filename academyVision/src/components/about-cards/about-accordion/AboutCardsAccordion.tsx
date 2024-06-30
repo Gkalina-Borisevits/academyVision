@@ -1,9 +1,9 @@
 import React from 'react';
-import { Accordion, Card } from 'react-bootstrap';
+import { Accordion } from 'react-bootstrap';
 import styles from "./StyleAboutAccordionM.module.css";
 import "./StyleAboutAccordion.css";
 import { useTranslation } from 'react-i18next';
-import { AdoutCard } from '../../../types/AboutCard';
+import { AboutCard } from '../../../types/AboutCard';
 import creative from '../../../assets/aboutIcons/creative.png'
 import innovation from '../../../assets/aboutIcons/innovation.png'
 import reliable from '../../../assets/aboutIcons/reliable.png'
@@ -13,7 +13,7 @@ const aboutIcons: string[] = [innovation, creative, reliable, united];
 
 const AboutCardsAccordion: React.FC = () => {
   const { t } = useTranslation("translation");
-  const aboutCards: AdoutCard[] = t("aboutCards", { returnObjects: true });
+  const aboutCards: AboutCard[] = t("aboutCards", { returnObjects: true });
 
   return (
     <div className={styles.homeCardContainerModile}>

@@ -16,7 +16,7 @@
   flex-wrap: wrap;
   gap: 20px; /* Отступ между карточками */
   align-items: stretch; /* Это гарантирует, что все карточки будут одной высоты */
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .cardContainer {
   width: 18rem; /* Ширина карточки */
