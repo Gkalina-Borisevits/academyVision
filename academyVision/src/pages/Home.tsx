@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./styles/Home.module.css";
-import img from "../assets/pagesImage/home.png";
+import img from "../assets/pagesImage/home1.png";
 import HomeCards from "../components/home-cards/HomeCards";
 import HomeCardsAccordion from "../components/home-cards/home-accordion/HomeCardsAccordion";
 import ImageContainer from "../components/imageContainer/ImageContainer";
@@ -41,7 +41,6 @@ const Home: React.FC = () => {
             {isMobile ? <HomeCardsAccordion /> : <HomeCards />}
           </div>
           <div className={styles.aboutProjects}>
-            <h2>{t("homePage.projects")}</h2>
             <AboutProjects />
           </div>
           <div className={styles.homeContactsFormContainer}>

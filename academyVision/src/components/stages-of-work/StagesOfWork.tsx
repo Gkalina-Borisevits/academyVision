@@ -22,8 +22,8 @@ const StagesOfWork: React.FC = () => {
         <>
             <MyContainer>
                 <div className='box-header'>
-                    <h2 className='header'>Этапы работы</h2>
-                    <p className=''>Наши решения в области разработки и маркетинга систематизированные и адаптированы персонально под каждого клиента.</p>
+                    <h2 className='header'>{t("work.stages")}</h2>
+                    <p className=''>{t("work.solutions")}</p>
                 </div>
                 <Tab.Container id="ledt-tabs-example" defaultActiveKey="0" activeKey={activeTab} onSelect={handleSelect}>
                     <Row>

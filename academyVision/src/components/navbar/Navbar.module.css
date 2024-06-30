@@ -40,7 +40,7 @@
     .navbar {
       display: flex;
       justify-content: flex-end;
-      gap: 14px;
+      gap: 18px;
       margin-right: 8px;
     }
     .navbar > a {
@@ -62,9 +62,9 @@
     .navbar > a {
       margin-top: 5px;
       margin: 0;
-      font-size: 18px;
+      font-size: 15px;
     }
     .navbar > a:global.active {
-      font-size: 22px;
+      font-size: 18px;
     }
   }

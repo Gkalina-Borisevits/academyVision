@@ -50,6 +50,10 @@
   "footer": {
     "text": "Website development and promotion on the Internet"
   },
+  "work": {
+    "stages": "Work stages",
+    "solutions": "Our solutions in development and marketing are systematized and adapted personally for each client"
+  },
   "homeCards": [
     {
       "id": 0,
@@ -292,7 +296,6 @@
         "name3",
         "name4"
       ]
-      "technologis": ["name1", "name2", "name3", "name4"]
     }
   ],
   "aboutPrice": [

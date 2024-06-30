@@ -50,6 +50,10 @@
   "footer": {
     "text": "Разработка и продвижение сайтов в Интернете"
   },
+  "work": {
+    "stages": "Этапы работы",
+    "solutions": "Наши решения в области разработки и маркетинга систематизированные и адаптированы персонально под каждого клиента"
+  },
   "homeCards": [
     {
       "id": 0,
@@ -66,22 +70,13 @@
       "id": 1,
       "name": "SEO",
       "description": "Оптимизация и продвижение сайта в TOП выдачи поисковых систем:",
-      "details": [
-        "Google",
-        "Bing",
-        "Local SEO"
-      ]
+      "details": ["Google", "Bing", "Local SEO"]
     },
     {
       "id": 2,
       "name": "SMM",
       "description": "Комплексный маркетинг и продвижение в социальных сетях:",
-      "details": [
-        "Facebook",
-        "Instagram",
-        "LinkedIn",
-        "YouTube"
-      ]
+      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
     },
     {
       "id": 3,
@@ -186,7 +181,7 @@
     },
     {
       "id": 7,
-      "title": "Клиентоориентированность",
+      "title": "Клиенто ориентированность",
       "description": "Мы строим долгосрочные партнерские отношения с нашими клиентами, основываясь на доверии и взаимопонимании. Ваш успех – наш успех."
     }
   ],
@@ -216,30 +211,17 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["name1", "name2", "name3", "name4"]
     }
   ],
   "stagesWork": [
@@ -297,70 +279,41 @@
       "id": 2,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
-    },{
+      "technologis": ["name1", "name2", "name3", "name4"]
+    },
+    {
       "id": 3,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     }
   ],
   "aboutPrice": [
     {
       "id": 0,
       "title": "SILVER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "1000$"
     },
     {
       "id": 1,
       "title": "GOLD",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "1000$"
     },
     {
       "id": 2,
       "title": "PREMIUM",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "1000$"
     },
     {
       "id": 3,
       "title": "OTHER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "1000$"
     }

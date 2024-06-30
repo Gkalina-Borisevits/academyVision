@@ -89,9 +89,9 @@ const Header: React.FC = () => {
         <MyContainer>
           <div className={styles.myContainer}>
             <NavLink to="/" className={styles.logoContainer}></NavLink>
-
+<div>
             {!isMobile && <NavbarPage />}
-
+            </div>
             <div
               className={styles.languageIcon}
               onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
