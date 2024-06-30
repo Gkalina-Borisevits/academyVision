@@ -7,6 +7,7 @@ import MyContainer from "../components/myContainer/MyContainer";
 import { useTranslation } from "react-i18next";
 import ContactCard from "../components/contactCard/ContactCard";
 import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
+import ContactForm from "../components/contactForm/ContactForm";
 
 const Contacts: FC = () => {
   const { t } = useTranslation("translation");
@@ -27,6 +28,7 @@ const Contacts: FC = () => {
        <ContactUs/>
        <MyContainer>
        <AboutHomePage/>
+       <ContactForm/>
        </MyContainer>
       </div>
     </>
