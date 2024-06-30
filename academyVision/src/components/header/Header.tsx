@@ -81,16 +81,15 @@ const Header: React.FC = () => {
   return (
     <>
       <div
-        className={`${styles.navbarContainer} ${
-          isScrolled ? styles.scrolled : ""
-        }`}
+        className={`${styles.navbarContainer} ${isScrolled ? styles.scrolled : ""
+          }`}
       >
         {isMobile && <BurgerMenu />}
         <MyContainer>
           <div className={styles.myContainer}>
             <NavLink to="/" className={styles.logoContainer}></NavLink>
-<div>
-            {!isMobile && <NavbarPage />}
+            <div>
+              {!isMobile && <NavbarPage />}
             </div>
             <div
               className={styles.languageIcon}
