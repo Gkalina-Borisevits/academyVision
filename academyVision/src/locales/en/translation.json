@@ -43,6 +43,17 @@
     "portfolio": "Portfolio",
     "imageTitle": "Explore our successful projects in web development and marketing in our portfolio!"
   },
+  "contactUs": {
+    "contactUs": "Contact us!",
+    "contactUsText": "If you have any questions, we are always ready to help. Write to us, and we will gladly respond."
+  },
+  "footer": {
+    "text": "Website development and promotion on the Internet"
+  },
+  "work": {
+    "stages": "Work stages",
+    "solutions": "Our solutions in development and marketing are systematized and adapted personally for each client"
+  },
   "homeCards": [
     {
       "id": 0,
@@ -97,6 +108,7 @@
       "id": 2,
       "name": "SMM",
       "description": "Comprehensive marketing and promotion on social networks:",
+
       "details": [
         {
           "id": 0,
@@ -265,30 +277,17 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["name1", "name2", "name3", "name4"]
     }
   ],
   "stagesWork": [
@@ -334,15 +333,16 @@
       "id": 0,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 1,
+      "title": "Website Development for a Financial Company",
+      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
+      "technologis": ["name1", "name2", "name3", "name4"]
+    },
+    {
+      "id": 2,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
       "technologis": [
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
       "technologis": [
@@ -368,50 +368,47 @@
     {
       "id": 0,
       "title": "SILVER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 1,
       "title": "GOLD",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 2,
       "title": "PREMIUM",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 3,
       "title": "OTHER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
+    }
+  ],
+  "servicesPageCard": [
+    {
+      "id": "0",
+      "title": "Custom design",
+      "description": "Creation of corporate identity, logo, and graphics for the website"
+    },
+    {
+      "id": "1",
+      "title": "Transparent pricing",
+      "description": "Transparent rates will help determine the necessary needs"
+    },
+    {
+      "id": "2",
+      "title": "Professional team",
+      "description": "Development by professionals in website building, focused on results"
     }
   ]
 }

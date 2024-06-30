@@ -1,4 +1,4 @@
-export interface AdoutCard {
+export interface AboutCard {
     id: number
     icon: string
     name: string

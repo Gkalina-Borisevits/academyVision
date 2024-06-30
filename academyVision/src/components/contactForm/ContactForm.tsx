@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import MyButton from '../myButton/MyButton';
 import "./ContactForm.css"
 import styled from 'styled-components';
+import styles from "./ContactForm.module.css"
 
 const CustomFormControl = styled(Form.Control)`
   &::placeholder {
@@ -95,6 +96,12 @@ const ContactForm: React.FC = () => {
   return (
     <div className="full-screen-container">
     <div className="form-container" style={{ maxWidth: '66.67%', margin: '0 auto' }}>
+      <div className={styles.formContactComponent}>
+    <div className={styles.fullWidthDiv}></div>
+            <div className={styles.formContainerHome}>
+              <h2>{t("homePage.discussProject")}</h2>
+              <p>{t("homePage.textForm")}</p>
+            </div>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="formName">
           <Form.Label>{t("contactsForm.name")}</Form.Label>
@@ -153,12 +160,13 @@ const ContactForm: React.FC = () => {
           />
           {errors.message && <Alert variant="danger" className="small">{errors.message}</Alert>}
         </Form.Group>
-          <Row className="justify-content-center" style={{ marginTop: '50px' }}>
+          <Row className="justify-content-center mt-5 mb-5">
             <Col md="auto">
-          <MyButton text={t("contactsForm.send")} onClick={() => handleSubmit} active={true} />
+          <MyButton text={t("contactsForm.send")} onClick={() => handleSubmit} active={true} className="mb-4" />
           </Col>
           </Row>
         </Form>
+      </div>
       </div>
     </div>
   );

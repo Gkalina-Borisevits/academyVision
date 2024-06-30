@@ -38,7 +38,6 @@ const MoreAboutProjects: React.FC = () => {
                         <>
                             <div className={styles.textContainer}>
                                 <h2 className={styles.cardTitle}>{card.title}</h2>
-
                                 <p className={styles.cardDescription}>{card.titleDetails}</p>
                                 <div className={styles.tagContainer} >
                                     {card.technologis.map((tag, index) => (
@@ -47,7 +46,7 @@ const MoreAboutProjects: React.FC = () => {
                                 </div>
                             </div>
                             <div className={styles.imageContainer}>
-                                <img src={card.page} alt="image" className={styles.cardImage} />
+                                <img src={projects[card.id]} alt="image" className={styles.cardImage} />
                             </div>
                         </>
                     )}

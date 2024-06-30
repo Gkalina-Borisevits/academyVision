@@ -43,6 +43,17 @@
     "portfolio": "Portfolio",
     "imageTitle": "Entdecken Sie unsere erfolgreichen Projekte in Webentwicklung und Marketing in unserem Portfolio!"
   },
+  "contactUs": {
+    "contactUs": "Kontaktieren Sie uns!",
+    "contactUsText": "Wenn Sie Fragen haben, sind wir immer bereit zu helfen. Schreiben Sie uns, und wir werden Ihnen gerne antworten."
+  },
+  "footer": {
+    "text": "Entwicklung und Förderung von Websites im Internet"
+  },
+  "work": {
+    "stages": "Arbeitsphasen",
+    "solutions": "Unsere Lösungen im Bereich Entwicklung und Marketing sind systematisiert und individuell an jeden Kunden angepasst."
+  },
   "homeCards": [
     {
       "id": 0,
@@ -433,6 +444,23 @@
       ],
       "priceTitle": "Price",
       "price": "1000$"
+    }
+  ],
+  "servicesPageCard": [
+    {
+      "id": "0",
+      "title": "Individuelles Design",
+      "description": "Erstellung eines Corporate Designs, Logos und Grafiken für die Website"
+    },
+    {
+      "id": "1",
+      "title": "Transparente Preise",
+      "description": "Transparente Tarife helfen, die notwendigen Bedürfnisse zu bestimmen"
+    },
+    {
+      "id": "2",
+      "title": "Professionelles Team",
+      "description": "Entwicklung durch Profis im Bereich Website-Erstellung, die ergebnisorientiert arbeiten"
     }
   ]
 }

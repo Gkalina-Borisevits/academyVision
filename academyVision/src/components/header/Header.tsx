@@ -40,9 +40,9 @@ const Header: React.FC = () => {
         setIsScrolled(false);
       }
     };
-  
+
     window.addEventListener("scroll", handleScroll);
-  
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -71,52 +71,52 @@ const Header: React.FC = () => {
       setIsMobile(window.innerWidth <= 680);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
   return (
     <>
-   
-    <div className={`${styles.navbarContainer} ${isScrolled ? styles.scrolled : ''}`}>
-    <MyContainer>
-      <div className={styles.myContainer}>
-      <div className={styles.burgerInHeader}>
-        {isMobile && <BurgerMenu />}
-      </div>
-      <NavLink to="/" className={styles.logoContainer}></NavLink>
-      {isMobile && <BurgerMenu />}
-      {!isMobile && <NavbarPage />}
-   
       <div
-        className={styles.languageIcon}
-        onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
+        className={`${styles.navbarContainer} ${
+          isScrolled ? styles.scrolled : ""
+        }`}
       >
-        <FaGlobe />
-      </div>
-      {isLanguageDropdownOpen && (
-        <div ref={languageMenuRef} className={styles.languageDropdown}>
-          {languages.map((language) => (
-            <div
-              key={language.code}
-              className={styles.languageOption}
-              onClick={() => {
-                changeLanguage(language.code);
-                setIsLanguageDropdownOpen(false);
-              }}
-            >
-              {language.flag} {language.name}
+        {isMobile && <BurgerMenu />}
+        <MyContainer>
+          <div className={styles.myContainer}>
+            <NavLink to="/" className={styles.logoContainer}></NavLink>
+<div>
+            {!isMobile && <NavbarPage />}
             </div>
-          ))}
-        </div>
-      )}
+            <div
+              className={styles.languageIcon}
+              onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
+            >
+              <FaGlobe />
+            </div>
+            {isLanguageDropdownOpen && (
+              <div ref={languageMenuRef} className={styles.languageDropdown}>
+                {languages.map((language) => (
+                  <div
+                    key={language.code}
+                    className={styles.languageOption}
+                    onClick={() => {
+                      changeLanguage(language.code);
+                      setIsLanguageDropdownOpen(false);
+                    }}
+                  >
+                    {language.flag} {language.name}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </MyContainer>
       </div>
-      </MyContainer>
-    </div>
-   
     </>
   );
 };

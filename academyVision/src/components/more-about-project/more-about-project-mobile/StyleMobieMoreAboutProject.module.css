@@ -1,0 +1,20 @@
+.mobileCardContainer{
+    margin-bottom: 10px;
+}
+.tagContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.tag {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  /* margin-top: 10rem; */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
+}
+.mobileCardContainer:hover .tag {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  transform: translateY(-10px); /* Приподнимание карточки на 5 пикселей вверх */
+}

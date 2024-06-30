@@ -4,20 +4,26 @@
   flex-direction: column;
   text-align: center;
   padding: 80px;
-  gap: 30px;
+  gap: 20px;
+  margin-top:60px;
 }
 .textInImage h1 {
   margin-bottom: 1rem;
   color: var(--color-font-dark);
+  font-size: 3.1em;
   font-weight: bold;
+  letter-spacing: 0.1em;
 }
 .textInImage h3 {
   color: var(--color-font-dark);
 }
+
 .aboutCardContainer {
-  margin-top: -200px;
+  margin-top: -170px;
   z-index: 90;
   position: relative;
+  margin-bottom: 20px;
+
 }
 .ourTeamContainer {
   display: flex;
@@ -56,12 +62,14 @@
 }
 .advantageCardContainer {
     margin-bottom: 80px;
+    margin-top: 90px;
 }
 @media (max-width: 1020px) {
   .textInImage h3 {
     font-size: 15px;
   }
   .textInImage {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    padding: 40px;
   }
 }

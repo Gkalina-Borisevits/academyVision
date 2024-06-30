@@ -9,14 +9,16 @@ import StagesOfWork from "../components/stages-of-work/StagesOfWork";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import AboutCardsAccordion from "../components/about-cards/about-accordion/AboutCardsAccordion";
+import MoreAboutProjectsMobile from "../components/more-about-project/more-about-project-mobile/MoreAboutProjectsMobile";
+import StageOfWorkAccordion from "../components/stages-of-work/stages-of-work-accordion/StageOfWorkAccordion";
 
 const Portfolio: FC = () => {
   const { hash } = useLocation();
   const { t } = useTranslation("translation");
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   const handleResize = () => {
-    setIsMobile(window.innerWidth < 468);
+    setIsMobile(window.innerWidth < 768);
   };
 
   useEffect(() => {
@@ -35,23 +37,21 @@ const Portfolio: FC = () => {
 
   return (
     <>
-    <ImageContainer imgSrc={img} imgAlt="Image">
+      <ImageContainer imgSrc={img} imgAlt="Image">
         <MyContainer>
-        <div className={styles.textInImage}>
-          <h1>{t("portfolio.portfolio")}</h1>
-          <h3>{t("portfolio.imageTitle")}</h3>
-        </div>
+          <div className={styles.textInImage}>
+            <h1>{t("portfolio.portfolio")}</h1>
+            <h3>{t("portfolio.imageTitle")}</h3>
+          </div>
         </MyContainer>
-        
       </ImageContainer>
-    <div className={styles.portfolioContainer}>
-      
-      <MyContainer>
-      {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
-        <MoreAboutProjects />
-        <StagesOfWork />
-      </MyContainer>
-    </div>
+      <div className={styles.portfolioContainer}>
+        <MyContainer>
+          {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
+          {isMobile ? <MoreAboutProjectsMobile /> : <MoreAboutProjects />}
+          {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork /> }
+        </MyContainer>
+      </div>
     </>
   );
 };

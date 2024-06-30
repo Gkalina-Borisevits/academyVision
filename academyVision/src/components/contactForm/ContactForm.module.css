@@ -1,0 +1,34 @@
+.formContactComponent {
+  position: relative;
+  margin-top: 60px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fullWidthDiv {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  height: 100%;
+  background-color: var(--color-blue);
+  padding: 20px;
+  z-index: -90;
+}
+.formContainerHome h2 {
+  color: rgb(250, 250, 237);
+}
+.formContainerHome p {
+  color: rgb(250, 250, 237);
+  font-size: 20px;
+  padding: 60px;
+}
+@media (max-width: 520px) {
+    .formContainerHome p  {
+   padding: 0;
+  }
+}
