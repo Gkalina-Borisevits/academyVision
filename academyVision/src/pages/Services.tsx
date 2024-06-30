@@ -10,6 +10,7 @@ import ServicesPageCard from "../components/pricePageCard/ServicesPageCard"
 import AccordionServicesCard from "../components/pricePageCard/accordionServicesCard/AccordionServicesCard"
 
 
+
 const Services: FC = () => {
   const { t } = useTranslation("translation");
   const [isMobile, setIsMobile] = useState(window.innerWidth < 468);
@@ -41,7 +42,6 @@ const Services: FC = () => {
           <ContactForm />
           <AdvantageCards/>
         </MyContainer>
-  
   </div>
   </>
   )
