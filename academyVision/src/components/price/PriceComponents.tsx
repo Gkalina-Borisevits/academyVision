@@ -4,7 +4,6 @@ import "./StylePrice.css";
 import styles from "./StylePrice.module.css";
 import { useTranslation } from "react-i18next";
 import { Price } from "../../types/Price";
-import { NavLink } from 'react-router-dom';
 
 
 const PriceComponents: React.FC = () => {

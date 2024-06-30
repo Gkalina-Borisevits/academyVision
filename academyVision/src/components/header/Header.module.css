@@ -46,12 +46,10 @@
 }
 
 .languageIcon {
-  position: absolute;
-  top: 34px;
-  margin-left: 20px;
-  z-index: 1000;
+  position: relative;
   color: rgb(83, 83, 81);
   cursor: pointer;
+  margin-left: 50px;
   font-size: 22px;
   right: 30px;
 }

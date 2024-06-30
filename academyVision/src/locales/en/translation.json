@@ -33,15 +33,22 @@
   "projects": {
     "details": "Details"
   },
-  "about" : {
+  "about": {
     "aboutUs": "About us",
     "aboutTitle": "We are a professional marketing team specializing in creating customized solutions to increase your business profitability and strengthen your brand recognition.",
-    "aboutText" : "With extensive experience in internet marketing and web development, we know how to satisfy even the most demanding clients by offering personalized solutions.",
-    "ourTeam" : "Our team"
+    "aboutText": "With extensive experience in internet marketing and web development, we know how to satisfy even the most demanding clients by offering personalized solutions.",
+    "ourTeam": "Our team"
   },
   "portfolio": {
     "portfolio": "Portfolio",
     "imageTitle": "Explore our successful projects in web development and marketing in our portfolio!"
+  },
+  "contactUs": {
+    "contactUs": "Contact us!",
+    "contactUsText": "If you have any questions, we are always ready to help. Write to us, and we will gladly respond."
+  },
+  "footer": {
+    "text": "Website development and promotion on the Internet"
   },
   "homeCards": [
     {
@@ -59,22 +66,13 @@
       "id": 1,
       "name": "SEO",
       "description": "Optimization and promotion of websites to the TOP of search engine results:",
-      "details": [
-        "Google",
-        "Bing",
-        "Local SEO"
-      ]
+      "details": ["Google", "Bing", "Local SEO"]
     },
     {
       "id": 2,
       "name": "SMM",
       "description": "Comprehensive marketing and promotion on social networks:",
-      "details": [
-        "Facebook",
-        "Instagram",
-        "LinkedIn",
-        "YouTube"
-      ]
+      "details": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
     },
     {
       "id": 3,
@@ -209,30 +207,17 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["name1", "name2", "name3", "name4"]
     }
   ],
   "stagesWork": [
@@ -267,7 +252,6 @@
       "description": "Our team creates content for advertising campaigns, writes ads for the selected marketing channels. After that, we launch the advertising campaigns."
     },
     {
-
       "id": 5,
       "num": 6,
       "title": "Monitoring",
@@ -279,82 +263,47 @@
       "id": 0,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 1,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 2,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     }
   ],
   "aboutPrice": [
     {
       "id": 0,
       "title": "SILVER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 1,
       "title": "GOLD",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 2,
       "title": "PREMIUM",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 3,
       "title": "OTHER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     }

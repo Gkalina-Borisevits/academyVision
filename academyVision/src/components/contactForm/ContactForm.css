@@ -1,9 +1,7 @@
 .full-screen-container {
     background-color: var(--color-blue);
+    
 }
 .form-container {
-    color:rgb(251, 251, 234)
+    color:rgb(251, 251, 234);
 }
-.custom-placeholder::placeholder {
-    color: #63a507;
-  }
