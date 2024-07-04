@@ -11,7 +11,8 @@ const Footer: React.FC = () => {
         <div>
           <NavLink to="/" className={styles.logoContainer}></NavLink>
         </div>
-
+        <div className={styles.textContainerName}><span >{t("homePage.name")}</span></div>
+        
         <div className={styles.linkContainer}>
           <NavLink to="/about">
             <FaArrowRight size={18} /> {t("header.about")}

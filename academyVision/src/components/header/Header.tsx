@@ -87,10 +87,12 @@ const Header: React.FC = () => {
           <div className={styles.myContainer}>
 
             <div className={styles.logoContainerStyle}>
-            
-              <NavLink to="/" className={styles.logoContainer}></NavLink>
+              
+            <div> <NavLink to="/" className={styles.logoContainer}></NavLink></div>
+             
+              <div className={styles.headerTextContainer}><h1>{t("homePage.name")}</h1></div>
             </div>
-            <div className={styles.headerTextContainer}><h1>{t("homePage.name")}</h1></div>
+            
             <div className={styles.menuConteiner}>
               <div>{!isMobile && <NavbarPage />}</div>
               <Dropdown show={isLanguageDropdownOpen} onToggle={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}>

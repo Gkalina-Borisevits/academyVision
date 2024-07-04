@@ -51,3 +51,6 @@ color:rgba(128, 113, 92, 0.2)
   padding: 10px;
   gap: 20px;
 }
+.textContainerName {
+  z-index: -900;
+}
