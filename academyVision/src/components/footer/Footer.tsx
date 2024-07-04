@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
   return (
     <>
       <div className={styles.footerContainer}>
-       
         <div>
           <NavLink to="/" className={styles.logoContainer}></NavLink>
         </div>
+
         <div className={styles.linkContainer}>
           <NavLink to="/about">
             <FaArrowRight size={18} /> {t("header.about")}
@@ -29,11 +29,10 @@ const Footer: React.FC = () => {
             <FaArrowRight size={18} /> {t("header.contacts")}
           </NavLink>
         </div>
-        
       </div>
       <div className={styles.dateContainer}>
-      <div>{t("footer.text")}</div>
-        <span> © {new Date().getFullYear()} Academy Mincept Vision </span>
+        <div>{t("footer.text")}</div>
+        <span> © {new Date().getFullYear()} AM Vision </span>
       </div>
     </>
   );

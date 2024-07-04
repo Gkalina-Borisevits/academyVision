@@ -13,7 +13,13 @@
   display: flex;
   flex-direction: column;
 }
-
+.nameContainer {
+  z-index: -900;
+}
+.nameContainer h1{
+font-size: 10em;
+color:rgba(128, 113, 92, 0.2)
+}
 .footerContainer a {
   text-decoration: none;
   color: var(--color-font-dark);
@@ -23,8 +29,8 @@
 }
 .logoContainer {
   margin-left: 0;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   background-image: url("../../assets/lo.png");
   background-size: cover;
   position: absolute;

@@ -15,11 +15,11 @@ const SocialLink: React.FC = () => {
   return (
     <div className={styles.contactLinks}>
       <a href="#" onClick={handleWhatsAppClick} className={styles.whatsapp}>
-        <FaWhatsapp />
+        <FaWhatsapp className={styles.whatsappContainer}/>
         <span className={styles.ripple}></span>
       </a>
       <a href="#" onClick={handleTelegramClick} className={styles.telegram}>
-        <FaTelegram />
+        <FaTelegram className={styles.whatsappContainer}/>
         <span className={styles.ripple}></span>
       </a>
     </div>

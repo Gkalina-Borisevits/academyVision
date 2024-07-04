@@ -28,13 +28,13 @@
 
 }
 .logoContainerStyle{
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   position: relative;
 }
 .logoContainer {
-  width: 90px;
-  height: 90px;
+  width: 105px;
+  height: 105px;
   background-image: url("../../assets/logo.png");
   background-size: cover;
   position: absolute;
@@ -52,6 +52,9 @@
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
+}
+.headerTextContainer h1{
+  color: var(--color-font-dark); 
 }
 
 .languageIcon {
