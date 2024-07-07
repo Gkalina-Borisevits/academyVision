@@ -21,7 +21,8 @@
 .block {
   margin-right: 10px;
   margin-bottom: 10px;
-  height: 250px; /* Пример высоты блоков */
+  height: 18rem; /* Пример высоты блоков */
+  /*height: 250px; !* Пример высоты блоков *!*/
   background-size: cover; /* Опционально: установить размеры фона */
   background-position: center;
   background-repeat: no-repeat;
@@ -42,10 +43,10 @@
 .block ul {
   display: flex;
   gap: 30px;
-  padding-top: 110px;
+  padding-top: 150px;
 }
 .block ul li {
-  font-size: 18px;
+  font-size: 22px;
   color: white;
   font-weight: 500;
 }

@@ -20,16 +20,16 @@ const HomeCards: React.FC = () => {
         <div className={styles.homeCardsHomeCardContainer}>
             {homeCards.map((card) => (
                 <NavLink key={card.id} className="text-decoration-none" to="/services">
-                    <Card style={{ height: '20rem' }} className={`${styles.homeCardsCardContainer} mb-2 border-2`}>
+                    <Card style={{height: '22rem'}} className={`${styles.homeCardsCardContainer} mb-2 border-2`}>
                         <Card.Header className={styles.homeCardsCardHeader}>
                             <Card.Img variant="left" className={styles.homeCardsLogo} src={listPage[card.id]}/>
                             <h1> {card.name}</h1>
                         </Card.Header>
-                        <Card.Body className={styles.homeCardsCardBody}>
-                            <Card.Title className="text-dark fs-6">
+                        <Card.Body style={{flex: "1 1 50%", display: 'flex', flexDirection: 'column'}}  className={styles.homeCardsCardBody}>
+                            <Card.Title style={{flex: "1 1 40%", fontSize:"20px"}} className="text-dark">
                                 {card.description}
                             </Card.Title>
-                            <Card.Text>
+                            <Card.Text style={{flex: "1 1 60%"}}>
                                 <ul>
                                     {card.details.map((detail, index) => (
                                         <li key={index} className={styles.homeCardsLi}>{detail.title}</li>
