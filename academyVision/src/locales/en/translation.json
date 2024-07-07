@@ -292,22 +292,22 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": ["SMM", "SEO", "TypeScript"]
+      "details": ["SMM", "SEO", "TypeScript", "Bootstrap"]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": ["name1", "name2", "name3"]
+      "details": ["Java", "TypeScript", "MySQL", "SEO"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": ["name1", "name2", "name3", "name4"]
+      "details": ["Java", "TypeScript", "MySQL", "Bootstrap"]
     },
     {
       "id": 3,
       "name": "WEB",
-      "details": ["name1", "name2", "name3"]
+      "details": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
     }
   ],
   "stagesWork": [
@@ -359,19 +359,19 @@
       "id": 1,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": ["Java", "TypeScript", "MySQL", "SEO"]
     },
     {
       "id": 2,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": ["Java", "TypeScript", "MySQL", "Bootstrap"]
     },
     {
       "id": 3,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
     }
   ],
   "aboutPrice": [

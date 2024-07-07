@@ -286,22 +286,22 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": ["SMM", "SEO", "TypeScript"]
+      "details": ["SMM", "SEO", "TypeScript", "Bootstrap"]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": ["name1", "name2", "name3"]
+      "details": ["Java", "TypeScript", "MySQL", "SEO"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": ["name1", "name2", "name3", "name4"]
+      "details": ["Java", "TypeScript", "MySQL", "Bootstrap"]
     },
     {
       "id": 3,
       "name": "WEB",
-      "details": ["name1", "name2", "name3"]
+      "details": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
     }
   ],
   "stagesWork": [
@@ -353,19 +353,19 @@
       "id": 1,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis":  ["Java", "TypeScript", "MySQL", "SEO"]
     },
     {
       "id": 2,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": ["Java", "TypeScript", "MySQL", "Bootstrap", "SMM", "SEO"]
     },
     {
       "id": 3,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
     }
   ],
   "aboutPrice": [

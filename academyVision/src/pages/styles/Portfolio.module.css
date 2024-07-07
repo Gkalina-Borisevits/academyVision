@@ -34,7 +34,7 @@
   color: var(--color-font-dark);
 }
 .aboutCardsPortfolioPage {
-  margin-top: -200px;
+  margin-top: -112px;
 }
 @media (max-width: 520px) {
   .portfolioContainer {

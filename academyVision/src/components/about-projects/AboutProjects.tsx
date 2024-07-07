@@ -1,15 +1,15 @@
 import React from "react";
-import styles from "./AboutProjects.module.css";
-import "./AboutProjects.css";
+import styles from "./styles/AboutProjects.module.css";
+import "./styles/AboutProjects.css";
 import MyContainer from '../myContainer/MyContainer';
 import { AboutProject } from '../../types/AboutProject';
-import cartTest from "../../assets/aboutIcons/innovation.png"
+import cartTest from "../../assets/projects/logoMob.png"
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import img1 from "../../assets/projects/möbel.png";
 import img2 from "../../assets/projects/creme.png";
-import img4 from "../../assets/projects/parfume.png";
 import img3 from "../../assets/projects/hotel.png";
+import img4 from "../../assets/projects/parfume.png";
 import { useNavigate } from "react-router-dom";
 import MyButton from "../myButton/MyButton";
 
