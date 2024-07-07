@@ -303,6 +303,11 @@
       "id": 2,
       "name": "WEB",
       "details": ["name1", "name2", "name3", "name4"]
+    },
+    {
+      "id": 3,
+      "name": "WEB",
+      "details": ["name1", "name2", "name3"]
     }
   ],
   "stagesWork": [

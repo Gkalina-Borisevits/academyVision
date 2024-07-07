@@ -61,10 +61,10 @@ const AboutProjects: React.FC = () => {
             <div className={styles.bgImg}>
               <div className={styles.header}>
                 <img className={styles.imgStyle} src={cartTest} alt="" />
-                <p>{aboutProjects[0].name}</p>
+                <p>{aboutProjects[1].name}</p>
               </div>
               <ul>
-                {aboutProjects[0].details.map((card) => (
+                {aboutProjects[1].details.map((card) => (
                   <li>{card}</li>
                 ))}
               </ul>
@@ -84,10 +84,10 @@ const AboutProjects: React.FC = () => {
             <div className={styles.bgImg}>
               <div className={styles.header}>
                 <img className={styles.imgStyle} src={cartTest} alt="" />
-                <p>{aboutProjects[0].name}</p>
+                <p>{aboutProjects[2].name}</p>
               </div>
               <ul>
-                {aboutProjects[0].details.map((card) => (
+                {aboutProjects[2].details.map((card) => (
                   <li>{card}</li>
                 ))}
               </ul>
@@ -105,10 +105,10 @@ const AboutProjects: React.FC = () => {
             <div className={styles.bgImg}>
               <div className={styles.header}>
                 <img className={styles.imgStyle} src={cartTest} alt="" />
-                <p>{aboutProjects[0].name}</p>
+                <p>{aboutProjects[3].name}</p>
               </div>
               <ul>
-                {aboutProjects[0].details.map((card) => (
+                {aboutProjects[3].details.map((card) => (
                   <li>{card}</li>
                 ))}
               </ul>
