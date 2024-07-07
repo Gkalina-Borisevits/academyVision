@@ -8,10 +8,12 @@ import Error from "./pages/Error";
 import Portfolio from "./pages/Portfolio";
 import Price from "./pages/Price";
 import Services from "./pages/Services";
+import Scroll from "./components/scroll/Scroll";
 
 function App() {
   return (
     <>
+      <Scroll />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

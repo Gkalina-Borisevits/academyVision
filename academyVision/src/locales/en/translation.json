@@ -19,13 +19,13 @@
     "send": "Send"
   },
   "homePage": {
-    "name": "Academy Mindcept Vision",
-    "aboutTitle": "We are a digital marketing agency specializing in providing comprehensive services: ASO, SEO, SMM promotion, PPC advertising, coaching, website development, and UX/UI design.",
-    "homeTitle": "Development, coaching, and promotion of websites and brands: individual approach, personalized solutions, continuous support – the key to your digital success!",
+    "name": "AM Vision",
+    "aboutTitle": "We are a digital marketing agency specializing in providing comprehensive services: ASO, SEO, SMM advertising, PPC advertising, coaching, website development, and UX/UI design",
+    "homeTitle": "Our Vision is Your Digital Success. We support you in achieving your business goals with a complete range of services. From designing your website to coaching on topics like pricing and positioning, to developing an effective marketing strategy.",
     "projects": "Our Projects",
     "viewDetails": "View details",
-    "discussProject": "Discuss the project",
-    "textForm": "We will offer customized solutions for your business based on a detailed analysis of the project and the specifics of the company.",
+    "discussProject": "Let's Discuss Your Project for Free",
+    "textForm": "Based on a detailed analysis of your project and the specifics of your company, we will offer you tailored solutions for your successful business.",
     "aboutUs": "About us",
     "ourValues": "Our Values",
     "aboutText": "Development, coaching, and promotion of websites and brands: individual approach, personalized solutions, continuous support — the key to your digital success!"
@@ -68,7 +68,7 @@
     {
       "id": 0,
       "name": "WEB",
-      "description": "Expert development and creation of turnkey sales websites:",
+      "description": "Highly professional development of your individual website. We ensure your uniqueness and professional appearance on the internet.",
       "details": [
         {
           "id": 0,
@@ -95,7 +95,7 @@
     {
       "id": 1,
       "name": "SEO",
-      "description": "Optimization and promotion of the site to the TOP of search engine results:",
+      "description": "Appear on the first page of Google! We know what to do to make your website easy to find in search engines.",
       "details": [
         {
           "id": 0,
@@ -117,7 +117,8 @@
     {
       "id": 2,
       "name": "SMM",
-      "description": "Comprehensive marketing and promotion on social networks:",
+      "description": "Social media marketing for your sustainable success.",
+
       "details": [
         {
           "id": 0,
@@ -144,21 +145,26 @@
     {
       "id": 3,
       "name": "COACH",
-      "description": "We offer individual and group coaching sessions for professional and personal growth:",
+      "description": "Individual and tailored coaching for your business. Together we develop individual solutions and support you in their implementation.",
       "details": [
         {
           "id": 0,
-          "title": "SMART Goals Method",
+          "title": "Positioning",
           "description": "Used to define clear and measurable goals that provide a structured approach to achieving tasks."
         },
         {
           "id": 1,
-          "title": "Coaching Through Questions",
+          "title": "Pricing",
           "description": "A coaching technique that uses targeted questions to help clients understand and achieve their goals."
         },
         {
           "id": 2,
-          "title": "GROW Model",
+          "title": "Goal setting",
+          "description": "A popular coaching method that helps clients define their Goals, explore Reality, choose Options, and determine What's next."
+        },
+        {
+          "id": 3,
+          "title": "Branding and personal image",
           "description": "A popular coaching method that helps clients define their Goals, explore Reality, choose Options, and determine What's next."
         }
       ]
@@ -286,30 +292,22 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["SMM", "SEO", "TypeScript"]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["name1", "name2", "name3"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["name1", "name2", "name3", "name4"]
+    },
+    {
+      "id": 3,
+      "name": "WEB",
+      "details": ["name1", "name2", "name3"]
     }
   ],
   "stagesWork": [
@@ -353,93 +351,55 @@
   "moreAboutProject": [
     {
       "id": 0,
-      "title": "Development of a Website for an Eco-market",
-      "titleDetails": "We have developed a unique corporate website for EcoBazar, specializing in the sale of fresh and healthy organic products. The project is distinguished by a bright and attractive design that emphasizes the eco-friendliness and naturalness of the products.",
-      "technologis": [
-        "TypeScript",
-        "Java",
-        "MySql",
-        "Amazon S3"
-      ]
+      "title": "Website Development for a Financial Company",
+      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
+      "technologis": ["SMM", "SEO", "TypeScript", "Bootstrap"]
     },
     {
       "id": 1,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": [
-        "TypeScript",
-        "React"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 2,
-      "title": "Development of a Website for an Interior Design Studio",
-      "titleDetails": "We developed a web portal for RMC, an interior design agency that skillfully blends modern trends with time-tested solutions and readiness for future changes. This project stands out with its deep, detailed design that emphasizes the importance of details that transform good execution into something splendid.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "title": "Website Development for a Financial Company",
+      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
+      "technologis": ["name1", "name2", "name3", "name4"]
     },
     {
       "id": 3,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["name1", "name2", "name3", "name4"]
     }
   ],
   "aboutPrice": [
     {
       "id": 0,
       "title": "SILVER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "java", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 1,
       "title": "GOLD",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 2,
       "title": "PREMIUM",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 3,
       "title": "OTHER",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "ts", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     }
@@ -467,14 +427,6 @@
       "title": "Germany",
       "address": "Kurfürstendamm 15,",
       "address2": "10719 Berlin",
-      "phone": "+49 30 979 83 903",
-      "email": "info@mindcept.de"
-    },
-    {
-      "id": "1",
-      "title": "Germany",
-      "address": "Rothenburgstraße 25,",
-      "address2": "12165 Berlin",
       "phone": "+49 30 979 83 903",
       "email": "info@mindcept.de"
     }

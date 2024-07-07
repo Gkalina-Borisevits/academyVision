@@ -45,6 +45,7 @@
 }
 .textInImage h3 {
   color: var(--color-font-dark);
+  line-height: 1.8;
 }
 .aboutProjects {
   display: flex;
@@ -146,6 +147,9 @@
   }
   .textInImage {
     margin-bottom: 20px;
+  }
+  .textInImage h3{
+    font-size: 18px;
   }
 }
 @media (max-width: 520px) {

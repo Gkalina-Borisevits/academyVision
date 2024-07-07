@@ -62,9 +62,24 @@
     .navbar > a {
       margin-top: 5px;
       margin: 0;
-      font-size: 15px;
+      font-size: 12px;
     }
     .navbar > a:global.active {
-      font-size: 18px;
+      font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 782px) {
+    .navbar {
+      display: flex;
+      gap: 10px;
+      margin-right: 6px;
+    }
+    .navbar > a {
+      margin-top: 5px;
+      margin: 0;
+      font-size: 9px;
+    }
+    .navbar > a:global.active {
+      font-size: 12px;
     }
   }
