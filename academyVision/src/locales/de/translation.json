@@ -291,7 +291,7 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": ["SMM", "SEO", "TypeScript"]
+      "details": ["SMM", "SEO", "TypeScript", "Bootstrap"]
     },
     {
       "id": 1,
@@ -366,7 +366,7 @@
       "id": 0,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["SMM", "SEO", "TypeScript"]
+      "technologis": ["SMM", "SEO", "TypeScript", "Bootstrap"]
     },
     {
       "id": 1,
