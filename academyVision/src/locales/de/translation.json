@@ -312,7 +312,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "name": "WEB",
       "details": [
         "name1",
@@ -363,24 +363,22 @@
   "moreAboutProject": [
     {
       "id": 0,
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "title": "Titel: Entwicklung einer Website für einen Ökomarkt",
+      "titleDetails": "Wir haben eine einzigartige Firmenwebsite für EcoBazar entwickelt, die sich auf den Verkauf von frischen und gesunden Bio-Produkten spezialisiert. Das Projekt zeichnet sich durch ein helles und attraktives Design aus, das die Ökologie und Natürlichkeit der Produkte hervorhebt.",
       "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
+        "TypeScript",
+        "Java",
+        "MySql",
+        "Amazon S3"
       ]
     },
     {
       "id": 1,
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "title": "Entwicklung einer Website für ein Innenarchitekturstudio",
+      "titleDetails": "Wir haben ein Webportal für RMC entwickelt, eine Agentur für Innenarchitektur, die moderne Trends geschickt mit bewährten Lösungen und der Vorbereitung auf zukünftige Veränderungen kombiniert. Dieses Projekt zeichnet sich durch sein tiefes, detailliertes Design aus, das die Bedeutung von Details betont, die gute Ausführung in etwas Prächtiges verwandeln.",
       "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
+        "TypeScript",
+        "React"
       ]
     },
     {
@@ -478,7 +476,7 @@
       "id": "0",
       "title": "Deutschland",
       "address": "Kurfürstendamm 15,",
-      "address2" : "10719 Berlin",
+      "address2": "10719 Berlin",
       "phone": "+49 30 979 83 903",
       "email": "info@mindcept.de"
     },
@@ -486,7 +484,7 @@
       "id": "1",
       "title": "Deutschland",
       "address": "Rothenburgstraße 25,",
-      "address2" : "12165 Berlin",
+      "address2": "12165 Berlin",
       "phone": "+49 30 979 83 903",
       "email": "info@mindcept.de"
     }

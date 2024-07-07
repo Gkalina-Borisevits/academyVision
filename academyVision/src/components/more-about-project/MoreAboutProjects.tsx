@@ -4,8 +4,8 @@ import "./StyleMoreAboutProject.css";
 import styles from "./StyleMoreAboutProject.module.css";
 import { useTranslation } from "react-i18next";
 import { MoreAboutProject } from "../../types/MoreAboutProject";
-import project1 from '../../assets/about-projects/test/1517154655_vodopad-v-lesu-video-oboi_jpg.jpg'
-import project2 from '../../assets/about-projects/test/4862.jpg'
+import project1 from '../../assets/portfolio/ecoMarket.png'
+import project2 from '../../assets/portfolio/interior.png'
 import project3 from '../../assets/about-projects/test/mult-pic905-895x505-90221.jpg'
 import project4 from '../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg'
 const projects: string[] = [project1, project2, project3, project4]

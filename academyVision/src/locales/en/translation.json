@@ -118,7 +118,6 @@
       "id": 2,
       "name": "SMM",
       "description": "Comprehensive marketing and promotion on social networks:",
-
       "details": [
         {
           "id": 0,
@@ -287,17 +286,30 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": ["name1", "name2", "name3"]
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": ["name1", "name2", "name3"]
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": ["name1", "name2", "name3", "name4"]
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     }
   ],
   "stagesWork": [
@@ -341,55 +353,93 @@
   "moreAboutProject": [
     {
       "id": 0,
-      "title": "Website Development for a Financial Company",
-      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "title": "Development of a Website for an Eco-market",
+      "titleDetails": "We have developed a unique corporate website for EcoBazar, specializing in the sale of fresh and healthy organic products. The project is distinguished by a bright and attractive design that emphasizes the eco-friendliness and naturalness of the products.",
+      "technologis": [
+        "TypeScript",
+        "Java",
+        "MySql",
+        "Amazon S3"
+      ]
     },
     {
       "id": 1,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": [
+        "TypeScript",
+        "React"
+      ]
     },
     {
       "id": 2,
-      "title": "Website Development for a Financial Company",
-      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "title": "Development of a Website for an Interior Design Studio",
+      "titleDetails": "We developed a web portal for RMC, an interior design agency that skillfully blends modern trends with time-tested solutions and readiness for future changes. This project stands out with its deep, detailed design that emphasizes the importance of details that transform good execution into something splendid.",
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     },
     {
       "id": 3,
       "title": "Website Development for a Financial Company",
       "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["name1", "name2", "name3", "name4"]
+      "technologis": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     }
   ],
   "aboutPrice": [
     {
       "id": 0,
       "title": "SILVER",
-      "description": ["name1", "name2", "name3", "name4"],
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 1,
       "title": "GOLD",
-      "description": ["name1", "name2", "name3", "name4"],
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 2,
       "title": "PREMIUM",
-      "description": ["name1", "name2", "name3", "name4"],
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 3,
       "title": "OTHER",
-      "description": ["name1", "name2", "name3", "name4"],
+      "description": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ],
       "priceTitle": "Price",
       "price": "$1000"
     }
