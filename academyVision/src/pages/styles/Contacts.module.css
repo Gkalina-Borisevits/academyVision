@@ -15,4 +15,5 @@
   }
   .textInImage h3 {
     color: var(--color-font-dark);
+    line-height: 1.8;
   }

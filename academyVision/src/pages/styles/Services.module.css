@@ -16,6 +16,7 @@
   .textInImage h3 {
     color: var(--color-font-dark);
     font-size: 1.1em;
+    line-height: 1.8;
   }
   .homeCardContainer {
     margin-top: -240px;

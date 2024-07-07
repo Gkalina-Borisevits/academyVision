@@ -6,10 +6,10 @@ import { AboutProject } from '../../types/AboutProject';
 import cartTest from "../../assets/aboutIcons/innovation.png"
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-import img1 from "../../assets/about-projects/test/1517154655_vodopad-v-lesu-video-oboi_jpg.jpg";
-import img2 from "../../assets/about-projects/test/4862.jpg";
-import img3 from "../../assets/about-projects/test/mult-pic905-895x505-90221.jpg";
-import img4 from "../../assets/about-projects/test/photo_2024-03-12_19-21-10.jpg";
+import img1 from "../../assets/projects/möbel.png";
+import img2 from "../../assets/projects/creme.png";
+import img4 from "../../assets/projects/parfume.png";
+import img3 from "../../assets/projects/hotel.png";
 import { useNavigate } from "react-router-dom";
 import MyButton from "../myButton/MyButton";
 

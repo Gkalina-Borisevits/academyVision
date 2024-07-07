@@ -20,12 +20,12 @@
   },
   "homePage": {
     "name": "AM Vision",
-    "aboutTitle": "Wir sind eine Digital Marketing Agentur, die sich auf die Bereitstellung umfassender Dienstleistungen spezialisiert hat: ASO, SEO, SMM-Promotion, PPC-Kampagnen, Coaching, Webentwicklung und UX/UI-Design.",
-    "homeTitle": "Entwicklung, Coaching und Förderung von Websites und Marken: individuelle Ansätze, personalisierte Lösungen, kontinuierliche Unterstützung – der Schlüssel zu Ihrem digitalen Erfolg!",
+    "aboutTitle": "Wir sind eine digitale Marketingagentur, die auf die Bereitstellung umfassender Dienstleistungen spezialisiert ist: ASO, SEO, SMM-Werbung, PPC-Werbung, Coaching, Website-Entwicklung und UX/UI-Design",
+    "homeTitle": "Unsere Vision ist dein digitaler Erfolg. Wir unterstützen dich beim Erreichen deiner geschäftlichen Ziele mit einem Komplettangebot. Angefangen von der Gestaltung deiner Website über Coaching zu den Themen wie Preisgestaltung und Positionierung bis hin zur Erarbeitung einer funktionierenden Marketingstrategie.",
     "projects": "Unsere Projekte",
     "viewDetails": "Details anzeigen",
-    "discussProject": "Projekt besprechen",
-    "textForm": "Wir bieten individuelle Lösungen für Ihr Unternehmen auf der Grundlage einer detaillierten Analyse des Projekts und der Besonderheiten des Unternehmens an.",
+    "discussProject": "Lass uns dein Anliegen kostenlos besprechen",
+    "textForm": "Auf Basis einer detaillierten Analyse deines Vorhabens und der Besonderheiten deines Unternehmens unterbreiten wir dir maßgeschneiderte Lösungen für dein erfolgreiches Business.",
     "aboutUs": "Über uns",
     "ourValues": "Unsere Werte",
     "aboutText": "Entwicklung, Coaching und Förderung von Websites und Marken: individuelle Herangehensweise, personalisierte Lösungen, kontinuierliche Unterstützung – der Schlüssel zu Ihrem digitalen Erfolg!"
@@ -68,12 +68,12 @@
     {
       "id": 0,
       "name": "WEB",
-      "description": "Expertenentwicklung und Erstellung von schlüsselfertigen Verkaufswebseiten:",
+      "description": "Hochprofessionelle Entwicklung deiner individuellen Website. Wir sorgen für deine Einzigartigkeit und professionelles Erscheinungsbild im Internet",
       "details": [
         {
           "id": 0,
-          "title": "Landing Page",
-          "description": "Wir entwickeln verkaufsfördernde Landing Pages, die die Qualität Ihrer Leads verbessern, den Umsatz steigern und den Gewinn maximieren."
+          "title": " Landingpage",
+          "description": "Wir entwickeln verkaufsfördernde  Landingpage, die die Qualität Ihrer Leads verbessern, den Umsatz steigern und den Gewinn maximieren."
         },
         {
           "id": 1,
@@ -95,7 +95,7 @@
     {
       "id": 1,
       "name": "SEO",
-      "description": "Optimierung und Förderung der Website in die TOP-Suchergebnisse der Suchmaschinen:",
+      "description": "Erscheine bei Google auf der ersten Seite! Wir wissen, was zu tun ist, damit deine Website bei den Suchmaschinen leicht zu finden ist:",
       "details": [
         {
           "id": 0,
@@ -117,7 +117,7 @@
     {
       "id": 2,
       "name": "SMM",
-      "description": "Umfassendes Marketing und Promotion in sozialen Netzwerken:",
+      "description": "Marketing in den sozialen Medien für deinen nachhaltigen Erfolg",
       "details": [
         {
           "id": 0,
@@ -144,21 +144,26 @@
     {
       "id": 3,
       "name": "COACHING",
-      "description": "Wir bieten individuelle und Gruppen-Coaching-Sitzungen für berufliches und persönliches Wachstum an:",
+      "description": "Individuelles und maßgeschneidertes Coaching für dein Business. Gemeinsam entwickeln wir individuelle Lösungen und unterstützen dich bei der Umsetzung.",
       "details": [
         {
           "id": 0,
-          "title": "SMART-Ziele Methode",
+          "title": "Positionierung",
           "description": "Wird verwendet, um klare und messbare Ziele zu definieren, die einen strukturierten Ansatz zur Erreichung von Aufgaben bieten."
         },
         {
           "id": 1,
-          "title": "Coaching durch Fragen",
+          "title": "Preisgestaltung",
           "description": "Eine Coaching-Technik, die gezielte Fragen verwendet, um den Klienten zu helfen, ihre Ziele zu verstehen und zu erreichen."
         },
         {
           "id": 2,
-          "title": "GROW-Modell",
+          "title": "Zielsetzungsarbeit",
+          "description": "Eine beliebte Coaching-Methode, die den Klienten hilft, ihre Ziele zu definieren, die Realität zu erkunden, Optionen zu wählen und zu bestimmen, was als Nächstes kommt."
+        },
+        {
+          "id": 3,
+          "title": "Branding und persönliches Auftreten",
           "description": "Eine beliebte Coaching-Methode, die den Klienten hilft, ihre Ziele zu definieren, die Realität zu erkunden, Optionen zu wählen und zu bestimmen, was als Nächstes kommt."
         }
       ]
@@ -286,11 +291,7 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["SMM", "SEO", "TypeScript"]
     },
     {
       "id": 1,
@@ -365,12 +366,7 @@
       "id": 0,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "technologis": ["SMM", "SEO", "TypeScript"]
     },
     {
       "id": 1,
@@ -479,14 +475,6 @@
       "title": "Deutschland",
       "address": "Kurfürstendamm 15,",
       "address2" : "10719 Berlin",
-      "phone": "+49 30 979 83 903",
-      "email": "info@mindcept.de"
-    },
-    {
-      "id": "1",
-      "title": "Deutschland",
-      "address": "Rothenburgstraße 25,",
-      "address2" : "12165 Berlin",
       "phone": "+49 30 979 83 903",
       "email": "info@mindcept.de"
     }
