@@ -16,8 +16,19 @@
   box-shadow: none; /* Начальное состояние тени */
   display: flex;
   flex-direction: column; /* Колонки, чтобы Card.Body растягивался */
+  
 }
-
+.homeCardsCardContainer h1{
+  color: rgb(93, 67, 44);
+}
+.homeCardsCardContainer p{
+  color: rgb(114, 102, 91);
+  line-height: 1.7;
+}
+.homeCardsCardContainer li{
+  color: rgb(126, 98, 74);
+  line-height: 1.9;
+}
 .homeCardsCardHeader {
   display: flex;
   justify-content: space-between;

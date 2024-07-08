@@ -99,9 +99,10 @@
   font-weight: bold;
   color: rgb(127, 110, 87);
 }
-.aboutTextContainer h3 {
+.aboutTextContainer h4 {
   margin-top: 20px;
   color: rgb(127, 110, 87);
+  line-height: 1.6;
 }
 .aboutTextContainer {
   display: flex;
