@@ -8,8 +8,8 @@ import { NavLink } from 'react-router-dom';
 import web from "../../../assets/homeIcons/web.png"
 import smm from "../../../assets/homeIcons/smm.png"
 import seo from "../../../assets/homeIcons/seo.png"
-import coauch from "../../../assets/homeIcons/coach.png"
-const listPage: string[] = [web, smm, seo, coauch]
+import coach from "../../../assets/homeIcons/coach.png"
+const listPage: string[] = [web, smm, seo, coach]
 
 
 
@@ -19,7 +19,7 @@ const HomeCardsAccordion: React.FC = () => {
 
   return (
 
-    <div className={styles.homeCardContainerModile}>
+    <div className={styles.homeCardContainerMobile}>
       <Accordion defaultActiveKey={['0']} alwaysOpen>
         {homeCards.map((card) => (
           <Accordion.Item eventKey={card.id.toString()} className={styles.accordionItem} >
@@ -31,12 +31,12 @@ const HomeCardsAccordion: React.FC = () => {
               <p>{card.description}</p>
               <ul>
                 {card.details.map((detail, index) => (
-                  <li key={index}>{detail.title}</li> // Добавьте ключи для элементов списка
+                  <li key={index}>- {detail.title}</li> // Добавьте ключи для элементов списка
                 ))}
               </ul>
             </Accordion.Body>
             <NavLink className="text-decoration-none" to="/services">
-              <Accordion.Body className="d-flex justify-content-end fs-2" style={{ marginRight: "40px" }}>
+              <Accordion.Body className="d-flex justify-content-end fs-2" style={{ marginRight: "40px", color: "midnightblue"}}>
               {t("projects.details")}
               </Accordion.Body>
             </NavLink>
