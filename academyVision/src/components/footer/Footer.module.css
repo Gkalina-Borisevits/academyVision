@@ -9,6 +9,26 @@
   height: auto;
   z-index: 0;
 }
+.textContainerName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.textContainerName span {
+  font-family: "Lato", sans-serif;
+  font-size: 13vw;
+  background: linear-gradient(45deg, #4b2725, #d4a5a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .linkContainer {
   display: flex;
   flex-direction: column;
@@ -16,9 +36,9 @@
 .nameContainer {
   z-index: -900;
 }
-.nameContainer h1{
-font-size: 10em;
-color:rgba(128, 113, 92, 0.2)
+.nameContainer h1 {
+  font-size: 10em;
+  color: rgba(128, 113, 92, 0.2);
 }
 .footerContainer a {
   text-decoration: none;

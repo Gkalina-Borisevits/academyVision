@@ -5,9 +5,28 @@
  font-family: var(--font-primary);
  font-weight: 700;
 }
+.logoCMStyle {
+  width: 50px;
+}
+.logoCosmeticsStyle {
+  width: 60px;
+  background-color: rgb(247, 250, 222);
+  border-radius: 40px / 8px;
+}
+.logoHotelStyle {
+  width: 60px;
+  background-color: rgb(247, 217, 180);
+  border-radius: 60px / 45px;
+}
+.logoPerfumeStyle {
+  width: 90px;
+  background-color: rgb(252, 174, 216);
+  border-radius: 40px / 25px;
+}
 .imgStyle {
   width: 80px;
-  height: 80px;
+  height: auto;
+  background-color: aliceblue;
 }
 .containerWork {
   display: flex;
