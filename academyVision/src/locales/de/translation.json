@@ -291,12 +291,7 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": [
-        "SMM",
-        "SEO",
-        "TypeScript",
-        "Bootstrap"
-      ]
+      "details": ["SMM", "SEO", "TypeScript", "Bootstrap"]
     },
     {
       "id": 1,
@@ -330,11 +325,7 @@
     {
       "id": 3,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
     }
   ],
   "stagesWork": [
@@ -378,14 +369,9 @@
   "moreAboutProject": [
     {
       "id": 0,
-      "title": "Start der Webseite für ein Boutique für Heimdekoration und Möbel",
-      "titleDetails": "Wir haben erfolgreich eine Webseite für ein Unternehmen gestartet, das sich auf Innenraumgestaltung und Möbelverkauf spezialisiert. Unsere Webseite bietet exklusive Kollektionen, die dabei helfen, Träume von einem einzigartigen Interieur zu verwirklichen. Die Seiten der Webseite umfassen 'Kollektionen', 'Produkte', 'Inspiration' und 'Über uns', wo detaillierte Informationen über die Produkte und originelle Designlösungen präsentiert werden. Das Design der Webseite spiegelt die Mission der Marke wider, das Leben der Kunden mit stilvollen und qualitativ hochwertigen Dekorelementen zu bereichern, und somit 'langanhaltende Erinnerungen' zu schaffen.",
-      "technologis": [
-        "SMM",
-        "SEO",
-        "TypeScript",
-        "Bootstrap"
-      ]
+      "title": "Разработка сайта для финансовой компании",
+      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
+      "technologis": ["SMM", "SEO", "TypeScript", "Bootstrap"]
     },
     {
       "id": 1,
@@ -495,7 +481,7 @@
       "id": "0",
       "title": "Deutschland",
       "address": "Kurfürstendamm 15,",
-      "address2": "10719 Berlin",
+      "address2" : "10719 Berlin",
       "phone": "+49 30 979 83 903",
       "email": "info@mindcept.de"
     }

@@ -23,7 +23,7 @@
   z-index: -90;
 }
 .homeCardContainer {
-  margin-top: -240px;
+  margin-top: -182px;
   z-index: 90;
   position: relative;
   margin-bottom: 40px;
@@ -99,9 +99,10 @@
   font-weight: bold;
   color: rgb(127, 110, 87);
 }
-.aboutTextContainer h3 {
+.aboutTextContainer h4 {
   margin-top: 20px;
   color: rgb(127, 110, 87);
+  line-height: 1.6;
 }
 .aboutTextContainer {
   display: flex;

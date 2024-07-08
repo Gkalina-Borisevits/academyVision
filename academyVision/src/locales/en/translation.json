@@ -118,6 +118,7 @@
       "id": 2,
       "name": "SMM",
       "description": "Social media marketing for your sustainable success.",
+
       "details": [
         {
           "id": 0,
@@ -291,39 +292,22 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": [
-        "SMM",
-        "SEO",
-        "TypeScript"
-      ]
+      "details": ["SMM", "SEO", "TypeScript", "Bootstrap"]
     },
     {
       "id": 1,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["Java", "TypeScript", "MySQL", "SEO"]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ]
+      "details": ["Java", "TypeScript", "MySQL", "Bootstrap"]
     },
     {
       "id": 3,
       "name": "WEB",
-      "details": [
-        "name1",
-        "name2",
-        "name3"
-      ]
+      "details": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
     }
   ],
   "stagesWork": [
@@ -416,48 +400,28 @@
     {
       "id": 0,
       "title": "SILVER",
-      "description": [
-        "name1",
-        "java",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "java", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 1,
       "title": "GOLD",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 2,
       "title": "PREMIUM",
-      "description": [
-        "name1",
-        "name2",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "name2", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     },
     {
       "id": 3,
       "title": "OTHER",
-      "description": [
-        "name1",
-        "ts",
-        "name3",
-        "name4"
-      ],
+      "description": ["name1", "ts", "name3", "name4"],
       "priceTitle": "Price",
       "price": "$1000"
     }

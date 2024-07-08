@@ -1,15 +1,18 @@
 import React from "react";
-import styles from "./AboutProjects.module.css";
-import "./AboutProjects.css";
+import styles from "./styles/AboutProjects.module.css";
+import "./styles/AboutProjects.css";
 import MyContainer from '../myContainer/MyContainer';
 import { AboutProject } from '../../types/AboutProject';
-import cartTest from "../../assets/aboutIcons/innovation.png"
+import logoCM from "../../assets/projects/logoCM.png";
+import logoPerfume from "../../assets/projects/logoPerfume.png";
+import logoHotel from "../../assets/projects/logoHotel.png";
+import logoCosmetics from "../../assets/projects/logoCosmetics.png"
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
 import img1 from "../../assets/projects/möbel.png";
 import img2 from "../../assets/projects/creme.png";
-import img4 from "../../assets/projects/parfume.png";
 import img3 from "../../assets/projects/hotel.png";
+import img4 from "../../assets/projects/perfume.png";
 import { useNavigate } from "react-router-dom";
 import MyButton from "../myButton/MyButton";
 
@@ -39,7 +42,7 @@ const AboutProjects: React.FC = () => {
           >
             <div className={styles.bgImg}>
               <div className={styles.header}>
-                <img className={styles.imgStyle} src={cartTest} alt="" />
+                <img className={styles.logoCMStyle} src={logoCM} alt="" />
                 <p>{aboutProjects[0].name}</p>
               </div>
               <ul>
@@ -60,7 +63,7 @@ const AboutProjects: React.FC = () => {
           >
             <div className={styles.bgImg}>
               <div className={styles.header}>
-                <img className={styles.imgStyle} src={cartTest} alt="" />
+                <img className={styles.logoCosmeticsStyle} src={logoCosmetics} alt="" />
                 <p>{aboutProjects[1].name}</p>
               </div>
               <ul>
@@ -83,7 +86,7 @@ const AboutProjects: React.FC = () => {
           >
             <div className={styles.bgImg}>
               <div className={styles.header}>
-                <img className={styles.imgStyle} src={cartTest} alt="" />
+                <img className={styles.logoHotelStyle} src={logoHotel} alt="" />
                 <p>{aboutProjects[2].name}</p>
               </div>
               <ul>
@@ -104,7 +107,7 @@ const AboutProjects: React.FC = () => {
           >
             <div className={styles.bgImg}>
               <div className={styles.header}>
-                <img className={styles.imgStyle} src={cartTest} alt="" />
+                <img className={styles.logoPerfumeStyle} src={logoPerfume} alt="" />
                 <p>{aboutProjects[3].name}</p>
               </div>
               <ul>
