@@ -1,22 +1,21 @@
 import React from 'react';
-import { Card } from 'react-bootstrap'; // Добавлен импорт компонента Card
+import {Card} from 'react-bootstrap'; // Добавлен импорт компонента Card
 import styles from "./StyleFotoCards.module.css";
 import "./StyleFotoCards.css"
-import { useTranslation } from 'react-i18next';
-import { FotoCard } from '../../types/FotoCard';
+import {useTranslation} from 'react-i18next';
+import {FotoCard} from '../../types/FotoCard';
 import bigBoss from '../../assets/pageFoto/BigBoss.jpg'
 import maia from '../../assets/pageFoto/Maia.jpg'
 import karina from '../../assets/pageFoto/Karina.jpg'
 import galina from '../../assets/pageFoto/Galina.jpg'
-import yurii from '../../assets/pageFoto/Yurii.webp'
+import yurii from '../../assets/pageFoto/Yurii2.jpg'
+
 const fotos: string[] = [bigBoss, maia, karina, galina, yurii]
 
 
-
-
 const FotoCards: React.FC = () => {
-    const { t } = useTranslation("translation");
-    const fotoCards: FotoCard[] = t("fotoCards", { returnObjects: true });
+    const {t} = useTranslation("translation");
+    const fotoCards: FotoCard[] = t("fotoCards", {returnObjects: true});
     return (
         <div className={styles.homeCardContainer}>
             {fotoCards.map((card) => (
@@ -25,18 +24,18 @@ const FotoCards: React.FC = () => {
                         <div className={styles.flipContainer}>
                             <div className={styles.flipCardInner}>
                                 <div className={styles.flipCardFront}>
-                                    <Card.Img variant="top" className={styles.logo} src={fotos[card.id]} />
+                                    <Card.Img variant="top" className={styles.logo} src={fotos[card.id]}/>
                                 </div>
                                 <div className={styles.flipCardBack}
-                                    style={{
-                                        backgroundImage: `url('${card.foto}')`,
-                                        backgroundSize: 'cover',
-                                        backgroundPosition: 'center center',
-                                        backgroundRepeat: 'no-repeat',
-                                        width: '100%',
-                                        height: '100%',
-                                        position: 'relative'
-                                    }}>
+                                     style={{
+                                         backgroundImage: `url('${fotos[card.id]}')`,
+                                         backgroundSize: 'cover',
+                                         backgroundPosition: 'center center',
+                                         backgroundRepeat: 'no-repeat',
+                                         width: '100%',
+                                         height: '100%',
+                                         position: 'relative'
+                                     }}>
                                     <div style={{
                                         position: 'absolute',
                                         width: '100%',
@@ -47,7 +46,11 @@ const FotoCards: React.FC = () => {
                                         justifyContent: 'center'
                                     }}>
                                         <div className={styles.cardBackContent}>
-                                            <p style={{ color: 'white', textAlign: 'center', padding: '20px' }}>{card.description}</p>
+                                            <p style={{
+                                                color: 'white',
+                                                textAlign: 'center',
+                                                padding: '20px'
+                                            }}>{card.description}</p>
                                         </div>
                                     </div>
                                 </div>
