@@ -4,7 +4,7 @@ import "./StyleMoreAboutProject.css";
 import styles from "./StyleMoreAboutProject.module.css";
 import { useTranslation } from "react-i18next";
 import { MoreAboutProject } from "../../types/MoreAboutProject";
-import project1 from '../../assets/projects/möbel.png'
+import project1 from '../../assets/projects/furniture.png'
 import project2 from '../../assets/projects/creme.png'
 import project3 from '../../assets/projects/hotel.png'
 import project4 from '../../assets/projects/perfume.png'

@@ -17,13 +17,14 @@
   z-index: -1;
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 0px;
   box-sizing: border-box;
   margin-top: 10px;
+
 }
 .textContainerName span {
   font-family: "Lato", sans-serif;
-  font-size: 13vw;
+  font-size: 10vw;
   background: linear-gradient(45deg, #4b2725, #d4a5a5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
