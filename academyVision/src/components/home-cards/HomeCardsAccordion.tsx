@@ -7,8 +7,8 @@ import styles from "./StyleHomeCardsAccordion.module.css"
 import web from "../../assets/homeIcons/web.png"
 import smm from "../../assets/homeIcons/smm.png"
 import seo from "../../assets/homeIcons/seo.png"
-import coauch from "../../assets/homeIcons/coach.png"
-const listPage: string[] = [web, smm, seo, coauch]
+import coach from "../../assets/homeIcons/coach.png"
+const listPage: string[] = [web, smm, seo, coach]
 
 
 

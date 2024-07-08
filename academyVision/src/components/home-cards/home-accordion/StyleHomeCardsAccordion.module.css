@@ -12,19 +12,28 @@ li {
 .accordionBody p{
     font-size: 18px;
     font-weight: 600;
+    line-height: 1.5;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .accordionHeader h1 {
   margin-left: 230px;
+  color: rgb(101, 70, 49);
+  font-size: 23px;
 }
 .accordionHeader {
-
   border: 2px saddlebrown solid;
+}
+.accordionHeader::after {
+  border-top: 6px solid rgb(101, 70, 49); 
+}
+.accordionHeader ul, li{
+color: rgb(99, 98, 85);
+line-height: 1.8;
 }
 
 @media (max-width: 499px) {
