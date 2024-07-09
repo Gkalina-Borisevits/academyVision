@@ -27,7 +27,7 @@ const HomeCards: React.FC = () => {
                         </Card.Header>
                         <Card.Body style={{flex: "1 1 50%", display: 'flex', flexDirection: 'column'}}  className={styles.homeCardsCardBody}>
                             <Card.Title style={{flex: "1 1 40%", fontSize:"20px"}} className="text-dark">
-                                {card.description}
+                                <p>{card.description}</p>
                             </Card.Title>
                             <Card.Text style={{flex: "1 1 60%"}}>
                                 <ul>
