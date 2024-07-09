@@ -8,7 +8,7 @@ import bigBoss from '../../assets/pageFoto/BigBoss.jpg'
 import maia from '../../assets/pageFoto/Maia.jpg'
 import karina from '../../assets/pageFoto/Karina.jpg'
 import galina from '../../assets/pageFoto/Galina.jpg'
-import yurii from '../../assets/pageFoto/Yurii.webp'
+import yurii from '../../assets/pageFoto/Yurii2.jpg'
 
 const fotos: string[] = [bigBoss, maia, karina, galina, yurii]
 

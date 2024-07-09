@@ -68,7 +68,7 @@
 .homeCardsLi::before {
   content: "•"; /* Символ точки */
   position: absolute;
-  top: 4px;
+  top: -5px;
   left: -30px; /* Позиционирует точку в начале элемента */
   color: rgb(0, 162, 255); /* Цвет точки */
   font-size: 20px; /* Размер точки */
