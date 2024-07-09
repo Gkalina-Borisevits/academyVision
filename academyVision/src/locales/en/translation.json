@@ -351,27 +351,49 @@
   "moreAboutProject": [
     {
       "id": 0,
-      "title": "Website Development for a Financial Company",
-      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["SMM", "SEO", "TypeScript", "Bootstrap"]
+      "title": "Launch of the Website for a Home Decor and Furniture Boutique",
+      "titleDetails": "We have successfully launched a website for a company that specializes in interior design and furniture sales. Our site offers exclusive collections that will help bring to life dreams of a unique interior. The website pages include 'Collections', 'Products', 'Inspiration', and 'About Us', where detailed information about the products and original design solutions are presented. The site's design reflects the brand's mission to enrich clients' lives with stylish and quality decor elements, thus creating 'lasting memories'.",
+      "technologis": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap"
+      ]
     },
     {
       "id": 1,
-      "title": "Website Development for a Financial Company",
-      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["Java", "TypeScript", "MySQL", "SEO"]
+      "title": "Creation of the Website for the Cosmetic Brand 'ONNE'",
+      "titleDetails": "We have successfully completed the creation of a website for the cosmetic brand 'ONNE', which applies scientific methods in skincare. The platform provides users with the opportunity to develop their own cosmetic blends, perfectly suited to their skin type. The site was implemented using modern web technologies, ensuring ease and comfort of use.",
+      "technologis": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap"
+      ]
     },
     {
       "id": 2,
-      "title": "Website Development for a Financial Company",
-      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["Java", "TypeScript", "MySQL", "Bootstrap"]
+      "title": "Development of the Website for the Resort 'Fresh Air",
+      "titleDetails": "We proudly present the website for the resort 'Fresh Air', located in picturesque mountain landscapes. This site was developed using modern web technologies, ensuring high performance and protection of user data. Our goal was to create an intuitive and appealing interface that highlights the unique location and services of the resort.",
+      "technologis": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap"
+      ]
     },
     {
       "id": 3,
-      "title": "Website Development for a Financial Company",
-      "titleDetails": "We created a corporate website for Roundsec, focusing on the sale of advanced information security and high-tech solutions. The project stands out for its innovative and reliable custom functionality.",
-      "technologis": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
+      "title": "Launch of the Website for the Online Store 'Essence Euphoria'",
+      "titleDetails": "We have successfully completed the development of the website for 'Essence Euphoria', an online store offering exclusive perfumery and cosmetic products. This site provides easy access to a wide range of products for both genders, simplifying the selection process among various brands and promotional offers. Special attention was given to enhancing the user interface during development, ensuring quick search capabilities and ease of order processing.",
+      "technologis": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap",
+        "Java",
+        "MySql"
+      ]
     }
   ],
   "aboutPrice": [

@@ -1,4 +1,5 @@
 .homeCardsHomeCardContainer {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -27,43 +28,63 @@
 .homeCardsCardContainer li{
   color: rgb(126, 98, 74);
   line-height: 1.9;
+=======
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступ между карточками */
+    /*align-items: stretch; !* Это гарантирует, что все карточки будут одной высоты *!*/
+    margin-top: 50px;
 }
+
+.homeCardsCardContainer {
+    width: 22rem; /* Ширина карточки */
+    min-height: 28rem;
+    margin-bottom: 3rem; /* Отступ снизу */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
+    cursor: pointer;
+    position: relative; /* Для корректной работы трансформации */
+    box-shadow: none; /* Начальное состояние тени */
+    display: flex;
+    flex-direction: column; /* Колонки, чтобы Card.Body растягивался */
+>>>>>>> feature/edit-project
+}
+
 .homeCardsCardHeader {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .homeCardsCardBody {
-  flex: 1; /* Это позволяет растянуть Card.Body до оставшегося пространства */
-  display: flex;
-  flex-direction: column;
+
 }
 
 .homeCardsLi {
-  position: relative;
-  font-size: 14px;
+    position: relative;
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 .homeCardsLogo {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .homeCardsCardContainer:hover {
-  transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени снизу */
-  /* border: 1px solid rgb(200, 178, 152) ; */
+    transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени снизу */
+    /* border: 1px solid rgb(200, 178, 152) ; */
 }
 
 .homeCardsCardContainer:hover h1 {
-  text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
+    text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
 }
 
 .homeCardsLi::before {
-  content: "•"; /* Символ точки */
-  position: absolute;
-  top: -4px;
-  left: -30px; /* Позиционирует точку в начале элемента */
-  color: rgb(0, 162, 255); /* Цвет точки */
-  font-size: 20px; /* Размер точки */
+    content: "•"; /* Символ точки */
+    position: absolute;
+    top: 4px;
+    left: -30px; /* Позиционирует точку в начале элемента */
+    color: rgb(0, 162, 255); /* Цвет точки */
+    font-size: 20px; /* Размер точки */
 }

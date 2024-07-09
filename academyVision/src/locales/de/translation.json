@@ -296,12 +296,31 @@
     {
       "id": 1,
       "name": "WEB",
-      "details": ["Java", "TypeScript", "MySQL", "SEO"]
+      "details": [
+        "name1",
+        "name2",
+        "name3"
+      ]
     },
     {
       "id": 2,
       "name": "WEB",
-      "details": ["Java", "TypeScript", "MySQL", "Bootstrap"]
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "WEB",
+      "details": [
+        "name1",
+        "name2",
+        "name3",
+        "name4"
+      ]
     },
     {
       "id": 3,
@@ -356,21 +375,38 @@
     },
     {
       "id": 1,
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["Java", "TypeScript", "MySQL", "SEO"]
+      "title": "Erstellung einer Webseite für die Kosmetikmarke 'ONNE'",
+      "titleDetails": "Wir haben erfolgreich eine Webseite für die Kosmetikmarke 'ONNE' erstellt, die wissenschaftliche Methoden in der Hautpflege anwendet. Die Plattform ermöglicht es den Nutzern, eigene Kosmetikmischungen zu entwickeln, die perfekt auf ihren Hauttyp abgestimmt sind. Die Website wurde mit modernen Webtechnologien umgesetzt, was Einfachheit und Komfort in der Nutzung gewährleistet.",
+      "technologis": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap"
+      ]
     },
     {
       "id": 2,
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["Java", "TypeScript", "MySQL", "Bootstrap"]
+      "title": "Entwicklung der Webseite für das Ferienresort 'Fresh Air",
+      "titleDetails": "Wir präsentieren stolz die Webseite des Ferienresorts 'Fresh Air', das in malerischen Berglandschaften gelegen ist. Diese Website wurde unter Verwendung modernster Webtechnologien entwickelt, die eine hohe Leistung und den Schutz der Benutzerdaten gewährleisten. Unser Ziel war es, eine intuitive und ansprechende Benutzeroberfläche zu schaffen, die die einzigartige Lage und die Dienstleistungen des Resorts hervorhebt.",
+      "technologis": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap"
+      ]
     },
     {
       "id": 3,
-      "title": "Разработка сайта для финансовой компании",
-      "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
+      "title": "Start der Webseite für den Online-Shop 'Essence Euphoria'",
+      "titleDetails": "Wir haben die Entwicklung der Webseite für 'Essence Euphoria', einen Online-Shop, der exklusive Parfümerie- und Kosmetikprodukte anbietet, erfolgreich abgeschlossen. Diese Webseite bietet einen einfachen Zugang zu einem breiten Sortiment an Produkten für beide Geschlechter und vereinfacht den Auswahlprozess unter verschiedenen Marken und Sonderangeboten. Besonderes Augenmerk wurde auf die Verbesserung der Benutzeroberfläche gelegt, um eine schnelle Suche und einfache Bestellabwicklung zu gewährleisten.",
+      "technologis": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap",
+        "Java",
+        "MySql"
+      ]
     }
   ],
   "aboutPrice": [
