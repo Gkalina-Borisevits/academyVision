@@ -23,8 +23,8 @@ const MoreAboutProjectsMobile: React.FC = () => {
                         <Card.Img variant="top" className={styles.logo} src={projects[card.id]} />
                     </Card.Header>
                     <Card.Body className="pt-2">
-                        <Card.Title className="text-dark fs-6 mt-1">{card.title}</Card.Title>
-                        <Card.Text className="pb-2 ">{card.titleDetails}</Card.Text>
+                        <Card.Title className="text-dark fs-6 mt-1"><h3>{card.title}</h3></Card.Title>
+                        <Card.Text className="pb-2 "><p>{card.titleDetails}</p></Card.Text>
                         <div className={styles.tagContainer} >
                             {card.technologis.map((tag, index) => (
                                 <span key={index} className={styles.tag}>{tag}</span>

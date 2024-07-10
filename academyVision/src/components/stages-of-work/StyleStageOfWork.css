@@ -1,16 +1,14 @@
-.nav-item p{
+.nav-item p {
   font-size: 25px !important;
-
 }
 .nav-item .active {
   background-color: var(--color-dark) !important;
   color: aliceblue !important;
 }
-.nav-item .active p{
+.nav-item .active p {
   color: aliceblue !important;
-
 }
-.nav-item .active p{
+.nav-item .active p {
   color: aliceblue;
 }
 
@@ -79,9 +77,7 @@
   color: var(--color-font-dark);
 }
 .box-header h5 {
-  
   margin-top: 16px;
   color: var(--color-font-dark);
   margin-bottom: 40px;
 }
-

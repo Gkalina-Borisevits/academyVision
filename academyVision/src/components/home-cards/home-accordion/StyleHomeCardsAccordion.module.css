@@ -1,13 +1,13 @@
 .accordionBody ul li {
   position: relative;
   font-size: 16px;
- margin-left: -40px;
+  margin-left: -40px;
 }
-.accordionBody p{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.8;
-    margin-left: -40px;
+.accordionBody p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.8;
+  margin-left: -40px;
 }
 
 .logo {
@@ -24,11 +24,12 @@
   border: 2px rgb(107, 71, 46) solid;
 }
 .accordionHeader::after {
-  border-top: 6px solid rgb(101, 70, 49); 
+  border-top: 6px solid rgb(101, 70, 49);
 }
-.accordionHeader ul, li{
-color: rgb(99, 98, 85);
-line-height: 1.8;
+.accordionHeader ul,
+li {
+  color: rgb(99, 98, 85);
+  line-height: 1.8;
 }
 
 @media (max-width: 499px) {
