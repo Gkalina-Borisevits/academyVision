@@ -58,7 +58,7 @@
 }
 
 .active:hover {
-  background: linear-gradient(to bottom, rgb(79, 139, 74), #EFEFEF);
+  background: linear-gradient(to bottom, rgb(179, 248, 172), #EFEFEF);
   color:hwb(27 27% 53%);
   /* -webkit-text-stroke: 1px rgb(59, 60, 59); */
   transform: translateY(-2px);
