@@ -246,7 +246,7 @@
     },
     {
       "id": 4,
-      "title": "Reaktionsgeschwindigkeit",
+      "title": "Reaktions geschwindigkeit",
       "description": "In der IT-Branche ist Zeit Geld. Wir garantieren einen schnellen Start und die Einrichtung von Kampagnen, damit Sie schnell auf Marktchancen und -bedrohungen reagieren können."
     },
     {
@@ -291,7 +291,12 @@
     {
       "id": 0,
       "name": "WEB",
-      "details": ["SMM", "SEO", "TypeScript", "Bootstrap"]
+      "details": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap"
+      ]
     },
     {
       "id": 1,
@@ -325,7 +330,12 @@
     {
       "id": 3,
       "name": "WEB",
-      "details": ["Java", "JavaScript", "PostgreSQL", "Tailwind"]
+      "details": [
+        "Java",
+        "JavaScript",
+        "PostgreSQL",
+        "Tailwind"
+      ]
     }
   ],
   "stagesWork": [
@@ -371,7 +381,12 @@
       "id": 0,
       "title": "Разработка сайта для финансовой компании",
       "titleDetails": "Мы создали корпоративный сайт для Roundsec, фокусируясь на продаже передовых инфо-безопасностей и высокотехнологичных решений. Проект выделяется инновационным и надежным нестандартным функционалом.",
-      "technologis": ["SMM", "SEO", "TypeScript", "Bootstrap"]
+      "technologis": [
+        "SMM",
+        "SEO",
+        "TypeScript",
+        "Bootstrap"
+      ]
     },
     {
       "id": 1,
@@ -481,7 +496,7 @@
       "id": "0",
       "title": "Deutschland",
       "address": "Kurfürstendamm 15,",
-      "address2" : "10719 Berlin",
+      "address2": "10719 Berlin",
       "phone": "+49 30 979 83 903",
       "email": "info@mindcept.de"
     }

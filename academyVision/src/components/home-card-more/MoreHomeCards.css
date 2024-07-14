@@ -1,87 +1,100 @@
 .nav-item .active {
-  background-color: var(--color-dark) !important;
+    background-color: var(--color-dark) !important;
 }
+
 .more-home-cards-header {
-  margin-bottom: 50px;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .more-home-cards-header:hover {
-  transform: translateY(-10px);
-  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    transform: translateY(-10px);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
-.bg-smm-0 {
-  background-image: url("../../assets/stages-of-work/find.webp") !important;
+
+.bg-smm {
+    background-image: url("../../assets/stages-of-work/smm.webp") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bg-smm-1 {
-  background-image: url("../../assets/stages-of-work/Procting.webp") !important;
+.bg-coach {
+    background-image: url("../../assets/stages-of-work/coach.webp") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bg-smm-2 {
-  background-image: url("../../assets/stages-of-work/web.webp") !important;
+.bg-web {
+    background-image: url("../../assets/stages-of-work/web.webp") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bg-smm-3 {
-  background-image: url("../../assets/stages-of-work/marketing.webp") !important;
+.bg-seo {
+    background-image: url("../../assets/stages-of-work/seo.webp") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.bg-smm-4 {
-  background-image: url("../../assets/stages-of-work/started.webp") !important;
-}
-
-.bg-smm-5 {
-  background-image: url("../../assets/stages-of-work/monitiring.webp") !important;
-}
 /* --------------------------- */
 .fon {
-  position: relative;
-  background-size: cover !important;
-  border-radius: 10px;
-  padding: 30px !important;
+    position: relative;
+    background-size: cover !important;
+    border-radius: 10px;
+    padding: 30px !important;
 }
 
 .fon::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.68);
-  z-index: 1;
-  border-radius: 10px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    z-index: 1;
+    border-radius: 10px;
 }
 
 .tab-text p {
-  position: relative;
-  z-index: 6;
-  color: aliceblue;
-  font-weight: 600;
-  font-size: 18px;
+    position: relative;
+    z-index: 6;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 18px;
 }
+
 .box-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
 }
+
 .box-header h2 {
-  font-size: 40px;
+    font-size: 40px;
 }
+
 .box-header p {
-  font-size: 20px;
-  font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
+
 .box-header img {
-  width: 100px;
-  height: 100px;
+    width: 100px;
+    height: 100px;
 }
+
 .title-more-card {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
 }
 

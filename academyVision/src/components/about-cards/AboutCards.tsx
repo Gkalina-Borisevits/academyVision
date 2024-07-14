@@ -33,7 +33,6 @@ const AboutCards: React.FC = () => {
             ))}
         </div>
     );
-
 }
 
 export default AboutCards;

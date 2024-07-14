@@ -15,14 +15,6 @@ const listPage: string[] = [web, smm, seo, coauch]
 const MoreHomeCards: React.FC = () => {
     const { t } = useTranslation("translation");
     const homeCards: HomeCard[] = t("homeCards", { returnObjects: true });
-
-    // const [activeTab, setActiveTab] = useState<string>("0");
-
-    // const handleSelect = (key: string | null) => {
-    //     if (key !== null) {
-    //         setActiveTab(key);
-    //     }
-    // };
     const [activeTabs, setActiveTabs] = useState<{ [key: number]: string }>(
         homeCards.reduce((acc, card) => ({ ...acc, [card.id]: "0" }), {})
     );
@@ -66,10 +58,10 @@ const MoreHomeCards: React.FC = () => {
                                                     ))}
                                                 </Nav>
                                             </Col>
-                                            <Col sm={6} className={`fon ${card.name === "SMM" ? `bg-smm-${activeTabs[card.id]}`
-                                                : card.name === "COACH" ? `bg-coach-${activeTabs[card.id]}`
-                                                    : card.name === "WEB" ? `bg-web-${activeTabs[card.id]}`
-                                                        : card.name === "SEO" ? `bg-seo-${activeTabs[card.id]}`
+                                            <Col sm={6} className={`fon ${card.name === "SMM" ? `bg-smm`
+                                                : card.name === "COACH" ? `bg-coach`
+                                                    : card.name === "WEB" ? `bg-web`
+                                                        : card.name === "SEO" ? `bg-seo`
                                                             : ''}`}>
                                                 <div className="content"></div>
                                                 <Tab.Content>
@@ -104,10 +96,10 @@ const MoreHomeCards: React.FC = () => {
                                     </div>
                                     <Tab.Container id={`tabs-${card.id}`} defaultActiveKey="0" activeKey={activeTabs[card.id]} onSelect={(key) => handleSelect(card.id, key)}>
                                         <Row>
-                                            <Col sm={6} className={`fon ${card.name === "SMM" ? `bg-smm-${activeTabs[card.id]}`
-                                                : card.name === "COACH" ? `bg-coach-${activeTabs[card.id]}`
-                                                    : card.name === "WEB" ? `bg-web-${activeTabs[card.id]}`
-                                                        : card.name === "SEO" ? `bg-seo-${activeTabs[card.id]}`
+                                            <Col sm={6} className={`fon ${card.name === "SMM" ? `bg-smm`
+                                                : card.name === "COACH" ? `bg-coach`
+                                                    : card.name === "WEB" ? `bg-web`
+                                                        : card.name === "SEO" ? `bg-seo`
                                                             : ''}`}>                                            <div className="content"></div>
                                                 <Tab.Content>
                                                     {card.details.map((card) => (
