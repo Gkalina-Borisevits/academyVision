@@ -35,7 +35,7 @@ const AboutProjects: React.FC = () => {
         <div className={styles.headerProject}></div>
         <h2>{t("homePage.projects")}</h2>
         <div className={styles.containerWork}>
-      
+    
           <div
             className={`${styles.block} ${styles.block40} card__article`}
             style={{ backgroundImage: `url(${img1})` }}
@@ -89,6 +89,7 @@ const AboutProjects: React.FC = () => {
                 <img className={styles.logoHotelStyle} src={logoHotel} alt="" />
                 <p>{aboutProjects[2].name}</p>
               </div>
+           
               <ul>
                 {aboutProjects[2].details.map((card) => (
                   <li>{card}</li>
