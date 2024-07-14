@@ -1,10 +1,15 @@
-.mobileCardContainer{
-    margin-bottom: 10px;
+.mobileCardContainer {
+  margin-bottom: 10px;
+}
+.mobileCardContainer h3 {
+  color: rgb(119, 79, 53);
+  line-height: 1.6;
 }
 .tagContainer {
   display: flex;
   gap: 10px;
   margin-top: 30px;
+  color: rgb(58, 81, 124);
 }
 .tag {
   background-color: #f1f1f1;
@@ -17,4 +22,14 @@
 .mobileCardContainer:hover .tag {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
   transform: translateY(-10px); /* Приподнимание карточки на 5 пикселей вверх */
+}
+
+@media (max-width: 620px) {
+  .tagContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tagContainer span{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  }
 }

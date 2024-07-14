@@ -36,6 +36,9 @@
 .aboutCardsPortfolioPage {
   margin-top: -112px;
 }
+.stageOfContainer {
+  margin-bottom: 90px;
+}
 @media (max-width: 520px) {
   .portfolioContainer {
     margin-top: -180px;

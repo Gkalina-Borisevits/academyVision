@@ -11,7 +11,7 @@ const StageOfWorkAccordion: React.FC = () => {
 
     return (
 
-        <div className={styles.homeCardContainerModile}>
+        <div className={styles.homeCardContainerMobile}>
             <div className='box-header'>
                     <h1 className='header'>{t("work.stages")}</h1>
                     <h5 className=''>{t("work.solutions")}</h5>

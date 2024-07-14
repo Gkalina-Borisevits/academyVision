@@ -9,24 +9,35 @@ li {
   position: relative;
   font-size: 16px;
 }
-.moreCardAccordionBody p{
-    font-size: 18px;
-    font-weight: 600;
+.moreCardAccordionBody p {
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: -40px;
 }
 
 .moreCardLogo {
-  width: 100px;
-  height: 100px;
+  width: 65px;
+  height: 65px;
 }
-
+.accordionItem {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
 .moreCardAccordionHeader h1 {
   margin-left: 230px;
 }
-.moreCardAccordionHeader {
-
-  border: 2px saddlebrown solid;
+.accordionHeader {
+  border: 2px solid rgb(89, 68, 52);
 }
-
+.accordionHeader h1{
+  margin-left: 90px;
+  font-size: 24px;
+ }
+.accordionInHeader {
+  border: 1px solid rgb(123, 96, 77);
+}
+.accordionInHeader h1 {
+  font-size: 16px;
+}
 @media (max-width: 499px) {
   .moreCardAccordionHeader h1 {
     margin-left: 170px;

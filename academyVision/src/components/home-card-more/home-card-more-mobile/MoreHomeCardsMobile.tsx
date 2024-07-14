@@ -7,8 +7,8 @@ import { HomeCard } from "../../../types/HomeCard.ts";
 import web from "../../../assets/homeIcons/web.png"
 import smm from "../../../assets/homeIcons/smm.png"
 import seo from "../../../assets/homeIcons/seo.png"
-import coauch from "../../../assets/homeIcons/coach.png"
-const listPage: string[] = [web, smm, seo, coauch]
+import coach from "../../../assets/homeIcons/coach.png"
+const listPage: string[] = [web, smm, seo, coach]
 
 const MoreHomeCardsMobile: React.FC = () => {
     const { t } = useTranslation("translation");
@@ -16,7 +16,7 @@ const MoreHomeCardsMobile: React.FC = () => {
 
 
     return (
-        <div className={styles.homeCardContainerModile}>
+        <div className={styles.homeCardContainerMobile}>
             <Accordion defaultActiveKey={['0']} alwaysOpen>
                 {homeCards.map((card) => (
                     <Accordion.Item eventKey={card.id.toString()} className={styles.accordionItem} >
@@ -28,7 +28,7 @@ const MoreHomeCardsMobile: React.FC = () => {
                             <Accordion defaultActiveKey={['0']} alwaysOpen>
                                 {card.details.map((card) => (
                                     <Accordion.Item eventKey={card.id.toString()} className={styles.accordionItem} >
-                                        <Accordion.Header className={styles.accordionHeader}>
+                                        <Accordion.Header className={styles.accordionInHeader}>
                                             <h1>{card.title}</h1>
                                         </Accordion.Header>
                                         <Accordion.Body className={styles.moreCardAccordionBody}>

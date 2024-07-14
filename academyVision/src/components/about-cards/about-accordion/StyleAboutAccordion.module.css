@@ -1,27 +1,29 @@
-
-.accordionBody p{
-    font-size: 18px;
-    font-weight: 600;
+.accordionBody p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: -25px;
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .accordionHeader h1 {
-  font-size: 25px;
-  padding-left: 20px;
+  font-size: 24px;
+  padding-left: 90px;
+  /* color: rgb(90, 78, 64); */
 }
 .accordionHeader {
-  border: 2px saddlebrown solid;
- }
- .homeCardContainerMobile{
+  border: 2px rgb(112, 77, 52) solid;
+}
+.homeCardContainerMobile {
   position: relative;
-  z-index: 1100;
- }
-@media (max-width: 390px) {
+  z-index: 11;
+}
+@media (max-width: 420px) {
   .accordionHeader h1 {
-    font-size: 22px;
+    font-size: 21px;
+    padding-left: 60px;
   }
-} 
+}

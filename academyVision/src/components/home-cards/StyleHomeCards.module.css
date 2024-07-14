@@ -18,7 +18,7 @@
   flex-direction: column; /* Колонки, чтобы Card.Body растягивался */
 }
 .homeCardsCardContainer h1 {
-  color: rgb(93, 67, 44);
+  color: rgb(29, 134, 169);
 }
 .homeCardsCardBody p {
   color: rgb(114, 102, 91);

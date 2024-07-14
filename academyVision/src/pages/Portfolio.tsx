@@ -56,7 +56,10 @@ const Portfolio: FC = () => {
           </MyContainer>
           <ContactUs/>
           <MyContainer>
-          {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork /> }
+            <div className={styles.stageOfContainer}>
+            {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork /> }
+            </div>
+          
         </MyContainer>
 
     </>
