@@ -1,3 +1,6 @@
+.bigContainerFooter {
+  width: 100%;
+}
 .footerContainer {
   position: relative;
   display: flex;
@@ -5,7 +8,7 @@
   align-content: center;
   padding: 30px;
   background-color: var(--color-dark);
-  max-width: 100%;
+  width: 100%;
   height: auto;
   z-index: 0;
   margin-top: 70px;
@@ -21,7 +24,7 @@
   padding: 0;
   box-sizing: border-box;
   margin-top: 30px;
-
+  letter-spacing: 2em;
 }
 .textContainerName span {
   font-family: "Roboto", sans-serif;
@@ -38,13 +41,7 @@
   display: flex;
   flex-direction: column;
 }
-.nameContainer {
-  z-index: -900;
-}
-.nameContainer h1 {
-  font-size: 10em;
-  color: rgba(128, 113, 92, 0.2);
-}
+
 .footerContainer a {
   text-decoration: none;
   color: var(--color-font-dark);
@@ -80,11 +77,12 @@
   z-index: -900;
 }
 .containerData {
-  background-color: var(--color-dark); 
+  background-color: var(--color-dark);
 }
 
 @media screen and (max-width: 726px) {
   .textContainerName {
     margin-top: 70px;
+    letter-spacing: 4px;
   }
 }

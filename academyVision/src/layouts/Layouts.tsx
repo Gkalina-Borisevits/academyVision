@@ -8,7 +8,7 @@ import CookieConsent from "../components/cookieConsent/CookieConsent";
 
 const Layout: FC = () => {
   return (
-    <div>
+    <div className={styles.bigContainer}>
       <Header />
       <div className={styles.socialLinkContainer}>
         <SocialLink />

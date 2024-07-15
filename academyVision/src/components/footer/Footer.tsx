@@ -7,7 +7,7 @@ import TermsOfService from "../termsOfService/TermsOfService";
 const Footer: React.FC = () => {
   const { t } = useTranslation("translation");
   return (
-    <>
+    <div className={styles.bigContainerFooter}>
       <div className={styles.footerContainer}>
         <div>
           <NavLink to="/" className={styles.logoContainer}></NavLink>
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
         <span> © {new Date().getFullYear()} AM Vision </span>
         <TermsOfService/>
       </div>
-    </>
+    </div>
   );
 };
 
