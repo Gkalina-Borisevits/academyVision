@@ -4,6 +4,7 @@ import styles from "./Layouts.module.css";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import SocialLink from "../components/socialLink/SocialLink";
+import CookieConsent from "../components/cookieConsent/CookieConsent";
 
 const Layout: FC = () => {
   return (
@@ -16,6 +17,7 @@ const Layout: FC = () => {
         <Outlet />
       </main>
       <Footer />
+      <CookieConsent/>
     </div>
   );
 };

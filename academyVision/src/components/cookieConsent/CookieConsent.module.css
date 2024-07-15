@@ -1,0 +1,22 @@
+.cookieConsent {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #f2e6c6;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000;
+}
+.acceptButton {
+  background-color: #4CAF50;
+  color: rgb(243, 240, 205);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.link {
+  color: #4CAF50;
+  text-decoration: none;
+}

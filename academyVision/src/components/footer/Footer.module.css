@@ -74,11 +74,15 @@
   color: bisque;
   font-size: 0.9em;
   padding: 10px;
-  gap: 20px;
+  gap: 10px;
 }
 .textContainerName {
   z-index: -900;
 }
+.containerData {
+  background-color: var(--color-dark); 
+}
+
 @media screen and (max-width: 726px) {
   .textContainerName {
     margin-top: 70px;
