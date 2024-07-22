@@ -65,7 +65,7 @@ const ContactForm: React.FC = () => {
 
     if (formValid) {
       try {
-        const response = await fetch('https://formspree.io/email_here', {
+        const response = await fetch('https://formspree.io/f/xblrdogo', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
