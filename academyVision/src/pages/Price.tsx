@@ -22,6 +22,7 @@ const Price: FC = () => {
           </div>
         </MyContainer>
       </ImageContainer>
+      <MyContainer>
       <div className={styles.priceContainer}>
         
         <div className={styles.homeCardContainer}>
@@ -32,6 +33,7 @@ const Price: FC = () => {
          </MyContainer>
     <AdvantageCards/>
       </div>
+      </MyContainer>
     </>
   );
 };

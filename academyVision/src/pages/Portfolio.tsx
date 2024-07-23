@@ -46,22 +46,22 @@ const Portfolio: FC = () => {
           </div>
         </MyContainer>
       </ImageContainer>
-    
-        <MyContainer>
-          <div className={styles.aboutCardsPortfolioPage}>
-          {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
-          </div>
-         <div className={styles.ourProjectContainer}><h2>{t("homePage.projects")}</h2></div>
-          {isMobile ? <MoreAboutProjectsMobile /> : <MoreAboutProjects />}
-          </MyContainer>
-          <ContactUs/>
-          <MyContainer>
-            <div className={styles.stageOfContainer}>
-            {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork /> }
-            </div>
-          
-        </MyContainer>
 
+      <MyContainer>
+        <div className={styles.aboutCardsPortfolioPage}>
+          {isMobile ? <AboutCardsAccordion /> : <AboutCards />}
+        </div>
+        <div className={styles.ourProjectContainer}>
+          <h2>{t("homePage.projects")}</h2>
+        </div>
+        {isMobile ? <MoreAboutProjectsMobile /> : <MoreAboutProjects />}
+      </MyContainer>
+      <ContactUs />
+      <MyContainer>
+        <div className={styles.stageOfContainer}>
+          {isMobile ? <StageOfWorkAccordion /> : <StagesOfWork />}
+        </div>
+      </MyContainer>
     </>
   );
 };
