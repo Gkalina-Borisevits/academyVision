@@ -11,7 +11,7 @@ import ContactForm from "../components/contactForm/ContactForm";
 
 const Contacts: FC = () => {
   const { t } = useTranslation("translation");
-  
+
   return (
     <>
       <ImageContainer imgSrc={img} imgAlt="Image">
@@ -22,14 +22,14 @@ const Contacts: FC = () => {
           </div>
         </MyContainer>
       </ImageContainer>
-      <ContactCard/>
-   
+      <ContactCard />
+
       <div className={styles.portfolioContainer}>
-       <ContactUs/>
-       <MyContainer>
-       <AboutHomePage/>
-       <ContactForm/>
-       </MyContainer>
+        <ContactUs />
+        <MyContainer>
+          <AboutHomePage />
+          <ContactForm />
+        </MyContainer>
       </div>
     </>
   );

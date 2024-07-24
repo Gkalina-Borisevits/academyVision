@@ -8,7 +8,6 @@ import PriceComponents from "../components/price/PriceComponents.tsx";
 import AdvantageCards from "../components/advantage-cards/AdvantageCards.tsx";
 import ContactForm from "../components/contactForm/ContactForm.tsx";
 
-
 const Price: FC = () => {
   const { t } = useTranslation("translation");
 
@@ -23,16 +22,15 @@ const Price: FC = () => {
         </MyContainer>
       </ImageContainer>
       <MyContainer>
-      <div className={styles.priceContainer}>
-        
-        <div className={styles.homeCardContainer}>
-         <PriceComponents/>
-         </div>
-         <MyContainer>
-         <ContactForm/>
-         </MyContainer>
-    <AdvantageCards/>
-      </div>
+        <div className={styles.priceContainer}>
+          <div className={styles.homeCardContainer}>
+            <PriceComponents />
+          </div>
+          <MyContainer>
+            <ContactForm />
+          </MyContainer>
+          <AdvantageCards />
+        </div>
       </MyContainer>
     </>
   );

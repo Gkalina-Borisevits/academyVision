@@ -40,14 +40,14 @@ const Services: FC = () => {
           <div className={styles.homeCardContainer}>
             {isMobile ? <AccordionServicesCard /> : <ServicesPageCard />}
           </div>
-          </MyContainer>
-          <ContactUs/>
-          <MyContainer>
+        </MyContainer>
+        <ContactUs />
+        <MyContainer>
           {isMobile ? <MoreHomeCardsMobile /> : <MoreHomeCards />}
           <ContactForm />
 
           <AdvantageCards />
-          </MyContainer>
+        </MyContainer>
       </div>
     </>
   );
