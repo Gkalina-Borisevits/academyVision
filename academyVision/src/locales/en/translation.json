@@ -16,7 +16,12 @@
     "enterEmail": "Enter your email",
     "message": "Message",
     "enterMessage": "Enter your message",
-    "send": "Send"
+    "send": "Send",
+    "pleasName" : "Please enter your name",
+    "pleasEmail" : "Please enter your phone number or email",
+    "pleasMessage" : "Please enter your message",
+    "toastySuccess" : "We have received your message. Our representative will contact you soon or reply to your email if necessary. 📧",
+    "toastyError" : "Unfortunately, something went wrong. The message was not sent. Please try again later. ❗"
   },
   "homePage": {
     "name": "AM Vision",

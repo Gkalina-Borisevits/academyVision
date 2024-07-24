@@ -5,6 +5,7 @@ import MyButton from "../myButton/MyButton";
 import "./ContactForm.css";
 import styled from "styled-components";
 import styles from "./ContactForm.module.css";
+import { toast} from 'react-toastify';
 
 const CustomFormControl = styled(Form.Control)`
   &::placeholder {
@@ -49,17 +50,17 @@ const ContactForm: React.FC = () => {
     };
 
     if (!name.trim()) {
-      newErrors.name = "Please enter your name";
+      newErrors.name = t("contactsForm.pleasName");
       formValid = false;
     }
 
     if (!phone.trim() && !email.trim()) {
-      newErrors.contact = "Please enter your phone number or email";
+      newErrors.contact = t("contactsForm.pleasEmail");
       formValid = false;
     }
 
     if (!message.trim()) {
-      newErrors.message = "Please enter your message";
+      newErrors.message = t("contactsForm.pleasMessage");
       formValid = false;
     }
 
@@ -76,19 +77,19 @@ const ContactForm: React.FC = () => {
         });
 
         if (response.ok) {
-          console.log("Form submitted successfully");
+          toast.success(t("contactsForm.toastySuccess"));
 
           setFormData({
-            name: "",
-            phone: "",
-            email: "",
-            message: "",
+            name: '',
+            phone: '',
+            email: '',
+            message: '',
           });
         } else {
-          console.error("Error submitting form:", response.statusText);
+          toast.warning(t("contactsForm.toastyError") + response.statusText);
         }
       } catch (error) {
-        console.error("Error submitting form:", error);
+        toast.warning(t("contactsForm.toastyError"));
       }
     }
   };

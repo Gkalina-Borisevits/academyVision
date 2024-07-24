@@ -16,7 +16,12 @@
     "enterEmail": "Geben Sie Ihre E-Mail-Adresse ein",
     "message": "Nachricht",
     "enterMessage": "Geben Sie Ihre Nachricht ein",
-    "send": "Senden"
+    "send": "Senden",
+    "pleasName" : "Bitte geben Sie Ihren Namen ein",
+    "pleasEmail" : "Bitte geben Sie Ihre Telefonnummer oder E-Mail-Adresse ein",
+    "pleasMessage" : "Bitte geben Sie Ihre Nachricht ein",
+    "toastySuccess" : "Wir haben Ihre Nachricht erhalten. Unser Mitarbeiter wird sich in Kürze mit Ihnen in Verbindung setzen oder Ihnen gegebenenfalls per E-Mail antworten. 📧",
+    "toastyError" : "Leider ist etwas schief gelaufen. Die Nachricht wurde nicht gesendet. Bitte versuchen Sie es später noch einmal. ❗"
   },
   "homePage": {
     "name": "AM Vision",
