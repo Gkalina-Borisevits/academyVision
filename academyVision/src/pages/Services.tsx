@@ -31,7 +31,7 @@ const Services: FC = () => {
         <MyContainer>
           <div className={styles.textInImage}>
             <h1>{t("homePage.name")}</h1>
-            <h3>{t("homePage.aboutText")}</h3>
+            <h3>{t("services.headerText")}</h3>
           </div>
         </MyContainer>
       </ImageContainer>

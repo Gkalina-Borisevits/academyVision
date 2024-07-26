@@ -10,7 +10,7 @@ import MyContainer from "../myContainer/MyContainer";
 import { Dropdown } from "react-bootstrap";
 
 const Header: React.FC = () => {
-  const { i18n, t } = useTranslation("translation");
+  const { i18n } = useTranslation("translation");
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
   const languageMenuRef = useRef<HTMLDivElement>(null);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -90,10 +90,10 @@ const Header: React.FC = () => {
               
             <div> <NavLink to="/" className={styles.logoContainer}></NavLink></div>
              
-              <div className={styles.headerTextContainer}><h1>{t("homePage.name")}</h1></div>
+              <div className={styles.headerTextContainer}><h1>AM Vision</h1></div>
             </div>
             
-            <div className={styles.menuConteiner}>
+            <div className={styles.menuContainer}>
               <div>{!isMobile && <NavbarPage />}</div>
               <Dropdown show={isLanguageDropdownOpen} onToggle={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}>
                 <Dropdown.Toggle variant="link" className={styles.languageIcon}>
