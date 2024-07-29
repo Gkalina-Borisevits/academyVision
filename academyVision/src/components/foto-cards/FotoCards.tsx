@@ -4,11 +4,11 @@ import styles from "./StyleFotoCards.module.css";
 import "./StyleFotoCards.css";
 import { useTranslation } from "react-i18next";
 import { FotoCard } from "../../types/FotoCard";
-import bigBoss from "../../assets/pageFoto/BigBoss.jpg";
-import maia from "../../assets/pageFoto/Maia.jpg";
-import karina from "../../assets/pageFoto/Karina.jpg";
-import galina from "../../assets/pageFoto/Galina.jpg";
-import yurii from "../../assets/pageFoto/Yurii2.jpg";
+import bigBoss from "../../assets/pageFoto/Anatoliy.jpg";
+import maia from "../../assets/pageFoto/Maia2.jpg";
+import karina from "../../assets/pageFoto/Karina1.jpg";
+import galina from "../../assets/pageFoto/Galina1.jpg";
+import yurii from "../../assets/pageFoto/Yurii1.jpg";
 
 const fotos: string[] = [bigBoss, maia, karina, galina, yurii];
 

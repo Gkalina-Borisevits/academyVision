@@ -9,6 +9,7 @@ import MyContainer from "../components/myContainer/MyContainer";
 import AboutCardsAccordion from "../components/about-cards/about-accordion/AboutCardsAccordion";
 import ContactForm from "../components/contactForm/ContactForm";
 import AdvantageCards from "../components/advantage-cards/AdvantageCards";
+import { Parallax } from "react-parallax";
 
 const About: FC = () => {
   const { t } = useTranslation("translation");
@@ -50,9 +51,11 @@ const About: FC = () => {
           <div className={styles.homeContactsFormContainer}>
             <ContactForm />
           </div>
+          <Parallax strength={500}>
           <div className={styles.advantageCardContainer}>
             <AdvantageCards />
           </div>
+          </Parallax>
         </MyContainer>
       </div>
     </>

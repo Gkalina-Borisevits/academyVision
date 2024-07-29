@@ -55,7 +55,7 @@ const StagesOfWork: React.FC = () => {
                 {stagesWork.map((card) => (
                   <Tab.Pane eventKey={card.id.toString()} key={card.id}>
                     <div className="tab-text">
-                      <p>{card.description}</p>
+                      <h3>{card.description}</h3>
                     </div>
                   </Tab.Pane>
                 ))}

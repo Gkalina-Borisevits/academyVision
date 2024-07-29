@@ -17,39 +17,40 @@ const MoreAboutProjects: React.FC = () => {
     return (
         <div className={styles.homeCardContainer}>
             {moreAboutProjects.map((card) => (
-                <div key={card.id} className={styles.cardContainer} id={`card-${card.id}`}>
-                    {card.id % 2 === 0 ? (
-                        <>
-                            <div className={styles.imageContainer}>
-                                <img src={projects[card.id]} alt="image" className={styles.cardImage}/>
-                            </div>
-                            <div className={styles.textContainer}>
-                                <h2 className={styles.cardTitle}>{card.title}</h2>
-                                <p className={styles.cardDescription}>{card.titleDetails}</p>
-                                <div className={`${styles.tagContainer}`}>
-                                    {card.technologis.map((tag, index) => (
-                                        <span key={index} className={styles.tag}>{tag}</span>
-                                    ))}
+               
+                    <div className={styles.cardContainer} id={`card-${card.id}`}>
+                        {card.id % 2 === 0 ? (
+                            <>
+                                <div className={styles.imageContainer}>
+                                    <img src={projects[card.id]} alt="image" className={styles.cardImage}/>
                                 </div>
-                            </div>
-                        </>
-                    ) : (
-                        <>
-                            <div className={styles.textContainer}>
-                                <h2 className={styles.cardTitle}>{card.title}</h2>
-                                <p className={styles.cardDescription}>{card.titleDetails}</p>
-                                <div className={styles.tagContainer}>
-                                    {card.technologis.map((tag, index) => (
-                                        <span key={index} className={styles.tag}>{tag}</span>
-                                    ))}
+                                <div className={styles.textContainer}>
+                                    <h2 className={styles.cardTitle}>{card.title}</h2>
+                                    <p className={styles.cardDescription}>{card.titleDetails}</p>
+                                    <div className={`${styles.tagContainer}`}>
+                                        {card.technologis.map((tag, index) => (
+                                            <span key={index} className={styles.tag}>{tag}</span>
+                                        ))}
+                                    </div>
                                 </div>
-                            </div>
-                            <div className={styles.imageContainer}>
-                                <img src={projects[card.id]} alt="image" className={styles.cardImage}/>
-                            </div>
-                        </>
-                    )}
-                </div>
+                            </>
+                        ) : (
+                            <>
+                                <div className={styles.textContainer}>
+                                    <h2 className={styles.cardTitle}>{card.title}</h2>
+                                    <p className={styles.cardDescription}>{card.titleDetails}</p>
+                                    <div className={styles.tagContainer}>
+                                        {card.technologis.map((tag, index) => (
+                                            <span key={index} className={styles.tag}>{tag}</span>
+                                        ))}
+                                    </div>
+                                </div>
+                                <div className={styles.imageContainer}>
+                                    <img src={projects[card.id]} alt="image" className={styles.cardImage}/>
+                                </div>
+                            </>
+                        )}
+                    </div>
             ))}
         </div>
     );

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./styles/Home.module.css";
-import img from "../assets/pagesImage/home1.png";
+import img from "../assets/pagesImage/home.png";
 import HomeCards from "../components/home-cards/HomeCards";
 import HomeCardsAccordion from "../components/home-cards/home-accordion/HomeCardsAccordion";
 import ImageContainer from "../components/imageContainer/ImageContainer";
@@ -24,7 +24,6 @@ const Home: React.FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
   return (
     <>
       <ImageContainer imgSrc={img} imgAlt="Image">
@@ -40,9 +39,11 @@ const Home: React.FC = () => {
           <div className={styles.homeCardContainer}>
             {isMobile ? <HomeCardsAccordion /> : <HomeCards />}
           </div>
+
           <div className={styles.aboutProjects}>
             <AboutProjects />
           </div>
+
           <div className={styles.homeContactsFormContainer}>
             {/* <div className={styles.fullWidthDiv}></div>
             <div className={styles.formContainerHome}>
