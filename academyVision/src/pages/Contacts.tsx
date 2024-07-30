@@ -1,6 +1,6 @@
 import { FC } from "react";
 import styles from "./styles/Contacts.module.css";
-import img from "../assets/pagesImage/contacts.png";
+import img from "../assets/pagesImage/contacts.jpg";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import ContactUs from "../components/contactUs/ContactUs";
 import MyContainer from "../components/myContainer/MyContainer";
