@@ -8,7 +8,7 @@ export default defineConfig({
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true, // Убирает все console.log из финального кода
+        drop_console: true, 
       },
     },
   },
