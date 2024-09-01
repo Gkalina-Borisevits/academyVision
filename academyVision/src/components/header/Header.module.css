@@ -65,6 +65,7 @@
   margin: 20px 0;
 }
 .headerTextContainer h1 {
+  font-family: 'Lora', serif;
   color: var(--color-font-dark);
   display: flex;
   flex-direction: column;

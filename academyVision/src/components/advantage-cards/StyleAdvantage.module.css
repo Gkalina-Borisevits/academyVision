@@ -2,13 +2,17 @@
   width: 80px;
   height: 80px;
 }
-
+.advantageHeader {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
 .advantageTextHeader{
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
   color: rgb(29, 134, 169);
 }
 .advantageText {
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
 }
 .advantageCardContainer {
   display: flex;
@@ -26,11 +30,13 @@
   cursor: pointer;
   position: relative; /* Для корректной работы трансформации */
   box-shadow: none; /* Начальное состояние тени */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .cardContainer:hover {
   transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени снизу */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Добавление тени снизу */
+  border: 1px solid rgb(197, 193, 185);
 }
 .cardContainer:hover h1 {
   text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
@@ -43,11 +49,13 @@
   
 }
 .textAboutContainer h1{
+  font-family: "Poppins", sans-serif;
   margin-bottom: 40px;
   font-weight: bold;
   color: var(--color-font-dark);
 }
 .textAboutContainer h5{
+  font-family: "Poppins", sans-serif;
   margin-top: 16px;
   color: var(--color-font-dark);
   margin-bottom: 40px;

@@ -16,8 +16,12 @@ const AboutCards: React.FC = () => {
 
     return (
         <div className={styles.homeCardContainer}>
-            {aboutCards.map((card) => (
+            {aboutCards.map((card, index) => (
                 <Card
+                style={{
+                    height: '22rem',
+                    animationDelay: `${index * 0.2}s`, 
+                  }}
                     key={card.id}
                     className={`${styles.cardContainer} mb-2 border-2`}
                 >

@@ -18,9 +18,12 @@ const ServicesPageCard: React.FC = () => {
 
   return (
     <div className={styles.homeCardsHomeCardContainer}>
-      {pricePageCard.map((card) => (
+      {pricePageCard.map((card, index) => (
         <NavLink key={card.id} className="text-decoration-none" to="/services">
-          <Card className={`${styles.homeCardsCardContainer} mb-2 border-2`}>
+          <Card style={{
+                    animationDelay: `${index * 0.2}s`, 
+                  }}
+                  className={`${styles.homeCardsCardContainer} mb-2 border-2`}>
             <Card.Header className={styles.homeCardsCardHeader}>
               <Card.Img
                 variant="left"

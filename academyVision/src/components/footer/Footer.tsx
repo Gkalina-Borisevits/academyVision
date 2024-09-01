@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./Footer.module.css";
 import { FaArrowRight } from "react-icons/fa";
 import TermsOfService from "../termsOfService/TermsOfService";
+import Impressum from "../termsOfService/Impressum";
 
 const Footer: React.FC = () => {
   const { t } = useTranslation("translation");
@@ -38,7 +39,11 @@ const Footer: React.FC = () => {
       <div className={styles.dateContainer}>
         <div>{t("footer.text")}</div>
         <span> © {new Date().getFullYear()} AM Vision </span>
+        <div>
         <TermsOfService/>
+        <Impressum/>
+        </div>
+       
       </div>
     </div>
   );

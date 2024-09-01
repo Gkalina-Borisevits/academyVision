@@ -39,6 +39,51 @@
 .stageOfContainer {
   margin-bottom: 90px;
 }
+.textInImage {
+  position: relative;
+  overflow: hidden;
+}
+@keyframes textIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.textInImage h1 {
+  display: inline; 
+  font-family: 'Lora', serif;
+}
+
+.textInImage .letter {
+  display: inline-block;
+  opacity: 0;
+  animation: textIn 4s ease-out forwards; 
+}
+
+
+@keyframes slowSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.textInImage h3 {
+  opacity: 0;
+  animation: slowSlideUp 3s ease-out forwards;
+  animation-delay: 1s; 
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+}
 @media (max-width: 520px) {
   .portfolioContainer {
     margin-top: -180px;

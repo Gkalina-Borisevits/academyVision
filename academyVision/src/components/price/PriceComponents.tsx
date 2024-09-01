@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import "./StylePrice.css";
 import styles from "./StylePrice.module.css";
 import { useTranslation } from "react-i18next";
 import { Price } from "../../types/Price";
@@ -19,8 +18,11 @@ const PriceComponents: React.FC = () => {
 
     return (
         <div className={styles.priceHomeCardContainer}>
-            {aboutPrices.map((card) => (
-                <Card className={`${styles.priceCardContainer} mb-2 border-2`}>
+            {aboutPrices.map((card, index) => (
+                <Card style={{
+                  
+                    animationDelay: `${index * 0.2}s`, // Индивидуальная задержка анимации
+                  }}className={`${styles.priceCardContainer} mb-2 border-2`}>
                     <MyContainer>
                     <Card.Header className={styles.priceCardHeader}>
                     <Card.Img variant="left" className={styles.homeCardsLogo} src={listPage[card.id]} />

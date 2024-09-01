@@ -21,6 +21,7 @@
   .priceCardHeader {
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   }
   
   .priceCardBody {
@@ -44,15 +45,18 @@
   }
   .priceCardHeader h1{
     font-size: 30px;
+    font-family: "Poppins", sans-serif;
   }
   
   .priceCardContainer:hover {
     transform: translateY(-20px); /* Приподнимание карточки на 5 пикселей вверх */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавление тени снизу */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Добавление тени снизу */
+    border: 1px solid rgb(160, 153, 144) ;
   }
   
   .priceCardContainer:hover h1 {
     text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
+   
   }
   
   .priceLi::before {
@@ -68,5 +72,31 @@
     justify-content: space-between;
   }
   .priceWraper p{
-    font-size: 20px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+  }
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+ 
+  
+  .priceCardContainer {
+    width: 22rem;
+    transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
+    cursor: pointer;
+    position: relative;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    animation: slideInFromRight 1.4s ease-out forwards;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   }

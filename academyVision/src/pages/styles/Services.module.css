@@ -12,6 +12,8 @@
     font-size: 3.1em;
     font-weight: bold;
     letter-spacing: 0.1em;
+    display: inline;
+    font-family: 'Lora', serif;
   }
   .textInImage h3 {
     color: var(--color-font-dark);
@@ -23,6 +25,47 @@
     z-index: 90;
     position: relative;
     margin-bottom: 40px;
+  }
+  .textInImage {
+    position: relative;
+    overflow: hidden;
+  }
+  @keyframes textIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .textInImage .letter {
+    display: inline-block;
+    opacity: 0;
+    animation: textIn 4s ease-out forwards; 
+  }
+  
+  
+  @keyframes slowSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .textInImage h3 {
+    opacity: 0;
+    animation: slowSlideUp 3s ease-out forwards;
+    animation-delay: 1s; 
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
   }
   @media (max-width: 720px) {
     .homeCardContainer {

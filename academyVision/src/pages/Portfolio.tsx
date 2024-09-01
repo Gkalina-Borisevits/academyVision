@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import styles from "./styles/Portfolio.module.css";
-import img from "../assets/pagesImage/portfolio.png";
+import img from "../assets/pagesImage/portfolio.jpg";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import AboutCards from "../components/about-cards/AboutCards";
 import MoreAboutProjects from "../components/more-about-project/MoreAboutProjects";
@@ -36,12 +36,29 @@ const Portfolio: FC = () => {
     }
   }, [hash]);
 
+  const splitTextIntoSpans = (text: string): React.ReactNodeArray => {
+    return text.split('').map((char, index) => (
+      <span
+        key={index}
+        className={styles.letter}
+        style={{
+          animationDelay: `${index * 0.05}s`,
+          display: char === ' ' ? 'inline-block' : 'inline', 
+          whiteSpace: char === ' ' ? 'pre' : 'normal'
+        }}
+      >
+        {char}
+      </span>
+    ));
+  };
+  
+
   return (
     <>
       <ImageContainer imgSrc={img} imgAlt="Image">
         <MyContainer>
           <div className={styles.textInImage}>
-            <h1>{t("portfolio.portfolio")}</h1>
+            <h1>{splitTextIntoSpans(t("portfolio.portfolio"))}</h1>
             <h3>{t("portfolio.imageTitle")}</h3>
           </div>
         </MyContainer>

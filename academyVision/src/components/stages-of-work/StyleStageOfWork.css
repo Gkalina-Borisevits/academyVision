@@ -59,8 +59,8 @@
   border-radius: 10px;
 }
 .tab-text {
-  display: flex;
-  padding: 50px;
+ display: flex;
+padding: 50px;
 }
 .tab-text h3 {
   position: relative;

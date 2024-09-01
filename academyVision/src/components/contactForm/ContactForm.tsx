@@ -6,6 +6,7 @@ import "./ContactForm.css";
 import styled from "styled-components";
 import styles from "./ContactForm.module.css";
 import { toast} from 'react-toastify';
+import MyContainer from "../myContainer/MyContainer";
 
 const CustomFormControl = styled(Form.Control)`
   &::placeholder {
@@ -96,6 +97,7 @@ const ContactForm: React.FC = () => {
 
   return (
     <div className="full-screen-container">
+      <MyContainer>
       <div
         className="form-container"
         style={{ maxWidth: "66.67%", margin: "0 auto" }}
@@ -193,6 +195,7 @@ const ContactForm: React.FC = () => {
           </Form>
         </div>
       </div>
+      </MyContainer>
     </div>
   );
 };

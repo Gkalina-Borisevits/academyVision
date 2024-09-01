@@ -4,6 +4,7 @@
   padding: 30px 0;
   font-family: var(--font-primary);
   font-weight: 700;
+
 }
 
 .logoCMStyle {
@@ -31,7 +32,7 @@
 .imgStyle {
   width: 80px;
   height: auto;
-  background-color: aliceblue;
+
 }
 
 .containerWork {

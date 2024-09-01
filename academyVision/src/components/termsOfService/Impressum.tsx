@@ -3,13 +3,12 @@ import { Button, Modal } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { FaTimes } from "react-icons/fa";
 
-const TermsOfService: React.FC = () => {
-  const [show, setShow] = useState(false);
-  const { t } = useTranslation("translation");
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-  const privacyText = t("datenschutz.text").replace(/\n/g, "<br />");
-
+const Impressum : React.FC = () => {
+    const [show, setShow] = useState(false);
+    const { t } = useTranslation("translation");
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    const privacyText = t("impressum.text").replace(/\n/g, "<br />");
   return (
     <>
       <Button
@@ -22,12 +21,12 @@ const TermsOfService: React.FC = () => {
           marginTop: "-10px",
         }}
       >
-        {t("datenschutz.name")}
+        {t("impressum.name")}
       </Button>
 
       <Modal show={show} onHide={handleClose} size="lg">
         <Modal.Header closeButton>
-          <Modal.Title>{t("datenschutz.name")}</Modal.Title>
+          <Modal.Title>{t("impressum.name")}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <p dangerouslySetInnerHTML={{ __html: privacyText }} />
@@ -39,7 +38,7 @@ const TermsOfService: React.FC = () => {
         </Modal.Footer>
       </Modal>
     </>
-  );
-};
+  )
+}
 
-export default TermsOfService;
+export default Impressum

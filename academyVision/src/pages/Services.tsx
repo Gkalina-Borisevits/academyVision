@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import styles from "./styles/Services.module.css";
-import img from "../assets/pagesImage/services.png";
+import img from "../assets/pagesImage/services.jpg";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import AdvantageCards from "../components/advantage-cards/AdvantageCards";
 import MyContainer from "../components/myContainer/MyContainer";
@@ -25,12 +25,29 @@ const Services: FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const splitTextIntoSpans = (text: string): React.ReactNodeArray => {
+    return text.split('').map((char, index) => (
+      <span
+        key={index}
+        className={styles.letter}
+        style={{
+          animationDelay: `${index * 0.05}s`,
+          display: char === ' ' ? 'inline-block' : 'inline', 
+          whiteSpace: char === ' ' ? 'pre' : 'normal'
+        }}
+      >
+        {char}
+      </span>
+    ));
+  };
+  
+
   return (
     <>
       <ImageContainer imgSrc={img} imgAlt="Image">
         <MyContainer>
           <div className={styles.textInImage}>
-            <h1>{t("homePage.name")}</h1>
+            <h1>{splitTextIntoSpans(t("homePage.name"))}</h1>
             <h3>{t("services.headerText")}</h3>
           </div>
         </MyContainer>
@@ -44,10 +61,11 @@ const Services: FC = () => {
         <ContactUs />
         <MyContainer>
           {isMobile ? <MoreHomeCardsMobile /> : <MoreHomeCards />}
+          </MyContainer>
           <ContactForm />
 
           <AdvantageCards />
-        </MyContainer>
+       
       </div>
     </>
   );

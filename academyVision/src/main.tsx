@@ -9,11 +9,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./variables.css";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <HashRouter>
+    <ParallaxProvider>
       <I18nextProvider i18n={i18next}>
         <ToastContainer
           position="top-center"
@@ -23,6 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
         />
         <App />
       </I18nextProvider>
+      </ParallaxProvider>
     </HashRouter>
   </React.StrictMode>
 );

@@ -1,5 +1,7 @@
 .aboutHomeContainer h5 {
 font-size: 16px;
+font-family: "Poppins", sans-serif;
+line-height: 1.8;
 }
 .aboutHomeContainer {
     color: rgb(127, 110, 87);
@@ -8,4 +10,19 @@ font-size: 16px;
 }
 .aboutHomeContainer h3{
    font-size: 24px;
+   font-family: "Poppins", sans-serif;
 }
+@keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%); 
+      opacity: 0; 
+    }
+    100% {
+      transform: translateX(0); 
+      opacity: 1; 
+    }
+  }
+  
+  .aboutHomeContainer {
+    animation: slideInFromRight 2s ease-out; 
+  }

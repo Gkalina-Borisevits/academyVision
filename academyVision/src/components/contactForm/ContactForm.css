@@ -1,5 +1,6 @@
 .full-screen-container {
     background-color: var(--color-blue);
+    margin-bottom: 120px;
    
 }
 .form-container {
