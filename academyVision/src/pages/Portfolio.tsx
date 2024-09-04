@@ -37,21 +37,20 @@ const Portfolio: FC = () => {
   }, [hash]);
 
   const splitTextIntoSpans = (text: string): React.ReactNodeArray => {
-    return text.split('').map((char, index) => (
+    return text.split("").map((char, index) => (
       <span
         key={index}
         className={styles.letter}
         style={{
           animationDelay: `${index * 0.05}s`,
-          display: char === ' ' ? 'inline-block' : 'inline', 
-          whiteSpace: char === ' ' ? 'pre' : 'normal'
+          display: char === " " ? "inline-block" : "inline",
+          whiteSpace: char === " " ? "pre" : "normal",
         }}
       >
         {char}
       </span>
     ));
   };
-  
 
   return (
     <>

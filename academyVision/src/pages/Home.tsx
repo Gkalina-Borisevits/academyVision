@@ -93,6 +93,7 @@ const Home: React.FC = () => {
             </div>
           </MyContainer>
         </div>
+        <div className={styles.containerMargin}></div>
       </div>
     </>
   );

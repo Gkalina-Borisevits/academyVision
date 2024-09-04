@@ -9,7 +9,6 @@
 }
 .homeContactsFormContainer {
   position: relative;
-  margin-top: 180px;
 }
 
 .fullWidthDiv {
@@ -44,7 +43,7 @@
   font-size: 3.1em;
   font-weight: bold;
   letter-spacing: 0.1em;
-  font-family: 'Lora', serif; 
+  font-family: "Lora", serif;
 }
 .textInImage h3 {
   color: var(--color-font-dark);
@@ -55,7 +54,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 180px;
+  margin-top: 90px;
   background-color: white;
 }
 .aboutProjects h2 {
@@ -89,7 +88,6 @@
   justify-content: space-between;
   gap: 26px;
   width: 100%;
-  margin-bottom: 80px;
 }
 .about {
   flex: 0 0 40%;
@@ -104,7 +102,6 @@
   font-weight: bold;
   font-size: 20px;
   color: rgb(127, 110, 87);
-  
 }
 .aboutTextContainer h2 {
   font-weight: bold;
@@ -237,51 +234,49 @@
   }
 } */
 .computerImageContainer {
-  position: fixed; 
-  top: 0px; 
-  left: 50; 
-  width: 100%; 
-  height:550px; 
-  z-index: -1; 
-  overflow: hidden; 
+  position: fixed;
+  top: 0px;
+  left: 50;
+  width: 100%;
+  height: 550px;
+  z-index: -1;
+  overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; 
- 
+  background-attachment: fixed;
 }
 
 .computerImageContainer img {
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @keyframes slideInFromRight {
   0% {
-    transform: translateX(100%); 
-    opacity: 0; 
+    transform: translateX(100%);
+    opacity: 0;
   }
   100% {
-    transform: translateX(0); 
-    opacity: 1; 
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
 .imageContainer {
-  animation: slideInFromRight 2s ease-out; 
+  animation: slideInFromRight 2s ease-out;
 }
 @keyframes slideInFromTop {
   0% {
-    transform: translateY(-100%); 
-    opacity: 0; 
+    transform: translateY(-100%);
+    opacity: 0;
   }
   100% {
     transform: translateY(0);
-    opacity: 1; 
+    opacity: 1;
   }
 }
 
 .aboutText {
-  animation: slideInFromTop 1s ease-out; 
+  animation: slideInFromTop 1s ease-out;
 }
-

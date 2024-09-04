@@ -83,6 +83,9 @@
   }
   .contactAboutContainer {
     background-color: white;
-    margin-top: 180px;
     padding-top: 60px;
+    margin-top: -80px;
+  }
+  .contactFormContactsPage {
+    margin-bottom: 200px;
   }

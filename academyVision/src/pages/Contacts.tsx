@@ -52,7 +52,10 @@ const Contacts: FC = () => {
           <AboutHomePage />
           </MyContainer>
           </div>
+          <div className={styles.contactFormContactsPage}>
           <ContactForm />
+          </div>
+         
        
       </div>
     </>

@@ -161,4 +161,7 @@
   .languageIcon {
     margin-right: 10px;
   }
+  .headerTextContainer h1{
+    font-size: 16px;
+  }
 }

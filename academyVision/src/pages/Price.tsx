@@ -7,6 +7,8 @@ import { useTranslation } from "react-i18next";
 import PriceComponents from "../components/price/PriceComponents.tsx";
 import AdvantageCards from "../components/advantage-cards/AdvantageCards.tsx";
 import ContactForm from "../components/contactForm/ContactForm.tsx";
+import computerImage from "../assets/computer/computerPrice.jpg";
+import PriceCarousel from "../components/price/PriceCarousel.tsx";
 
 const Price: FC = () => {
   const { t } = useTranslation("translation");
@@ -42,8 +44,19 @@ const Price: FC = () => {
         <div className={styles.homeCardContainer}>
           <PriceComponents />
         </div>
-        <ContactForm />
-        <AdvantageCards />
+        <div className={styles.contactFormContainerPrice}>
+          <ContactForm />
+        </div>
+        <div className={styles.computerImageContainer}>
+          <img src={computerImage} alt="computer" />
+          <div className={styles.carouselOverlay}>
+            <PriceCarousel />
+          </div>
+        </div>
+
+        <div className={styles.advantageContainerPrice}>
+          <AdvantageCards />
+        </div>
       </div>
     </>
   );

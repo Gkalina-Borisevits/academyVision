@@ -8,6 +8,8 @@ import i18next from "./i18next.ts/i18next.ts";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./variables.css";
 import "react-toastify/dist/ReactToastify.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import { ToastContainer } from "react-toastify";
 import { ParallaxProvider } from 'react-scroll-parallax';
 
