@@ -13,6 +13,7 @@ li {
   font-size: 17px;
   font-weight: 400;
   margin-left: -40px;
+  font-family: "Poppins", sans-serif;
 }
 
 .moreCardLogo {
@@ -24,6 +25,7 @@ li {
 }
 .moreCardAccordionHeader h1 {
   margin-left: 230px;
+  font-family: "Poppins", sans-serif;
 }
 .accordionHeader {
   border: 2px solid rgb(89, 68, 52);
@@ -31,12 +33,14 @@ li {
 .accordionHeader h1{
   margin-left: 90px;
   font-size: 24px;
+  font-family: "Poppins", sans-serif;
  }
 .accordionInHeader {
   border: 1px solid rgb(123, 96, 77);
 }
 .accordionInHeader h1 {
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
 }
 @media (max-width: 499px) {
   .moreCardAccordionHeader h1 {

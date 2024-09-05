@@ -2,6 +2,7 @@
   font-size: 18px;
   font-weight: 600;
   margin-left: -25px;
+  font-family: "Poppins", sans-serif;
 }
 
 .logo {
@@ -12,6 +13,7 @@
 .accordionHeader h1 {
   font-size: 24px;
   padding-left: 90px;
+  font-family: "Poppins", sans-serif;
   /* color: rgb(90, 78, 64); */
 }
 .accordionHeader {

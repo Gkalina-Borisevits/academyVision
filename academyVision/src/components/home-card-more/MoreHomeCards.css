@@ -7,6 +7,9 @@
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.more-home-cards-header p {
+    font-family: "Poppins", sans-serif;   
+}
 
 .more-home-cards-header:hover {
     transform: translateY(-10px);
@@ -68,6 +71,7 @@
     color: aliceblue;
     font-weight: 600;
     font-size: 18px;
+    font-family: "Poppins", sans-serif;
 }
 
 .box-header {
@@ -79,11 +83,13 @@
 
 .box-header h2 {
     font-size: 40px;
+    font-family: "Poppins", sans-serif;
 }
 
 .box-header p {
     font-size: 20px;
     font-weight: 600;
+    font-family: "Poppins", sans-serif;
 }
 
 .box-header img {

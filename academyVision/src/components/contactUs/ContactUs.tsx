@@ -17,7 +17,7 @@ const ContactUs: React.FC = () => {
   };
 
   const handleEmailClick = () => {
-    const url = "mailto:info@mindcept.de";
+    const url = "mailto:info@amvision-agency.com";
     window.location.href = url;
   };
   return (
@@ -56,7 +56,7 @@ const ContactUs: React.FC = () => {
             <span className={styles.ripples}></span>
           </a>
           <h3>E-Mail</h3>
-          <p>info@mindcept.de</p>
+          <p>info@amvision-agency.com</p>
         </div>
       </div>
       </div>
