@@ -5,12 +5,12 @@ import "./StyleFotoCards.css";
 import { useTranslation } from "react-i18next";
 import { FotoCard } from "../../types/FotoCard";
 import bigBoss from "../../assets/pageFoto/Anatoliy.jpg";
-import maia from "../../assets/pageFoto/Maia2.jpg";
-import karina from "../../assets/pageFoto/Karina1.jpg";
-import galina from "../../assets/pageFoto/Galina1.jpg";
-import yurii from "../../assets/pageFoto/Yurii1.jpg";
+import maia from "../../assets/pageFoto/Maia.jpg";
+import marina from "../../assets/pageFoto/Marina.jpg";
+import galina from "../../assets/pageFoto/Galina.jpg";
+import yurii from "../../assets/pageFoto/Yurii.jpg";
 
-const fotos: string[] = [bigBoss, maia, karina, galina, yurii];
+const fotos: string[] = [bigBoss, maia, marina, galina, yurii];
 
 const FotoCards: React.FC = () => {
   const { t } = useTranslation("translation");

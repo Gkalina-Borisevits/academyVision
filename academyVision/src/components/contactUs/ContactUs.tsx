@@ -40,7 +40,7 @@ const ContactUs: React.FC = () => {
             <span className={styles.ripples}></span>
           </a>
           <h3>WhatsApp</h3>
-          <p>+49 30 979 83 903</p>
+          <p>+49 16 289 29 039</p>
         </div>
         <div>
           <a href="#" onClick={handleTelegramClick} className={styles.telegram}>
@@ -48,7 +48,7 @@ const ContactUs: React.FC = () => {
             <span className={styles.ripples}></span>
           </a>
           <h3>Telegram</h3>
-          <p>+49 30 979 83 903</p>
+          <p>+49 16 289 29 039</p>
         </div>
         <div>
           <a href="#" onClick={handleEmailClick} className={styles.email}>

@@ -4,12 +4,12 @@ import styles from "./SocialLink.module.css";
 
 const SocialLink: React.FC = () => {
   const handleWhatsAppClick = () => {
-    const url = `https://wa.me/${+493097983903}`;
+    const url = `https://wa.me/${+491628929039}`;
     window.open(url, "_blank");
   };
 
   const handleTelegramClick = () => {
-    const url = `https://t.me/${+493097983903}`;
+    const url = `https://t.me/${+491628929039}`;
     window.open(url, "_blank");
   };
   return (

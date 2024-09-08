@@ -216,7 +216,7 @@
       "id": 2,
       "name": "Marina",
       "profile": "SMM",
-      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+      "description": "Experte für Social Media Management, der effektiven Content und Werbung erstellt. Entwickelt Strategien, die die Positionen von Marken in der digitalen Welt stärken."
     },
     {
       "id": 3,
@@ -398,19 +398,31 @@
     },
     {
       "id": 1,
-      "title": "GOLD",
-      "description": ["name1", "name2", "name3", "name4"],
+       "title": "GOLD",
+      "description": [
+        "5 Coachingsitzungen mit Experten",
+        "Individuelle Website / Landingpage",
+        "Design und Fotos für die Website",
+        "Aussagekräftige Social Media Präsenz",
+        "Dein eigenes Logo"
+      ],
       "priceTitle": "Price",
-      "price": "1000$",
-      "text" : "ooo"
+      "price": "4290€",
+      "text": "- 5 Coachingsitzungen mit Experten zu deinen Business-Themen nach Wahl:\n- Positionierung\n- Preispolitik\n- Branding\n- Businesscoaching\n- Erstellung einer unverwechselbaren (Online-)Marketingstrategie Uvm.\n\nIndividuelle Website / Landingpage\nWebsite mit bis zu 10 Unterseiten\nDu bestimmst selbst deine Farb- und Stilrichtung\nGerne helfen wir dir bei der Formulierung von verkaufsstarken Textenв\nEine riesige Datenbank mit Fotos für jede Branche\nFortgeschrittene Suchmaschinenoptimierung deiner Website\n\nDesign und Fotos für die Website\nGemeinsam erarbeiten wir ein individuelles Design deiner Website\n5 individuelle Bilder und/oder realistische Fotos von der künstlichen Intelligenz\nKreative Markenentwicklung: unverwechselbare und einprägsame\nDesigns, die deine Markenidentität stärken\n\n- Dein eigenes Logo. Wir schaffen ein Wiedererkennungswert für deine Marke\n- Professionelle Designerarbeit\n- Kreativ\n- Unverwechselbar\n- Spiegelt deine Identität wider\n\nAussagekräftige Social Media Präsenz und Contentplanung für einen Monat\n\nFacebook- Business-Account\nInstagram Business-Account (werden miteinander verknüpft))\nTik-Tok\n15 starke Beiträge für den perfekten Einstieg\n\nBleibenden ersten Eindruck mit professionell designten Flyern und Visitenkarten\nDein Design auf allen Produkten\nIndividuelle verkaufsstarke und/oder informative Flyer (DIN lang, farbig, beidseitig bedruckt, 500 Stk.)\nKreative Visitenkarten in premium Qualität (500 Stk.)\nDeine Marke wird stilvoll präsentiert und bleibt garantiert in Erinnerung\nJederzeit nachbestellbar (Preis auf Anfrage)"
     },
     {
       "id": 2,
-      "title": "PREMIUM",
-      "description": ["name1", "name2", "name3", "name4"],
+      "title": "PLATIN",
+      "description": [
+        "10 Coachingsitzungen mit Experten",
+        "Individuelle Website / Landingpage oder Webshop",
+        "Design und Fotos für die Website",
+        "Aussagekräftige Social Media Präsenz",
+        "Dein eigenes Logo"
+      ],
       "priceTitle": "Price",
-      "price": "1000$",
-      "text" : "ooo"
+      "price": "7990€",
+      "text": "- 10 Coachingsitzungen mit Experten zu deinen Business-Themen nach Wahl:\n- Positionierung\n- Vollständige Entwicklung einer Preispolitik\n- Branding\n- Definition klarer Geschäftsziele\n- Förderung kreativen Denkens\nErstellung einer unverwechselbaren (Online-)Marketingstrategie\nOptimierung der persönlichen Produktivität\nEntwicklung effektiver Führungsqualitäten\n\nIndividuelle Website / Landingpage oder Webshop\nWebsite mit bis zu 20 Unterseiten\nAnmeldefunktion für deine Kunden / Kundenkonto\nGreife auf verschiedene Bezahlfunktionen zu\nEigene Online-Meeting-Plattform mit allen erdenklichen Funktionen\nDu bestimmst selbst deine Farb- und Stilrichtung\nGerne helfen wir dir bei der Formulierung von verkaufsstarken Texten\nEine riesige Datenbank mit Fotos für jede Branche\nFortgeschrittene Suchmaschinenoptimierung deiner Website\n\nDesign und Fotos für die Website\nGemeinsam erarbeiten wir ein individuelles Design deiner Website\n15 individuelle Bilder und/oder realistische Fotos von der künstlichen Intelligenz\nKreative Markenentwicklung: unverwechselbare und einprägsame Designs, die deine Markenidentität stärken\nFotoshooting mit professionellen Fotografen (10 bearbeitete hochwertige Fotos)\nStilberatung für dein Fotoshooting\nModel-Vermittlung (Models werden separat bezahlt)\n\n- Dein eigenes Logo. Wir schaffen ein Wiedererkennungswert für deine Marke\n- Professionelle Designerarbeit\n- Wir sorgen für einen Wiedererkennungswert und emotionale Bindung zu deiner Marke\n- Logoanimation – erwecke dein Logo zum Leben\n- Spiegelt deine Identität wider\nDu bekommst dein Logo in allen gängigen Formaten\n\nAussagekräftige Social Media Präsenz und Contentplanung für einen Monat\n\nFacebook- Business-Account\nInstagram Business-Account (werden miteinander verknüpft))\nTik-Tok\n25 starke Beiträge für den perfekten Einstieg\n2 Wochen Targeting bei META, Tiktok oder Adwords bei Google/Youtube (hier fallen zusätzliche Werbekosten durch die ausgewählte Plattform an)\n\nBleibenden ersten Eindruck mit professionell designten Flyern und Visitenkarten\nDein Design auf allen Produkten\nIndividuelle verkaufsstarke und/oder informative Flyer (DIN lang, farbig, beidseitig bedruckt, 500 Stk.)\nKreative Visitenkarten in premium Qualität (500 Stk.)\nDeine Marke wird stilvoll präsentiert und bleibt garantiert in Erinnerung\nJederzeit nachbestellbar (Preis auf Anfrage)"
     },
     {
       "id": 3,

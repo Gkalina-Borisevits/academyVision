@@ -30,7 +30,7 @@
 .homeCardsCardHeader {
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
  
 }
 
@@ -81,7 +81,6 @@
 .homeCardsCardContainer {
   width: 22rem;
   flex-wrap: wrap;
-  min-height: 28rem;
   margin-bottom: 3rem;
   transition: transform 0.5s ease-out, box-shadow 0.5s ease-out;
   cursor: pointer;
@@ -92,4 +91,6 @@
   animation: slideInFromRight 1.4s ease-out forwards;
   font-family: 'Poppins', sans-serif; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  white-space: normal;
 }

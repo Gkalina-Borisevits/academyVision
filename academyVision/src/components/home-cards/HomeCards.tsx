@@ -22,7 +22,7 @@ const HomeCards: React.FC = () => {
         <NavLink key={card.id} className="text-decoration-none" to="/services">
           <Card
             style={{
-              height: '22rem',
+              height: '30rem',
               animationDelay: `${index * 0.2}s`, // Индивидуальная задержка анимации
             }}
             className={`${styles.homeCardsCardContainer} mb-2 border-2`}
