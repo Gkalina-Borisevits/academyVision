@@ -26,7 +26,8 @@
   "homePage": {
     "name": "AM Vision",
     "aboutTitle": "Wir sind eine digitale Marketingagentur, die auf die Bereitstellung umfassender Dienstleistungen spezialisiert ist: ASO, SEO, SMM-Werbung, PPC-Werbung, Coaching, Website-Entwicklung und UX/UI-Design",
-    "homeTitle": "Unsere Vision ist dein digitaler Erfolg. Wir unterstützen dich beim Erreichen deiner geschäftlichen Ziele mit einem Komplettangebot. Angefangen von der Gestaltung deiner Website über Coaching zu den Themen wie Preisgestaltung und Positionierung bis hin zur Erarbeitung einer funktionierenden Marketingstrategie.",
+    "homeTitleHeader" : "Unsere Vision ist dein digitaler Erfolg.",
+    "homeTitle": "Wir unterstützen dich beim Erreichen deiner geschäftlichen Ziele mit einem Komplettangebot. Angefangen von der Gestaltung deiner Website über Coaching zu den Themen wie Preisgestaltung und Positionierung bis hin zur Erarbeitung einer funktionierenden Marketingstrategie.",
     "projects": "Unsere Projekte",
     "viewDetails": "Details anzeigen",
     "discussProject": "Lass uns dein Anliegen kostenlos besprechen",
@@ -204,13 +205,13 @@
       "id": 0,
       "name": "Anatolij",
       "profile": "Coach",
-      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+      "description": "Ein Experte im Business-Coaching, der individuelle Lösungen für das Wachstum und die Entwicklung von Unternehmen entwickelt. Konzentriert sich auf die Erstellung von Strategien, die Unternehmen helfen, ihr Potenzial effektiv auszuschöpfen und ihre Ziele zu erreichen. "
     },
     {
       "id": 1,
       "name": "Maia",
       "profile": "Coach",
-      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+      "description": "Ein professioneller Coach, der sich auf personalisierte Geschäftsstrategien spezialisiert. Ihr Ansatz zielt darauf ab, einzigartige Strategien zu entwickeln, die zur erfolgreichen Umsetzung von Projekten und zum nachhaltigen Wachstum des Unternehmens beitragen."
     },
     {
       "id": 2,
@@ -222,13 +223,13 @@
       "id": 3,
       "name": "Galina",
       "profile": "Web-Software-Entwickler",
-      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+      "description": "Ein Experte in der Frontend-Entwicklung. Er spezialisiert sich auf die Erstellung intuitiver und optisch ansprechender Benutzeroberflächen, die Ästhetik und Funktionalität vereinen. Entwickelt Interfaces, die ein nahtloses Nutzererlebnis bieten und den aktuellen Webstandards entsprechen."
     },
     {
       "id": 4,
       "name": "Yurii",
       "profile": "Web-Software-Entwickler",
-      "description": "Wir bieten führende Lösungen an, die neue Standards in der Industrie setzen und den technologischen Fortschritt fördern."
+      "description": "Ein Experte in der Backend-Entwicklung. Er spezialisiert sich auf die Entwicklung leistungsstarker und skalierbarer Lösungen zur Datenverarbeitung und Verwaltung der Serverseite. Stellt den zuverlässigen Betrieb von Anwendungen sicher und integriert diese mit verschiedenen Systemen und Datenbanken."
     }
   ],
   "advantageCards": [

@@ -24,7 +24,7 @@
   margin-top: -150px;
   z-index: 90;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 .ourTeamContainer {
   display: flex;
@@ -67,7 +67,7 @@
   padding-top: 20px;
 }
 .homeContactsFormContainer {
-  margin-top: 200px;
+  margin-top: 240px;
 }
 .textInImage {
   position: relative;

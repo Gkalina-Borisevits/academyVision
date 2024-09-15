@@ -1,26 +1,26 @@
-
-.homeCardContainerMobile h5{
+.homeCardContainerMobile h5 {
   font-family: "Poppins", sans-serif;
-line-height: 1.8;
+  line-height: 1.8;
 }
 .accordionBody ul li {
   position: relative;
   font-size: 16px;
 }
-.accordionBody p{
+.accordionBody p {
   font-family: "Poppins", sans-serif;
-    font-size: 18px;
-    font-weight: 450;
-    margin-left: -30px;
+  font-size: 18px;
+  font-weight: 450;
+  margin-left: -30px;
 }
-.accordionHeader p{
+.accordionHeader p {
   font-family: "Poppins", sans-serif;
-color: rgb(67, 59, 48);
-font-size: 18px;
+  color: rgb(67, 59, 48);
+  font-size: 18px;
 }
 
 .accordionHeader {
   border: 2px rgb(94, 66, 46) solid;
+  width: 100%;
 }
 .accordionItem {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);

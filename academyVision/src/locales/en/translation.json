@@ -26,7 +26,8 @@
   "homePage": {
     "name": "AM Vision",
     "aboutTitle": "We are a digital marketing agency specializing in providing comprehensive services: ASO, SEO, SMM advertising, PPC advertising, coaching, website development, and UX/UI design",
-    "homeTitle": "Our Vision is Your Digital Success. We support you in achieving your business goals with a complete range of services. From designing your website to coaching on topics like pricing and positioning, to developing an effective marketing strategy.",
+    "homeTitleHeader" : "Our Vision is Your Digital Success. ",
+    "homeTitle": "We support you in achieving your business goals with a complete range of services. From designing your website to coaching on topics like pricing and positioning, to developing an effective marketing strategy.",
     "projects": "Our Projects",
     "viewDetails": "View details",
     "discussProject": "Let's Discuss Your Project for Free",
@@ -204,13 +205,13 @@
       "id": 0,
       "name": "Anatolij",
       "profile": "Coach",
-      "description": "We offer cutting-edge solutions that set new standards in the industry and promote technological progress."
+      "description": "An expert in business coaching, developing tailored solutions for business growth and development. Focused on creating strategies that help businesses effectively realize their potential and achieve their goals."
     },
     {
       "id": 1,
       "name": "Maia",
       "profile": "Coach",
-      "description": "We offer leading solutions that set new standards in the industry and promote technological advancement."
+      "description": "A professional coach specializing in personalized business solutions. Her approach is aimed at developing unique strategies that contribute to the successful implementation of projects and sustainable company growth."
     },
     {
       "id": 2,
@@ -222,13 +223,13 @@
       "id": 3,
       "name": "Galina",
       "profile": "Web Software Developer",
-      "description": "We offer leading solutions that set new standards in the industry and promote technological advancement."
+      "description": "An expert in frontend development. Specializes in creating intuitive and visually appealing user interfaces that combine aesthetics and functionality. Develops interfaces that provide a seamless user experience and comply with modern web standards."
     },
     {
       "id": 4,
       "name": "Yurii",
       "profile": "Web Software Developer",
-      "description": "We offer leading solutions that set new standards in the industry and promote technological advancement."
+      "description": "An expert in backend development. Specializes in developing high-performance, scalable solutions for data processing and server management. Ensures reliable application performance and seamless integration with various systems and databases."
     }
   ],
   "advantageCards": [

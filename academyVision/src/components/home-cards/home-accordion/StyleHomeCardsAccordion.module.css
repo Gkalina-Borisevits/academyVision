@@ -31,7 +31,13 @@ li {
   color: rgb(99, 98, 85);
   line-height: 1.8;
 }
-
+.accordionHeader {
+  width: 100%;
+}
+.accordionItem {
+  margin-left: 6px;
+  margin-right: 6px;
+}
 @media (max-width: 499px) {
   .accordionHeader h1 {
     margin-left: 170px;

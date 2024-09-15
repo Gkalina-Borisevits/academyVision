@@ -52,6 +52,7 @@ const Home: React.FC = () => {
         <MyContainer>
           <div className={styles.textInImage}>
             <h1>{splitTextIntoSpans(t("homePage.name"))}</h1>
+            <h2>{t("homePage.homeTitleHeader")}</h2>
             <h3>{t("homePage.homeTitle")}</h3>
           </div>
         </MyContainer>
@@ -80,7 +81,6 @@ const Home: React.FC = () => {
                 <h4>{t("homePage.aboutTitle")}</h4>
               </div>
             </div>
-
             <div className={styles.aboutHomePageContainer}>
               <div className={styles.about}>
                 <p>{t("homePage.ourValues")}</p>

@@ -15,7 +15,7 @@
     display: inline;
     font-family: 'Lora', serif;
   }
-  .textInImage h3 {
+  .textInImage h3, h2 {
     color: var(--color-font-dark);
     font-size: 1.1em;
     line-height: 1.8;
@@ -60,7 +60,7 @@
     }
   }
   
-  .textInImage h3 {
+  .textInImage h3, h2 {
     opacity: 0;
     animation: slowSlideUp 3s ease-out forwards;
     animation-delay: 1s; 

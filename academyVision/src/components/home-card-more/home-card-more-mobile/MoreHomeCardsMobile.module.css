@@ -29,6 +29,7 @@ li {
 }
 .accordionHeader {
   border: 2px solid rgb(89, 68, 52);
+  width: 100%;
 }
 .accordionHeader h1{
   margin-left: 90px;
@@ -37,6 +38,7 @@ li {
  }
 .accordionInHeader {
   border: 1px solid rgb(123, 96, 77);
+  width: 100%;
 }
 .accordionInHeader h1 {
   font-size: 16px;
