@@ -114,3 +114,8 @@ p {
 .cardHeader {
   margin-bottom: 10px;
 }
+@media screen and (max-width: 726px) {
+  .cardBackContent p {
+    font-size: 11px;
+  }
+}
