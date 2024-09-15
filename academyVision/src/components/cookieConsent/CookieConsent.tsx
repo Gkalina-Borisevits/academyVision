@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styles from "./CookieConsent.module.css";
+import { useTranslation } from 'react-i18next';
 
 const CookieConsent: React.FC = () => {
   const [showConsent, setShowConsent] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const consent = localStorage.getItem('cookieConsent');
@@ -20,12 +22,14 @@ const CookieConsent: React.FC = () => {
     showConsent && (
       <div className={styles.cookieConsent}>
         <p>
-          Мы используем cookies для улучшения вашего опыта. Приняв, вы соглашаетесь с нашей{' '}
-          <a href="/terms-of-service" target="_blank" className={styles.link}>
-            Политикой использования cookies
-          </a>.
-        </p>
-        <button onClick={handleAccept} className={styles.acceptButton}>Принять</button>
+        {t('cookies.text')} 
+        <a href="/terms-of-service" target="_blank" className={styles.link}>
+          {t('cookies.policyLink')}
+        </a>.
+      </p>
+      <button onClick={handleAccept} className={styles.acceptButton}>
+        {t('cookies.acceptButton')}
+      </button>
       </div>
     )
   );
