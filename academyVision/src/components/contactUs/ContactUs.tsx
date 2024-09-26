@@ -6,15 +6,7 @@ import MyContainer from "../myContainer/MyContainer";
 const ContactUs: React.FC = () => {
   const { t } = useTranslation("translation");
 
-  const handleWhatsAppClick = () => {
-    const url = `https://wa.me/493097983903`;
-    window.open(url, "_blank");
-  };
 
-  const handleTelegramClick = () => {
-    const url = `https://t.me/493097983903`;
-    window.open(url, "_blank");
-  };
 
   const handleEmailClick = () => {
     const url = "mailto:info@amvision-agency.com";
@@ -35,7 +27,7 @@ const ContactUs: React.FC = () => {
       </div>
       <div className={styles.linkContainer}>
         <div>
-          <a href="#" onClick={handleWhatsAppClick} className={styles.whatsapp}>
+          <a href="whatsapp://send?phone=+491628929039"  className={styles.whatsapp} target="_blank">
             <FaWhatsapp />
             <span className={styles.ripples}></span>
           </a>
@@ -43,7 +35,7 @@ const ContactUs: React.FC = () => {
           <p>+49 16 289 29 039</p>
         </div>
         <div>
-          <a onClick={handleTelegramClick} className={styles.telegram}>
+          <a href="https://t-do.de/@amvision_de" className={styles.telegram} target="_blank">
             <FaTelegram />
             <span className={styles.ripples}></span>
           </a>
