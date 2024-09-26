@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import styles from "./styles/Services.module.css";
-import img from "../assets/pagesImage/services.jpg";
+import img from "../assets/pagesImage/services.webp";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import AdvantageCards from "../components/advantage-cards/AdvantageCards";
 import MyContainer from "../components/myContainer/MyContainer";

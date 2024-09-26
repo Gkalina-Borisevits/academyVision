@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styles from "./styles/Home.module.css";
-import img from "../assets/pagesImage/home.png";
+import img from "../assets/pagesImage/home.webp";
 import HomeCards from "../components/home-cards/HomeCards";
 import HomeCardsAccordion from "../components/home-cards/home-accordion/HomeCardsAccordion";
 import ImageContainer from "../components/imageContainer/ImageContainer";

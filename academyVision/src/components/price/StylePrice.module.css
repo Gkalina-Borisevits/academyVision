@@ -16,6 +16,7 @@
     box-shadow: none; /* Начальное состояние тени */
     display: flex;
     flex-direction: column; /* Колонки, чтобы Card.Body растягивался */
+   
   }
   
   .priceCardHeader {

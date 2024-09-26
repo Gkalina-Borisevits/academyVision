@@ -6,10 +6,10 @@ import { useTranslation } from 'react-i18next';
 import { HomeCard } from '../../../types/HomeCard';
 import { NavLink } from 'react-router-dom';
 import web from "../../../assets/homeIcons/web.png"
-import smm from "../../../assets/homeIcons/smm.png"
+import smm from "../../../assets/homeIcons/smm.svg"
 import seo from "../../../assets/homeIcons/seo.png"
 import coach from "../../../assets/homeIcons/coach.png"
-const listPage: string[] = [web, smm, seo, coach]
+const listPage: string[] = [web, seo, smm, coach]
 
 
 

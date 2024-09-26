@@ -1,11 +1,12 @@
-import { ReactNode } from "react";
 
 export interface Price {
-    text: string | ReactNode; 
-    id: number;
-    icon: string;
-    title: string;
-    description: string[]; 
-    priceTitle: string;
-    price: string;
-  }
+  text: string  | undefined;
+  text2: string  | undefined;
+  text3: string | undefined;
+  id: number;
+  icon: string;
+  title: string;
+  description: string[];
+  priceTitle: string;
+  price: string;
+}

@@ -1,11 +1,11 @@
 {
   "header": {
-    "home": "Home",
-    "services": "Services",
-    "contacts": "Contacts",
-    "about": "About Us",
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "contacts": "Kontakte",
+    "about": "Über uns",
     "portfolio": "Portfolio",
-    "price": "Price"
+    "price": "Preise"
   },
   "contactsForm": {
     "name": "Name",

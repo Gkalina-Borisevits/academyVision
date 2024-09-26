@@ -7,10 +7,10 @@ import { HomeCard } from "../../types/HomeCard.ts";
 import { FaArrowRight } from 'react-icons/fa';
 import { FaArrowLeft } from 'react-icons/fa';
 import web from "../../assets/homeIcons/web.png"
-import smm from "../../assets/homeIcons/smm.png"
+import smm from "../../assets/homeIcons/smm.svg"
 import seo from "../../assets/homeIcons/seo.png"
 import coach from "../../assets/homeIcons/coach.png"
-const listPage: string[] = [web, smm, seo, coach]
+const listPage: string[] = [web, seo, smm, coach]
 
 const MoreHomeCards: React.FC = () => {
     const { t } = useTranslation("translation");
