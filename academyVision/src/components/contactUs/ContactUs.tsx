@@ -43,7 +43,7 @@ const ContactUs: React.FC = () => {
           <p>+49 16 289 29 039</p>
         </div>
         <div>
-          <a href="#" onClick={handleTelegramClick} className={styles.telegram}>
+          <a onClick={handleTelegramClick} className={styles.telegram}>
             <FaTelegram />
             <span className={styles.ripples}></span>
           </a>
@@ -51,7 +51,7 @@ const ContactUs: React.FC = () => {
           <p>+49 16 289 29 039</p>
         </div>
         <div>
-          <a href="#" onClick={handleEmailClick} className={styles.email}>
+          <a onClick={handleEmailClick} className={styles.email}>
             <FaEnvelope />
             <span className={styles.ripples}></span>
           </a>
