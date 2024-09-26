@@ -7,12 +7,12 @@ const ContactUs: React.FC = () => {
   const { t } = useTranslation("translation");
 
   const handleWhatsAppClick = () => {
-    const url = `https://wa.me/${+493097983903}`;
+    const url = `https://wa.me/493097983903`;
     window.open(url, "_blank");
   };
 
   const handleTelegramClick = () => {
-    const url = `https://t.me/${+493097983903}`;
+    const url = `https://t.me/493097983903`;
     window.open(url, "_blank");
   };
 
