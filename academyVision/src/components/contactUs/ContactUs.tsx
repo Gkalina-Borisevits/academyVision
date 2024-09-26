@@ -35,7 +35,7 @@ const ContactUs: React.FC = () => {
           <p>+49 16 289 29 039</p>
         </div>
         <div>
-          <a href="https://t-do.de/@amvision_de" className={styles.telegram} target="_blank">
+          <a href="tg://resolve?domain=/@amvision_de" className={styles.telegram} target="_blank">
             <FaTelegram />
             <span className={styles.ripples}></span>
           </a>
