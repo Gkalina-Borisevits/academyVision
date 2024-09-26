@@ -5,7 +5,7 @@ import styles from "./AccordionServicesCard.module.css";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import web from "../../../assets/homeIcons/web.png";
-import smm from "../../../assets/homeIcons/smm.png";
+import smm from "../../../assets/homeIcons/smm.svg";
 import seo from "../../../assets/homeIcons/seo.png";
 import { ServicesPageCard } from "../../../types/ServicesPageCard";
 
