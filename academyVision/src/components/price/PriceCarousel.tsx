@@ -2,12 +2,15 @@ import { Price } from "../../types/Price";
 import { useTranslation } from "react-i18next";
 import styles from "./PriceCarousel.module.css";
 import React from "react";
-import image from "../../assets/priceText/gold.png";
 import MyButton from "../../components/myButton/MyButton";
 import { ReactNode } from "react";
 import MyContainer from "../myContainer/MyContainer";
+import silver from "../../assets/priceText/silver.png";
+import gold from "../../assets/priceText/gold.png";
+import platinum from "../../assets/priceText/platinum.png";
+import other from "../../assets/priceText/other.png";
 
-
+const listPage: string[] = [silver, gold, platinum, other]
 
 const PriceCarousel: React.FC = () => {
   const { t } = useTranslation("translation");
@@ -26,46 +29,32 @@ const PriceCarousel: React.FC = () => {
 
   return (
     <div className={styles.blockContainer}>
-      {aboutPrices.map((price, index) => (
+      {aboutPrices.map((price) => (
         <div
           key={price.id}
           id={`price-item-${price.id}`}
           className={styles.blockItem}
         >
-          {index % 2 === 0 ? (
-            <>
-             <div className={styles.imageContainer}>
-                  <img src={image} alt={price.title} className={styles.image} />
-                </div>
-                <MyContainer>
+          <>
+            <div className={styles.imageContainer}>
+              <img src={listPage[price.id]} alt={price.title} className={styles.image} />
+            </div>
+            <MyContainer>
               <div className={styles.textContainer}>
                 <h3>{price.title}</h3>
-               
-                <h4>{formatText(price?.text)}</h4>
-                <h4>{formatText(price?.text2)}</h4>
+                <div className={styles.textContainerRow}>
+                  <h4>{formatText(price?.text)}</h4>
+                  <h4>{formatText(price?.text2)}</h4>
+                </div>
+                <div className={styles.textContainerFooter}>
                 <h4>{formatText(price?.text3)}</h4>
+                </div>
                 <div className={styles.buttonComponent}>
                   <MyButton text={t("homePage.viewDetails")} />
                 </div>
               </div>
-              </MyContainer>
-            </>
-          ) : (
-            <>
-              <div className={styles.imageContainer}>
-                <img src={image} alt={price.title} className={styles.image} />
-              </div>
-              <div className={styles.textContainer}>
-                <h3>{price.title}</h3>
-                <h4>{formatText(price?.text)}</h4>
-                <h4>{formatText(price?.text2)}</h4>
-                <h4>{formatText(price?.text3)}</h4>
-                <div className={styles.buttonComponent}>
-                  <MyButton text={t("homePage.viewDetails")} />
-                </div>
-              </div>
-            </>
-          )}
+            </MyContainer>
+          </>
         </div>
       ))}
     </div>
