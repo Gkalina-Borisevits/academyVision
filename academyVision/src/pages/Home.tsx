@@ -70,7 +70,7 @@ const Home: React.FC = () => {
           <ContactForm />
         </div>
         <div className={styles.computerImageContainer}>
-          <img src={computerImage} alt="computer"></img>
+          <img src={computerImage} alt="computer" loading="lazy"></img>
         </div>
 
         <div className={styles.aboutBigContainer}>
@@ -88,7 +88,7 @@ const Home: React.FC = () => {
               </div>
 
               <div className={styles.imageContainer}>
-                <img src={image} alt="" />
+                <img src={image} alt="" loading="lazy"/>
               </div>
             </div>
           </MyContainer>

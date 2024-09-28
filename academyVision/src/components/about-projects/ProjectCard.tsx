@@ -16,7 +16,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ image, name, details, link, i
     <div className={`${styles.block} ${blockStyle} card__article`} style={{ backgroundImage: `url(${image})` }}>
       <div className={styles.bgImg}>
         <div className={styles.header}>
-          <img className={imgStyle} src={image} alt={name} />
+          <img className={imgStyle} src={image} alt={name} loading="lazy"/>
           <p>{name}</p>
         </div>
         <ul>

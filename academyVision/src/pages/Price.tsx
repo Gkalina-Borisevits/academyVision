@@ -46,12 +46,10 @@ const Price: FC = () => {
         <div className={styles.contactFormContainerPrice}>
           <ContactForm />
         </div>
-     
 
-          <div>
-            <PriceCarousel />
-          </div>
-
+        <div>
+          <PriceCarousel />
+        </div>
 
         <div className={styles.advantageContainerPrice}>
           <AdvantageCards />

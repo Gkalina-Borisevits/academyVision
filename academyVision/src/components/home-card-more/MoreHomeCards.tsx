@@ -34,7 +34,7 @@ const MoreHomeCards: React.FC = () => {
                                     <div className='box-header'>
                                         <div className='title-more-card'>
                                             <h2 className='header'>{card.name}</h2>
-                                            <img src={listPage[card.id]} alt="" />
+                                            <img src={listPage[card.id]} alt="" loading="lazy"/>
                                         </div>
                                         <p className=''>{card.description}</p>
                                     </div>
@@ -90,7 +90,7 @@ const MoreHomeCards: React.FC = () => {
                                     <div className='box-header'>
                                         <div className='title-more-card'>
                                             <h2 className='header'>{card.name}</h2>
-                                            <img src={listPage[card.id]} alt="" />
+                                            <img src={listPage[card.id]} alt="" loading="lazy"/>
                                         </div>
                                         <p className=''>{card.description}</p>
                                     </div>

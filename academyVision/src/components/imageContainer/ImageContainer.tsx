@@ -10,7 +10,7 @@ interface ImageContainerProps {
 const ImageContainer:  React.FC<ImageContainerProps> = ({ imgSrc, imgAlt, children }) => {
   return (
     <div className={styles.imageContainer}>
-      <img src={imgSrc} alt={imgAlt} className={styles.backgroundImage} />
+      <img src={imgSrc} alt={imgAlt} className={styles.backgroundImage} loading="lazy"/>
       <div className={styles.overlay}></div>
       {children && <div className={styles.childrenContainer}>{children}</div>}
     </div>

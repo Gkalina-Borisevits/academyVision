@@ -22,7 +22,7 @@ const MoreAboutProjects: React.FC = () => {
                         {card.id % 2 === 0 ? (
                             <>
                                 <div className={styles.imageContainer}>
-                                    <img src={projects[card.id]} alt="image" className={styles.cardImage}/>
+                                    <img src={projects[card.id]} alt="image" className={styles.cardImage} loading="lazy"/>
                                 </div>
                                 <div className={styles.textContainer}>
                                     <h2 className={styles.cardTitle}>{card.title}</h2>
@@ -46,7 +46,7 @@ const MoreAboutProjects: React.FC = () => {
                                     </div>
                                 </div>
                                 <div className={styles.imageContainer}>
-                                    <img src={projects[card.id]} alt="image" className={styles.cardImage}/>
+                                    <img src={projects[card.id]} alt="image" className={styles.cardImage} loading="lazy"/>
                                 </div>
                             </>
                         )}

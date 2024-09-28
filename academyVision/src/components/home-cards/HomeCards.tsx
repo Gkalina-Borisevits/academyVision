@@ -32,6 +32,7 @@ const HomeCards: React.FC = () => {
                 variant="left"
                 className={styles.homeCardsLogo}
                 src={listPage[card.id]}
+                loading="lazy"
               />
               <h1> {card.name}</h1>
             </Card.Header>

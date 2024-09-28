@@ -26,7 +26,7 @@ const AccordionServicesCard: React.FC = () => {
             className={styles.accordionItem}
           >
             <Accordion.Header className={styles.accordionHeader}>
-              <img className={styles.logo} src={listPage[card.id]} alt="" />
+              <img className={styles.logo} src={listPage[card.id]} alt="" loading="lazy"/>
               <h4>{card.title}</h4>
             </Accordion.Header>
             <Accordion.Body className={styles.accordionBody}>

@@ -20,7 +20,7 @@ const MoreAboutProjectsMobile: React.FC = () => {
             {moreAboutProjects.map((card) => (
                 <Card key={card.id} className={styles.mobileCardContainer}>
                     <Card.Header className={styles.cardHeader}>
-                        <Card.Img variant="top" className={styles.logo} src={projects[card.id]} />
+                        <Card.Img variant="top" className={styles.logo} src={projects[card.id]} loading="lazy"/>
                     </Card.Header>
                     <Card.Body className="pt-2">
                         <Card.Title className="text-dark fs-6 mt-1"><h3>{card.title}</h3></Card.Title>

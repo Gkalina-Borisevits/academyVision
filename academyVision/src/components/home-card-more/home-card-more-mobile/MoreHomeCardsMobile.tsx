@@ -21,7 +21,7 @@ const MoreHomeCardsMobile: React.FC = () => {
                 {homeCards.map((card) => (
                     <Accordion.Item eventKey={card.id.toString()} className={styles.accordionItem} >
                         <Accordion.Header className={styles.accordionHeader}>
-                            <img className={styles.moreCardLogo} src={listPage[card.id]} alt="" />
+                            <img className={styles.moreCardLogo} src={listPage[card.id]} alt="" loading="lazy"/>
                             <h1>{card.name}</h1>
                         </Accordion.Header>
                         <Accordion.Body className={styles.moreCardAccordionBody}>

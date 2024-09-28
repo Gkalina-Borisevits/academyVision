@@ -37,7 +37,7 @@ const PriceCarousel: React.FC = () => {
         >
           <>
             <div className={styles.imageContainer}>
-              <img src={listPage[price.id]} alt={price.title} className={styles.image} />
+              <img src={listPage[price.id]} alt={price.title} className={styles.image} loading="lazy"/>
             </div>
             <MyContainer>
               <div className={styles.textContainer}>

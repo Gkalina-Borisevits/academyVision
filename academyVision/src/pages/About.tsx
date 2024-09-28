@@ -59,7 +59,7 @@ const About: FC = () => {
           </div>
           </MyContainer>
           <div className={styles.computerImageContainer}>
-          <img src={computerImage} alt="computer"></img>
+          <img src={computerImage} alt="computer" loading="lazy"></img>
         </div>
           <div className={styles.ourTeamContainer}>
           <div className={styles.aboutText}>

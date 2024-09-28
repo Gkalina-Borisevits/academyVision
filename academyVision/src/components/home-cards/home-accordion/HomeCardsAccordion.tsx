@@ -24,7 +24,7 @@ const HomeCardsAccordion: React.FC = () => {
         {homeCards.map((card) => (
           <Accordion.Item eventKey={card.id.toString()} className={styles.accordionItem} >
             <Accordion.Header className={styles.accordionHeader}>
-              <img className={styles.logo} src={listPage[card.id]} alt="" />
+              <img className={styles.logo} src={listPage[card.id]} alt="" loading="lazy"/>
               <h1>{card.name}</h1>
             </Accordion.Header>
             <Accordion.Body className={styles.accordionBody}>

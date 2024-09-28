@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from "react";
 import styles from "./styles/Portfolio.module.css";
-import img from "../assets/pagesImage/portfolio.jpg";
+import img from "../assets/pagesImage/portfolio.webp";
 import ImageContainer from "../components/imageContainer/ImageContainer";
 import AboutCards from "../components/about-cards/AboutCards";
 import MoreAboutProjects from "../components/more-about-project/MoreAboutProjects";

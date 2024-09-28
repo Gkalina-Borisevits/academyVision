@@ -48,6 +48,7 @@ const AdvantageCards: React.FC = () => {
               variant="left"
               className={styles.logo}
               src={advantageIcons[card.id]}
+              loading="lazy"
             />
             <Card.Text className={styles.advantageTextHeader}>
               {card.title}

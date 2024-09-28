@@ -79,7 +79,7 @@
 
 .textInImage h3 {
   opacity: 0;
-  animation: slowSlideUp 3s ease-out forwards;
+  animation: slowSlideUp 2s ease-out forwards;
   animation-delay: 1s; 
   display: inline-block;
   font-family: "Poppins", sans-serif;

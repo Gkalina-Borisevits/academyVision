@@ -42,7 +42,7 @@ const AboutProjects: React.FC = () => {
           >
             <div className={styles.bgImg}>
               <div className={styles.header}>
-                <img className={styles.logoCMStyle} src={logoCM} alt="" />
+                <img className={styles.logoCMStyle} src={logoCM} alt="" loading="lazy"/>
                 <p>{aboutProjects[0].name}</p>
               </div>
               <ul>
@@ -63,7 +63,7 @@ const AboutProjects: React.FC = () => {
           >
             <div className={styles.bgImg}>
               <div className={styles.header}>
-                <img className={styles.logoCosmeticsStyle} src={logoCosmetics} alt="" />
+                <img className={styles.logoCosmeticsStyle} src={logoCosmetics} alt="" loading="lazy" />
                 <p>{aboutProjects[1].name}</p>
               </div>
               <ul>
@@ -86,7 +86,7 @@ const AboutProjects: React.FC = () => {
           >
             <div className={styles.bgImg}>
               <div className={styles.header}>
-                <img className={styles.logoHotelStyle} src={logoHotel} alt="" />
+                <img className={styles.logoHotelStyle} src={logoHotel} alt="" loading="lazy"/>
                 <p>{aboutProjects[2].name}</p>
               </div>
            
@@ -108,7 +108,7 @@ const AboutProjects: React.FC = () => {
           >
             <div className={styles.bgImg}>
               <div className={styles.header}>
-                <img className={styles.logoPerfumeStyle} src={logoPerfume} alt="" />
+                <img className={styles.logoPerfumeStyle} src={logoPerfume} alt="" loading="lazy"/>
                 <p>{aboutProjects[3].name}</p>
               </div>
               <ul>

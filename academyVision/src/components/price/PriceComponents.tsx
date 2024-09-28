@@ -38,6 +38,7 @@ const PriceComponents: React.FC = () => {
                 variant="left"
                 className={styles.homeCardsLogo}
                 src={listPage[card.id]}
+                loading="lazy"
               />
               <h1>{card.title}</h1>
             </Card.Header>

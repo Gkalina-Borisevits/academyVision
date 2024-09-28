@@ -27,6 +27,7 @@ const FotoCards: React.FC = () => {
                     variant="top"
                     className={styles.logo}
                     src={fotos[card.id]}
+                    loading="lazy"
                   />
                 </div>
                 <div
