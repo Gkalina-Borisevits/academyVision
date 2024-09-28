@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 import ContactCard from "../components/contactCard/ContactCard";
 import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
 import ContactForm from "../components/contactForm/ContactForm";
-import computerImage from "../assets/computer/computerContacts.jpg"
+import computerImage from "../assets/computer/computerContacts.webp"
 
 const Contacts: FC = () => {
   const { t } = useTranslation("translation");

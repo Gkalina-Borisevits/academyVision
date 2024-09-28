@@ -10,7 +10,7 @@ import AboutCardsAccordion from "../components/about-cards/about-accordion/About
 import ContactForm from "../components/contactForm/ContactForm";
 import AdvantageCards from "../components/advantage-cards/AdvantageCards";
 import { Parallax } from "react-parallax";
-import computerImage from "../assets/computer/computerAbout.jpeg";
+import computerImage from "../assets/computer/computerAbout.webp";
 
 const About: FC = () => {
   const { t } = useTranslation("translation");

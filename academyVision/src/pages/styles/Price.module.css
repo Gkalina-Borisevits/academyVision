@@ -93,13 +93,6 @@
   opacity: 1;
 }
 @media (max-width: 768px) {
-  .carouselOverlay {
-    width: 93%;
-    padding-top: 8px;
-    right: 6%;
-    transform: translateY(-50%);
-    font-size: 12px;
-  }
   .textInImage h1 { 
     font-size: 28px;
   }

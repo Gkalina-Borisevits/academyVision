@@ -5,10 +5,10 @@ import React from "react";
 import MyButton from "../../components/myButton/MyButton";
 import { ReactNode } from "react";
 import MyContainer from "../myContainer/MyContainer";
-import silver from "../../assets/priceText/silver.png";
-import gold from "../../assets/priceText/gold.png";
-import platinum from "../../assets/priceText/platinum.png";
-import other from "../../assets/priceText/other.png";
+import silver from "../../assets/priceText/silver.webp";
+import gold from "../../assets/priceText/gold.webp";
+import platinum from "../../assets/priceText/platinum.webp";
+import other from "../../assets/priceText/other.webp";
 
 const listPage: string[] = [silver, gold, platinum, other]
 

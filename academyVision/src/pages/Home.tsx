@@ -9,7 +9,7 @@ import MyContainer from "../components/myContainer/MyContainer";
 import ContactForm from "../components/contactForm/ContactForm";
 import { useTranslation } from "react-i18next";
 import AboutProjects from "../components/about-projects/AboutProjects";
-import computerImage from "../assets/computer/computer.jpg";
+import computerImage from "../assets/computer/computer.webp";
 import image from "../assets/home/about3.jpg";
 
 

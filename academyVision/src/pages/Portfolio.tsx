@@ -57,7 +57,8 @@ const Portfolio: FC = () => {
       <ImageContainer imgSrc={img} imgAlt="Image">
         <MyContainer>
           <div className={styles.textInImage}>
-            <h1>{splitTextIntoSpans(t("portfolio.portfolio"))}</h1>
+          <h1>{splitTextIntoSpans(t("homePage.name"))}</h1>
+            <h2>{t("homePage.homeTitleHeader")}</h2>
             <h3>{t("portfolio.imageTitle")}</h3>
           </div>
         </MyContainer>
