@@ -2,9 +2,9 @@ import { FaWhatsapp, FaTelegram } from "react-icons/fa";
 import styles from "./SocialLink.module.css";
 
 const SocialLink: React.FC = () => {
-  
+
   const whatsappUrl = "https://wa.me/491628929039";
-  const telegramUrl = `https://t.me/@amvision_de`;
+  const telegramUrl = `https://t.me/amvision_de`;
 
   return (
     <div className={styles.contactLinks}>

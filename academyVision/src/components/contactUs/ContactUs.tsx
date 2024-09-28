@@ -7,7 +7,7 @@ const ContactUs: React.FC = () => {
   const { t } = useTranslation("translation");
 
   const whatsappUrl = "https://wa.me/491628929039";
-  const telegramUrl = `https://t.me/@amvision_de`;
+  const telegramUrl = `https://t.me/amvision_de`;
 
   const handleEmailClick = () => {
     const url = "mailto:info@amvision-agency.com";
