@@ -2,14 +2,24 @@
   background-color: rgba(186, 141, 44, 0.21) !important;
   text-shadow: 0 4px 8px rgba(37, 192, 206, 0.6);
 }
-.accordion-item {
-  margin-bottom: 10px;
-}
-.accordion-collapse {
-  padding-left: 40px;
-}
+
 .box-header {
   display: flex;
   text-align: center;
   line-height: 1.6;
+}
+@media (max-width: 749px) {
+  .box-header h1 {
+    font-size: 22px;
+    
+  }
+  .box-header h5 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: -20px;
+    margin-bottom: -10px;
+  }
+  .box-header {
+    margin-top: -50px;
+  }
 }

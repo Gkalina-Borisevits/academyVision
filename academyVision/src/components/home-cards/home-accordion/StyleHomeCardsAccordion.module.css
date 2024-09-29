@@ -22,6 +22,7 @@
 }
 .accordionHeader {
   border: 2px rgb(107, 71, 46) solid;
+  border-radius: 8px;
 }
 .accordionHeader::after {
   border-top: 6px solid rgb(101, 70, 49);
@@ -37,6 +38,7 @@ li {
 .accordionItem {
   margin-left: 6px;
   margin-right: 6px;
+ 
 }
 @media (max-width: 499px) {
   .accordionHeader h1 {

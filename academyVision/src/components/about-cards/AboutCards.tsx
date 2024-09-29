@@ -4,10 +4,10 @@ import styles from "./StyleAboutCards.module.css";
 import { useTranslation } from 'react-i18next';
 import { AboutCard } from '../../types/AboutCard';
 
-import creative from '../../assets/aboutIcons/creative.png'
-import innovation from '../../assets/aboutIcons/innovation.png'
-import reliable from '../../assets/aboutIcons/reliable.png'
-import united from '../../assets/aboutIcons/united.png'
+import creative from '../../assets/aboutIcons/creative.webp'
+import innovation from '../../assets/aboutIcons/innovation.webp'
+import reliable from '../../assets/aboutIcons/reliable.webp'
+import united from '../../assets/aboutIcons/united.webp'
 const aboutIcons: string[] = [innovation,creative,reliable,united];
 
 const AboutCards: React.FC = () => {

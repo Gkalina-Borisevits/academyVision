@@ -4,10 +4,10 @@ import styles from "./StylePrice.module.css";
 import { useTranslation } from "react-i18next";
 import { Price } from "../../types/Price";
 import MyContainer from "../myContainer/MyContainer";
-import silver from "../../assets/priceIcons/silver.png";
-import gold from "../../assets/priceIcons/gold.png";
-import premium from "../../assets/priceIcons/premium.png";
-import other from "../../assets/priceIcons/other.png";
+import silver from "../../assets/priceIcons/silver.webp";
+import gold from "../../assets/priceIcons/gold.webp";
+import premium from "../../assets/priceIcons/premium.webp";
+import other from "../../assets/priceIcons/other.webp";
 
 const PriceComponents: React.FC = () => {
   const { t } = useTranslation("translation");

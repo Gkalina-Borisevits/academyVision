@@ -6,11 +6,6 @@ import { useTranslation } from "react-i18next";
 import { HomeCard } from "../../types/HomeCard.ts";
 import { FaArrowRight } from 'react-icons/fa';
 import { FaArrowLeft } from 'react-icons/fa';
-import web from "../../assets/homeIcons/web.png"
-import smm from "../../assets/homeIcons/smm.svg"
-import seo from "../../assets/homeIcons/seo.png"
-import coach from "../../assets/homeIcons/coach.png"
-const listPage: string[] = [web, seo, smm, coach]
 
 const MoreHomeCards: React.FC = () => {
     const { t } = useTranslation("translation");
@@ -23,6 +18,7 @@ const MoreHomeCards: React.FC = () => {
             setActiveTabs({ ...activeTabs, [cardId]: key });
         }
     };
+
     return (
         <div >
             {homeCards.map((card) => (
@@ -33,8 +29,7 @@ const MoreHomeCards: React.FC = () => {
                                 <div className='more-home-cards-header'>
                                     <div className='box-header'>
                                         <div className='title-more-card'>
-                                            <h2 className='header'>{card.name}</h2>
-                                            <img src={listPage[card.id]} alt="" loading="lazy"/>
+                                            <h2 className='header'>{card.name}</h2>  
                                         </div>
                                         <p className=''>{card.description}</p>
                                     </div>
@@ -59,7 +54,7 @@ const MoreHomeCards: React.FC = () => {
                                                 </Nav>
                                             </Col>
                                             <Col sm={6} className={`fon ${card.name === "SMM" ? `bg-smm`
-                                                : card.name === "COACH" ? `bg-coach`
+                                                : card.name === "COACHING" ? `bg-coach`
                                                     : card.name === "WEB" ? `bg-web`
                                                         : card.name === "SEO" ? `bg-seo`
                                                             : ''}`}>
@@ -90,14 +85,14 @@ const MoreHomeCards: React.FC = () => {
                                     <div className='box-header'>
                                         <div className='title-more-card'>
                                             <h2 className='header'>{card.name}</h2>
-                                            <img src={listPage[card.id]} alt="" loading="lazy"/>
+                                           
                                         </div>
                                         <p className=''>{card.description}</p>
                                     </div>
                                     <Tab.Container id={`tabs-${card.id}`} defaultActiveKey="0" activeKey={activeTabs[card.id]} onSelect={(key) => handleSelect(card.id, key)}>
                                         <Row>
                                             <Col sm={6} className={`fon ${card.name === "SMM" ? `bg-smm`
-                                                : card.name === "COACH" ? `bg-coach`
+                                                : card.name === "COACHING" ? `bg-coach`
                                                     : card.name === "WEB" ? `bg-web`
                                                         : card.name === "SEO" ? `bg-seo`
                                                             : ''}`}>                                            <div className="content"></div>

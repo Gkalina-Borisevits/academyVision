@@ -1,6 +1,6 @@
 .formContactComponent {
   position: relative;
-  margin-top: 60px;
+  margin-top: 30px;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -30,8 +30,19 @@
   padding: 60px;
   font-family: "Poppins", sans-serif;
 }
-@media (max-width: 520px) {
-    .formContainerHome p  {
-   padding: 0;
+@media (max-width: 920px) {
+  .formContainerHome p {
+    padding: 0;
+    font-size: 14px;
+  }
+  .formContainerHome h2 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .formContactComponent {
+    margin-top: 2px;
+    padding-top: 12px;
+    margin-left: -34px;
+    margin-right: -34px;
   }
 }

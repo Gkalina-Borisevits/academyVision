@@ -8,7 +8,9 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .more-home-cards-header p {
-    font-family: "Poppins", sans-serif;   
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.05em;   
 }
 
 .more-home-cards-header:hover {
@@ -51,6 +53,8 @@
     background-size: cover !important;
     border-radius: 10px;
     padding: 30px !important;
+    min-height: 300px;
+    
 }
 
 .fon::before {
@@ -60,7 +64,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.68);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     border-radius: 10px;
 }
@@ -72,6 +76,8 @@
     font-weight: 600;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
 }
 
 .box-header {
@@ -79,17 +85,25 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 3rem;
+  
 }
 
 .box-header h2 {
     font-size: 40px;
     font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+   
 }
 
 .box-header p {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .box-header img {
@@ -101,6 +115,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
 }
-
+.title-more-card h2 {
+    color: rgb(88, 72, 51);
+    font-family: "Poppins", sans-serif;
+}
+@media (max-width: 790px) {
+    .box-header p {
+        font-size: 16px;
+    }
+    .title-more-card h2 {
+        font-size: 28px;
+    }
+    .tab-text p {
+        font-size: 16px;
+    }
+    .tab-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }

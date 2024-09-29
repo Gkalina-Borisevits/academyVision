@@ -8,6 +8,8 @@ import PriceComponents from "../components/price/PriceComponents.tsx";
 import AdvantageCards from "../components/advantage-cards/AdvantageCards.tsx";
 import ContactForm from "../components/contactForm/ContactForm.tsx";
 import PriceCarousel from "../components/price/PriceCarousel.tsx";
+import { ParallaxProvider } from 'react-scroll-parallax';
+import ContactUs from "../components/contactUs/ContactUs.tsx";
 
 const Price: FC = () => {
   const { t } = useTranslation("translation");
@@ -47,10 +49,12 @@ const Price: FC = () => {
           <ContactForm />
         </div>
 
-        <div>
+    
+        <ParallaxProvider>
           <PriceCarousel />
-        </div>
-
+          </ParallaxProvider>
+    
+<ContactUs/>
         <div className={styles.advantageContainerPrice}>
           <AdvantageCards />
         </div>

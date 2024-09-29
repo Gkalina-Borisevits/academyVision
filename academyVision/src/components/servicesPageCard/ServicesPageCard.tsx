@@ -3,9 +3,9 @@ import { Card } from "react-bootstrap";
 import styles from "./ServicesPageCard.module.css";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
-import design from "../../assets/servicesCard/design.png";
-import geld from "../../assets/servicesCard/geld.png";
-import team from "../../assets/servicesCard/team.png";
+import design from "../../assets/servicesCard/design.webp";
+import geld from "../../assets/servicesCard/geld.webp";
+import team from "../../assets/servicesCard/team.webp";
 import type { ServicesPageCard } from "../../types/ServicesPageCard";
 
 const listPage: string[] = [design, geld, team];

@@ -29,8 +29,10 @@
 @media (max-width: 499px) {
   .accordionHeader h1 {
     margin-left: 170px;
+   
     /* padding-right: -230px; */
   }
+
 }
 @media (max-width: 450px) {
   .accordionHeader h1 {

@@ -25,6 +25,7 @@ li {
 .accordionHeader {
   border: 2px solid rgb(99, 77, 61);
   width: 100%;
+  border-radius: 8px;
 }
 .accordionHeader h4{
   padding-left: 12px;

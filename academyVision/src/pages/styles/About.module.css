@@ -48,7 +48,8 @@
 .aboutText {
   max-width: 700px;
 }
-.aboutText h2, h5 {
+.aboutText h2,
+h5 {
   font-family: "Poppins", sans-serif;
 }
 
@@ -112,23 +113,22 @@
   display: inline-block;
 }
 .computerImageContainer {
-  position: fixed; 
-  top: 50px; 
-  left: 0; 
-  width: 100%; 
-  height:570px; 
-  z-index: -1; 
-  overflow: hidden; 
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 570px;
+  z-index: -1;
+  overflow: hidden;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; 
- 
+  background-attachment: fixed;
 }
 
 .computerImageContainer img {
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 @media (max-width: 1020px) {
   .textInImage h3 {
@@ -137,5 +137,17 @@
   .textInImage {
     margin-bottom: 50px;
     padding: 40px;
+  }
+}
+@media (max-width: 573px) {
+  .aboutText h5 {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .ourTeamContainer h5 {
+    margin-bottom: 10px;
+  }
+  .ourTeamContainer h2 {
+    margin-bottom: 10px;
   }
 }

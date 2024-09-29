@@ -45,11 +45,13 @@
   letter-spacing: 0.1em;
   font-family: "Lora", serif;
 }
-.textInImage h3, h2 {
+.textInImage h3,
+h2 {
   color: var(--color-font-dark);
   line-height: 1.8;
   font-family: "Poppins", sans-serif;
 }
+
 .aboutProjects {
   display: flex;
   flex-direction: column;
@@ -81,28 +83,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-.aboutHomePageContainer {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 26px;
-  width: 100%;
-}
-.about {
-  flex: 0 0 40%;
-  padding: 10px;
-}
-.about p {
-  margin-bottom: 40px;
-  padding-left: 30px;
-  font-family: "Poppins", sans-serif;
-}
-.aboutHomePageContainer p {
-  font-weight: bold;
-  font-size: 20px;
-  color: rgb(127, 110, 87);
-}
 .aboutTextContainer h2 {
   font-weight: bold;
   color: rgb(127, 110, 87);
@@ -180,59 +160,14 @@
   }
 }
 
-.textInImage h3, h2 {
+.textInImage h3,
+h2 {
   opacity: 0;
   animation: slowSlideUp 2s ease-out forwards;
   animation-delay: 1s;
   display: inline-block;
 }
 
-@media (max-width: 1120px) {
-  .aboutHomePageContainer {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .aboutHomePageContainer div {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .aboutHomePageContainer img {
-    width: 100%;
-    height: auto;
-  }
-  .textInImage {
-    margin-bottom: 20px;
-  }
-  .textInImage h3 {
-    font-size: 18px;
-  }
-}
-/* @media (max-width: 520px) {
-  .homeCardContainer {
-    margin-top: -140px;
-  }
-} */
-/* .homeCardContainer .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-} */
-
-/* @media (max-width: 768px) {
-  .homeCardContainer {
-    top: 90%;
-  }
-}
-
-@media (max-width: 480px) {
-  .homeCardContainer {
-    top: 90%;
-  }
-} */
 .computerImageContainer {
   position: fixed;
   top: 0px;
@@ -282,5 +217,18 @@
 }
 .containerMargin {
   margin-top: 100px;
+}
 
+@media (max-width: 1120px) {
+  .textInImage {
+    margin-bottom: 20px;
+  }
+  .textInImage h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .aboutText h4 {
+    font-size: 18px;
+  }
 }

@@ -19,6 +19,7 @@
 .accordionHeader {
   border: 2px rgb(112, 77, 52) solid;
   width: 100%;
+  border-radius: 8px;
 }
 .homeCardContainerMobile {
   position: relative;

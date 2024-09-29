@@ -10,7 +10,6 @@ import ContactForm from "../components/contactForm/ContactForm";
 import { useTranslation } from "react-i18next";
 import AboutProjects from "../components/about-projects/AboutProjects";
 import computerImage from "../assets/computer/computer.webp";
-import image from "../assets/home/about3.jpg";
 
 
 const Home: React.FC = () => {
@@ -70,7 +69,7 @@ const Home: React.FC = () => {
           <ContactForm />
         </div>
         <div className={styles.computerImageContainer}>
-          <img src={computerImage} alt="computer" loading="lazy"></img>
+        <img src={computerImage} alt="computer" loading="lazy" />
         </div>
 
         <div className={styles.aboutBigContainer}>
@@ -81,17 +80,9 @@ const Home: React.FC = () => {
                 <h4>{t("homePage.aboutTitle")}</h4>
               </div>
             </div>
-            <div className={styles.aboutHomePageContainer}>
-              <div className={styles.about}>
-                <p>{t("homePage.ourValues")}</p>
-                <AboutHomePage />
-              </div>
-
-              <div className={styles.imageContainer}>
-                <img src={image} alt="" loading="lazy"/>
-              </div>
-            </div>
+            <AboutHomePage /> 
           </MyContainer>
+      
         </div>
         <div className={styles.containerMargin}></div>
       </div>

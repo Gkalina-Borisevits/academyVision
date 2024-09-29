@@ -42,7 +42,7 @@ const Contacts: FC = () => {
       </ImageContainer>
       <ContactCard />
       <div className={styles.computerImageContainer}>
-          <img src={computerImage} alt="computer" loading="lazy"></img>
+          <img src={computerImage} alt="computer" loading="lazy"/>
         </div>
       <div className={styles.portfolioContainer}>
         <ContactUs />

@@ -3,16 +3,16 @@ import styles from "./styles/AboutProjects.module.css";
 import "./styles/AboutProjects.css";
 import MyContainer from '../myContainer/MyContainer';
 import { AboutProject } from '../../types/AboutProject';
-import logoCM from "../../assets/projects/logoCM.png";
-import logoPerfume from "../../assets/projects/logoPerfume.png";
-import logoHotel from "../../assets/projects/logoHotel.png";
-import logoCosmetics from "../../assets/projects/logoCosmetics.png"
+import logoCM from "../../assets/projects/logoCM.webp";
+import logoPerfume from "../../assets/projects/logoPerfume.webp";
+import logoHotel from "../../assets/projects/logoHotel.webp";
+import logoCosmetics from "../../assets/projects/logoCosmetics.webp"
 import { Link } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-import img1 from "../../assets/projects/furniture.png";
-import img2 from "../../assets/projects/creme.png";
-import img3 from "../../assets/projects/hotel.png";
-import img4 from "../../assets/projects/perfume.png";
+import img1 from "../../assets/projects/furniture.webp";
+import img2 from "../../assets/projects/creme.webp";
+import img3 from "../../assets/projects/hotel.webp";
+import img4 from "../../assets/projects/perfume.webp";
 import { useNavigate } from "react-router-dom";
 import MyButton from "../myButton/MyButton";
 

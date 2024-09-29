@@ -7,18 +7,6 @@
     margin-top: 50px;
   }
   
-  .priceCardContainer {
-    width: 18rem; /* Ширина карточки */
-    margin-bottom: 3rem; /* Отступ снизу */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавная анимация для трансформации и тени */
-    cursor: pointer;
-    position: relative; /* Для корректной работы трансформации */
-    box-shadow: none; /* Начальное состояние тени */
-    display: flex;
-    flex-direction: column; /* Колонки, чтобы Card.Body растягивался */
-   
-  }
-  
   .priceCardHeader {
     display: flex;
     justify-content: space-between;
@@ -46,6 +34,7 @@
   }
   .priceCardHeader h1{
     font-size: 30px;
+    color: rgb(98, 83, 64);
     font-family: "Poppins", sans-serif;
   }
   
@@ -100,4 +89,13 @@
     animation: slideInFromRight 1.4s ease-out forwards;
     font-family: "Poppins", sans-serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  @media (max-width: 768px) {
+    .homeCardsLogo {
+      width: 60px;
+      height: auto;
+    }
+    .priceCardHeader h1{
+      font-size: 26px;
+    }
   }

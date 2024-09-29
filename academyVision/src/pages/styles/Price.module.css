@@ -86,7 +86,7 @@
   padding-top: 50px;
 }
 .contactFormContainerPrice {
-  margin-top: 140px;
+  margin-top: 90px;
 }
 
 .active {
@@ -98,5 +98,8 @@
   }
   .textInImage h3 {
     font-size: 18px;
+  }
+  .advantageContainerPrice {
+    padding-top: 0;
   }
 }

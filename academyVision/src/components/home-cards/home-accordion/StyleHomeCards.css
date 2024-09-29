@@ -4,6 +4,7 @@
 }
 .accordion-item {
   margin-bottom: 10px;
+  border-radius: 14px;
 }
 .accordion-collapse {
   padding-left: 40px;
