@@ -39,9 +39,9 @@ const PriceCarousel: React.FC = () => {
 
   return (
     <div className={styles.blockContainer}>
-      {aboutPrices.map((price) => (
+      {aboutPrices.map((price, index) => (
         <div
-          key={price.id}
+        key={`${price.id}-${index}`}
           id={`price-item-${price.id}`}
           className={styles.blockItem}
         >

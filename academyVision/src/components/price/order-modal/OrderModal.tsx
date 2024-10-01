@@ -16,21 +16,59 @@ const OrderModal: React.FC<OrderModalProps> = ({ isOpen, onRequestClose, selecte
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [errors, setErrors] = useState<{ email?: string; phone?: string; message?: string }>({});
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const orderData = {
+    let formValid = true;
+    const newErrors: { email?: string; phone?: string} = {};
+
+    if (!email.trim()) {
+      newErrors.email = t("contactsForm.pleasEmail");
+      formValid = false;
+    }
+
+    if (!phone.trim()) {
+      newErrors.phone = t("contactsForm.pleasPhone"); 
+      formValid = false;
+    }
+
+    setErrors(newErrors); 
+
+    if (formValid) {
+      const orderData = {
         email,
         phone,
-        plan: selectedPlan,  
+        plan: selectedPlan,
+        message,
       };
-  
-      console.log("Order data:", orderData);
-  
-      toast.success(`${t("price.toasty")}${selectedPlan.title}${t("price.toasty2")}`, {});
-      
-      onRequestClose();
-    };
+      console.log("Отправляемые данные:", orderData);
+
+      try {
+        const response = await fetch("https://formspree.io/f/xblrdogo", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(orderData),
+        });
+
+        if (response.ok) {
+          toast.success(`${t("price.toasty")}${selectedPlan.title}${t("price.toasty2")}`);
+         
+          setEmail('');
+          setPhone('');
+          setMessage('');
+          onRequestClose(); 
+        } else {
+          toast.warning(`${t("contactsForm.toastyError")} ${response.statusText}`);
+        }
+      } catch (error) {
+        toast.warning(t("contactsForm.toastyError"));
+      }
+    }
+  };
+
 
   return (
     <Modal show={isOpen} onHide={onRequestClose}>
@@ -46,8 +84,10 @@ const OrderModal: React.FC<OrderModalProps> = ({ isOpen, onRequestClose, selecte
               placeholder={t("price.inputEmail")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              isInvalid={!!errors.email}
               required
             />
+             <Form.Control.Feedback type="invalid">{errors.email}</Form.Control.Feedback>
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formPhone">
@@ -57,8 +97,10 @@ const OrderModal: React.FC<OrderModalProps> = ({ isOpen, onRequestClose, selecte
               placeholder={t("price.inputPhone")}
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
+              isInvalid={!!errors.phone}
               required
             />
+             <Form.Control.Feedback type="invalid">{errors.phone}</Form.Control.Feedback>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formMessage">
             <Form.Label>{t("price.message")}</Form.Label>
