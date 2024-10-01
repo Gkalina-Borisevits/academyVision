@@ -4,10 +4,10 @@ import styles from './MoreHomeCardsMobile.module.css'
 import { Accordion } from 'react-bootstrap'
 import { useTranslation } from "react-i18next";
 import { HomeCard } from "../../../types/HomeCard.ts";
-import web from "../../../assets/homeIcons/web.png"
+import web from "../../../assets/homeIcons/web.webp"
 import smm from "../../../assets/homeIcons/smm.svg"
-import seo from "../../../assets/homeIcons/seo.png"
-import coach from "../../../assets/homeIcons/coach.png"
+import seo from "../../../assets/homeIcons/seo.webp"
+import coach from "../../../assets/homeIcons/coach.webp"
 const listPage: string[] = [web, seo, smm, coach]
 
 const MoreHomeCardsMobile: React.FC = () => {
