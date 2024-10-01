@@ -4,10 +4,10 @@ import styles from "./StyleHomeCards.module.css";
 import {useTranslation} from "react-i18next";
 import {HomeCard} from "../../types/HomeCard";
 import {NavLink} from 'react-router-dom';
-import web from "../../assets/homeIcons/web.png"
+import web from "../../assets/homeIcons/web.webp"
 import smm from "../../assets/homeIcons/smm.svg"
-import seo from "../../assets/homeIcons/seo.png"
-import coauch from "../../assets/homeIcons/coach.png"
+import seo from "../../assets/homeIcons/seo.webp"
+import coauch from "../../assets/homeIcons/coach.webp"
 
 const listPage: string[] = [web,  seo, smm, coauch]
 
