@@ -1,3 +1,7 @@
+.bigContainer {
+  width: 100%;
+  box-sizing: border-box;
+}
 .textInImage {
   display: flex;
   margin: 0 auto;

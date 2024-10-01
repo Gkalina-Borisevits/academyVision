@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 import ContactCard from "../components/contactCard/ContactCard";
 import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
 import ContactForm from "../components/contactForm/ContactForm";
-import computerImage from "../assets/computer/computerContacts.webp"
+import computerImage from "../assets/computer/computerAbout.webp";
 
 const Contacts: FC = () => {
   const { t } = useTranslation("translation");
@@ -31,7 +31,7 @@ const Contacts: FC = () => {
   
 
   return (
-    <>
+    <div className={styles.bigContainer}>
       <ImageContainer imgSrc={img} imgAlt="Image">
         <MyContainer>
           <div className={styles.textInImage}>
@@ -58,7 +58,7 @@ const Contacts: FC = () => {
          
        
       </div>
-    </>
+    </div>
   );
 };
 
