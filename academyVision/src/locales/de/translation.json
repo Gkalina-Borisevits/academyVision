@@ -72,7 +72,16 @@
   "price": {
     "title": "Kosten der Dienstleistungen",
     "description": "Transparente Tarife helfen, die notwendigen Bedürfnisse zu bestimmen",
-    "orderButton" : "Tarif bestellen"
+    "orderButton": "Tarif bestellen",
+    "order": "Bestellung aufgeben",
+    "email": "E-Mail",
+    "inputEmail": "Geben Sie Ihre E-Mail-Adresse ein",
+    "phone": "Telefonnummer",
+    "inputPhone": "Geben Sie Ihre Telefonnummer ein",
+    "message": "Nachricht (optional)",
+    "placeholderMessage": "Geben Sie die gewünschte Kontaktzeit und den bevorzugten Kontaktweg an (optional)",
+    "toasty": "Ausgezeichnete Wahl! Tarif: ",
+    "toasty2": ". Wir werden uns in Kürze mit Ihnen in Verbindung setzen."
   },
   "homeCards": [
     {

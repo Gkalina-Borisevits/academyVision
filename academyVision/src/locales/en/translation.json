@@ -70,9 +70,18 @@
     "textHeader": "We are ready to discuss your project right now. Contact us in any convenient way, and our manager will provide you with a free consultation on all questions."
   },
   "price": {
-    "title": "Cost of services",
-    "description": "Transparent rates will help determine the necessary needs",
-    "orderButton" : "Order a plan"
+    "title": "Service Costs",
+    "description": "Transparent pricing will help you determine your needs",
+    "orderButton": "Order Plan",
+    "order": "Place Order",
+    "email": "Email",
+    "inputEmail": "Enter your email",
+    "phone": "Phone Number",
+    "inputPhone": "Enter your phone number",
+    "message": "Message (optional)",
+    "placeholderMessage": "Specify a convenient time and preferred method of contact (optional)",
+    "toasty": "Great choice! Plan: ",
+    "toasty2": ". We will contact you shortly."
   },
   "homeCards": [
     {
