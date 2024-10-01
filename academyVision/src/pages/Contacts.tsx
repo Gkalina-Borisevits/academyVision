@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 import ContactCard from "../components/contactCard/ContactCard";
 import AboutHomePage from "../components/aboutHomePage/AboutHomePage";
 import ContactForm from "../components/contactForm/ContactForm";
-import computerImage from "../assets/computer/computerAbout.webp";
+import computerImage from "../assets/computer/computerContact.webp";
 
 const Contacts: FC = () => {
   const { t } = useTranslation("translation");
@@ -55,8 +55,6 @@ const Contacts: FC = () => {
           <div className={styles.contactFormContactsPage}>
           <ContactForm />
           </div>
-         
-       
       </div>
     </div>
   );

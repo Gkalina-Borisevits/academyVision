@@ -45,7 +45,7 @@
 .textInImage .letter {
   display: inline-block;
   opacity: 0;
-  animation: textIn 4s ease-out forwards;
+  animation: textIn 2s ease-out forwards;
 }
 
 @keyframes slowSlideUp {
