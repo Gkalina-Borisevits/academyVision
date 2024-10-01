@@ -4,14 +4,14 @@ import styles from "./StyleAdvantage.module.css";
 import "./StyleAdvantage.css";
 import { useTranslation } from "react-i18next";
 import { AdvantageCard } from "../../types/AdvantageCard";
-import global from "../../../src/assets/advantageIcons/global.png";
-import adaptiv from "../../../src/assets/advantageIcons/adaptiv.png";
-import opacity from "../../../src/assets/advantageIcons/opacity.png";
-import tim from "../../../src/assets/advantageIcons/tim.png";
-import response from "../../../src/assets/advantageIcons/response.png";
-import protection from "../../../src/assets/advantageIcons/protection.png";
-import innovativ from "../../../src/assets/advantageIcons/innovativ.png";
-import client from "../../../src/assets/advantageIcons/client.png";
+import global from "../../../src/assets/advantageIcons/global.webp";
+import adaptiv from "../../../src/assets/advantageIcons/adaptiv.webp";
+import opacity from "../../../src/assets/advantageIcons/opacity.webp";
+import tim from "../../../src/assets/advantageIcons/tim.webp";
+import response from "../../../src/assets/advantageIcons/response.webp";
+import protection from "../../../src/assets/advantageIcons/protection.webp";
+import innovativ from "../../../src/assets/advantageIcons/innovativ.webp";
+import client from "../../../src/assets/advantageIcons/client.webp";
 import MyContainer from "../myContainer/MyContainer";
 const advantageIcons: string[] = [
   global,
