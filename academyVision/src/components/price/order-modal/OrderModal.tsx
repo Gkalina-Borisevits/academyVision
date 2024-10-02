@@ -21,45 +21,45 @@ const OrderModal: React.FC<OrderModalProps> = ({ isOpen, onRequestClose, selecte
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     let formValid = true;
-    const newErrors: { email?: string; phone?: string} = {};
-
+    const newErrors: { email?: string; phone?: string } = {};
+  
     if (!email.trim()) {
       newErrors.email = t("contactsForm.pleasEmail");
       formValid = false;
     }
-
+  
     if (!phone.trim()) {
-      newErrors.phone = t("contactsForm.pleasPhone"); 
+      newErrors.phone = t("contactsForm.pleasPhone");
       formValid = false;
     }
-
-    setErrors(newErrors); 
-
+  
+    setErrors(newErrors);
+  
     if (formValid) {
-      const orderData = {
-        email,
-        phone,
-        plan: selectedPlan,
-        message,
-      };
-      console.log("Отправляемые данные:", orderData);
-
+      const orderData = new URLSearchParams();
+      orderData.append("email", email);
+      orderData.append("phone", phone);
+      orderData.append("plan", selectedPlan.title);
+      orderData.append("message", message);
+  
+      console.log("Отправляемые данные:", orderData.toString());
+  
       try {
-        const response = await fetch("https://formspree.io/f/xblrdogo", {
+        const response = await fetch("https://formspree.io/f/mqazebga", {
           method: "POST",
           headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "application/x-www-form-urlencoded",
           },
-          body: JSON.stringify(orderData),
+          body: orderData.toString(),
         });
-
+  
         if (response.ok) {
           toast.success(`${t("price.toasty")}${selectedPlan.title}${t("price.toasty2")}`);
-         
+  
           setEmail('');
           setPhone('');
           setMessage('');
-          onRequestClose(); 
+          onRequestClose();
         } else {
           toast.warning(`${t("contactsForm.toastyError")} ${response.statusText}`);
         }
@@ -113,7 +113,7 @@ const OrderModal: React.FC<OrderModalProps> = ({ isOpen, onRequestClose, selecte
             />
           </Form.Group>
           <div className="d-flex justify-content-end">
-            <MyButton text={t("price.orderButton")}></MyButton>
+            <MyButton  onClick={() => handleSubmit} text={t("price.orderButton")}></MyButton>
           </div>
         </Form>
       </Modal.Body>
