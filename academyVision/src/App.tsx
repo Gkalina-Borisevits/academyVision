@@ -9,13 +9,12 @@ import Portfolio from "./pages/Portfolio";
 import Price from "./pages/Price";
 import Services from "./pages/Services";
 import Scroll from "./components/scroll/Scroll";
-import OverlayImage from "./features/overlayImage/OverlayImage";
-import halloweenImage from "./assets/overlayImage/halloween.webp";
+
 function App() {
 
   return (
     <>
-    <OverlayImage imageUrl={halloweenImage}/>
+   
       <Scroll />
       <Routes>
         <Route path="/" element={<Layout />}>

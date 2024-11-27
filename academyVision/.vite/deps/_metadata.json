@@ -1,0 +1,130 @@
+{
+  "hash": "1e05e001",
+  "configHash": "dfd726bb",
+  "lockfileHash": "1a38a855",
+  "browserHash": "d3e8d7e8",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "66e6a19f",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "9a3902f5",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "e22afb05",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "e69f906f",
+      "needsInterop": false
+    },
+    "react-i18next": {
+      "src": "../../node_modules/react-i18next/dist/es/index.js",
+      "file": "react-i18next.js",
+      "fileHash": "51232a0a",
+      "needsInterop": false
+    },
+    "react-toastify": {
+      "src": "../../node_modules/react-toastify/dist/react-toastify.esm.mjs",
+      "file": "react-toastify.js",
+      "fileHash": "0a8cc82b",
+      "needsInterop": false
+    },
+    "i18next": {
+      "src": "../../node_modules/i18next/dist/esm/i18next.js",
+      "file": "i18next.js",
+      "fileHash": "e8f92db4",
+      "needsInterop": false
+    },
+    "i18next-browser-languagedetector": {
+      "src": "../../node_modules/i18next-browser-languagedetector/dist/esm/i18nextBrowserLanguageDetector.js",
+      "file": "i18next-browser-languagedetector.js",
+      "fileHash": "52cec01f",
+      "needsInterop": false
+    },
+    "i18next-http-backend": {
+      "src": "../../node_modules/i18next-http-backend/esm/index.js",
+      "file": "i18next-http-backend.js",
+      "fileHash": "98e23e11",
+      "needsInterop": false
+    },
+    "react-parallax": {
+      "src": "../../node_modules/react-parallax/lib/index.js",
+      "file": "react-parallax.js",
+      "fileHash": "275531f8",
+      "needsInterop": true
+    },
+    "react-scroll-parallax": {
+      "src": "../../node_modules/react-scroll-parallax/dist/react-scroll-parallax.esm.js",
+      "file": "react-scroll-parallax.js",
+      "fileHash": "a95e4ea2",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "fafb4140",
+      "needsInterop": false
+    },
+    "react-bootstrap": {
+      "src": "../../node_modules/react-bootstrap/esm/index.js",
+      "file": "react-bootstrap.js",
+      "fileHash": "a4691115",
+      "needsInterop": false
+    },
+    "react-icons/bs": {
+      "src": "../../node_modules/react-icons/bs/index.mjs",
+      "file": "react-icons_bs.js",
+      "fileHash": "f5785415",
+      "needsInterop": false
+    },
+    "prop-types": {
+      "src": "../../node_modules/prop-types/index.js",
+      "file": "prop-types.js",
+      "fileHash": "7dfbd994",
+      "needsInterop": true
+    },
+    "styled-components": {
+      "src": "../../node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "file": "styled-components.js",
+      "fileHash": "4b9faa3b",
+      "needsInterop": false
+    },
+    "classnames": {
+      "src": "../../node_modules/classnames/index.js",
+      "file": "classnames.js",
+      "fileHash": "fbd0d439",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-3D6MLFTY": {
+      "file": "chunk-3D6MLFTY.js"
+    },
+    "chunk-H5IZFEW2": {
+      "file": "chunk-H5IZFEW2.js"
+    },
+    "chunk-XDHCFMBM": {
+      "file": "chunk-XDHCFMBM.js"
+    },
+    "chunk-XWBPFPN7": {
+      "file": "chunk-XWBPFPN7.js"
+    },
+    "chunk-KOS6HUMP": {
+      "file": "chunk-KOS6HUMP.js"
+    },
+    "chunk-KEXKKQVW": {
+      "file": "chunk-KEXKKQVW.js"
+    }
+  }
+}

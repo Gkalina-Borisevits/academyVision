@@ -2,15 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/',
+  base: '/academyVision/',
   plugins: [react()],
   build: {
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true, 
-      },
-    },
+    chunkSizeWarningLimit: 1000, // Устанавливает лимит предупреждения в 1000 кБ (по умолчанию 500)
   },
   server: {
     watch: {
