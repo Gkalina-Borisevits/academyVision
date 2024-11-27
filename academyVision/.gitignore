@@ -61,7 +61,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-
+*\320\276\321\204\320\270\321\201.jpg
 /.idea/  # JetBrains IDEs like IntelliJ and PyCharm
 /*.sublime-*  # Sublime Text files
 .vscode/  # Visual Studio Code files
